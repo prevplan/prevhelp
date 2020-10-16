@@ -10,7 +10,11 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+.npmrc
 
+public/css/app.css
+public/js/app.js
+public/fonts/*
 
 # Created by https://www.toptal.com/developers/gitignore/api/phpstorm+all,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=phpstorm+all,macos
@@ -133,3 +137,4 @@ modules.xml
 .idea/sonarlint
 
 # End of https://www.toptal.com/developers/gitignore/api/phpstorm+all,macos
+
