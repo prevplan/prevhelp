@@ -81,7 +81,7 @@
 	background: none !important; }
 	.rev_slider .tparrows:before {
 		content: '\f0d8';
-		font-family: 'Font Awesome 5 Free';
+		font-family: 'Font Awesome 5 Pro';
 		position: absolute;
 		top: 0;
 		left: 50%;
@@ -99,7 +99,7 @@
 		transform: translateX(-50%); }
 	.rev_slider .tparrows.tp-rightarrow:before {
 		content: '\f0d7';
-		font-family: 'Font Awesome 5 Free';
+		font-family: 'Font Awesome 5 Pro';
 		bottom: 0;
 		top: auto; }
 	.rev_slider .tparrows.tp-rightarrow:after {

@@ -295,7 +295,7 @@ body {
 	padding: 11.2px 28.8px;
 	padding: 0.7rem 1.8rem; }
 	.custom-testimonial blockquote:before, .custom-testimonial blockquote:after {
-		font-family: "Font Awesome 5 Free";
+		font-family: "Font Awesome 5 Pro";
 		font-weight: 900; }
 	.custom-testimonial blockquote:before {
 		content: "\f10d";

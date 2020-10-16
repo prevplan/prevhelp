@@ -82,7 +82,7 @@
 				#header .header-nav-main nav > ul > li > a.active:before {
 					content: '\f004';
 					display: block;
-					font-family: 'Font Awesome 5 Free';
+					font-family: 'Font Awesome 5 Pro';
 					position: absolute;
 					top: -13px;
 					left: 50%;
@@ -214,7 +214,7 @@
 	.custom-countdown-style-1 > span:before {
 		content: '\f004';
 		display: block;
-		font-family: 'Font Awesome 5 Free';
+		font-family: 'Font Awesome 5 Pro';
 		position: absolute;
 		top: 50%;
 		left: -5px;

@@ -225,7 +225,7 @@ ul.custom-comments-style .comment-block {
 	position: relative; }
 	.custom-select-1:before {
 		content: '\f107';
-		font-family: "Font Awesome 5 Free";
+		font-family: "Font Awesome 5 Pro";
 		position: absolute;
 		display: block;
 		color: #000 !important;
@@ -242,7 +242,7 @@ ul.custom-comments-style .comment-block {
 		.custom-select-1 select::-ms-expand {
 			display: none; }
 
-/* 
+/*
 * Carousel
 */
 .owl-carousel.custom-carousel-style-1 .owl-item {
@@ -315,7 +315,7 @@ ul.custom-comments-style .comment-block {
 	padding: 0.7rem 1.8rem; }
 	.testimonial.custom-testimonial-style-1 blockquote:before, .testimonial.custom-testimonial-style-1 blockquote:after {
 		color: #1d2127;
-		font-family: 'Font Awesome 5 Free';
+		font-family: 'Font Awesome 5 Pro';
 		font-size: 14px;
 		font-weight: 900; }
 	.testimonial.custom-testimonial-style-1 blockquote:before {
