@@ -205,7 +205,7 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle active" href="#">
+                                            <a class="dropdown-item dropdown-toggle" href="#">
                                                 Features
                                             </a>
                                             <ul class="dropdown-menu">
