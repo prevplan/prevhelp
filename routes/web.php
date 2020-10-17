@@ -24,3 +24,7 @@ Route::get('impressum', function () {
 Route::get('agb', function () {
     return view('agb');
 });
+
+Route::get('kontakt', function () {
+    return view('kontakt');
+});
