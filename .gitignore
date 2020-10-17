@@ -15,6 +15,12 @@ yarn-error.log
 public/css/app.css
 public/js/app.js
 public/fonts/*
+public/img/*
+
+# Favicons
+public/*.png
+public/manifest.json
+public/browserconfig.xml
 
 # Created by https://www.toptal.com/developers/gitignore/api/phpstorm+all,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=phpstorm+all,macos
@@ -137,4 +143,3 @@ modules.xml
 .idea/sonarlint
 
 # End of https://www.toptal.com/developers/gitignore/api/phpstorm+all,macos
-
