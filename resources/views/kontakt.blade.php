@@ -29,26 +29,26 @@
 
                 <?php
                 if (isset($arrResult)) {
-                if($arrResult['response'] == 'success') {
-                ?>
+                    if ($arrResult['response'] == 'success') {
+                        ?>
                 <div class="alert alert-success">
                     <strong>Success!</strong> Your message has been sent to us.
                 </div>
                 <?php
-                } else if($arrResult['response'] == 'error') {
-                ?>
+                    } elseif ($arrResult['response'] == 'error') {
+                        ?>
                 <div class="alert alert-danger">
                     <strong>Error!</strong> There was an error sending your message.
-                    <span class="font-size-xs mt-2 d-block"><?php echo $arrResult['errorMessage'];?></span>
+                    <span class="font-size-xs mt-2 d-block"><?php echo $arrResult['errorMessage']; ?></span>
                 </div>
                 <?php
-                } else if($arrResult['response'] == 'captchaError') {
-                ?>
+                    } elseif ($arrResult['response'] == 'captchaError') {
+                        ?>
                 <div class="alert alert-danger">
                     <strong>Error!</strong> Verification failed.
                 </div>
                 <?php
-                }
+                    }
                 }
                 ?>
 
