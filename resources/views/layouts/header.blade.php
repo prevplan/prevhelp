@@ -40,7 +40,7 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="/">
-                                <img alt="Porto"  height="48" data-sticky-height="40" src="img/logo-klein.png">
+                                <img alt="Porto"  height="48" data-sticky-height="40" src="{{ asset('img/logo-klein.png') }}">
                             </a>
                         </div>
                     </div>
@@ -916,50 +916,20 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
-                                                Shop
+                                            <a class="dropdown-item dropdown-toggle
+                                            {{ request()->is('impressum') ||
+                                                request()->is('datenschutz') ||
+                                                request()->is('agb') ||
+                                                request()->is('widerruf')
+                                                ? 'active' : ''
+                                            }}" href="#">
+                                                Rechtliches
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Single Product</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="shop-product-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="shop-product-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-product-sidebar-right.html">Right Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-product-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a class="dropdown-item" href="shop-4-columns.html">4 Columns</a></li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">3 Columns</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="shop-3-columns-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="shop-3-columns-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-3-columns-sidebar-right.html">Right Sidebar </a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">2 Columns</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="shop-2-columns-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="shop-2-columns-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-2-columns-sidebar-right.html">Right Sidebar </a></li>
-                                                        <li><a class="dropdown-item" href="shop-2-columns-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">1 Column</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="shop-1-column-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="shop-1-column-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-1-column-sidebar-right.html">Right Sidebar </a></li>
-                                                        <li><a class="dropdown-item" href="shop-1-column-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a class="dropdown-item" href="shop-cart.html">Cart</a></li>
-                                                <li><a class="dropdown-item" href="shop-login.html">Login</a></li>
-                                                <li><a class="dropdown-item" href="shop-checkout.html">Checkout</a></li>
-                                                <li><a class="dropdown-item" href="shop-order-complete.html">Order Complete</a></li>
+                                                <li><a class="dropdown-item" href="{{ url('impressum') }}">Impressum</a></li>
+                                                <li><a class="dropdown-item" href="{{ url('datenschutz') }}">Datenschutz</a></li>
+                                                <li><a class="dropdown-item" href="{{ url('agb') }}">AGB</a></li>
+                                                <li><a class="dropdown-item" href="{{ url('widerruf') }}">Widerrufsbelehrung</a></li>
                                             </ul>
                                         </li>
                                     </ul>
