@@ -40,8 +40,6 @@
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
-    <link rel="stylesheet" href="vendor/animate/animate.compat.css">
-    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
@@ -92,13 +90,15 @@
 
 </div>
 
+<script src="{{ mix('js/app.js') }}"></script>
+
 <!-- Vendor -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
-<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
+
+<script src="{{ asset('js/jquery.appear.min.js') }}"></script>
+<script src="{{ asset('js/jquery.easing.min.js') }}"></script>
+<script src="{{ asset('js/jquery.cookie.min.js') }}"></script>
 <script src="vendor/popper/umd/popper.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script> 
 <script src="vendor/common/common.min.js"></script>
 <script src="vendor/jquery.validation/jquery.validate.min.js"></script>
 <script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
