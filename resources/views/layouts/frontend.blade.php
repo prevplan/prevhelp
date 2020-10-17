@@ -40,34 +40,34 @@
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
-    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/magnific-popup/magnific-popup.min.css') }}">
     <!-- Revolution Slider Addon - Typewriter -->
-    <link rel="stylesheet" type="text/css" href="vendor/rs-plugin/revolution-addons/typewriter/css/typewriter.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/rs-plugin/revolution-addons/typewriter/css/typewriter.css') }}" />
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="css/theme.css">
-    <link rel="stylesheet" href="css/theme-elements.css">
-    <link rel="stylesheet" href="css/theme-blog.css">
-    <link rel="stylesheet" href="css/theme-shop.css">
+    <link rel="stylesheet" href="{{ asset('css/theme.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/theme-elements.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/theme-blog.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/theme-shop.css') }}">
 
     <!-- Current Page CSS -->
-    <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/settings.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/layers.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/navigation.css') }}">
 
     <!-- Demo CSS -->
 
 
     <!-- Skin CSS -->
-    <link rel="stylesheet" href="css/skins/skin-corporate-14.css">
+    <link rel="stylesheet" href="{{ asset('css/skins/skin-corporate-14.css') }}">
 
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 
     <!-- Head Libs -->
-    <script src="vendor/modernizr/modernizr.min.js"></script>
+    <script src="{{ asset('vendor/modernizr/modernizr.min.js') }}"></script>
 
 </head>
 <body class="alternative-font-4 loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
@@ -97,38 +97,38 @@
 <script src="{{ asset('js/jquery.appear.min.js') }}"></script>
 <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
 <script src="{{ asset('js/jquery.cookie.min.js') }}"></script>
-<script src="vendor/popper/umd/popper.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script> 
-<script src="vendor/common/common.min.js"></script>
-<script src="vendor/jquery.validation/jquery.validate.min.js"></script>
-<script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
-<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
-<script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
-<script src="vendor/isotope/jquery.isotope.min.js"></script>
-<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="vendor/vide/jquery.vide.min.js"></script>
-<script src="vendor/vivus/vivus.min.js"></script>
+<script src="{{ asset('vendor/popper/umd/popper.min.js') }}"></script>
+<script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('vendor/common/common.min.js') }}"></script>
+<script src="{{ asset('vendor/jquery.validation/jquery.validate.min.js') }}"></script>
+<script src="{{ asset('vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js') }}"></script>
+<script src="{{ asset('vendor/jquery.gmap/jquery.gmap.min.js') }}"></script>
+<script src="{{ asset('vendor/jquery.lazyload/jquery.lazyload.min.js') }}"></script>
+<script src="{{ asset('vendor/isotope/jquery.isotope.min.js') }}"></script>
+<script src="{{ asset('vendor/owl.carousel/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ asset('vendor/vide/jquery.vide.min.js') }}"></script>
+<script src="{{ asset('vendor/vivus/vivus.min.js') }}"></script>
 
 <!--(remove-empty-lines-end)-->
 
 <!-- Theme Base, Components and Settings -->
-<script src="js/theme.js"></script>
+<script src="{{ asset('js/theme.js') }}"></script>
 
 <!-- Current Page Vendor and Views -->
-<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script src="{{ asset('vendor/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
+<script src="{{ asset('vendor/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
 
 <!-- Revolution Slider Addon - Typewriter -->
-<script type="text/javascript" src="vendor/rs-plugin/revolution-addons/typewriter/js/revolution.addon.typewriter.min.js"></script>
+<script type="text/javascript" src="{{ asset('vendor/rs-plugin/revolution-addons/typewriter/js/revolution.addon.typewriter.min.js') }}"></script>
 
 
 <!-- Theme Custom -->
-<script src="js/custom.js"></script>
+<script src="{{ asset('js/custom.js') }}"></script>
 
 
 <!-- Theme Initialization Files -->
-<script src="js/theme.init.js"></script>
+<script src="{{ asset('js/theme.init.js') }}"></script>
 
 <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 <script>
