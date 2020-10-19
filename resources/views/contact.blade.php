@@ -30,30 +30,31 @@
                 <?php
                 if (isset($arrResult)) {
                     if ($arrResult['response'] == 'success') {
-                        ?>
-                <div class="alert alert-success">
-                    <strong>Success!</strong> Your message has been sent to us.
-                </div>
+                ?>
+                        <div class="alert alert-success">
+                            <strong>Success!</strong> Your message has been sent to us.
+                        </div>
                 <?php
                     } elseif ($arrResult['response'] == 'error') {
-                        ?>
-                <div class="alert alert-danger">
-                    <strong>Error!</strong> There was an error sending your message.
-                    <span class="font-size-xs mt-2 d-block"><?php echo $arrResult['errorMessage']; ?></span>
-                </div>
+                ?>
+                        <div class="alert alert-danger">
+                            <strong>Error!</strong> There was an error sending your message.
+                            <span class="font-size-xs mt-2 d-block"><?php echo $arrResult['errorMessage']; ?></span>
+                        </div>
                 <?php
-                    } elseif ($arrResult['response'] == 'captchaError') {
-                        ?>
-                <div class="alert alert-danger">
-                    <strong>Error!</strong> Verification failed.
-                </div>
+                    } else {
+                ?>
+                        <div class="alert alert-danger">
+                            <strong>Error!</strong> Verification failed.
+                        </div>
                 <?php
                     }
                 }
                 ?>
 
-                <form id="contactFormAdvanced" action="<?php echo basename($_SERVER['PHP_SELF']); ?>#contact-sent" method="POST" enctype="multipart/form-data">
-                    <input type="hidden" value="true" name="emailSent" id="emailSent">
+                <form id="contactFormAdvanced" action="{{ route('contact.send') }}" method="POST">
+                    @csrf
+                    <x-honeypot />
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label class="font-weight-bold text-dark text-2">Name</label>

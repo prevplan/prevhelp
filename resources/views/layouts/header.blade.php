@@ -11,7 +11,7 @@
                                         <a class="nav-link pl-0" href="about-us.html"><i class="fas fa-angle-right"></i> About Us</a>
                                     </li>
                                     <li class="nav-item nav-item-anim-icon d-none d-md-block">
-                                        <a class="nav-link" href="{{ url('kontakt') }}"><i class="fas fa-angle-right"></i> Kontakt</a>
+                                        <a class="nav-link" href="{{ route('contact.show') }}"><i class="fas fa-angle-right"></i> Kontakt</a>
                                     </li>
                                 </ul>
                             </nav>
