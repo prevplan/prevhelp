@@ -129,6 +129,21 @@
                                                 </li>
                                             </ul>
                                         </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-item dropdown-toggle
+                                            {{ request()->is('impressum') ||
+                                                request()->is('datenschutz') ||
+                                                request()->is('agb') ||
+                                                request()->is('widerruf')
+                                                ? 'active' : ''
+                                            }}" href="#">
+                                                Erste-Hilfe-Kurse
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="{{ url('impressum') }}">... f&uuml;r den F&uuml;hrerschein</a></li>
+                                                <li><a class="dropdown-item" href="{{ url('datenschutz') }}">... f&uuml;r den Betrieb</a></li>
+                                            </ul>
+                                        </li>
                                         <li class="dropdown dropdown-mega">
                                             <a class="dropdown-item dropdown-toggle" href="elements.html">
                                                 Elements
