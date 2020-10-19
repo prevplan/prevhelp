@@ -25,6 +25,5 @@ Route::get('agb', function () {
     return view('agb');
 });
 
-Route::get('kontakt', function () {
-    return view('kontakt');
-});
+Route::post('kontakt', [\App\Http\Controllers\ContactController::class, 'store'])->name('contact.send');
+Route::get('kontakt', [\App\Http\Controllers\ContactController::class, 'index'])->name('contact.show');
