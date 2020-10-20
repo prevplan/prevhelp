@@ -29,6 +29,7 @@
 
                 <h2 class="font-weight-normal text-7 mb-2">Wir bieten Dir den guten Erste-Hilfe-Kurs f&uuml;r <strong class="font-weight-extra-bold">Deinen</strong> F&uuml;hrerschein</h2>
                 <p class="lead">Unsere Erste-Hilfe-Kurse sind für alle Führerscheinklassen gültig und bundesweit anerkannt. Ganz gleich, ob Du das erste Mal einen Führerschein machst, auf eine neue Führerscheinklasse erweiterst oder Deine Fahrberechtigung zurückerlangen willst. Bei uns bist Du genau richtig! </p>
+                <img class="float-left img-fluid" width="300" height="211" src="{{ asset('img/car-640.jpg') }}" alt="Device">
                 <p>Deine Zeit ist kostbar und freie Tage ohnehin viel zu selten. Daher dauert unser Erste-Hilfe-Kurs für den Führerschein nur 7,5 Stunden (9 UE) inkl. Pausen. Außerdem bieten wir an vielen Standorten die Kurse unter der Woche und auch am Wochenende an.</p>
                 <p>Wir sind da, <strong>wann</strong> Du uns brauchst!</p>
 
@@ -117,7 +118,7 @@
                     </div>
                 </div>
             </div>
-            
+
 
         </div>
 
