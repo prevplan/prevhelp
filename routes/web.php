@@ -31,3 +31,5 @@ Route::get('blank', function () {
 
 Route::post('kontakt', [\App\Http\Controllers\ContactController::class, 'store'])->name('contact.send');
 Route::get('kontakt', [\App\Http\Controllers\ContactController::class, 'index'])->name('contact.show');
+
+Route::get('erste-hilfe-kurs-fuehrerschein', [\App\Http\Controllers\FirstAidController::class, 'driversLicense'])->name('fa.driversLicense');
