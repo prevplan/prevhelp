@@ -72,6 +72,11 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
+                                            <a class="dropdown-item dropdown-toggle {{ request()->is('faq') ? 'active' : ''}}" href="{{ route('question.index') }}">
+                                                FAQ
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle
                                             {{ request()->is('impressum') ||
                                                 request()->is('datenschutz') ||

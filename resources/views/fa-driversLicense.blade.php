@@ -34,7 +34,7 @@
                 <img class="float-left img-fluid" width="260" height="200" src="{{ asset('img/car-640.jpg') }}" alt="Car">
                 <p>Deine Zeit ist kostbar und freie Tage ohnehin viel zu selten. Daher dauert unser Erste-Hilfe-Kurs für den Führerschein nur 7,5 Stunden (9 UE) inkl. Pausen. Außerdem bieten wir an vielen Standorten die Kurse unter der Woche und auch am Wochenende an.</p>
                 <p>Wir sind da, <strong>wann</strong> Du uns brauchst!</p>
-                <p>Du hast Fragen? Dann schaue in unsere <a href="#">FAQ</a> oder nehme direkt Kontakt zu uns auf!</p>
+                <p>Du hast Fragen? Dann schaue in unsere <a href="{{ route('question.index') }}">FAQ</a> oder nehme direkt Kontakt zu uns auf!</p>
 
             </div>
 

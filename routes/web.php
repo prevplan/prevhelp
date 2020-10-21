@@ -35,3 +35,5 @@ Route::get('kontakt', [\App\Http\Controllers\ContactController::class, 'index'])
 Route::get('erste-hilfe-kurs-fuehrerschein', [\App\Http\Controllers\FirstAidController::class, 'driversLicense'])->name('fa.driversLicense');
 
 Route::get('termine', [\App\Http\Controllers\EventController::class, 'index'])->name('event.overview');
+
+Route::get('faq', [\App\Http\Controllers\QuestionController::class, 'index'])->name('question.index');
