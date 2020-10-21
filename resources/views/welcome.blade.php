@@ -44,7 +44,7 @@
                          data-textAlign="['left','left','left','center']">Dann haben Sie mit uns den richtigen Partner gefunden!</div>
 
                     <a class="tp-caption btn btn-primary font-weight-bold rounded"
-                       href="#"
+                       href="{{ route('event.overview') }}"
                        data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                        data-x="['left','left','left','center']"
                        data-y="center" data-voffset="['103','103','103','140']"

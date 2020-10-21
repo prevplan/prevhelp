@@ -60,7 +60,7 @@
                                 <div class="row">
                                     <div class="col">
                                         <p>Für den Führerschein muss es mit dem Erste-Hilfe-Kurs oft schnell gehen. Daher bieten wir unsere Kurse an vielen Standorten jede Woche, unter der Woche und am Wochenende an. Unser Ziel: Immer einen freien Platz innerhalb weniger Tage für jeden unserer Teilnehmer.</p>
-                                        <button class="btn btn-modern btn-dark mr-1" type="button">jetzt buchen</button>
+                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.overview') }}">jetzt buchen</a>
                                     </div>
                                 </div>
                             </div>

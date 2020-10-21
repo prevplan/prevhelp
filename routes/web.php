@@ -33,3 +33,5 @@ Route::post('kontakt', [\App\Http\Controllers\ContactController::class, 'store']
 Route::get('kontakt', [\App\Http\Controllers\ContactController::class, 'index'])->name('contact.show');
 
 Route::get('erste-hilfe-kurs-fuehrerschein', [\App\Http\Controllers\FirstAidController::class, 'driversLicense'])->name('fa.driversLicense');
+
+Route::get('termine', [\App\Http\Controllers\EventController::class, 'index'])->name('event.overview');
