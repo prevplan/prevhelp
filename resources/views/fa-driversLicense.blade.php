@@ -113,7 +113,7 @@
                                         <div class="divider divider-small divider-small-center">
                                             <hr>
                                         </div>
-                                        <button class="btn btn-modern btn-dark mr-1" type="button">jetzt buchen</button>
+                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.overview') }}">jetzt buchen</a>
                                     </div>
                                 </div>
                             </div>
