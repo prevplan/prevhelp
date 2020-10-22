@@ -61,7 +61,7 @@
                             <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
                         </div>
                         <div class="form-group col-md-6">
-                            <label class="font-weight-bold text-dark text-2">E-Mail Addresse</label>
+                            <label class="font-weight-bold text-dark text-2">E-Mail Adresse</label>
                             <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
                         </div>
                     </div>

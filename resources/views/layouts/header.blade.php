@@ -52,7 +52,7 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="/">
+                                            <a class="dropdown-item" href="/">
                                                 Home
                                             </a>
                                         </li>
