@@ -17,17 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('impressum', function () {
-    return view('impressum');
-});
-
-Route::get('agb', function () {
-    return view('agb');
-});
-
-Route::get('blank', function () {
-    return view('blank');
-});
+Route::get('impressum', [\App\Http\Controllers\LegalController::class, 'imprint'])->name('legal.imprint');
+Route::get('agb', [\App\Http\Controllers\LegalController::class, 'conditions'])->name('legal.conditions');
+Route::get('widerruf', [\App\Http\Controllers\LegalController::class, 'revocation'])->name('legal.revocation');
 
 Route::post('kontakt', [\App\Http\Controllers\ContactController::class, 'store'])->name('contact.send');
 Route::get('kontakt', [\App\Http\Controllers\ContactController::class, 'index'])->name('contact.show');

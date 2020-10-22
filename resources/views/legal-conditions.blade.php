@@ -151,7 +151,7 @@
                 </p>
 
                 <p>
-                    (3) Das gesonderte Widerrufsformular und die Belehrung finden Sie <a href="{{ URL::to('widerruf') }}">hier</a>.
+                    (3) Das gesonderte Widerrufsformular und die Belehrung finden Sie <a href="{{ route('legal.revocation') }}">hier</a>.
                 </p>
                 <br />
                 <p>

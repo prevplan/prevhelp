@@ -85,10 +85,10 @@
                                                 Rechtliches
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="{{ url('impressum') }}">Impressum</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('legal.imprint') }}">Impressum</a></li>
                                                 <li><a class="dropdown-item" href="{{ url('datenschutz') }}">Datenschutz</a></li>
-                                                <li><a class="dropdown-item" href="{{ url('agb') }}">AGB</a></li>
-                                                <li><a class="dropdown-item" href="{{ url('widerruf') }}">Widerrufsbelehrung</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('legal.conditions') }}">AGB</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('legal.revocation') }}">Widerrufsbelehrung</a></li>
                                             </ul>
                                         </li>
                                     </ul>
