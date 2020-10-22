@@ -21,9 +21,9 @@ class FirstAidController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function business()
     {
-        //
+        return view('fa-business');
     }
 
     /**

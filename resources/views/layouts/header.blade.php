@@ -59,16 +59,14 @@
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle
                                             {{ request()->is('erste-hilfe-kurs-fuehrerschein') ||
-                                                request()->is('datenschutz') ||
-                                                request()->is('agb') ||
-                                                request()->is('widerruf')
+                                                request()->is('erste-hilfe-kurs-betriebe')
                                                 ? 'active' : ''
                                             }}" href="#">
                                                 Erste-Hilfe-Kurse
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="{{ route('fa.driversLicense') }}">... f&uuml;r den F&uuml;hrerschein</a></li>
-                                                <li><a class="dropdown-item" href="{{ url('datenschutz') }}">... f&uuml;r den Betrieb</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('fa.business') }}">... f&uuml;r Betriebe / Unternehmen</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown">
