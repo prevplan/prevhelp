@@ -7,10 +7,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <title>@yield('title', 'Prävention ist die beste Hilfe') | PrevHelp</title>
-
+        <meta name="description" content="@yield('meta.description')" />
+        <link rel="canonical" href="{{ URL::current() }}" />
         <meta name="keywords" content="HTML5 Template" />
-        <meta name="description" content="PrevHelp - Prävention ist die beste Hilfe">
-        <meta name="author" content="okler.net">
+                <meta name="author" content="okler.net">
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('apple-icon-57x57.png') }}">

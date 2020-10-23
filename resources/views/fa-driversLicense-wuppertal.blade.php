@@ -1,6 +1,7 @@
 @extends('layouts.frontend')
 
-@section('title', 'Erste-Hilfe-Kurse für Deinen Führerschein')
+@section('title', 'Erste-Hilfe-Kurs für Deinen Führerschein in Wuppertal')
+@section('meta.description', 'Dein Erste-Hilfe-Kurs für den Führerschein, zum besten Preis Wuppertals. 🤘 Freie Plätze für die nächsten Tage❗ Jetzt schnell online buchen ⏰')
 
 @section('body')
     <section class="page-header page-header-classic">
