@@ -43,7 +43,7 @@ class sitemap extends Command
         $path = public_path('sitemap.xml');
         SitemapGenerator::create(config('app.url'))
             ->getSitemap()
-            ->add(Url::create('/erste-hilfe-fuehrerschein-wuppertal')
+            ->add(Url::create('/erste-hilfe-kurs/wuppertal')
                 ->setLastModificationDate(Carbon::now())
                 ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
                 ->setPriority(0.8))

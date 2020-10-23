@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 
-@section('title', 'Erste-Hilfe-Kurs für Deinen Führerschein in Wuppertal')
-@section('meta.description', 'Dein Erste-Hilfe-Kurs für den Führerschein, zum besten Preis Wuppertals. 🤘 Freie Plätze für die nächsten Tage❗ Jetzt schnell online buchen ⏰')
+@section('title', 'Erste-Hilfe-Kurs für Führerschein und Betrieb in Wuppertal 🦊')
+@section('meta.description', 'Erste-Hilfe-Kurs für den Führerschein, Betrieb oder das Studium gesucht? 🤘 Wir haben freie Plätze mit best-price-garantie❗Jetzt schnell online buchen ⏰')
 
 @section('body')
     <section class="page-header page-header-classic">
@@ -11,14 +11,13 @@
                     <ul class="breadcrumb">
                         <li><a href="#">Home</a></li>
                         <li>Erste-Hilfe-Kurse</li>
-                        <li class="active">Führerschein in Wuppertal</li>
+                        <li class="active">Wuppertal</li>
                     </ul>
                 </div>
             </div>
             <div class="row">
                 <div class="col p-static">
-                    <h1 data-title-border>Erste-Hilfe-Kurse f&uuml;r den F&uuml;hrerschein in Wuppertal</h1>
-
+                    <h1 data-title-border>Erste-Hilfe-Kurse F&uuml;hrerschein, Betrieb und Studium in Wuppertal</h1>
                 </div>
             </div>
         </div>
@@ -41,7 +40,7 @@
                 <div class="col-lg-10">
                     <div class="overflow-hidden">
                         <p class="lead mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">
-                            Du suchst den <span class="alternative-font">garantiert</span> g&uuml;nstigsten Erste-Hilfe-Kurs in Wuppertal, um schnell Deinen F&uuml;hrerschein machen zu k&ouml;nnen? Du brauchst in den n&auml;chsten Tagen einen freien Platz? Perfekt!
+                            Du suchst den <span class="alternative-font">garantiert</span> g&uuml;nstigsten Erste-Hilfe-Kurs in Wuppertal, f&uuml;r Deinen F&uuml;hrerschein, Betrieb, Trainerschein oder Studium? Du brauchst in den n&auml;chsten Tagen einen freien Platz? Perfekt!
                         </p>
                     </div>
                 </div>
@@ -73,7 +72,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <p>Für den Führerschein muss es mit dem Erste-Hilfe-Kurs oft schnell gehen. Daher bieten wir unsere Kurse in Wuppertal jede Woche mehrfach, unter der Woche und am Wochenende, an. Unser Ziel: Immer einen freien Platz innerhalb weniger Tage für jeden unserer Teilnehmer.</p>
+                                        <p>Egal ob F&uuml;hrerschein, Studium oder betrieblicher Ersthelfer: Mit dem Erste-Hilfe-Kurs muss es oft schnell gehen. Daher bieten wir unsere Kurse in Wuppertal jede Woche mehrfach, unter der Woche und am Wochenende, an. Unser Ziel: Immer einen freien Platz innerhalb weniger Tage für jeden unserer Teilnehmer.</p>
                                         <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.overview') }}">jetzt buchen</a>
                                     </div>
                                 </div>
@@ -109,7 +108,7 @@
                                         <div class="divider divider-small divider-small-center">
                                             <hr>
                                         </div>
-                                        <p>Der Führerschein ist schon teuer genug und Preise im Internet vergleichen nervt? Das kennen wir und wollen Dir helfen. Daher bieten wir Dir Deinen Erste-Hilfe-Kurs zum F&uuml;hrerschein immer zum <strong>garantiert besten Preis</strong> in Wuppertal an. Mit uns schnell sparen, statt lange zu vergleichen!</p>
+                                        <p>Dein Alltag ist schon teuer genug und Preise im Internet vergleichen nervt? Das kennen wir und wollen Dir helfen. Daher bieten wir Dir Deinen Erste-Hilfe-Kurs immer zum <strong>garantiert besten Preis</strong> in Wuppertal an. Mit uns schnell sparen, statt lange zu vergleichen!</p>
                                         <button class="btn btn-modern btn-dark mr-1" type="button">ansehen</button>
                                     </div>
                                 </div>
@@ -150,8 +149,8 @@
                             <img class="img-fluid scale-2 pr-5 pr-md-0 my-4" src="{{ asset('img/car-640.jpg') }}" alt="layout styles" />
                         </div>
                         <div class="col-md-8 pl-md-5">
-                            <h2 class="font-weight-normal text-6 mb-3">Wir bieten Dir den guten Erste-Hilfe-Kurs für <strong class="font-weight-extra-bold">Deinen</strong> Führerschein in Wuppertal</h2>
-                            <p class="text-4">Unsere Erste-Hilfe-Kurse sind für alle Führerscheinklassen gültig und in Wuppertal und bundesweit anerkannt. Ganz gleich, ob Du das erste Mal einen Führerschein machst, auf eine neue Führerscheinklasse erweiterst oder Deine Fahrberechtigung zurückerlangen willst.</p>
+                            <h2 class="font-weight-normal text-6 mb-3">Wir bieten Dir den <strong class="font-weight-extra-bold">guten Erste-Hilfe-Kurs</strong> in Wuppertal Vohwinkel</h2>
+                            <p class="text-4">Ganz gleich, ob Du den Erste-Hilfe-Kurs f&uuml;r Deinen F&uuml;hrerschein, Dein Studium, Deinen Trainerschein, als Rettungsschwimmer, als betrieblicher Ersthelfer / f&uuml;r den Betrieb oder <i>einfach nur so</i> brauchst... Unsere Erste-Hilfe-Kurse sind kurzweilig, lustig und von den Beh&ouml;rden gem&auml;&szlig; FEV und DGUV bundesweit anerkannt.</p>
                             <p>Bei uns bist Du genau richtig!</p>
                         </div>
                     </div>
@@ -161,9 +160,9 @@
                     <div class="row align-items-center pt-5 pb-3 appear-animation" data-appear-animation="fadeInRightShorter">
                         <div class="col-md-8 pr-md-5 mb-5 mb-md-0">
                             <h2 class="font-weight-normal text-6 mb-3">Nutze Deine freie Zeit <strong class="font-weight-extra-bold">besser</strong></h2>
-                            <p class="text-4">Deine Zeit ist kostbar und freie Tage ohnehin viel zu selten. Daher dauert unser Erste-Hilfe-Kurs für den Führerschein nur 7,5 Stunden (9 UE) inkl. Pausen. Außerdem bieten wir in Wuppertal unsere Kurse unter der Woche und auch am Wochenende an.</p>
+                            <p class="text-4">Deine Zeit ist kostbar und freie Tage ohnehin viel zu selten. Daher dauert unser kurzweiliger Erste-Hilfe-Kurs nur 7,5 Stunden (9 UE) inkl. Pausen. Außerdem bieten wir Dir in Wuppertal Vohwinkel unsere Kurse mehrmals die Woche, unter der Woche und auch am Wochenende, an.</p>
                             <p>Wir sind da, <strong>wann</strong> Du uns brauchst!</p>
-                            <p>Du hast Fragen? Dann schaue in unsere <a href="{{ route('question.index') }}">FAQ</a> oder nehme direkt Kontakt zu uns auf!</p>
+                            <p>Du hast noch Fragen? Dann schaue in unsere <a href="{{ route('question.index') }}">FAQ</a> oder nehme direkt Kontakt zu uns auf!</p>
                         </div>
                         <div class="col-md-4 px-5 px-md-3">
                             <img class="img-fluid scale-2 my-4" src="{{ asset('img/cheers-640.png') }}" alt="style switcher" />
@@ -179,7 +178,7 @@
             <div class="row py-3">
                 <div class="col-md-9 col-lg-9">
                     <div class="call-to-action-content">
-                        <h2 class="font-weight-normal text-7 mb-0">Komm zu uns in den Erste-Hilfe-Kurs f&uuml;r Deinen F&uuml;hrerschein.</h2>
+                        <h2 class="font-weight-normal text-7 mb-0">Komm zu uns und habe Spa&szlig; bei Deinem Erste-Hilfe-Kurs!</h2>
                         <p class="mb-0">Worauf wartest Du noch?</p>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('erste-hilfe-fuehrerschein-wuppertal', function () {
+Route::get('erste-hilfe-kurs/wuppertal', function () {
     return view('fa-driversLicense-wuppertal');
 });
 
