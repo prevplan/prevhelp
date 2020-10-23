@@ -42,11 +42,11 @@ class sitemap extends Command
     {
         $path = public_path('sitemap.xml');
         SitemapGenerator::create(config('app.url'))
-          /*  ->getSitemap()
-            ->add(Url::create('/besondere-seite')
-                ->setLastModificationDate(Carbon::yesterday())
+            ->getSitemap()
+            ->add(Url::create('/erste-hilfe-fuehrerschein-wuppertal')
+                ->setLastModificationDate(Carbon::now())
                 ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
-                ->setPriority(0.5)) */
+                ->setPriority(0.8))
             ->writeToFile($path);
     }
 }
