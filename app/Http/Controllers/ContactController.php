@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use ZammadAPIClient\Client;
+use ZammadAPIClient\ResourceType;
 
 class ContactController extends Controller
 {
@@ -34,7 +36,47 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        return $request;
+        $ticket_id = false;
+        $error_msg = false;
+
+        $client = new Client([
+            'url'        => env('ZAMMAD_URL'),
+            'http_token' => env('ZAMMAD_TOKEN'),
+            // 'timeout'       => 15,                  // Sets timeout for requests, defaults to 5 seconds, 0: no timeout
+            //'debug'         => true,                // Enables debug output
+        ]);
+
+        $ticket_data = [
+            'group_id'    => 1, // Group 'PrevHelp - Allgemein'
+            'priority_id' => 2,
+            'state_id'    => 1,
+            'title'       => $request->subject,
+            'customer_id' => "guess:$request->email",
+            'type'        => 'email',
+            'article'     => [
+                'type_id' => 1,
+                'from'    => $request->name . ' <' . $request->email . '>',
+                'to'      => 'PrevHelp Support',
+                'subject' => $request->subject,
+                'body'    => $request->message,
+                'content_type' => "text/html",
+                'type'    => "email",
+                "sender"  => "Customer",
+            ],
+        ];
+
+        $ticket = $client->resource( ResourceType::TICKET );
+        $ticket->setValues($ticket_data);
+        $ticket->save();
+
+
+        if ( $ticket->hasError() ) {
+            $error_msg = $ticket->getError();
+        } else {
+            $ticket_id = $ticket->getValue('number');
+        }
+
+        return view('contact', compact('ticket_id', 'error_msg'));
     }
 
     /**

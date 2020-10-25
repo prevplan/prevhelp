@@ -1,5 +1,8 @@
 @extends('layouts.frontend')
 
+@section('title', 'Kontakt')
+@section('meta.description', 'Nehmen Sie Kontakt ✉️ zu uns auf und gemeinsam finden wir Ihre passende Lösung. 🤝')
+
 @section('body')
     <section class="page-header page-header-modern page-header-background page-header-background-md parallax overlay overlay-color-dark overlay-show overlay-op-5 mt-0" data-plugin-parallax data-plugin-options="{'speed': 1.2}" data-image-src="{{ asset('img/business-1920.jpg') }}">
         <div class="container">
@@ -27,30 +30,18 @@
 
                 <div class="offset-anchor" id="contact-sent"></div>
 
-                <?php
-                if (isset($arrResult)) {
-                    if ($arrResult['response'] == 'success') {
-                        ?>
-                        <div class="alert alert-success">
-                            <strong>Success!</strong> Your message has been sent to us.
-                        </div>
-                <?php
-                    } elseif ($arrResult['response'] == 'error') {
-                        ?>
-                        <div class="alert alert-danger">
-                            <strong>Error!</strong> There was an error sending your message.
-                            <span class="font-size-xs mt-2 d-block"><?php echo $arrResult['errorMessage']; ?></span>
-                        </div>
-                <?php
-                    } else {
-                        ?>
-                        <div class="alert alert-danger">
-                            <strong>Error!</strong> Verification failed.
-                        </div>
-                <?php
-                    }
-                }
-                ?>
+                @if( $ticket_id ?? '' )
+                    <div class="alert alert-success">
+                        <strong>Vielen Dank.</strong> Wir bearbeiten Ihre Anfrage unter der Ticket-ID <i>#{{ $ticket_id }}</i>.
+                    </div>
+                @elseif( $error_msg ?? '' )
+                    <div class="alert alert-danger">
+                        <strong>Fehler!</strong> Leider gab es einen Fehler beim speichern Ihrer Anfrage.
+                        <span class="font-size-xs mt-2 d-block">{{ $error_msg }}</span>
+                        <br />
+                        Bitte schreiben Sie uns direkt eine E-Mail an <a href="mailto:info@prevhelp.de">info@prevhelp.de</a>
+                    </div>
+                @endif
 
                 <form id="contactFormAdvanced" action="{{ route('contact.send') }}" method="POST">
                     @csrf
