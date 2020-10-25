@@ -70,7 +70,7 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle {{ request()->is('faq') ? 'active' : ''}}" href="{{ route('question.index') }}">
+                                            <a class="dropdown-item {{ request()->is('faq') ? 'active' : ''}}" href="{{ route('question.index') }}">
                                                 FAQ
                                             </a>
                                         </li>

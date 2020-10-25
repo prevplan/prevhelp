@@ -33,7 +33,7 @@
             <div class="row py-4">
                 <div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
                     <a href="/" class="logo pr-0 pr-lg-3">
-                        <img alt="Porto Website Template" src="img/logo-klein.png" height="33">
+                        <img alt="PrevHelp" src="{{ asset('img/logo-klein.png') }}" height="33">
                     </a>
                 </div>
                 <div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
@@ -42,9 +42,9 @@
                 <div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
                     <nav id="sub-menu">
                         <ul>
-                            <li><i class="fas fa-angle-right"></i><a href="{{ url('agb') }}" class="ml-1 text-decoration-none text-color-primary"> AGB</a></li>
+                            <li><i class="fas fa-angle-right"></i><a href="{{ route('legal.conditions') }}" class="ml-1 text-decoration-none text-color-primary"> AGB</a></li>
                             <li><i class="fas fa-angle-right"></i><a href="{{ url('datenschutz') }}" class="ml-1 text-decoration-none text-color-primary"> Datenschutz</a></li>
-                            <li><i class="fas fa-angle-right"></i><a href="{{ url('impressum') }}" class="ml-1 text-decoration-none text-color-primary"> Impressum</a></li>
+                            <li><i class="fas fa-angle-right"></i><a href="{{ route('legal.imprint') }}" class="ml-1 text-decoration-none text-color-primary"> Impressum</a></li>
                         </ul>
                     </nav>
                 </div>
