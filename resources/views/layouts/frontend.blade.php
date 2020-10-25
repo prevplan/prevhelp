@@ -6,11 +6,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>@yield('title', 'Prävention ist die beste Hilfe') | PrevHelp</title>
-        <meta name="description" content="@yield('meta.description')" />
+        <!-- Primary Meta Tags -->
+        <title>@yield('meta.title', 'Prävention ist die beste Hilfe') | PrevHelp</title>
+        <meta name="title" content="@yield('meta.title', 'Prävention ist die beste Hilfe') | PrevHelp">
+        <meta name="description" content="@yield('meta.description')">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ URL::current() }}">
+        <meta property="og:title" content="@yield('meta.title', 'Prävention ist die beste Hilfe') | PrevHelp">
+        <meta property="og:description" content="@yield('meta.description')">
+        <meta property="og:image" content="@yield('image', asset('img/meta-first-aid.jpg'))">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="{{ URL::current() }}">
+        <meta property="twitter:title" content="@yield('meta.title', 'Prävention ist die beste Hilfe') | PrevHelp">
+        <meta property="twitter:description" content="@yield('meta.description')">
+        <meta property="twitter:image" content="@yield('image', asset('img/meta-first-aid.jpg'))">
+
         <link rel="canonical" href="{{ URL::current() }}" />
-        <meta name="keywords" content="HTML5 Template" />
-                <meta name="author" content="okler.net">
+                <meta name="author" content="PrevHelp">
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('apple-icon-57x57.png') }}">

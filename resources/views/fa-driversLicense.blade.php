@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('title', 'Erste-Hilfe-Kurse für Deinen Führerschein')
+@section('meta.title', 'Erste-Hilfe-Kurse für Deinen Führerschein')
 
 @section('body')
     <section class="page-header page-header-classic">

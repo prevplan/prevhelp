@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 
-@section('title', 'Erste-Hilfe-Kurs für Führerschein und Betrieb in Wuppertal 🦊')
-@section('meta.description', 'Erste-Hilfe-Kurs für den Führerschein, Betrieb oder das Studium gesucht? 🤘 Wir haben freie Plätze mit best-price-garantie❗Jetzt schnell online buchen ⏰')
+@section('meta.title', 'Erste-Hilfe-Kurs für Führerschein und Betrieb in Wuppertal 🦊')
+@section('meta.description', 'Erste-Hilfe-Kurs in Wuppertal für den Führerschein / das Studium gesucht? 🤘 Wir haben freie Plätze mit best-price-garantie❗Jetzt schnell online buchen ⏰')
 
 @section('body')
     <section class="page-header page-header-classic">
@@ -150,7 +150,7 @@
                         </div>
                         <div class="col-md-8 pl-md-5">
                             <h2 class="font-weight-normal text-6 mb-3">Wir bieten Dir den <strong class="font-weight-extra-bold">guten Erste-Hilfe-Kurs</strong> in Wuppertal Vohwinkel</h2>
-                            <p class="text-4">Ganz gleich, ob Du den Erste-Hilfe-Kurs f&uuml;r Deinen F&uuml;hrerschein, Dein Studium, Deinen Trainerschein, als Rettungsschwimmer, als betrieblicher Ersthelfer / f&uuml;r den Betrieb oder <i>einfach nur so</i> brauchst... Unsere Erste-Hilfe-Kurse sind kurzweilig, lustig und von den Beh&ouml;rden gem&auml;&szlig; FEV und DGUV bundesweit anerkannt.</p>
+                            <p class="text-4">Ganz gleich, ob Du den Erste-Hilfe-Kurs f&uuml;r Deinen F&uuml;hrerschein, Dein Studium, Deinen Trainerschein, als Rettungsschwimmer, als betrieblicher Ersthelfer / f&uuml;r den Betrieb oder <i>einfach nur so</i> brauchst... Unsere Schulungen sind kurzweilig, lustig und von den Beh&ouml;rden gem&auml;&szlig; FEV und DGUV bundesweit anerkannt.</p>
                             <p>Bei uns bist Du genau richtig!</p>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                     <div class="row align-items-center pt-5 pb-3 appear-animation" data-appear-animation="fadeInRightShorter">
                         <div class="col-md-8 pr-md-5 mb-5 mb-md-0">
                             <h2 class="font-weight-normal text-6 mb-3">Nutze Deine freie Zeit <strong class="font-weight-extra-bold">besser</strong></h2>
-                            <p class="text-4">Deine Zeit ist kostbar und freie Tage ohnehin viel zu selten. Daher dauert unser kurzweiliger Erste-Hilfe-Kurs nur 7,5 Stunden (9 UE) inkl. Pausen. Außerdem bieten wir Dir in Wuppertal Vohwinkel unsere Kurse mehrmals die Woche, unter der Woche und auch am Wochenende, an.</p>
+                            <p class="text-4">Deine Zeit ist kostbar und freie Tage ohnehin viel zu selten. Daher dauert unser kurzweiliger Kurs nur 7,5 Stunden (9 UE) inkl. Pausen. Außerdem bieten wir Dir in Wuppertal Vohwinkel unsere Kurse mehrmals die Woche, unter der Woche und auch am Wochenende, an.</p>
                             <p>Wir sind da, <strong>wann</strong> Du uns brauchst!</p>
                             <p>Du hast noch Fragen? Dann schaue in unsere <a href="{{ route('question.index') }}">FAQ</a> oder nehme direkt Kontakt zu uns auf!</p>
                         </div>

@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('title', 'Kontakt')
+@section('meta.title', 'Kontakt')
 @section('meta.description', 'Nehmen Sie Kontakt ✉️ zu uns auf und gemeinsam finden wir Ihre passende Lösung. 🤝')
 
 @section('body')

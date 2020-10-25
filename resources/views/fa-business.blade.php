@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('title', 'Erste-Hilfe-Kurse für Betriebe / Unternehmen')
+@section('meta.title', 'Erste-Hilfe-Kurse für Betriebe / Unternehmen')
 
 @section('body')
     {{--

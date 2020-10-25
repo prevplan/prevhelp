@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('title', 'Termine')
+@section('meta.title', 'Termine')
 
 @section('body')
     <div class="container">
