@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('garantie', function () {
+    return view('warranty');
+})->name('warranty');
+
 Route::get('erste-hilfe-kurs/wuppertal', function () {
     return view('fa-driversLicense-wuppertal');
 });

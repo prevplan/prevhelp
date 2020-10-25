@@ -75,6 +75,11 @@
                                             </a>
                                         </li>
                                         <li class="dropdown">
+                                            <a class="dropdown-item {{ request()->is('garantie') ? 'active' : ''}}" href="{{ route('warranty') }}">
+                                                Garantie
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle
                                             {{ request()->is('impressum') ||
                                                 request()->is('datenschutz') ||
