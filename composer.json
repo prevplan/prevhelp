@@ -15,7 +15,8 @@
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
         "spatie/laravel-honeypot": "^3.0",
-        "spatie/laravel-sitemap": "^5.8"
+        "spatie/laravel-sitemap": "^5.8",
+        "zammad/zammad-api-client-php": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
