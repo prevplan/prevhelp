@@ -55,22 +55,21 @@ class ContactController extends Controller
             'type'        => 'email',
             'article'     => [
                 'type_id' => 1,
-                'from'    => $request->name . ' <' . $request->email . '>',
+                'from'    => $request->name.' <'.$request->email.'>',
                 'to'      => 'PrevHelp Support',
                 'subject' => $request->subject,
                 'body'    => $request->message,
-                'content_type' => "text/html",
-                'type'    => "email",
-                "sender"  => "Customer",
+                'content_type' => 'text/html',
+                'type'    => 'email',
+                'sender'  => 'Customer',
             ],
         ];
 
-        $ticket = $client->resource( ResourceType::TICKET );
+        $ticket = $client->resource(ResourceType::TICKET);
         $ticket->setValues($ticket_data);
         $ticket->save();
 
-
-        if ( $ticket->hasError() ) {
+        if ($ticket->hasError()) {
             $error_msg = $ticket->getError();
         } else {
             $ticket_id = $ticket->getValue('number');
