@@ -28,6 +28,7 @@ Route::get('erste-hilfe-kurs/wuppertal', function () {
 Route::get('impressum', [\App\Http\Controllers\LegalController::class, 'imprint'])->name('legal.imprint');
 Route::get('agb', [\App\Http\Controllers\LegalController::class, 'conditions'])->name('legal.conditions');
 Route::get('widerruf', [\App\Http\Controllers\LegalController::class, 'revocation'])->name('legal.revocation');
+Route::get('datenschutz', [\App\Http\Controllers\LegalController::class, 'dataProtection'])->name('legal.dataProtection');
 
 Route::post('kontakt', [\App\Http\Controllers\ContactController::class, 'store'])->name('contact.send');
 Route::get('kontakt', [\App\Http\Controllers\ContactController::class, 'index'])->name('contact.show');

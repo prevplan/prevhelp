@@ -88,6 +88,7 @@
         <!-- Head Libs -->
         <script src="{{ asset('vendor/modernizr/modernizr.min.js') }}"></script>
 
+        <script type="application/javascript" src="https://app.usercentrics.eu/latest/main.js" id="kZCVhgSi"></script>
     </head>
     <body class="alternative-font-4 loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
         <div class="loading-overlay">
