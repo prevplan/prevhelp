@@ -20,7 +20,6 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-pro": "^5.15.1",
         "animate.css": "^4.1.1",
         "bootstrap": "^4.5.3",
         "jquery": "^3.5.1",

@@ -53,6 +53,9 @@
         <!-- Web Fonts  -->
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&display=swap" rel="stylesheet" type="text/css">
 
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/4e6531e3bd.js" crossorigin="anonymous"></script>
+
         <!-- Vendor CSS -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
