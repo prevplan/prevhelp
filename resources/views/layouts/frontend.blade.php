@@ -50,6 +50,8 @@
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
+        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="abba8fdf-c225-4d04-bc28-668ae183c2f8" data-blockingmode="auto" type="text/javascript"></script>
+
         <!-- Web Fonts  -->
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&display=swap" rel="stylesheet" type="text/css">
 
@@ -87,8 +89,6 @@
 
         <!-- Head Libs -->
         <script src="{{ asset('vendor/modernizr/modernizr.min.js') }}"></script>
-
-        <script type="application/javascript" src="https://app.usercentrics.eu/latest/main.js" id="kZCVhgSi"></script>
     </head>
     <body class="alternative-font-4 loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
         <div class="loading-overlay">
