@@ -111,13 +111,13 @@
 
         <!-- Vendor -->
         <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
+        {{-- <script src="{{ asset('vendor/jquery.cookie/jquery.cookie.min.js') }}"></script> --}}
+        <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('vendor/common/common.min.js') }}" defer></script>
+        <script src="{{ asset('vendor/popper/umd/popper.min.js') }}" defer></script>
         <script src="{{ asset('vendor/jquery.appear/jquery.appear.min.js') }}" defer></script>
         <script src="{{ asset('vendor/jquery.easing/jquery.easing.min.js') }}" defer></script>
-        {{-- <script src="{{ asset('vendor/jquery.cookie/jquery.cookie.min.js') }}"></script> --}}
-        <script src="{{ asset('vendor/popper/umd/popper.min.js') }}"></script>
-        <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
-        <script src="{{ asset('vendor/common/common.min.js') }}"></script>
-        <script src="{{ asset('vendor/jquery.validation/jquery.validate.min.js') }}"></script>
+        <script src="{{ asset('vendor/jquery.validation/jquery.validate.min.js') }}" defer></script>
         {{-- <script src="{{ asset('vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js') }}"></script> --}}
         {{-- <script src="{{ asset('vendor/jquery.gmap/jquery.gmap.min.js') }}"></script> --}}
 
@@ -133,10 +133,6 @@
         <script src="{{ asset('js/theme.js') }}" defer></script>
 
         @yield('scripts')
-
-        <!-- Revolution Slider Addon - Typewriter -->
-        <script type="text/javascript" src="{{ asset('vendor/rs-plugin/revolution-addons/typewriter/js/revolution.addon.typewriter.min.js') }}"></script>
-
 
         <!-- Theme Custom -->
         <script src="{{ asset('js/custom.js') }}"></script>

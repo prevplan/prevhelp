@@ -258,4 +258,6 @@
     <!-- Current Page Vendor and Views -->
     <script src="{{ asset('vendor/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
     <script src="{{ asset('vendor/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
+    <!-- Revolution Slider Addon - Typewriter -->
+    <script type="text/javascript" src="{{ asset('vendor/rs-plugin/revolution-addons/typewriter/js/revolution.addon.typewriter.min.js') }}" defer></script>
 @endsection
