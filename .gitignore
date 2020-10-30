@@ -18,7 +18,6 @@ public/css/app.css
 public/js/app.js
 public/fonts/*
 public/img/*
-public/js/*
 
 # Favicons
 public/*.png

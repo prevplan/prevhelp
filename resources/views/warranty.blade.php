@@ -22,7 +22,7 @@
 
                     <div class="row align-items-center pt-4 appear-animation" data-appear-animation="fadeInLeftShorter">
                         <div class="col-md-4 mb-4 mb-md-0">
-                            <img class="img-fluid scale-2 pr-5 pr-md-0 my-4" src="img/people-460.png" alt="people" />
+                            <img class="img-fluid scale-2 pr-5 pr-md-0 my-4" src="{{ asset('img/people-460.png') }}" alt="people" />
                         </div>
                         <div class="col-md-8 pl-md-5">
                             <h2 class="font-weight-normal text-6 mb-3">Lernerfolg <strong class="font-weight-extra-bold">garantiert</strong></h2>

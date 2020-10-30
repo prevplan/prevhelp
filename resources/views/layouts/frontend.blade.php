@@ -26,7 +26,7 @@
         <meta property="twitter:image" content="@yield('image', asset('img/meta-first-aid.jpg'))">
 
         <link rel="canonical" href="{{ URL::current() }}" />
-                <meta name="author" content="PrevHelp">
+        <meta name="author" content="PrevHelp">
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('apple-icon-57x57.png') }}">
@@ -50,54 +50,59 @@
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
-        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="abba8fdf-c225-4d04-bc28-668ae183c2f8" data-blockingmode="auto" type="text/javascript"></script>
+        <script async id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="abba8fdf-c225-4d04-bc28-668ae183c2f8" data-blockingmode="auto" type="text/javascript"></script>
+
+        <!-- Critical CSS -->
+        @yield('critical-css')
 
         <!-- Web Fonts  -->
-        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&display=swap" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&display=swap" rel="stylesheet" type="text/css" media="print" onload="this.media='all';this.onload=null;">
 
-        <!-- Fontawesome -->
-        <script src="https://kit.fontawesome.com/4e6531e3bd.js" crossorigin="anonymous"></script>
 
         <!-- Vendor CSS -->
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <link rel="stylesheet" href="{{ asset('css/fa-all.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
 
-        <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.theme.default.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('vendor/magnific-popup/magnific-popup.min.css') }}">
+        {{--
+        <link rel="preload" href="{{ asset('vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0') }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ asset('vendor/rs-plugin/fonts/revicons/revicons.woff?5510888') }}" as="font" type="font/woff2" crossorigin>
+        --}}
+
+        <link rel="preload" href="{{ asset('webfonts/fa-brands-400.woff2') }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ asset('webfonts/fa-solid-900.woff2') }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ asset('webfonts/fa-regular-400.woff2') }}" as="font" type="font/woff2" crossorigin>
+        <link rel="stylesheet" href="{{ asset('vendor/animate/animate.compat.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <link rel="stylesheet" href="{{ asset('vendor/simple-line-icons/css/simple-line-icons.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.theme.default.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <link rel="stylesheet" href="{{ asset('vendor/magnific-popup/magnific-popup.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <!-- Revolution Slider Addon - Typewriter -->
-        <link rel="stylesheet" type="text/css" href="{{ asset('vendor/rs-plugin/revolution-addons/typewriter/css/typewriter.css') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ asset('vendor/rs-plugin/revolution-addons/typewriter/css/typewriter.css') }}" media="print" onload="this.media='all';this.onload=null;">
 
         <!-- Theme CSS -->
-        <link rel="stylesheet" href="{{ asset('css/theme.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/theme-elements.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/theme-blog.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/theme-shop.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/theme.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <link rel="stylesheet" href="{{ asset('css/theme-elements.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <link rel="stylesheet" href="{{ asset('css/theme-blog.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <link rel="stylesheet" href="{{ asset('css/theme-shop.css') }}" media="print" onload="this.media='all';this.onload=null;">
 
         <!-- Current Page CSS -->
-        <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/settings.css') }}">
-        <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/layers.css') }}">
-        <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/navigation.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/settings.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/layers.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/navigation.css') }}" media="print" onload="this.media='all';this.onload=null;">
 
         <!-- Demo CSS -->
 
 
         <!-- Skin CSS -->
-        <link rel="stylesheet" href="{{ asset('css/skins/skin-corporate-14.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/skins/skin-corporate-14.css') }}" media="print" onload="this.media='all';this.onload=null;">
 
         <!-- Theme Custom CSS -->
-        <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/custom.css') }}" media="print" onload="this.media='all';this.onload=null;">
 
         <!-- Head Libs -->
-        <script src="{{ asset('vendor/modernizr/modernizr.min.js') }}"></script>
+        <script defer src="{{ asset('vendor/modernizr/modernizr.min.js') }}"></script>
     </head>
-    <body class="alternative-font-4 loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
-        <div class="loading-overlay">
-            <div class="bounce-loader">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-        </div>
+    <body>
 
         <div class="body">
             @include('layouts.header')
@@ -110,34 +115,30 @@
 
         </div>
 
-        <script src="{{ mix('js/app.js') }}"></script>
-
         <!-- Vendor -->
-
-        <script src="{{ asset('js/jquery.appear.min.js') }}"></script>
-        <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
-        <script src="{{ asset('js/jquery.cookie.min.js') }}"></script>
+        <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
+        <script src="{{ asset('vendor/jquery.appear/jquery.appear.min.js') }}" defer></script>
+        <script src="{{ asset('vendor/jquery.easing/jquery.easing.min.js') }}" defer></script>
+        {{-- <script src="{{ asset('vendor/jquery.cookie/jquery.cookie.min.js') }}"></script> --}}
         <script src="{{ asset('vendor/popper/umd/popper.min.js') }}"></script>
         <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
         <script src="{{ asset('vendor/common/common.min.js') }}"></script>
         <script src="{{ asset('vendor/jquery.validation/jquery.validate.min.js') }}"></script>
-        <script src="{{ asset('vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js') }}"></script>
-        <script src="{{ asset('vendor/jquery.gmap/jquery.gmap.min.js') }}"></script>
-        <script src="{{ asset('vendor/jquery.lazyload/jquery.lazyload.min.js') }}"></script>
-        <script src="{{ asset('vendor/isotope/jquery.isotope.min.js') }}"></script>
-        <script src="{{ asset('vendor/owl.carousel/owl.carousel.min.js') }}"></script>
-        <script src="{{ asset('vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
-        <script src="{{ asset('vendor/vide/jquery.vide.min.js') }}"></script>
-        <script src="{{ asset('vendor/vivus/vivus.min.js') }}"></script>
+        {{-- <script src="{{ asset('vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js') }}"></script> --}}
+        {{-- <script src="{{ asset('vendor/jquery.gmap/jquery.gmap.min.js') }}"></script> --}}
+
+        {{-- <script src="{{ asset('vendor/isotope/jquery.isotope.min.js') }}"></script> --}}
+        {{-- <script src="{{ asset('vendor/owl.carousel/owl.carousel.min.js') }}"></script> --}}
+        {{-- <script src="{{ asset('vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script> --}}
+        {{-- <script src="{{ asset('vendor/vide/jquery.vide.min.js') }}"></script> --}}
+        {{-- <script src="{{ asset('vendor/vivus/vivus.min.js') }}"></script> --}}
 
         <!--(remove-empty-lines-end)-->
 
         <!-- Theme Base, Components and Settings -->
-        <script src="{{ asset('js/theme.js') }}"></script>
+        <script src="{{ asset('js/theme.js') }}" defer></script>
 
-        <!-- Current Page Vendor and Views -->
-        <script src="{{ asset('vendor/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
-        <script src="{{ asset('vendor/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
+        @yield('scripts')
 
         <!-- Revolution Slider Addon - Typewriter -->
         <script type="text/javascript" src="{{ asset('vendor/rs-plugin/revolution-addons/typewriter/js/revolution.addon.typewriter.min.js') }}"></script>
@@ -148,7 +149,7 @@
 
 
         <!-- Theme Initialization Files -->
-        <script src="{{ asset('js/theme.init.js') }}"></script>
+        <script src="{{ asset('js/theme.init.js') }}" defer></script>
 
         @yield('footer')
 

@@ -21,7 +21,7 @@
                 <h4>Kontakt</h4>
                 <p>Telefon: 0202 898 37 565<br />
                     Telefax: 0202 898 37 567<br />
-                    E-Mail: <a href="info@prevhelp.de">info@prevhelp.de</a>
+                    E-Mail: <a href="mailto:info@prevhelp.de">info@prevhelp.de</a>
                 </p>
                 <br />
 

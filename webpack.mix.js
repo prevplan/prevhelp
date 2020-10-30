@@ -13,8 +13,5 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
-    .copy('resources/js/jquery.appear/jquery.appear.min.js', 'public/js')
-    .copy('resources/js/jquery.easing/jquery.easing.min.js', 'public/js')
-    .copy('resources/js/jquery.cookie/jquery.cookie.min.js', 'public/js')
     .copyDirectory('resources/favicon', 'public')
     .copyDirectory('resources/img', 'public/img');

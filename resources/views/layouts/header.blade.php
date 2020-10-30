@@ -43,7 +43,7 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="/">
-                                <img alt="Porto"  height="48" data-sticky-height="40" src="{{ asset('img/logo-klein.png') }}">
+                                <img alt="PrevHelp"  height="48" data-sticky-height="40" src="{{ asset('img/logo-klein.png') }}">
                             </a>
                         </div>
                     </div>
