@@ -4,6 +4,7 @@
         <link rel="preload" href="{{ asset('webfonts/fa-brands-400.woff2') }}" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="{{ asset('webfonts/fa-solid-900.woff2') }}" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="{{ asset('webfonts/fa-regular-400.woff2') }}" as="font" type="font/woff2" crossorigin>
+        @yield('preload')
 
         <!-- Basic -->
         <meta charset="utf-8">
@@ -65,11 +66,6 @@
         <!-- Vendor CSS -->
         <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('css/fa-all.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
-
-        {{--
-        <link rel="preload" href="{{ asset('vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0') }}" as="font" type="font/woff2" crossorigin>
-        <link rel="preload" href="{{ asset('vendor/rs-plugin/fonts/revicons/revicons.woff?5510888') }}" as="font" type="font/woff2" crossorigin>
-        --}}
 
         <link rel="stylesheet" href="{{ asset('vendor/animate/animate.compat.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('vendor/simple-line-icons/css/simple-line-icons.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
