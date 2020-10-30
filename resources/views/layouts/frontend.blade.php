@@ -63,37 +63,35 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&display=swap" rel="stylesheet" type="text/css" media="print" onload="this.media='all';this.onload=null;">
 
 
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <!-- Vendor CSS -->
+        {{--
         <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('css/fa-all.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
-
         <link rel="stylesheet" href="{{ asset('vendor/animate/animate.compat.css') }}" media="print" onload="this.media='all';this.onload=null;">
-        <link rel="stylesheet" href="{{ asset('vendor/simple-line-icons/css/simple-line-icons.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.theme.default.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('vendor/magnific-popup/magnific-popup.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
-        <!-- Revolution Slider Addon - Typewriter -->
-        <link rel="stylesheet" type="text/css" href="{{ asset('vendor/rs-plugin/revolution-addons/typewriter/css/typewriter.css') }}" media="print" onload="this.media='all';this.onload=null;">
 
         <!-- Theme CSS -->
         <link rel="stylesheet" href="{{ asset('css/theme.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('css/theme-elements.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('css/theme-blog.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('css/theme-shop.css') }}" media="print" onload="this.media='all';this.onload=null;">
-
+        <!-- Skin CSS -->
+        <link rel="stylesheet" href="{{ asset('css/skins/skin-corporate-14.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <!-- Theme Custom CSS -->
+        <link rel="stylesheet" href="{{ asset('css/custom.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <link rel="stylesheet" href="{{ asset('vendor/simple-line-icons/css/simple-line-icons.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        <!-- Revolution Slider Addon - Typewriter -->
+        <link rel="stylesheet" type="text/css" href="{{ asset('vendor/rs-plugin/revolution-addons/typewriter/css/typewriter.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <!-- Current Page CSS -->
         <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/settings.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/layers.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/navigation.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        --}}
 
         <!-- Demo CSS -->
-
-
-        <!-- Skin CSS -->
-        <link rel="stylesheet" href="{{ asset('css/skins/skin-corporate-14.css') }}" media="print" onload="this.media='all';this.onload=null;">
-
-        <!-- Theme Custom CSS -->
-        <link rel="stylesheet" href="{{ asset('css/custom.css') }}" media="print" onload="this.media='all';this.onload=null;">
 
         <!-- Head Libs -->
         <script defer src="{{ asset('vendor/modernizr/modernizr.min.js') }}"></script>

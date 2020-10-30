@@ -3,8 +3,8 @@
 @section('header_class', 'header-transparent header-semi-transparent header-semi-transparent-light header-effect-shrink')
 
 @section('preload')
-    <link rel="preload" href="{{ asset('vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0') }}" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="{{ asset('vendor/rs-plugin/fonts/revicons/revicons.woff?5510888') }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ asset('fonts/Simple-Line-Icons.woff2?v=2.4.0') }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ asset('fonts/revicons/revicons.woff?5510888') }}" as="font" type="font/woff2" crossorigin>
 @endsection
 
 @section('critical-css')
