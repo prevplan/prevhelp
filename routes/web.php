@@ -40,3 +40,8 @@ Route::get('erste-hilfe-kurs-betriebe', [\App\Http\Controllers\FirstAidControlle
 Route::get('termine', [\App\Http\Controllers\EventController::class, 'index'])->name('event.overview');
 
 Route::get('faq', [\App\Http\Controllers\QuestionController::class, 'index'])->name('question.index');
+
+Route::permanentRedirect('/rechtliches/impressum', '/impressum');
+Route::permanentRedirect('/rechtliches/datenschutz', '/datenschutz');
+Route::permanentRedirect('/rechtliches/agb', '/agb');
+Route::permanentRedirect('/rechtliches/widerrufsbelehrung', '/widerruf');
