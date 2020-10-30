@@ -66,7 +66,7 @@
         <!-- Vendor CSS -->
         <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('css/fa-all.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
-
+        
         <link rel="stylesheet" href="{{ asset('vendor/animate/animate.compat.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('vendor/simple-line-icons/css/simple-line-icons.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
         <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
