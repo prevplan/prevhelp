@@ -6,46 +6,27 @@
 
         <div class="row">
             <div class="col">
-                <h2>Impressum</h2>
-                <br />
-
-                <h4>Angaben gem&auml;&szlig; &sect; 5 TMG</h4>
-                <p>Vertretungsberechtigt: Holger Schmermbeck</p>
-                <p><span style="color: #3059a3; font-weight: bold;">Prev</span>
-                    <span style="color: #e62a2d; font-weight: bold;">Help</span><br />
-                    Holger Schmermbeck<br />
-                    Edith-Stein-Str. 52<br />
-                    42329 Wuppertal</p>
-                <br />
-
-                <h4>Kontakt</h4>
-                <p>Telefon: 0202 898 37 565<br />
-                    Telefax: 0202 898 37 567<br />
-                    E-Mail: <a href="mailto:info@prevhelp.de">info@prevhelp.de</a>
-                </p>
-                <br />
-
-                <h4>Umsatzsteuer-ID</h4>
-                <p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
-                    DE318103403</p>
-                <br />
-
-                <h4>Berechtigung / Zulassung</h4>
-                <p><span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span> ist ermächtigte Ausbildungsstelle der Unfallkassen und Berufsgenossenschaften (BG-QSEH Kennziffer 8.1182).</p>
-                <br />
-
-                <h4>Verantwortlich f&uuml;r den Inhalt nach &sect; 55 Abs. 2 RStV</h4>
-                <p>Holger Schmermbeck<br />
-                    Edith-Stein-Str. 52<br />
-                    42329 Wuppertal</p>
-                <br />
-
-                <h4>EU-Streitschlichtung</h4>
-                <p>Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr</a>.<br /> Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
-                <br />
-
-                <h4>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h4>
-                <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+                <h1>Impressum</h1>
+                <h2 id="m46">Diensteanbieter</h2>
+                <p><span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span></p>
+                <p>Holger Schmermbeck</p>
+                <p>Edith-Stein-Str. 52</p>
+                <p>42329 Wuppertal</p>
+                <h2 id="m56">Kontaktmöglichkeiten</h2><p><strong>E-Mail-Adresse:</strong> <a href="mailto:info@prevhelp.de">info@prevhelp.de</a></p>
+                <p><strong>Telefon:</strong> 0202 898 37 565 </p>
+                <p><strong>Fax:</strong> 0202 898 37 567</p>
+                <p><strong>Kontaktformular:</strong> <a href="https://prevhelp.de/kontakt" target="_blank">https://prevhelp.de/kontakt</a></p>
+                <h2 id="m153">Vertretungsberechtigte</h2><p><strong>Vertretungsberechtigt:</strong> Holger Schmermbeck (Inhaber)</p>
+                <h2 id="m154">Journalistisch-redaktionelle Angebote</h2><p><strong>Inhaltlich verantwortlich:</strong> Holger Schmermbeck (Adresse wie oben)</p>
+                <h2 id="m58">Angaben zum Unternehmen</h2><p><strong>Umsatzsteuer Identifikationsnummer (USt-ID):</strong> DE318103403</p>
+                <p><strong>AGB:</strong> <a href="https://prevhelp.de/agb" target="_blank">https://prevhelp.de/agb</a></p>
+                <h2 id="m166">Berechtigung / Zulassung</h2><p><span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span> ist ermächtigte Ausbildungsstätte der Unfallkassen und Berufsgenossenschaften (BG-QSEH Kennziffer 8.1182).</p>
+                <h2 id="m174">Online-Streitbeilegung (OS)</h2><p><strong>Online-Streitbeilegung</strong>: Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie unter <a href="https://ec.europa.eu/consumers/odr/" target="_blank">https://ec.europa.eu/consumers/odr/</a> finden. Verbraucher haben die Möglichkeit, diese Plattform für die Beilegung ihrer Streitigkeiten zu nutzen. </p>
+                <h2 id="m175">Streitbeilegung vor einer Verbraucherschlichtungsstelle</h2><p><strong>Angaben zur Teilnahme an der Verbraucherstreitschlichtung</strong>: Wir sind nicht bereit und nicht verpflichtet an einem Streitbeilegungsverfahren vor einer Verbraucherstreitschlichtungsstelle teilzunehmen.</p>
+                <h2 id="m172">Social Media und andere Onlinepräsenzen</h2><p><strong>Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile:</strong> </p>
+                <p><a href="https://www.facebook.com/prevhelpde" target="_blank">https://www.facebook.com/prevhelpde</a></p>
+                <p><a href="https://www.instagram.com/prevhelp.de" target="_blank">https://www.instagram.com/prevhelp.de</a></p>
+                <p><a href="https://twitter.com/prevhelpde" target="_blank">https://twitter.com/prevhelpde</a></p>
             </div>
         </div>
 
