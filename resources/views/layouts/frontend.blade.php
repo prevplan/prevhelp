@@ -60,7 +60,7 @@
         @yield('critical-css')
 
         <!-- Web Fonts  -->
-        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&display=swap" rel="stylesheet" type="text/css" media="print" onload="this.media='all';this.onload=null;">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&display=swap" rel="stylesheet" rel="preload" as="style" type="text/css" media="print" onload="this.media='all';this.onload=null;">
 
 
         <link rel="stylesheet" href="{{ mix('css/app.css') }}" media="print" onload="this.media='all';this.onload=null;">
