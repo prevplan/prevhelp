@@ -150,7 +150,7 @@
 
                     <div class="row align-items-center pt-4">
                         <div class="col-md-4 mb-4 mb-md-0">
-                            <img class="img-fluid scale-2 pr-5 pr-md-0 my-4" src="{{ asset('img/car-640.webp') }}" loading="lazy" alt="Frau im Auto" />
+                            <img class="img-fluid scale-2 pr-5 pr-md-0 my-4" src="{{ asset('img/car-420.webp') }}" loading="lazy" alt="Frau im Auto" />
                         </div>
                         <div class="col-md-8 pl-md-5">
                             <h2 class="font-weight-normal text-6 mb-3">Wir bieten Dir den <strong class="font-weight-extra-bold">guten Erste-Hilfe-Kurs</strong> in Wuppertal Vohwinkel</h2>
@@ -169,7 +169,7 @@
                             <p>Du hast noch Fragen? Dann schaue in unsere <a href="{{ route('question.index') }}">FAQ</a> oder nehme direkt Kontakt zu uns auf!</p>
                         </div>
                         <div class="col-md-4 px-5 px-md-3">
-                            <img class="img-fluid scale-2 my-4" src="{{ asset('img/cheers-640.webp') }}" loading="lazy" alt="style switcher" />
+                            <img class="img-fluid scale-2 my-4" src="{{ asset('img/cheers-420.webp') }}" loading="lazy" alt="style switcher" />
                         </div>
                     </div>
                 </div>

@@ -16,7 +16,7 @@
         <div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'addOnTypewriter': { 'enable': true }, 'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': [1410,1110,930,690], 'gridheight': 700, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1422,1182,974], 'navigation' : {'arrows': { 'enable': true, 'style': 'arrows-style-1 arrows-primary' }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
             <ul>
                 <li class="slide-overlay slide-overlay-level-8" data-transition="fade">
-                    <img src="{{ asset('img/first-aid-1920.jpg') }}"
+                    <img src="{{ asset('img/first-aid-1920.webp') }}"
                          loading="lazy"
                          alt=""
                          data-bgposition="center center"
