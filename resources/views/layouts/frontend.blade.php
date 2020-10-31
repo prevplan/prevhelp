@@ -63,7 +63,11 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&display=swap" rel="stylesheet" rel="preload" as="style" type="text/css" media="print" onload="this.media='all';this.onload=null;">
 
 
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        @hasSection('critical-css')
+            <link rel="stylesheet" href="{{ mix('css/app.css') }}" media="print" onload="this.media='all';this.onload=null;">
+        @else
+            <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        @endif
         <!-- Vendor CSS -->
         {{--
         <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" media="print" onload="this.media='all';this.onload=null;">
