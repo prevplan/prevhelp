@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="de">
     <head>
+        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="abba8fdf-c225-4d04-bc28-668ae183c2f8" data-blockingmode="auto" type="text/javascript" async></script>
+
         <link rel="preload" href="{{ asset('webfonts/fa-brands-400.woff2') }}" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="{{ asset('webfonts/fa-solid-900.woff2') }}" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="{{ asset('webfonts/fa-regular-400.woff2') }}" as="font" type="font/woff2" crossorigin>
@@ -54,7 +56,8 @@
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
-        <script async id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="abba8fdf-c225-4d04-bc28-668ae183c2f8" data-blockingmode="auto" type="text/javascript"></script>
+        <!-- Critical CSS -->
+        @yield('critical-css')
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-HM6BSPD167"></script>
@@ -65,9 +68,6 @@
 
             gtag('config', 'G-HM6BSPD167');
         </script>
-
-        <!-- Critical CSS -->
-        @yield('critical-css')
 
         <!-- Web Fonts  -->
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&display=swap" rel="stylesheet" rel="preload" as="style" type="text/css" media="print" onload="this.media='all';this.onload=null;">
