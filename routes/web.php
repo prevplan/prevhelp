@@ -36,7 +36,7 @@ Route::get('kontakt', [\App\Http\Controllers\ContactController::class, 'index'])
 
 Route::get('erste-hilfe-kurs-fuehrerschein', [\App\Http\Controllers\FirstAidController::class, 'driversLicense'])->name('fa.driversLicense');
 
-Route::get('erste-hilfe-kurs-betriebe', [\App\Http\Controllers\FirstAidController::class, 'business'])->name('fa.business');
+Route::get('erste-hilfe-kurs-betrieb', [\App\Http\Controllers\FirstAidController::class, 'business'])->name('fa.business');
 
 Route::get('termine', [\App\Http\Controllers\EventController::class, 'index'])->name('event.overview');
 

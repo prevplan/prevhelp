@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html lang="de">
     <head>
-        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="abba8fdf-c225-4d04-bc28-668ae183c2f8" data-blockingmode="auto" type="text/javascript" async></script>
+        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="abba8fdf-c225-4d04-bc28-668ae183c2f8" type="text/javascript" async></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/plain" data-cookieconsent="statistics" src="https://www.googletagmanager.com/gtag/js?id=G-HM6BSPD167" async></script>
+        <script type="text/plain" data-cookieconsent="statistics">
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-HM6BSPD167');
+        </script>
 
         <link rel="preload" href="{{ asset('webfonts/fa-brands-400.woff2') }}" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="{{ asset('webfonts/fa-solid-900.woff2') }}" as="font" type="font/woff2" crossorigin>
@@ -58,16 +68,6 @@
 
         <!-- Critical CSS -->
         @yield('critical-css')
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HM6BSPD167"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-HM6BSPD167');
-        </script>
 
         <!-- Web Fonts  -->
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&display=swap" rel="stylesheet" rel="preload" as="style" type="text/css" media="print" onload="this.media='all';this.onload=null;">
