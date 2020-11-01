@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col">
 
-                <h2 class="font-weight-normal text-7 mb-2">H&auml;fig gestellte <strong class="font-weight-extra-bold">Fragen</strong></h2>
+                <h2 class="font-weight-normal text-7 mb-2">H&auml;ufig gestellte <strong class="font-weight-extra-bold">Fragen</strong></h2>
                 <p class="lead">Auch wenn wir viele Fragen direkt auf der Seite des jeweiligen Angebotes beantworten, bleiben manchmal dennoch offen. Auf diese gehen wir noch einmal auf dieser Seite ein. Sollten offene Fragen auch nach dieser Seite unbeantwortet sein, beantworten wir Ihnen diese direkt. Nehmen Sie <a href="{{ route('contact.show') }}">Kontakt</a> mit uns auf!</p>
 
                 <hr class="solid my-5">
