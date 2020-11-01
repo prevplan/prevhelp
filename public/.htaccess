@@ -1,7 +1,7 @@
 Header set Cache-Control "max-age=31536000, public"
 
 # uberspace work around
-RewriteBase /
+# RewriteBase /
 
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
