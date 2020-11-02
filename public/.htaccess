@@ -10,7 +10,7 @@ Header set Cache-Control "max-age=31536000, public"
 
     RewriteEngine On
 
-    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteCond %{HTTP_HOST} !^prevhelp\.de [NC]
     RewriteRule ^(.*)$ https://prevhelp.de/$1 [R=301,L]
 
     # Handle Authorization Header
