@@ -23,7 +23,7 @@ Route::get('garantie', function () {
 
 Route::get('erste-hilfe-kurs/wuppertal', function () {
     return view('fa-driversLicense-wuppertal');
-});
+})->name('fa.wuppertal');
 
 Route::get('impressum', [\App\Http\Controllers\LegalController::class, 'imprint'])->name('legal.imprint');
 Route::get('agb', [\App\Http\Controllers\LegalController::class, 'conditions'])->name('legal.conditions');
