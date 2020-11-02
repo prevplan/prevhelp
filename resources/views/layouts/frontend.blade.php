@@ -109,6 +109,8 @@
 
         <!-- Head Libs -->
         <script defer src="{{ asset('vendor/modernizr/modernizr.min.js') }}"></script>
+
+        @yield('markup')
     </head>
     <body>
 

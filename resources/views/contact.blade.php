@@ -3,6 +3,65 @@
 @section('meta.title', 'Kontakt')
 @section('meta.description', 'Nehmen Sie Kontakt ✉️ zu uns auf und gemeinsam finden wir Ihre passende Lösung. 🤝')
 
+@section('markup')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "PrevHelp",
+      "url": "https://prevhelp.de",
+      "logo": "https://prevhelp.de/img/logo.png",
+      "sameAs": [
+        "https://www.facebook.com/prevhelpde",
+        "https://twitter.com/prevhelpde",
+        "https://www.instagram.com/prevhelp.de/"
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "PrevHelp",
+      "image": "https://prevhelp.de/img/logo.png",
+      "@id": "https://prevhelp.de",
+      "url": "https://prevhelpde",
+      "telephone": "+49 202 898 37 656",
+      "priceRange": "best-price-in-town",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Edith-Stein-Str. 52",
+        "addressLocality": "Wuppertal",
+        "postalCode": "42329",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.2284642,
+        "longitude": 7.0699682
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "15:00"
+      }]
+    }
+    </script>
+@endsection
+
 @section('body')
     <section class="page-header page-header-modern page-header-background page-header-background-md parallax overlay overlay-color-dark overlay-show overlay-op-5 mt-0" data-plugin-parallax data-plugin-options="{'speed': 1.2}" data-image-src="{{ asset('img/business-1920.jpg') }}">
         <div class="container">
