@@ -68,7 +68,7 @@
                                                 Erste-Hilfe-Kurse
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="{{ route('fa.driversLicense') }}">... f&uuml;r den F&uuml;hrerschein</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('fa.wuppertal') }}">... f&uuml;r den F&uuml;hrerschein</a></li>
                                                 <li><a class="dropdown-item" href="{{ route('fa.business') }}">... f&uuml;r Betriebe / Unternehmen</a></li>
                                             </ul>
                                         </li>
