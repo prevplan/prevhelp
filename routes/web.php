@@ -21,9 +21,6 @@ Route::get('garantie', function () {
     return view('warranty');
 })->name('warranty');
 
-Route::get('erste-hilfe-kurs/wuppertal', function () {
-    return view('fa-driversLicense-wuppertal');
-})->name('fa.wuppertal');
 
 Route::get('impressum', [\App\Http\Controllers\LegalController::class, 'imprint'])->name('legal.imprint');
 Route::get('agb', [\App\Http\Controllers\LegalController::class, 'conditions'])->name('legal.conditions');
@@ -38,6 +35,9 @@ Route::get('kontakt', [\App\Http\Controllers\ContactController::class, 'index'])
 // quick & dirty google search work around
 //Route::get('erste-hilfe-kurs-fuehrerschein', [\App\Http\Controllers\FirstAidController::class, 'driversLicense'])->name('fa.driversLicense');
 Route::get('erste-hilfe-kurs-fuehrerschein', function () {
+    return view('fa-driversLicense-wuppertal');
+})->name('fa.wuppertal');
+Route::get('erste-hilfe-kurs/wuppertal', function () {
     return view('fa-driversLicense-wuppertal');
 })->name('fa.wuppertal');
 
