@@ -21,7 +21,6 @@ Route::get('garantie', function () {
     return view('warranty');
 })->name('warranty');
 
-
 Route::get('impressum', [\App\Http\Controllers\LegalController::class, 'imprint'])->name('legal.imprint');
 Route::get('agb', [\App\Http\Controllers\LegalController::class, 'conditions'])->name('legal.conditions');
 Route::get('widerruf', [\App\Http\Controllers\LegalController::class, 'revocation'])->name('legal.revocation');
