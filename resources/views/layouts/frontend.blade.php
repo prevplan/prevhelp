@@ -4,14 +4,31 @@
         <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="abba8fdf-c225-4d04-bc28-668ae183c2f8" type="text/javascript" async></script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script type="text/plain" data-cookieconsent="statistics" src="https://www.googletagmanager.com/gtag/js?id=G-HM6BSPD167" async></script>
+        <script type="text/plain" data-cookieconsent="statistics" async src="https://www.googletagmanager.com/gtag/js?id=UA-109218846-1"></script>
         <script type="text/plain" data-cookieconsent="statistics">
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-HM6BSPD167');
+            gtag('config', 'UA-109218846-1');
         </script>
+
+        <!-- Default Statcounter code for PrevHelp https://prevhelp.de -->
+        <script type="text/javascript">
+            var sc_project=12424379;
+            var sc_invisible=1;
+            var sc_security="56f7b7c5";
+            var sc_https=1;
+            var sc_remove_link=1;
+        </script>
+        <script type="text/plain"
+                src="https://www.statcounter.com/counter/counter.js"
+                data-cookieconsent="statistics"
+                async></script>
+        <noscript><div class="statcounter"><img class="statcounter"
+                                                src="https://c.statcounter.com/12424379/0/56f7b7c5/1/"
+                                                alt="web statistics"></div></noscript>
+        <!-- End of Statcounter Code -->
 
         <link rel="preload" href="{{ asset('webfonts/fa-brands-400.woff2') }}" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="{{ asset('webfonts/fa-solid-900.woff2') }}" as="font" type="font/woff2" crossorigin>
