@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section('meta.title', 'Datenschutzerklärung | PrevHelp')
+
 @section('body')
     <div class="container">
 

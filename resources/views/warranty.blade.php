@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('meta.title', 'Unsere Garantie')
+@section('meta.title', 'Unsere Garantie | PrevHelp')
 @section('meta.description', 'Lernerfolg zum besten Preis der Stadt? ✅ Wir garantieren Ihnen, was andere nur versprechen. 🤝')
 
 @section('body')

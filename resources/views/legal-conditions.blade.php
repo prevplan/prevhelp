@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section('meta.title', 'Allgemeine Geschäftsbedingungen | PrevHelp')
+
 @section('body')
 
     <div class="container">

@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section('meta.title', 'Häufig gestellte Fragen | PrevHelp')
+
 @section('body')
     <section class="page-header page-header-classic">
         <div class="container">
