@@ -10,8 +10,11 @@ Header set Cache-Control "max-age=31536000, public"
 
     RewriteEngine On
 
+    # prevent index.php in url
+    RewriteRule ^index.php/(.*)$ /$1 [R=301,NC,L]
+
     RewriteCond %{HTTP_HOST} !^prevhelp\.de [NC]
-    RewriteRule ^(.*)$ https://prevhelp.de/$1 [R=301,L]
+    RewriteRule ^(.*)$ https://prevhelp.de/$1 [L,R=301]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
