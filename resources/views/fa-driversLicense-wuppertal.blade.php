@@ -96,7 +96,7 @@
                                 <div class="row">
                                     <div class="col">
                                         <p>Wir möchten, dass Du mit Spaß lernst. Solltest Du bei Deinem Erste-Hilfe-Kurs weder Spaß gehabt, noch etwas gelernt haben, zahlst Du auch nichts. Denn nur wenn wir Dir Handlungskompetenz und Sicherheit vermitteln konnten, möchten wir auch bezahlt werden.</p>
-                                        <button class="btn btn-modern btn-dark mr-1" type="button">ansehen</button>
+                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('warranty') }}">ansehen</a>
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +115,7 @@
                                             <hr>
                                         </div>
                                         <p>Dein Alltag ist schon teuer genug und Preise im Internet vergleichen nervt? Das kennen wir und wollen Dir helfen. Daher bieten wir Dir Deinen Erste-Hilfe-Kurs immer zum <strong>garantiert besten Preis in Wuppertal</strong> an. Mit uns schnell sparen, statt lange zu vergleichen!</p>
-                                        <button class="btn btn-modern btn-dark mr-1" type="button">ansehen</button>
+                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('warranty') }}">ansehen</a>
                                     </div>
                                 </div>
                             </div>
