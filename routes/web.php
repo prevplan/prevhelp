@@ -30,11 +30,7 @@ Route::get('cookie', [\App\Http\Controllers\LegalController::class, 'cookie'])->
 Route::post('kontakt', [\App\Http\Controllers\ContactController::class, 'store'])->name('contact.send');
 Route::get('kontakt', [\App\Http\Controllers\ContactController::class, 'index'])->name('contact.show');
 
-// quick & dirty google search work around
-//Route::get('erste-hilfe-kurs-fuehrerschein', [\App\Http\Controllers\FirstAidController::class, 'driversLicense'])->name('fa.driversLicense');
-Route::get('erste-hilfe-kurs-fuehrerschein', function () {
-    return view('fa-driversLicense-wuppertal');
-})->name('fa.wuppertal');
+Route::get('erste-hilfe-kurs-fuehrerschein', [\App\Http\Controllers\FirstAidController::class, 'driversLicense'])->name('fa.driversLicense');
 Route::get('erste-hilfe-kurs/wuppertal', function () {
     return view('fa-driversLicense-wuppertal');
 })->name('fa.wuppertal');
