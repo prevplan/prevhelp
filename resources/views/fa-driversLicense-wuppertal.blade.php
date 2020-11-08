@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('meta.title', 'Erste-Hilfe-Kurs in Wuppertal 🦊 - Für Führerschein und Betrieb')
+@section('meta.title', 'Erste-Hilfe-Kurs in Wuppertal 🦊 für Führerschein und Betrieb')
 @section('meta.description', 'Erste-Hilfe-Kurs in Wuppertal für den Führerschein oder Betrieb gesucht? 🤘 Wir haben freie Plätze mit best-price-garantie❗Jetzt schnell online buchen ⏰')
 
 @section('canonical', route('fa.wuppertal'))
