@@ -114,7 +114,7 @@
                                         <div class="divider divider-small divider-small-center">
                                             <hr>
                                         </div>
-                                        <p>Dein Alltag ist schon teuer genug und Preise im Internet vergleichen nervt? Das kennen wir und wollen Dir helfen. Daher bieten wir Dir Deinen Erste-Hilfe-Kurs immer zum <strong>garantiert besten Preis</strong> in Wuppertal an. Mit uns schnell sparen, statt lange zu vergleichen!</p>
+                                        <p>Dein Alltag ist schon teuer genug und Preise im Internet vergleichen nervt? Das kennen wir und wollen Dir helfen. Daher bieten wir Dir Deinen Erste-Hilfe-Kurs immer zum <strong>garantiert besten Preis in Wuppertal</strong> an. Mit uns schnell sparen, statt lange zu vergleichen!</p>
                                         <button class="btn btn-modern btn-dark mr-1" type="button">ansehen</button>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@
                             <img class="img-fluid scale-2 pr-5 pr-md-0 my-4" src="{{ asset('img/car-420.webp') }}" loading="lazy" alt="Frau im Auto" />
                         </div>
                         <div class="col-md-8 pl-md-5">
-                            <h2 class="font-weight-normal text-6 mb-3">Wir bieten Dir den <strong class="font-weight-extra-bold">guten Erste-Hilfe-Kurs</strong> in Wuppertal Vohwinkel</h2>
+                            <h2 class="font-weight-normal text-6 mb-3">Wir bieten Dir den <strong class="font-weight-extra-bold">guten Erste-Hilfe-Kurs</strong> in <strong>Wuppertal Vohwinkel</strong></h2>
                             <p class="text-4">Ganz gleich, ob Du den Erste-Hilfe-Kurs f&uuml;r Deinen F&uuml;hrerschein, Dein Studium, Deinen Trainerschein, als Rettungsschwimmer, als betrieblicher Ersthelfer / f&uuml;r den Betrieb oder <i>einfach nur so</i> brauchst... Unsere Schulungen sind kurzweilig, lustig und von den Beh&ouml;rden gem&auml;&szlig; FEV und DGUV bundesweit anerkannt.</p>
                             <p>Bei uns bist Du genau richtig!</p>
                         </div>
