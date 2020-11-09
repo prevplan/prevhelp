@@ -41,6 +41,7 @@ Route::get('termine', [\App\Http\Controllers\EventController::class, 'index'])->
 
 Route::get('faq', [\App\Http\Controllers\QuestionController::class, 'index'])->name('question.index');
 
+Route::permanentRedirect('/erste-hilfe/wuppertal', '/erste-hilfe-kurs/wuppertal');
 Route::permanentRedirect('/rechtliches/impressum', '/impressum');
 Route::permanentRedirect('/rechtliches/datenschutz', '/datenschutz');
 Route::permanentRedirect('/rechtliches/agb', '/agb');
