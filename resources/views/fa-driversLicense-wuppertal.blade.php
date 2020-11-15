@@ -46,7 +46,7 @@
                 <div class="col-lg-10">
                     <div>
                         <p class="lead mb-0">
-                            Du suchst den <span class="alternative-font">garantiert</span> g&uuml;nstigsten Erste-Hilfe-Kurs in Wuppertal, f&uuml;r Deinen F&uuml;hrerschein, Betrieb, Trainerschein oder Studium? Du brauchst in den n&auml;chsten Tagen einen freien Platz? Perfekt!
+                            Du suchst den <span class="alternative-font">garantiert</span> g&uuml;nstigsten Erste-Hilfe-Kurs in Wuppertal, f&uuml;r Deinen F&uuml;hrerschein, Betrieb, Trainerschein oder Studium? Du brauchst in den n&auml;chsten Tagen einen freien Platz? Wir haben ihn!
                         </p>
                     </div>
                 </div>
