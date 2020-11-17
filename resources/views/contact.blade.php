@@ -162,7 +162,8 @@
 
                     <h4 class="text-primary pt-5">telefonische <strong>Erreichbarkeit</strong></h4>
                     <ul class="list list-icons list-dark mt-2">
-                        <li><i class="far fa-clock top-6"></i> Montag - Freitag - 09:00 - 17:00 Uhr</li>
+                        <li><i class="far fa-clock top-6"></i> Montag - Freitag 09:00 - 17:00 Uhr</li>
+                        <li><i class="far fa-clock top-6"></i> Samstag 09:00 - 15:00 Uhr</li>
                     </ul>
                 </div>
 
