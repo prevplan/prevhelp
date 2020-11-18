@@ -5292,16 +5292,16 @@
         },
         {
             "name": "zammad/zammad-api-client-php",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zammad/zammad-api-client-php.git",
-                "reference": "cd12a2a8a064743c6db869acdaad8e3c0a015d51"
+                "reference": "a981e257459d2e81059833e402f02deaa79a2daf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zammad/zammad-api-client-php/zipball/cd12a2a8a064743c6db869acdaad8e3c0a015d51",
-                "reference": "cd12a2a8a064743c6db869acdaad8e3c0a015d51",
+                "url": "https://api.github.com/repos/zammad/zammad-api-client-php/zipball/a981e257459d2e81059833e402f02deaa79a2daf",
+                "reference": "a981e257459d2e81059833e402f02deaa79a2daf",
                 "shasum": ""
             },
             "require": {
@@ -5333,7 +5333,7 @@
                 "api",
                 "zammad"
             ],
-            "time": "2020-09-30T07:36:07+00:00"
+            "time": "2020-11-17T14:55:25+00:00"
         }
     ],
     "packages-dev": [
