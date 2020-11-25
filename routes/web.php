@@ -37,6 +37,9 @@ Route::get('erste-hilfe-kurs/wuppertal', function () {
 
 Route::get('erste-hilfe-kurs-betrieb', [\App\Http\Controllers\FirstAidController::class, 'business'])->name('fa.business');
 
+Route::get('/termine/{location}', [\App\Http\Controllers\BookingController::class, 'location'])->name('event.location');
+Route::get('buchen/{course}', [\App\Http\Controllers\BookingController::class, 'create'])->name('event.book');
+Route::post('buchen/{course}/erfolg', [\App\Http\Controllers\BookingController::class, 'store'])->name('event.store');
 Route::get('termine', [\App\Http\Controllers\EventController::class, 'index'])->name('event.overview');
 
 Route::get('faq', [\App\Http\Controllers\QuestionController::class, 'index'])->name('question.index');

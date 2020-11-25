@@ -28,13 +28,13 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <ul class="list list-icons list-primary">
-                                <a href="https://ausbilder.org/de/booking/OjpA0w/loc/Wuppertal" style="text-decoration: none; color: inherit;" target="_blank"><li><i class="fas fa-building"></i> Erste Hilfe Wuppertal</li></a>
+                                <a href="{{ route('event.location', ['location' => 'Wuppertal']) }}" style="text-decoration: none; color: inherit;"><li><i class="fas fa-building"></i> Erste Hilfe Wuppertal</li></a>
                             </ul>
                         </div>
                         <div class="col-lg-4">
 
                             <ul class="list list-icons list-primary">
-                                <a href="https://ausbilder.org/de/booking/OjpA0w/loc/Remscheid" style="text-decoration: none; color: inherit;" target="_blank"><li><i class="fas fa-building"></i> Erste Hilfe Remscheid</li></a>
+                                <a href="{{ route('event.location', ['location' => 'Remscheid']) }}" style="text-decoration: none; color: inherit;"><li><i class="fas fa-building"></i> Erste Hilfe Remscheid</li></a>
                             </ul>
 
 
@@ -42,7 +42,7 @@
                         <div class="col-lg-4">
 
                             <ul class="list list-icons list-primary">
-                                <a href="https://ausbilder.org/de/booking/OjpA0w/loc/Bergisch%20Gladbach" style="text-decoration: none; color: inherit;" target="_blank"><li><i class="fas fa-building"></i> Erste Hilfe Bergisch Gladbach</li></a>
+                                <a href="{{ route('event.location', ['location' => 'Bergisch Gladbach']) }}" style="text-decoration: none; color: inherit;"><li><i class="fas fa-building"></i> Erste Hilfe Bergisch Gladbach</li></a>
                             </ul>
 
                         </div>

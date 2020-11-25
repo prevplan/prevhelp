@@ -14,6 +14,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
+        "mtvs/eloquent-hashids": "^3.0",
         "spatie/laravel-honeypot": "^3.0",
         "spatie/laravel-sitemap": "^5.8",
         "zammad/zammad-api-client-php": "^2.0"
