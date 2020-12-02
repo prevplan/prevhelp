@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="de">
     <head>
-        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="abba8fdf-c225-4d04-bc28-668ae183c2f8" type="text/javascript" async></script>
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script type="text/plain" data-cookieconsent="statistics" async src="https://www.googletagmanager.com/gtag/js?id=UA-109218846-1"></script>
-        <script type="text/plain" data-cookieconsent="statistics">
+        <script data-cookieconsent="ignore">
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+            function gtag() {
+                dataLayer.push(arguments);
+            }
 
-            gtag('config', 'UA-109218846-1');
+            gtag("consent", "default", {
+                ad_storage: "denied",
+                analytics_storage: "denied",
+                wait_for_update: 500,
+            });
+
+            gtag("set", "ads_data_redaction", true);
         </script>
 
-        <!-- Default Statcounter code for PrevHelp https://prevhelp.de -->
-        <script type="text/javascript">
-            var sc_project=12424379;
-            var sc_invisible=1;
-            var sc_security="56f7b7c5";
-            var sc_https=1;
-            var sc_remove_link=1;
-        </script>
-        <script type="text/plain"
-                src="https://www.statcounter.com/counter/counter.js"
-                data-cookieconsent="statistics"
-                async></script>
-        <noscript><div class="statcounter"><img class="statcounter"
-                                                src="https://c.statcounter.com/12424379/0/56f7b7c5/1/"
-                                                alt="web statistics"></div></noscript>
-        <!-- End of Statcounter Code -->
+        <!-- Google Tag Manager -->
+        <script data-cookieconsent="ignore">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-WK8VLHH');</script>
+        <!-- End Google Tag Manager -->
 
         <link rel="preload" href="{{ asset('webfonts/fa-brands-400.woff2') }}" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="{{ asset('webfonts/fa-solid-900.woff2') }}" as="font" type="font/woff2" crossorigin>
@@ -130,6 +124,10 @@
         @yield('markup')
     </head>
     <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WK8VLHH"
+                          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
 
         <div class="body">
             @include('layouts.header')
