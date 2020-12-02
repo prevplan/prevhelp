@@ -2831,16 +2831,16 @@
         },
         {
             "name": "spatie/image",
-            "version": "1.10.0",
+            "version": "1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/image.git",
-                "reference": "65d615c1f604e479764f25525291d696041dfcea"
+                "reference": "6eaf45d61832c2396dd4b10cc81d9fce93a59e2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/image/zipball/65d615c1f604e479764f25525291d696041dfcea",
-                "reference": "65d615c1f604e479764f25525291d696041dfcea",
+                "url": "https://api.github.com/repos/spatie/image/zipball/6eaf45d61832c2396dd4b10cc81d9fce93a59e2d",
+                "reference": "6eaf45d61832c2396dd4b10cc81d9fce93a59e2d",
                 "shasum": ""
             },
             "require": {
@@ -2890,7 +2890,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-27T14:44:09+00:00"
+            "time": "2020-12-01T20:42:11+00:00"
         },
         {
             "name": "spatie/image-optimizer",
@@ -3012,16 +3012,16 @@
         },
         {
             "name": "spatie/laravel-sitemap",
-            "version": "5.9.0",
+            "version": "5.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-sitemap.git",
-                "reference": "d7d62862b585cf2140c6f98c26be44cb791620ea"
+                "reference": "4d9ba07fe006bfacc1ccfe1b603995a247da71d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-sitemap/zipball/d7d62862b585cf2140c6f98c26be44cb791620ea",
-                "reference": "d7d62862b585cf2140c6f98c26be44cb791620ea",
+                "url": "https://api.github.com/repos/spatie/laravel-sitemap/zipball/4d9ba07fe006bfacc1ccfe1b603995a247da71d0",
+                "reference": "4d9ba07fe006bfacc1ccfe1b603995a247da71d0",
                 "shasum": ""
             },
             "require": {
@@ -3076,7 +3076,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-11-27T14:56:40+00:00"
+            "time": "2020-12-01T21:18:41+00:00"
         },
         {
             "name": "spatie/robots-txt",
