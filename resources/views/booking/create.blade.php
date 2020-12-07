@@ -208,7 +208,7 @@
                                        value="1"
                                        type="checkbox" {{ (old('rating') ? 'checked="checked"' : '') }}
                                 >
-                                <label for="checkboxRating">Ich bin einverstanden, dass ich nach meinem Kurs per E-Mail / SMS um eine Bewertung gebeten werde.</label>
+                                <label for="checkboxRating">Ich bin damit einverstanden, dass ich per E-Mail von <a href="https://de.trustpilot.com/review/prevhelp.de" target="_blank">trustpilot</a> um eine Bewertung gebeten werde.</label>
                             </div>
                         </div>
                     </div>

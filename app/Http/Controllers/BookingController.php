@@ -108,7 +108,16 @@ class BookingController extends Controller
             'price_id' => $request->price,
         ]);
 
+
+        // send BCC to trustpilot if rating is allowed
+        if ($request->rating) {
+            $bcc = env('TRUSTPILOT_EMAIL');
+        } else {
+            $bcc = false;
+        }
+
         Mail::to($request->email)
+            ->bcc($bcc ? $bcc : []) // auto rate invitation
             ->send(new CourseConfirmation($course, $request));
 
         return view('booking.finish', compact('course'));
