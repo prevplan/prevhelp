@@ -1,5 +1,49 @@
 @extends('layouts.frontend')
 
+@section('markup')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Erste-Hilfe-Kurs",
+      "description": "Erste-Hilfe-Kurs für den Führerschein und Betrieb.",
+      "startDate": "{{ \Carbon\Carbon::parse($course->start)->format('Y-m-dTH:i') }}",
+      "endDate": "{{ \Carbon\Carbon::parse($course->end)->format('Y-m-dTH:i') }}",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "{{ $course->seminar_location }}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{ $course->street }}",
+          "addressLocality": "{{ $course->location }}",
+          "postalCode": "{{ $course->zipcode }}",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "PrevHelp",
+        "url": "https://prevhelp.de"
+      },
+      "offers": [
+        @foreach($course->prices as $price)
+            {
+                "@type": "Offer",
+                "name": "{{ $price->title }}",
+                "price": "{{ $price->price }}",
+                "priceCurrency": "{{ $price->currency }}",
+                "validFrom": "{{ \Carbon\Carbon::parse($course->created_at)->format('Y-m-dTH:i') }}",
+                "url": "{{ URL::current() }}",
+                "availability": "https://schema.org/InStock"
+              }{{ ( !$loop->last ? ',' : '') }}
+        @endforeach
+      ]
+    }
+    </script>
+@endsection
+
 @section('scripts')
     <script src="https://cdn.jsdelivr.net/npm/places.js@1.19.0"></script>
 
