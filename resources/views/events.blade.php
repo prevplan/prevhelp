@@ -2,16 +2,62 @@
 
 @section('meta.title', 'Termine | PrevHelp')
 
+@section('scripts')
+        <script src="https://cdn.jsdelivr.net/npm/places.js@1.19.0"></script>
+    <script>
+        (function() {
+            var placesAutocomplete = places({
+                appId: 'pl141ZYVSU29',
+                apiKey: '0512c6d23d2b05dd578dab20bc27a7e7',
+                container: document.querySelector('#city'),
+                templates: {
+                    value: function(suggestion) {
+                        return suggestion.name;
+                    }
+                }
+            }).configure({
+                countries: ['de'],
+                type: 'city',
+                language: 'de',
+                aroundLatLngViaIP: false,
+                hitsPerPage: 4
+            });
+        })();
+    </script>
+
+@endsection
+
 @section('body')
     <div class="container">
           <div class="row">
             <div class="col text-center">
+
+                @include('layouts.error')
+
                 <h2 class="font-weight-normal text-7 mb-2"><strong class="font-weight-extra-bold">Unsere Kurstermine in der &Uuml;bersicht</strong></h2>
-                <p class="mb-0 lead">Wir &uuml;berarbeiten die Anzeige unserer Kurstermine f&uuml;r Sie.</p>
-                <p class="mb-1">Hier haben wir jedoch bereits ausgewählte Kursorte direkt verlinkt. Einfach anklicken und direkt buchen!</p>
+                <p class="mb-0 lead">Finden Sie hier Ihren Kurs in Ihrer N&auml;he</p>
+               {{-- <p class="mb-1">Hier haben wir jedoch bereits ausgewählte Kursorte direkt verlinkt. Einfach anklicken und direkt buchen!</p> --}}
             </div>
         </div>
+        <br />
+        <form action="{{ route('event.search') }}"
+              id="form"
+              method="post"
+              onsubmit="submit.disabled = true; submit.innerText='Suche…'; return true;"
+              role="form">
+            @csrf
+            <x-honeypot />
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 text-center">
+                    <input type="search" id="city" class="form-control" name="city" placeholder="Geben Sie Ihre PLZ oder Ort ein." />
+                    <button class="btn btn-primary btn-sm mb-2" name="submit" type="submit">Kurse anzeigen</button>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </form>
 
+        {{--
         <div class="container py-2">
 
             <div class="row">
@@ -54,5 +100,6 @@
             </div>
 
         </div>
+        --}}
     </div>
 @endsection

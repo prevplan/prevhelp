@@ -21,6 +21,8 @@ Route::get('garantie', function () {
     return view('warranty');
 })->name('warranty');
 
+Route::get('distance', [\App\Http\Controllers\DistanceController::class, 'index']);
+
 Route::get('impressum', [\App\Http\Controllers\LegalController::class, 'imprint'])->name('legal.imprint');
 Route::get('agb', [\App\Http\Controllers\LegalController::class, 'conditions'])->name('legal.conditions');
 Route::get('widerruf', [\App\Http\Controllers\LegalController::class, 'revocation'])->name('legal.revocation');
@@ -37,10 +39,12 @@ Route::get('erste-hilfe-kurs/wuppertal', function () {
 
 Route::get('erste-hilfe-kurs-betrieb', [\App\Http\Controllers\FirstAidController::class, 'business'])->name('fa.business');
 
-Route::get('/termine/{location}', [\App\Http\Controllers\BookingController::class, 'location'])->name('event.location');
+Route::get('/termine/{location}', [\App\Http\Controllers\EventController::class, 'location'])->name('event.location');
+Route::post('/termine/{location}', [\App\Http\Controllers\EventController::class, 'location'])->name('event.location');
+Route::post('termine', [\App\Http\Controllers\EventController::class, 'search'])->name('event.search');
+Route::get('termine', [\App\Http\Controllers\EventController::class, 'index'])->name('event.overview');
 Route::get('buchen/{course}', [\App\Http\Controllers\BookingController::class, 'create'])->name('event.book');
 Route::post('buchen/{course}/erfolg', [\App\Http\Controllers\BookingController::class, 'store'])->name('event.store');
-Route::get('termine', [\App\Http\Controllers\EventController::class, 'index'])->name('event.overview');
 
 Route::get('faq', [\App\Http\Controllers\QuestionController::class, 'index'])->name('question.index');
 

@@ -6,8 +6,8 @@
     <script>
         (function() {
             var placesAutocomplete = places({
-                appId: 'pl141ZYVSU29',
-                apiKey: '0512c6d23d2b05dd578dab20bc27a7e7',
+                appId: env('PLACES_APP_ID'),
+                apiKey: env('PLACES_API_KEY'),
                 container: document.querySelector('#form-address'),
                 templates: {
                     value: function(suggestion) {
@@ -34,17 +34,7 @@
         <div class="row">
             <div class="col">
 
-                @if ($errors->any())
-                    <div class="alert alert-danger alert-dismissible" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <strong><i class="fas fa-exclamation-triangle"></i>Oh snap!</strong> Change a few things up and try submitting again.
-                        <ul>
-                            @foreach ($errors->all() as $error)
-                                <li>{{ $error }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
+                @include('layouts.error')
 
                 <form action="{{ route('event.store', ['course' => $course]) }}" id="form"
                       method="post"
