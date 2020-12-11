@@ -3,12 +3,12 @@
 @section('meta.title', 'Termine | PrevHelp')
 
 @section('scripts')
-        <script src="https://cdn.jsdelivr.net/npm/places.js@1.19.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/places.js@1.19.0"></script>
     <script>
         (function() {
             var placesAutocomplete = places({
-                appId: 'pl141ZYVSU29',
-                apiKey: '0512c6d23d2b05dd578dab20bc27a7e7',
+                appId: env('PLACES_APP_ID'),
+                apiKey: env('PLACES_API_KEY'),
                 container: document.querySelector('#city'),
                 templates: {
                     value: function(suggestion) {
