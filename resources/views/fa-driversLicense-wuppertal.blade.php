@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2">
-                    <a href="{{ route('event.overview') }}" class="btn btn-modern btn-dark mt-1">Jetzt schnell buchen!</a>
+                    <a href="{{ route('event.location', ['location' => 'Wuppertal']) }}" class="btn btn-modern btn-dark mt-1">Jetzt schnell buchen!</a>
                 </div>
             </div>
 
@@ -79,7 +79,7 @@
                                 <div class="row">
                                     <div class="col">
                                         <p>Egal ob F&uuml;hrerschein, Studium oder betrieblicher Ersthelfer: Mit dem Erste-Hilfe-Kurs muss es oft schnell gehen. Daher bieten wir unsere Kurse in Wuppertal jede Woche mehrfach, unter der Woche und am Wochenende, an. Unser Ziel: Immer einen freien Platz innerhalb weniger Tage für jeden unserer Teilnehmer.</p>
-                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.overview') }}">jetzt buchen</a>
+                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.location', ['location' => 'Wuppertal']) }}">jetzt buchen</a>
                                     </div>
                                 </div>
                             </div>
@@ -132,7 +132,7 @@
                                         <div class="divider divider-small divider-small-center">
                                             <hr>
                                         </div>
-                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.overview') }}">jetzt buchen</a>
+                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.location', ['location' => 'Wuppertal']) }}">jetzt buchen</a>
                                     </div>
                                 </div>
                             </div>
@@ -190,7 +190,7 @@
                 </div>
                 <div class="col-md-3 col-lg-3">
                     <div class="call-to-action-btn">
-                        <a href="{{ route('event.overview') }}" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3 mt-5">Jetzt Kurs buchen</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -90px; left: 70%;"></span>
+                        <a href="{{ route('event.location', ['location' => 'Wuppertal']) }}" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3 mt-5">Jetzt Kurs buchen</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -90px; left: 70%;"></span>
                     </div>
                 </div>
             </div>
