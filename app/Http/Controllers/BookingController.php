@@ -108,7 +108,6 @@ class BookingController extends Controller
             'price_id' => $request->price,
         ]);
 
-
         // send BCC to trustpilot if rating is allowed
         if ($request->rating) {
             $bcc = env('TRUSTPILOT_EMAIL');

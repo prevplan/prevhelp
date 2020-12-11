@@ -73,6 +73,11 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
+                                            <a class="dropdown-item {{ request()->is('termine*') ? 'active' : ''}}" href="{{ route('event.overview') }}">
+                                                Termine
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
                                             <a class="dropdown-item {{ request()->is('faq') ? 'active' : ''}}" href="{{ route('question.index') }}">
                                                 FAQ
                                             </a>
