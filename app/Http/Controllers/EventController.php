@@ -28,6 +28,10 @@ class EventController extends Controller
      */
     public function search(Request $request)
     {
+        $request->validate([
+            'city' => 'required|alpha',
+        ]);
+
         return redirect(route('event.location', ['location' => $request->city]));
     }
 
