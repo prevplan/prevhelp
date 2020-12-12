@@ -50,8 +50,8 @@
     <script>
         (function() {
             var placesAutocomplete = places({
-                appId: env('PLACES_APP_ID'),
-                apiKey: env('PLACES_API_KEY'),
+                appId: 'pl141ZYVSU29',
+                apiKey: '0512c6d23d2b05dd578dab20bc27a7e7',
                 container: document.querySelector('#form-address'),
                 templates: {
                     value: function(suggestion) {
