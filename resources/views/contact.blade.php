@@ -26,7 +26,7 @@
       "name": "PrevHelp",
       "image": "https://prevhelp.de/img/logo.png",
       "@id": "https://prevhelp.de",
-      "url": "https://prevhelpde",
+      "url": "https://prevhelp.de",
       "telephone": "+49 202 898 37 656",
       "priceRange": "best-price-in-town",
       "address": {
