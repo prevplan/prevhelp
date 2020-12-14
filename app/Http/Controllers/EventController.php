@@ -29,7 +29,7 @@ class EventController extends Controller
     public function search(Request $request)
     {
         $request->validate([
-            'city' => 'required|alpha',
+            'city' => 'required|regex:/^([^0-9]*)$/',
         ]);
 
         return redirect(route('event.location', ['location' => $request->city]));
