@@ -21,6 +21,10 @@ Route::get('garantie', function () {
     return view('warranty');
 })->name('warranty');
 
+Route::get('corona', function () {
+    return view('corona');
+})->name('corona');
+
 Route::get('distance', [\App\Http\Controllers\DistanceController::class, 'index']);
 
 Route::get('impressum', [\App\Http\Controllers\LegalController::class, 'imprint'])->name('legal.imprint');
