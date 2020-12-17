@@ -74,7 +74,7 @@ class BookingController extends Controller
      */
     public function store(Course $course, Request $request)
     {
-     //   return $request;
+        //   return $request;
 
         // TODO make better error message
         if ($this->check_course($course)) {
@@ -127,18 +127,18 @@ class BookingController extends Controller
             ->send(new CourseConfirmation($course, $request));
 
         if ($request->payment == 'online') {
-         //   return $participant->id;
+            //   return $participant->id;
 
             $payment = Mollie::api()->payments->create([
-                "amount" => [
-                    "currency" => $course->prices->pluck('currency', 'id')[$request->price],
-                    "value" => $course->prices->pluck('price', 'id')[$request->price] // You must send the correct number of decimals, thus we enforce the use of strings
+                'amount' => [
+                    'currency' => $course->prices->pluck('currency', 'id')[$request->price],
+                    'value' => $course->prices->pluck('price', 'id')[$request->price], // You must send the correct number of decimals, thus we enforce the use of strings
                 ],
-                "description" => __($course['course_types'][0]['name']),
-                "redirectUrl" => route('event.success', ['course' => $course]),
-                "webhookUrl" => route('webhooks.mollie'),
-                "metadata" => [
-                    "participant_id" => $participant->id,
+                'description' => __($course['course_types'][0]['name']),
+                'redirectUrl' => route('event.success', ['course' => $course]),
+                'webhookUrl' => route('webhooks.mollie'),
+                'metadata' => [
+                    'participant_id' => $participant->id,
                 ],
             ]);
 

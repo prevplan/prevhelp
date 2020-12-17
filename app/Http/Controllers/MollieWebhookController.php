@@ -8,7 +8,8 @@ use Mollie\Laravel\Facades\Mollie;
 
 class MollieWebhookController extends Controller
 {
-    public function handle(Request $request) {
+    public function handle(Request $request)
+    {
         if (! $request->has('id')) {
             return;
         }
