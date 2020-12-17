@@ -48,9 +48,12 @@ Route::post('/termine/{location}', [\App\Http\Controllers\EventController::class
 Route::post('termine', [\App\Http\Controllers\EventController::class, 'search'])->name('event.search');
 Route::get('termine', [\App\Http\Controllers\EventController::class, 'index'])->name('event.overview');
 Route::get('buchen/{course}', [\App\Http\Controllers\BookingController::class, 'create'])->name('event.book');
-Route::post('buchen/{course}/erfolg', [\App\Http\Controllers\BookingController::class, 'store'])->name('event.store');
+Route::post('buchen/{course}', [\App\Http\Controllers\BookingController::class, 'store'])->name('event.store');
+Route::get('buchen/{course}/erfolg', [\App\Http\Controllers\BookingController::class, 'success'])->name('event.success');
 
 Route::get('faq', [\App\Http\Controllers\QuestionController::class, 'index'])->name('question.index');
+
+Route::post('webhooks/mollie', [\App\Http\Controllers\MollieWebhookController::class, 'handle'])->name('webhooks.mollie');
 
 Route::permanentRedirect('/erste-hilfe/wuppertal', '/erste-hilfe-kurs/wuppertal');
 Route::permanentRedirect('/rechtliches/impressum', '/impressum');

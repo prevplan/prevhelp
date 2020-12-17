@@ -32,6 +32,7 @@ class CreateParticipantsTable extends Migration
             $table->decimal('price', 8, 2)->default(0);
             $table->unsignedBigInteger('price_id');
             $table->boolean('payed')->default(0);
+            $table->string('payment_id')->nullable();
             $table->timestamps();
 
             $table->foreign('course_id')->references('id')->on('courses')->onDelete('cascade');

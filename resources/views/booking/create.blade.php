@@ -106,6 +106,34 @@
                         </div>
                     @endforeach
 
+                    <hr class="solid">
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <div align="center">
+                                <strong>Zahlungsart ausw&auml;hlen</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="payment" value="local" id="payment-local" required>
+                                <label class="form-check-label" for="payment-local">
+                                    Ich m&ouml;chte <strong>am Kurstag</strong> vor Ort Bar oder mit Karte <strong>zahlen</strong>.
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="payment" value="online" id="payment-online" required>
+                                <label class="form-check-label" for="payment-online">
+                                    Ich m&ouml;chte direkt nach meiner Buchung <strong>online zahlen</strong>.
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="solid">
+
                     {{-- <h2 class="text-color-dark font-weight-bold text-5-6 mb-3">Billing Details</h2> --}}
                     <div class="form-row">
                         <div class="form-group col-md-6">
@@ -120,7 +148,7 @@
                     <div class="form-row">
                         <div class="form-group col-md-4">
                             <label>Geburtsdatum <span class="text-color-danger">*</span></label>
-                            <input type="date" class="form-control border-radius-0 h-auto py-2" name="date_of_birth" value="{{ old('date_of_birth') ?? \Carbon\Carbon::now()->format('Y-m-d') }}" required />
+                            <input type="date" class="form-control border-radius-0 h-auto py-2" name="date_of_birth" value="{{ old('date_of_birth') ?? '' }}" placeholder="{{ \Carbon\Carbon::today()->format('d.m.Y' )}}" max="{{ \Carbon\Carbon::yesterday()->format('Y-m-d') }}" required />
                         </div>
                     </div>
                     {{--
@@ -242,7 +270,7 @@
                                        value="1"
                                        type="checkbox" {{ (old('rating') ? 'checked="checked"' : '') }}
                                 >
-                                <label for="checkboxRating">Ich bin damit einverstanden, dass ich per E-Mail von <a href="https://de.trustpilot.com/review/prevhelp.de" target="_blank">trustpilot</a> um eine Bewertung gebeten werde.</label>
+                                <label for="checkboxRating">Ich bin damit einverstanden, dass ich von <a href="https://de.trustpilot.com/review/prevhelp.de" target="_blank">trustpilot</a> per E-Mail um eine Bewertung gebeten werde.</label>
                             </div>
                         </div>
                     </div>
