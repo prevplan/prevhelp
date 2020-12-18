@@ -15,14 +15,14 @@
             </div>
             <div class="col-7 col-md-6 col-lg-3 mb-5 mb-lg-0">
                 <h5 class="text-6 text-transform-none font-weight-light text-color-light mb-4">Telefon</h5>
-                <p class="text-7 text-color-light font-weight-light mb-2">0800 - PREVHELP</p>
-                <p class="text-4 mb-0">B&uuml;ro: <span class="text-color-light">0202 - 898 37 565</span></p>
+                <p class="text-7 text-color-light font-weight-light mb-2"><a href="tel:0800-77384357" style="text-decoration: none; color: inherit;">0800 - PREVHELP</a></p>
+                <p class="text-4 mb-0">B&uuml;ro: <span class="text-color-light"><a href="tel:0202-89837565" style="text-decoration: none; color: inherit;">0202 - 898 37 565</a></span></p>
             </div>
             <div class="col-5 col-md-6 col-lg-3">
                 <h5 class="text-6 text-transform-none font-weight-light text-color-light mb-4">Social Media</h5>
                 <ul class="footer-social-icons social-icons m-0">
-                    <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-icons-facebook"><a href="http://www.facebook.com/prevhelpde" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="social-icons-twitter"><a href="http://www.twitter.com/prevhelpde" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
                     <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
                 </ul>
             </div>
