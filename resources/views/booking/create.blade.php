@@ -106,6 +106,7 @@
                         </div>
                     @endforeach
 
+                    {{-- quick & dirty mollie deactivation
                     <hr class="solid">
                     <div class="form-row">
                         <div class="form-group col">
@@ -133,6 +134,7 @@
                         </div>
                     </div>
                     <hr class="solid">
+                    --}}
 
                     {{-- <h2 class="text-color-dark font-weight-bold text-5-6 mb-3">Billing Details</h2> --}}
                     <div class="form-row">
