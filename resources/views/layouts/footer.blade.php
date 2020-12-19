@@ -42,6 +42,7 @@
                 <div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
                     <nav id="sub-menu">
                         <ul>
+                            <li><i class="fas fa-angle-right"></i><a href="{{ route('contact.show') }}" class="ml-1 text-decoration-none text-color-primary"> Kontakt</a></li>
                             <li><i class="fas fa-angle-right"></i><a href="{{ route('legal.conditions') }}" class="ml-1 text-decoration-none text-color-primary"> AGB</a></li>
                             <li><i class="fas fa-angle-right"></i><a href="{{ url('datenschutz') }}" class="ml-1 text-decoration-none text-color-primary"> Datenschutz</a></li>
                             <li><i class="fas fa-angle-right"></i><a href="{{ route('legal.imprint') }}" class="ml-1 text-decoration-none text-color-primary"> Impressum</a></li>

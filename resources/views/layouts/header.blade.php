@@ -20,14 +20,25 @@
                             </nav>
                         </div>
                     </div>
+                    <div class="header-column justify-content-center">
+                        <div class="header-row">
+                            <nav class="header-nav-top">
+                                <!-- TrustBox widget - Micro Review Count -->
+                                <div class="trustpilot-widget" data-locale="de-DE" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5fc93273eb082400017637c1" data-style-height="24px" data-style-width="350px" data-theme="light">
+                                    <a href="https://de.trustpilot.com/review/prevhelp.de" target="_blank" rel="noopener">Trustpilot Bewertungen</a>
+                                </div>
+                                <!-- End TrustBox widget -->
+                            </nav>
+                        </div>
+                    </div>
                     <div class="header-column justify-content-end">
                         <div class="header-row">
                             <nav class="header-nav-top">
                                 <ul class="nav nav-pills">
-                                    <li class="nav-item">
+                                    <li class="nav-item d-none d-md-block">
                                         <a href="mailto:info@prevhelp.de"><i class="far fa-envelope text-4 text-color-primary" style="top: 1px;"></i> info@prevhelp.de</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item d-none d-md-block">
                                         <a href="tel:0800-77384357"><i class="far fa-phone text-4 text-color-primary" style="top: 0;"></i> 0800-PREVHELP</a>
                                     </li>
                                 </ul>
