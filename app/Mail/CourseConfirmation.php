@@ -13,17 +13,20 @@ class CourseConfirmation extends Mailable
 
     public $course;
     public $request;
+    public $participant;
 
     /**
      * Create a new message instance.
      *
      * @param $course
      * @param $request
+     * @param $participant
      */
-    public function __construct($course, $request)
+    public function __construct($course, $request, $participant)
     {
         $this->course = $course;
         $this->request = $request;
+        $this->participant = $participant;
     }
 
     /**
@@ -33,7 +36,7 @@ class CourseConfirmation extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.course-confirmation')
+        return $this->markdown('emails.course-confirmation', ['course' => 'Holger Schmermbeck'])
             ->from(env('MAIL_FROM_ADDRESS'), 'info@prevhelp.de')
             ->replyTo('info@prevhelp.de')
             ->subject('Kursbuchung Bestätigung');

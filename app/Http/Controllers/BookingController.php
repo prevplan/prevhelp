@@ -124,7 +124,7 @@ class BookingController extends Controller
 
         Mail::to($request->email)
             ->bcc($bcc ? $bcc : []) // auto rate invitation
-            ->send(new CourseConfirmation($course, $request));
+            ->send(new CourseConfirmation($course, $request, $participant));
 
         if ($request->payment == 'online') {
             //   return $participant->id;

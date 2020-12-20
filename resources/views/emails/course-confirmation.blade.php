@@ -1,4 +1,10 @@
-@component('mail::message')
+@component('mail::message', [
+        'trustpilot' => true,
+        'name' => $request->firstname . ' ' . $request->lastname,
+        'email' => $request->email,
+        'referenceId' => $participant->id
+    ]
+)
 # Kursbuchung Bestätigung
 
 Hallo {{ $request->firstname }},
