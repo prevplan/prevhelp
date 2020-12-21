@@ -2,7 +2,8 @@
         'trustpilot' => true,
         'name' => $request->firstname . ' ' . $request->lastname,
         'email' => $request->email,
-        'referenceId' => $participant->id
+        'referenceId' => $participant->id,
+        'preferredSendTime' => \Carbon\Carbon::create($course->end)->addDay()->format('Y-m-d\TH:i:s')
     ]
 )
 # Kursbuchung Bestätigung

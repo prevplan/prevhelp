@@ -4,7 +4,8 @@
             @component('mail::trustpilot', [
                 'name' => $name,
                 'email' => $email,
-                'referenceId' => $referenceId
+                'referenceId' => $referenceId,
+                'preferredSendTime' => $preferredSendTime
             ])
 
             @endcomponent
