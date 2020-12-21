@@ -3,7 +3,7 @@
         "recipientName": "{{ $name }}",
         "recipientEmail": "{{ $email }}",
         "referenceId": "{{ $referenceId }}",
-        "preferredSendTime": "{{ $preferredSendTime }}"
+        "preferredSendTime": "{{ $preferredSendTime }}",
         "locale": "de-DE"
     }
 </script>
