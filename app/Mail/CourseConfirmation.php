@@ -36,7 +36,7 @@ class CourseConfirmation extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.course-confirmation', ['course' => 'Holger Schmermbeck'])
+        return $this->markdown('emails.course-confirmation')
             ->from(env('MAIL_FROM_ADDRESS'), 'info@prevhelp.de')
             ->replyTo('info@prevhelp.de')
             ->subject('Kursbuchung Bestätigung');

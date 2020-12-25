@@ -127,7 +127,6 @@ class BookingController extends Controller
             ->send(new CourseConfirmation($course, $request, $participant));
 
         if ($request->payment == 'online') {
-            //   return $participant->id;
 
             $payment = Mollie::api()->payments->create([
                 'amount' => [
