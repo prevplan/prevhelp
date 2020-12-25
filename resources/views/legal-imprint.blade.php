@@ -10,10 +10,10 @@
             <div class="col">
                 <h1>Impressum</h1>
                 <h2 id="m46">Diensteanbieter</h2>
-                <p><span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span></p>
-                <p>Holger Schmermbeck</p>
-                <p>Edith-Stein-Str. 52</p>
-                <p>42329 Wuppertal</p>
+                <p><span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span><br>
+                Holger Schmermbeck<br>
+                Edith-Stein-Str. 52<br>
+                42329 Wuppertal</p>
                 <h2 id="m56">Kontaktmöglichkeiten</h2><p><strong>E-Mail-Adresse:</strong> <a href="mailto:info@prevhelp.de">info@prevhelp.de</a></p>
                 <p><strong>Telefon:</strong> 0202 898 37 565 </p>
                 <p><strong>Fax:</strong> 0202 898 37 567</p>
