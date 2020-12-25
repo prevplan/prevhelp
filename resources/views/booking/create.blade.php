@@ -34,7 +34,7 @@
                 "name": "{{ $price->title }}",
                 "price": "{{ $price->price }}",
                 "priceCurrency": "{{ $price->currency }}",
-                "validFrom": "{{ \Carbon\Carbon::parse($course->created_at)->format('Y-m-dTH:i') }}",
+              {{-- "validFrom": "{{ \Carbon\Carbon::parse($course->created_at)->format('Y-m-dTH:i') }}", --}}
                 "url": "{{ URL::current() }}",
                 "availability": "https://schema.org/InStock"
               }{{ ( !$loop->last ? ',' : '') }}
