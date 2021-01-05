@@ -197,7 +197,7 @@ class BookingController extends Controller
         if (Carbon::now() > Carbon::create($course->start)) { // Course is already started
             // TODO make redirect
             return 'running';
-        } elseif (!$course->bookable) { // not bookable
+        } elseif (! $course->bookable) { // not bookable
             return view('booking.not-bookable', compact('course'));
         } elseif (($course->seats - count($course->participants)) <= 0) { // sold out
             return view('booking.sold-out', compact('course'));
