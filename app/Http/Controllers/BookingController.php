@@ -198,9 +198,9 @@ class BookingController extends Controller
             // TODO make redirect
             return 'running';
         } elseif (! $course->bookable) { // not bookable
-            return view('booking.not-bookable', compact('course'));
+            return response()->view('booking.not-bookable', compact('course'))->setStatusCode(410);
         } elseif (($course->seats - count($course->participants)) <= 0) { // sold out
-            return view('booking.sold-out', compact('course'));
+            return response()->view('booking.sold-out', compact('course'))->setStatusCode(410);
         } else {
             return;
         }
