@@ -1,14 +1,14 @@
 @extends('layouts.frontend')
 
-@section('meta.title', 'Unsere Garantie | PrevHelp')
-@section('meta.description', 'Lernerfolg zum besten Preis der Stadt? ✅ Wir garantieren Ihnen, was andere nur versprechen. 🤝')
+@section('meta.title', t('our guarantee') . ' | PrevHelp')
+@section('meta.description', t('Successful learning at the best price in town? ✅ We guarantee you what others only promise. 🤝'))
 
 @section('body')
     <section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-7" style="background-image: url({{ asset('img/shaking-hands-1920.jpg') }});">
         <div class="container">
             <div class="row mt-5">
                 <div class="col-md-12 align-self-center p-static order-2 text-center">
-                    <h1>Unsere <strong>Garantie</strong></h1>
+                    <h1>{!! html_entity_decode(t('our <strong>guarantee</strong>')) !!}</h1>
                 </div>
             </div>
         </div>
@@ -25,9 +25,9 @@
                             <img class="img-fluid scale-2 pr-5 pr-md-0 my-4" src="{{ asset('img/people-460.png') }}" alt="people" />
                         </div>
                         <div class="col-md-8 pl-md-5">
-                            <h2 class="font-weight-normal text-6 mb-3">Lernerfolg <strong class="font-weight-extra-bold">garantiert</strong></h2>
-                            <p class="text-4">Bei manch anderem Anbieter kann man das Gef&uuml;hl bekommen, dass man (au&szlig;er der Bescheinigung) nicht viel mitnehmen wird. Daher geben wir auf unsere Kurse eine <i>Erfolgsgarantie</i>. Sie erhalten in unseren Kursen die notwendige Sicherheit und Handlungskompetenz, um die vermittelten Inhalte und Praktiken sicher anwenden zu können. Sollte uns dies während der regulären Kurszeit nicht gelungen sein, wird unser Referent mit Ihnen üben, bis Sie sich sicher fühlen.</p>
-                            <p>Falls Sie, wider Erwarten und den Bemühungen unseres Referenten zum Trotz, die zu vermittelnden Kursinhalte und Praktiken auch nach weiteren Übungen nicht sicher beherrschen, geht der Kurs <i>auf uns</i> und Sie erhalten Ihr Geld zurück! Wir möchten nur bezahlt werden, wenn Sie mit uns zufrieden sind.</p>
+                            <h2 class="font-weight-normal text-6 mb-3">{!! html_entity_decode(t('<strong class="font-weight-extra-bold">guaranteed</strong> learning success')) !!}</h2>
+                            <p class="text-4">{!! html_entity_decode(t('You can get the feeling that you won\'t take much with some other providers (apart from the certificate). We, therefore, give a <em>guarantee of learning success</em> in our courses. In our courses, you will receive the necessary security and practical skills to apply the content and practices taught safely. If we failed in doing this during the regular course time, our instructor would practice with you until you feel confident.')) !!}</p>
+                            <p>{!! html_entity_decode(t('If contrary to expectations and despite our instructor\'s efforts, you do not have a good command of the course content and practices even after further exercises, the course is <em>on us</em>, and you will get your money back! We only want to be paid if you are satisfied with us.')) !!}</p>
                         </div>
                     </div>
 
@@ -35,9 +35,9 @@
 
                     <div class="row align-items-center pt-5 pb-3 appear-animation" data-appear-animation="fadeInRightShorter">
                         <div class="col-md-8 pr-md-5 mb-5 mb-md-0">
-                            <h2 class="font-weight-normal text-6 mb-3">best-price-in-town <strong class="font-weight-extra-bold">Garantie</strong></h2>
-                            <p class="text-4">Wir bieten unsere Kurse <strong>garantiert</strong> zum <i>besten Preis</i> der Stadt an. Hierbei arbeiten wir ohne Streichpreise, Rabatt Aktionen, Gutscheine und &auml;hnlichem. Wir sind dauerhaft g&uuml;nstig, f&uuml;r jeden, ohne <i>wenn und aber</i>. Bei uns gibt es keine <i>Bestrafung</i>, weil Ihnen gerade der passende <i>Voucher / Flyer</i> fehlt! Sollten Sie wider Erwarten doch einen vergleichbaren Kurs zu einem g&uuml;nstigeren Preis finden, unterbieten wir dieses Angebot um 10%. Wir bieten Ihnen gute Kurse, ohne langen Preisvergleich.</p>
-                            <p>Sonderangebote f&uuml;r Mitglieder einzelner Organisationen, (stark) befristete Angebote zu reinen Werbezwecken, Gutscheine o.&auml;. sind <i>grunds&auml;tzlich</i> ausgenommen. Wenn Sie uns diese Einzelf&auml;lle zusenden, machen wir Ihnen jedoch auch hierzu gerne ein Angebot.</p>
+                            <h2 class="font-weight-normal text-6 mb-3">{!! html_entity_decode(t('best-price-in-town <strong class="font-weight-extra-bold">guarantee</strong>')) !!}</h2>
+                            <p class="text-4">{!! html_entity_decode(t('We are <strong>guaranteed</strong> to offer our courses at the <em>best price</em> in town. Here we work without strike prices, discount campaigns, vouchers, and the like. We are permanently cheap for everyone, <em>no ifs or buts</em>. With us, there is no <em>punishment</em> because you don\'t have the right <em>voucher/flyer</em>! If contrary to expectations, you find a comparable course at a lower price, we will undercut this offer by 10%. We offer you good courses without long price comparisons.')) !!}</p>
+                            <p>{!! html_entity_decode(t('Special offers for members of individual organizations, (strongly) limited offers for purely advertising purposes, vouchers, etc., are <em>generally</em> excluded. If you send us these individual cases, we will be happy to make you an offer.')) !!}</p>
                         </div>
                         <div class="col-md-4 px-5 px-md-3">
                             <img class="img-fluid scale-2 my-4" src="{{ asset('img/calculator-460.png') }}" alt="calculator" />

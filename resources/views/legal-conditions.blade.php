@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('meta.title', 'Allgemeine Geschäftsbedingungen | PrevHelp')
+@section('meta.title', t('General terms and conditions') . ' | PrevHelp')
 
 @section('body')
 
@@ -9,281 +9,285 @@
         <div class="row">
             <div class="col">
                 <p>
-                    <h4>Allgemeine Geschäftsbedingungen für Kurse und Beratungen</h4>
+                    <h4>{{ t('General terms and conditions for courses and consultations') }}</h4>
                 </p>
                 <br />
                 <p>
-                    <strong>1 Geltungsbereich</strong>
+                    <em>{{ t('The exclusive language available for the conclusion of the contract shall be German. Translations of these terms and conditions to other languages are for information only. In the event of contradictions between the German text and the translations, the German text shall prevail.') }}</em>
+                </p>
+                <br />
+                <p>
+                    <strong>1 {{ t('Scope') }}</strong>
                 </p>
                 <p>
-                    (1) Die nachstehenden allgemeinen Geschäftsbedingungen gelten für alle Rechtsgeschäfte gegenüber Verbrauchern und Unternehmen mit<br />
+                    (1) {{ t('The following general terms and conditions apply to all legal transactions with consumers and companies with') }}<br />
                     <br />
                     PrevHelp<br />
                     Holger Schmermbeck<br />
                     Edith-Stein-Str. 52<br />
                     42329 Wuppertal<br/>
                     <br />
-                    nachstehend PrevHelp oder wir genannt. Die Rechtsgeschäfte können dabei telefonisch, per E-Mail oder über die Webseite zustande kommen.
+                    {{ t('hereinafter referred to as PrevHelp or we. The legal transactions can come about by phone, email, or via the website.') }}
                 </p>
 
                 <p>
-                    (2) Die für den Vertragsschluss zur Verfügung stehende Sprache ist ausschließlich Deutsch. Übersetzungen in andere Sprachen dienen ausschließlich Ihrer Information. Der deutsche Text hat Vorrang bei eventuellen Unterschieden im Sprachgebrauch.
+                    (2) {{ t('The language available for the conclusion of the contract is exclusively German. Translations into other languages are for your information only. The German text has priority in the event of any differences in linguistic usage.') }}
                 </p>
                 <br />
                 <p>
-                    <strong>2 Anwendbares Recht und Verbraucherschutzvorschriften</strong>
+                    <strong>2 {{ t('Applicable law and consumer protection regulations') }}</strong>
                 </p>
 
                 <p>
-                    (1) Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss internationalen Privatrechts und des ins deutsche Recht geltenden UN-Kaufrechts, wenn<br />
+                    (1) {{ t('The law of the Federal Republic of Germany applies under exclusion of international private law and the to German law applicable UN sales law, if') }}<br />
                     <br />
-                    a) Sie Ihren gewöhnlichen Aufenthalt in Deutschland haben oder<br />
+                    a) {{ t('you have your habitual residence in Germany or') }}<br />
                     <br />
-                    b) Ihr gewöhnlicher Aufenthalt in einem Staat ist, der nicht Mitglied der Europäischen Union ist.
+                    b) {{ t('your habitual residence is in a country that is not a member of the European Union.') }}
                 </p>
 
                 <p>
-                    (2) Für den Fall, dass Sie Verbraucher i. S. d. § 13 BGB sind und Sie Ihren gewöhnlichen Aufenthalt in einem Mitgliedsland der Europäischen Union haben, gilt ebenfalls die Anwendbarkeit des deutschen Rechts, wobei zwingende Bestimmungen des Staates, in dem Sie Ihren gewöhnlichen Aufenthalt haben, unberührt bleiben.<br />
+                    (2) {{ t('In the event that you are a consumer within the meaning of § 13 BGB and you have your habitual residence in a member state of the European Union, the applicability of German law also applies, whereby mandatory provisions of the state in which you have your habitual residence remain unaffected stay.') }}<br />
                     <br />
-                    Verbraucher im Sinne der nachstehenden Regelungen ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden kann. Unternehmer ist jede natürliche oder juristische Person oder eine rechtsfähige Personengesellschaft, die bei Abschluss eines Rechtsgeschäfts in Ausübung ihrer selbständigen beruflichen oder gewerblichen Tätigkeit handelt.
+                    {{ t('A consumer within the meaning of the following regulations is any natural person who concludes a legal transaction for purposes that can predominantly neither be attributed to their commercial nor their independent professional activity. An entrepreneur is any natural or legal person or a legal partnership who is exercising their independent professional or commercial activity when concluding a legal transaction.') }}
                 </p>
 
                 <p>
-                    (3) Es gilt die jeweils zum Zeitpunkt der Bestellung gültige Fassung dieser AGB.
+                    (3) {{ t('The version of these GTC valid at the time of the order applies.') }}
                 </p>
 
                 <p>
-                    (4) Es gelten die Preise zum Zeitpunkt der Buchung eines Kurses oder einer Beratung.
+                    (4) {{ t('The prices at the time of booking a course or advice apply.') }}
                 </p>
 
                 <p>
-                    (5) Sollten bestimmte Rabatt- oder Aktionsangebote beworben werden, sind diese zeitlich oder mengenmäßig begrenzt. Es besteht kein Anspruch darauf.
+                    (5) {{ t('If certain discounts or special offers are advertised, these are limited in time or quantity. There is no entitlement to it.') }}
                 </p>
                 <br />
                 <p>
-                    <strong>3 Vertragsgegenstand und allgemeine Hinweise</strong>
+                    <strong>3 {{ t('Subject matter of the contract and general information') }}</strong>
                 </p>
 
                 <p>
-                    (1) Gegenstand des Vertrages sind folgende Leistungen:<br />
+                    (1) {{ t('The subject of the contract are the following services:') }}<br />
                     <br />
-                    - unsere Kurse<br />
+                    - {{ t('our courses') }}<br />
                     <br />
-                    - unsere Beratungsangebote<br />
+                    - {{ t('our advisory services') }}<br />
                 </p>
 
                 <p>
-                    (2) Derzeitig werden die folgenden Kurse angeboten:<br />
+                    (2) {{ t('The following courses are currently offered:') }}<br />
                     <br />
-                    - Erste-Hilfe Aus- und Fortbildung<br />
+                    - {{ t('First aid training and advanced training') }}<br />
                     <br />
-                    - Erste Hilfe am Kind<br />
+                    - {{ t('First aid on the child') }}<br />
                     <br />
-                    - AED- & Reanimationstraining<br />
+                    - {{ t('AED & resuscitation training') }}<br />
                     <br />
-                    - Fortbildung für Pflegekräfte<br />
+                    - {{ t('Training for Caregivers') }}<br />
                     <br />
-                    (diese Liste ist nicht abschließend)
+                    {{ t('(this list is not exhaustive)') }}
                 </p>
                 <br />
                 <p>
-                    <strong>4 Zustandekommen des Vertrages</strong>
+                    <strong>4 {{ t('Conclusion of the contract') }}</strong>
                 </p>
 
                 <p>
-                    4.1 Für Buchungen, die mündlich, telefonisch, schriftlich, per E-Mail oder via Kontaktformular erfolgen, gilt folgendes:<br />
+                    4.1 {{ t('The following applies to bookings made verbally, by telephone, in writing, by e-mail, or via the contact form:') }}<br />
                     <br />
-                    (1) Gegenstand des Vertrages ist die Durchführung von Kursen oder individueller Beratung.<br />
+                    (1) {{ t('The subject of the contract is the implementation of courses or individual advice.') }}<br />
                     <br />
-                    (2) Sämtliche Angebote im Internet sind unverbindlich und stellen kein rechtlich verbindliches Angebot zum Abschluss eines Vertrages dar.<br />
+                    (2) {{ t('All offers on the Internet are non-binding and do not represent a legally binding offer to conclude a contract.') }}<br />
                     <br />
-                    (3) Angebot:<br />
+                    (3) {{ t('offer') }}<br />
                     <br />
-                    Mit der Buchung bieten Sie PrevHelp den Abschluss eines Beratungsvertrages bzw. einer Kursbuchung verbindlich an.<br />
+                    {{ t('With the booking, you offer PrevHelp the conclusion of a consulting contract or a binding course booking.') }}<br />
                     <br />
-                    Zudem erklären Sie diese AGB gelesen und akzeptiert zu haben.<br />
+                    {{ t('You also declare that you have read and accepted these terms and conditions.') }}<br />
                 </p>
 
                 <p>
-                    (4) Annahme:<br />
+                    (4) {{ t('Adoption:') }}<br />
                     <br />
-                    Der Vertrag zwischen uns kommt mit dem Zugang unserer Bestätigung bei Ihnen zustande, entweder in Textform per E-Mail oder nach Wunsch postalisch.
+                    {{ t('The contract between us is concluded when you receive our confirmation, either in text form by email or, if you wish, by post.') }}
                 </p>
                 <br />
                 <p>
-                    <strong>5 Erhebung, Speicherung und Verarbeitung Ihrer personenbezogenen Daten</strong>
+                    <strong>5 {{ t('Collection, storage, and processing of your personal data') }}</strong>
                 </p>
 
                 <p>
-                    (1) Zur Durchführung und Abwicklung einer Buchung benötigen wir von Ihnen die folgenden Daten:<br />
+                    (1) {{ t('To carry out and process a booking, we need the following data from you:') }}<br />
                     <br />
-                    - E-Mail-Adresse<br />
+                    - {{ t('e-mail address') }}<br />
                     <br />
-                    - Vor- und Nachname<br />
+                    - {{ t('First and Last Name') }}<br />
                     <br />
-                    - Geburtsdatum<br />
+                    - {{ t('date of birth') }}<br />
                     <br />
-                    - ggfs. Adressdaten
+                    - {{ t('if necessary, address data') }}
                 </p>
 
                 <p>
-                    (2) Die von Ihnen mitgeteilten Daten verwenden wir ohne Ihre gesonderte Einwilligung ausschließlich zur Erfüllung und Abwicklung Ihrer Buchung, etwa zur Zustellung der Rechnung oder Ausstellung einer Teilnahmebescheinigung. Bei der Bezahlung per Kreditkarte verwenden wir auch Ihre Kreditkartendaten zur Zahlungsabwicklung. Eine darüberhinausgehende Nutzung Ihrer personenbezogenen Daten für Zwecke der Werbung, der Marktforschung oder zur bedarfsgerechten Gestaltung unserer Angebote bedarf Ihrer ausdrücklichen Einwilligung.<br />
+                    (2) {{ t('Without your separate consent, we will use the data you have provided exclusively to fulfill and process your booking, such as delivering the invoice or issuing a certificate of attendance. When paying by credit card, we also use your credit card details to process payments. Any further use of your personal data for the purposes of advertising, market research, or to tailor our offers to meet your needs requires your express consent.') }}<br />
                     <br />
-                    Sie haben die Möglichkeit, diese Einwilligung vor der Abgabe der Bestellung vorzunehmen. Diese Einwilligungserklärung erfolgt freiwillig und kann von Ihnen jederzeit widerrufen werden.
+                    {{ t('You have the option of giving this consent before placing the order. This declaration of consent is voluntary, and you can revoke it at any time.') }}
                 </p>
 
                 <p>
-                    (3) Ohne Ihre gesonderte Einwilligung speichern wir die Daten nur im Rahmen unserer steuer- und handelsrechtlichen Pflichten bzw. evtl. berufsgenossenschaftlicher Vorschriften.
+                    (3) {{ t('Without your separate consent, we will only save the data within the framework of our tax and commercial law obligations or any employer\'s liability insurance association regulations.') }}
                 </p>
                 <br />
                 <p>
-                    <strong>6 Widerrufsrecht für Verbraucher</strong>
+                    <strong>6 {{ t('Right of revocation for consumers') }}</strong>
                 </p>
 
                 <p>
-                    (1) Als Verbraucher steht Ihnen nach Maßgabe der im Anhang aufgeführten Belehrung ein Widerrufsrecht zu.<br />
+                    (1) {{ t('As a consumer, you have a right of revocation by the instructions listed in the appendix.') }}<br />
                     <br />
-                    Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können.
+                    {{ t('A consumer is any natural person who concludes a legal transaction for predominantly neither commercial nor independent professional activity.') }}
                 </p>
 
                 <p>
-                    (2) Die Widerrufsfrist beginnt mit dem Vertragsabschluss. Der Vertrag ist in dem Moment abgeschlossen, indem Sie die Bestätigung der Buchung des Kurses bzw. der Beratung durch uns erhalten.<br />
+                    (2) {{ t('The withdrawal period begins with the conclusion of the contract. The contract is concluded at the moment when you receive the confirmation of the booking of the course or the advice from us.') }}<br />
                     <br />
-                    Sie können innerhalb von 14 Tagen Ihre Buchung kostenfrei widerrufen, wobei zur Wahrung der Frist die Absendung des entsprechenden Formulars genügt.
+                    {{ t('You can cancel your booking free of charge within 14 days, whereby sending the relevant form is sufficient to meet the deadline.') }}
                 </p>
 
                 <p>
-                    (3) Das gesonderte Widerrufsformular und die Belehrung finden Sie <a href="{{ route('legal.revocation') }}">hier</a>.
+                    (3) {!! html_entity_decode(t('You can find the separate cancellation form and instructions <a href=":link">here</a>.', [':link' => route('legal.revocation')])) !!}
                 </p>
                 <br />
                 <p>
-                    <strong>7 Stornierung von Seminaren und Stornokosten für Teilnehmer</strong>
+                    <strong>7 {{ t('Cancellation of seminars and cancellation costs for participants') }}</strong>
                 </p>
 
-                <p>(1) Sobald Sie die Bestätigungsemail von uns erhalten haben, ist Ihre Teilnahme verbindlich.</p>
+                <p>(1) {{ t('As soon as you have received the confirmation email from us, your participation is binding.') }}</p>
 
-                <p>(2) Bei einer Stornierung <strong>bis 31 Tage</strong> vor Kursbeginn werden 25 % des Beitrages fällig.</p>
+                <p>(2) {!! html_entity_decode(t('In the event of cancellation <strong>up to 31 days</strong> before the start of the course, 25% of the fee is due.')) !!}</p>
 
-                <p>(3) Bei einer Stornierung <strong>ab 30 Tage</strong> vor Kursbeginn werden 50 % des Beitrages fällig.</p>
+                <p>(3) {!! html_entity_decode(t('If you cancel <strong>30 days or less</strong> before starting the course, we will charge 50% of the fee.')) !!}</p>
 
-                <p>(4) Bei einer Stornierung <strong>ab 14 Tage</strong> vor Kursbeginn wird der gesamte Betrag fällig.</p>
+                <p>(4) {!! html_entity_decode(t('In the event of cancellation <strong>14 days or less</strong> before the courses start, the full amount is due.')) !!}</p>
 
-                <p>(5) Bei einer späteren Buchung werden die Stornierungskosten angerechnet.</p>
+                <p>(5) {{ t('If you participate later, we can offset the cancellation costs.') }}</p>
 
-                <p>(6) Alternativ können Sie den Platz bis 7 Tage vor Kursbeginn an eine andere Person übertragen.</p>
+                <p>(6) {{ t('Alternatively, you can transfer the place to another person up to 7 days before starting the course.') }}</p>
 
-                <p>(7) Bei Kursabbruch durch Sie wird die volle Kursgebühr einbehalten, es sei denn es liegt ein ärztliches Attest vor.</p>
+                <p>(7) {{ t('If you drop out of the course, the full course fee will be withheld unless there is a medical certificate.') }}</p>
 
-                <p>(8) Die Stornierung muss in Textform erfolgen.</p>
-
-                <br />
-
-                <p>
-                    <strong>8 Stornierung von Seminaren seitens PrevHelp</strong>
-                </p>
-
-                <p>(1) Wir sind berechtigt, ein Seminar auch kurzfristig abzusagen, falls sich nicht genügend Teilnehmer angemeldet haben.</p>
-
-                <p>(2) Ebenfalls sind wir berechtigt, ein Seminar abzusagen, falls der Referent kurzfristig erkrankt und kein Ersatz gestellt werden kann.</p>
-
-                <p>(3) Wir erstatten Ihnen in den Fällen 1 und 2 ihre Teilnahmegebühr zurück. Weitergehende Kosten, die Ihnen angefallen sind, übernehmen wir nicht.</p>
-
-                <p>(4) Verhalten Sie sich vertragswidrig, indem Sie gegen diese Allgemeinen Geschäftsbedingungen oder unsere Hausordnung verstoßen, haben wir das Recht, Sie von dem Kurs auszuschließen.</p>
-
-                <br />
-                <p>
-                    <strong>9 Leistungsumfang und nicht in Anspruch genommene Leistungen</strong>
-                </p>
-
-                <p>(1) Der Leistungsumfang richtet sich nach der jeweiligen Kursbuchung.</p>
-
-                <p>(2) Werden einzelne Leistungen durch einen Teilnehmer nicht in Anspruch genommen, so behält sich PrevHelp vor, dennoch die gesamte Gebühr in Rechnung zu stellen</p>
-
-                <p>(3) Sollte ein Termin oder Kurs z.B. durch Krankheit des Trainers / Dozenten ausfallen, wird dieser umgehend nachgeholt. Ist dies nicht möglich, wird die Gebühr für die offenen Termine zurückerstattet.</p>
-
-                <p>
-                    (4) Kurse welche dem DGUV Grundsatz 304-001 entsprechen können bei Vorlage eines gültigen Anmeldeformulars bzw. einer Kostenübernahmebescheinigung der zuständigen Berufsgenossenschaft (BG) bzw. Unfallkasse (UK), spätestens zu Kursbeginn, direkt mit der zuständigen BG / UK abgerechnet werden und sind in diesem Fall für den Teilnehmer kostenfrei.<br />
-                    <br />
-                    Lehnt die BG / UK die Übernahme der Kosten, aus Gründen die wir nicht zu verantworten haben, ab oder werden die notwendigen Unterlagen nicht rechtzeitig vorgelegt wird dem Teilnehmer bzw. der aussendenden Stelle / Firma, für den erhöhten Aufwand, eine Teilnehmerpauschale von 60 € / Person in Rechnung stellt.<br />
-                </p>
-
-                <p>(5) Wird ein InHouse Kurs / eine Gruppenveranstaltung gebucht, gelten 10 Teilnehmer als Mindestteilnehmerzahl. Wird diese Zahl unterschritten wird die Kursgebühr, mind. 45 € / Person, je fehlendem Teilnehmer in Rechnung gestellt.</p>
-
-                <p>
-                    (6) Wenn auf Wunsch des Kunden ein anderer als der durch uns gestellte Raum zur Kursdurchführung genutzt wird, muss dieser kostenfrei zur Verfügung gestellt bzw. ggf. anfallende Kosten durch den Kunden übernommen werden. Der Raum hat grundsätzlich mind. 50 m² Grundfläche bzw. mind. 2 m² / Teilnehmer + 10 m² für die Lehrkraft (in Summe mind. 20 m²) aufzuweisen, in Form, Hygiene und Ausstattung geeignet zu sein und im Übrigen die Voraussetzungen der Arbeitsstättenverordnung zu erfüllen.
-                </p>
+                <p>(8) {{ t('The cancellation must be made in writing.') }}</p>
 
                 <br />
 
                 <p>
-                    <strong>10 Allgemeine Teilnahmebedingungen für unsere Kurse</strong>
+                    <strong>8 {{ t('Cancellation of seminars by PrevHelp') }}</strong>
                 </p>
 
-                <p>(1) Der Seminarleiter / Trainer / Dozent ist gegenüber den Teilnehmern für die Dauer und im Rahmen der Veranstaltung weisungsbefugt.</p>
+                <p>(1) {{ t('We are entitled to cancel a seminar even at short notice if not enough participants have registered.') }} }}</p>
 
-                <p>(2) Jeder Teilnehmer wird durch die Akzeptanz dieser AGB auf folgendes hingewiesen:</p>
+                <p>(2) {{ t('We are also entitled to cancel a seminar if the speaker falls ill at short notice, and a replacement cannot be provided.') }}</p>
 
-                <p>(3) Zur Aufnahme und Prüfung der notwendigen, persönlichen Daten finden sich die Teilnehmer mind. 15 Minuten vor Kursbeginn am Veranstaltungsort ein.
+                <p>(3) {{ t('In cases 1 and 2, we will refund your participation fee. We will not assume any further costs that you have incurred.') }}</p>
 
-                <p>(4) Die Teilnahme beinhaltet ggf. körperliche Aktionen und setzt einen guten Gesundheitszustand voraus. Um Verletzungen des Körpers und der Gesundheit auszuschließen, versichert PrevHelp nach bestem Wissen und Gewissen seiner Verkehrssicherungspflicht nachzukommen.</p>
+                <p>(4) {{ t('If you behave contrary to the contract by violating these general terms and conditions or our house rules, we have the right to exclude you from the course.') }}</p>
+
+                <br />
+                <p>
+                    <strong>9 {{ t('Scope of services and unused services') }}</strong>
+                </p>
+
+                <p>(1) {{ t('The scope of services depends on the respective course booking.') }}</p>
+
+                <p>(2) {{ t('If a participant does not use individual services, PrevHelp still reserves the right to invoice the entire fee still.') }}n</p>
+
+                <p>(3) {{ t('Should an appointment or course fail if, for example, the instructor/lecturer is absent due to illness, we will catch it up immediately. If this is not possible, we will refund the fee for the open appointments.') }}</p>
 
                 <p>
-                    (5) Vor jeder Veranstaltung muss unser Trainer / Dozent über gesundheitliche Probleme und etwaige relevante Erkrankungen informiert werden, damit der entsprechende Teilnehmer bestmöglich vor Schaden bewahrt werden kann.<br />
-                    Bei erkennbaren gesundheitlichen Problemen ist PrevHelp berechtigt, den betreffenden Teilnehmer von der Veranstaltung auszuschließen.
+                    (4) {{ t('Courses that comply with DGUV Principle 304-001 can be settled directly with the responsible trade association (BG) or the accident insurance (UK) if at the latest at the beginning of the course if a valid registration form or a cost assumption certificate from the relevant BG / UK  is presented. In this case, the course is for the participant free of charge.') }}<br />
+                    <br />
+                    <em>{{ t('If the BG / UK refuses to assume the costs for reasons for which we are not responsible, or if the necessary documents are not submitted in good time, the participant or the sending agency/company will be charged a participation fee of € 60 / person in Invoices.') }}</em><br />
                 </p>
 
-                <p>(6) Der Teilnehmer hat festes Schuhwerk und geeignete Kleidung zu tragen.</p>
-
-                <p>(7) Die Teilnahme erfolgt auf eigene Gefahr.</p>
-
-                <p>(8) PrevHelp übernimmt keine Haftung für mitgebrachte Wertgegenstände.</p>
+                <p>(5) {{ t('If an in-house course/group event is booked, the minimum number of participants is 10. If this number is not reached, we will charge the course fee of at least 45 € / person for each missing participant.') }}</p>
 
                 <p>
-                    (9) Sie sind verpflichtet, bei auftretenden Leistungsstörungen im Rahmen der gesetzlichen Bestimmungen mitzuwirken, evtl. Schäden zu vermeiden oder gering zu halten. Insbesondere bitten wir Sie darum, etwaige Beanstandungen unverzüglich den Trainern / Dozenten zur Kenntnis zu geben. Unterlassen Sie es schuldhaft, einen Mangel anzuzeigen, so verwirken Sie ihren Anspruch auf Minderung des Teilnahmepreises.
+                    (6) {{ t('If at the customer\'s request, a room other than the one provided by us is used to hold the course, this must be made available free of charge or any costs incurred must be borne by the customer. The room has to have at least 50 m² floor space or at least two m² / participant + 10 m² for the teacher (in total at least 20 m²), be suitable in form, hygiene, and equipment, and otherwise meet the requirements of the workplace ordinance fulfill.') }}
                 </p>
-
-                <p>(10) Veranstaltungen, gerade solche im sog. Outdoor-Bereich sind nie ohne ein Restrisiko. Gegen einen Unfall und Bergung sind Sie nur im Rahmen Ihrer eigenen Unfallversicherung versichert.</p>
 
                 <br />
 
                 <p>
-                    <strong>11 Einsatz von Subunternehmern</strong>
+                    <strong>10 {{ t('General conditions of participation for our courses') }}</strong>
                 </p>
 
-                <p>(1) PrevHelp ist befugt, im eigenen Namen Subunternehmer hinzuzuziehen, ohne dass es hierzu einer gesonderten Zustimmung des Kunden bedarf.</p>
+                <p>(1) {{ t('The seminar leader/trainer/lecturer is authorized to issue instructions to the participants for the duration and within the event\'s framework.') }}</p>
 
-                <p>(2) PrevHelp hat mit dem Subunternehmer eine Verschwiegenheitsvereinbarung abgeschlossen.</p>
+                <p>(2) {{ t('By accepting these terms and conditions, each participant is informed of the following:') }}</p>
+
+                <p>(3) {{ t('Participants should be at the venue at least 15 minutes before starting the course to record and check the personal data required.') }}
+
+                <p>(4) {{ t('Participation may include physical activities and requires good health. To exclude injuries to the body and health, PrevHelp insures to meet its traffic safety obligations to the best of its knowledge and belief.') }}</p>
+
+                <p>
+                    (5) {{ t('Before each event, our trainer/lecturer must be informed about health problems and any relevant illnesses so that the applicable participant can be protected from harm as best as possible.') }}<br />
+                    {{ t('PrevHelp is entitled to exclude the participant concerned from the event in the event of recognizable health problems.') }}
+                </p>
+
+                <p>(6) {{ t('The participant has to wear sturdy shoes and suitable clothing.') }}</p>
+
+                <p>(7) {{ t('Participation is at your own risk.') }}</p>
+
+                <p>(8) {{ t('PrevHelp assumes no liability for valuables brought along.') }}</p>
+
+                <p>
+                    (9) {{ t('You are obliged to cooperate in the event of service disruptions within the statutory provisions framework, to avoid possible damage or to keep it to a minimum. In particular, we ask you to notify the trainers/lecturers of any complaints immediately. If you fail to report a defect culpably, you forfeit your right to reduce the participation price.') }}
+                </p>
+
+                <p>(10) {{ t('Events, especially those in the so-called outdoor area, are never without a residual risk. You are only insured against an accident and rescue within the framework of your own accident insurance.') }}</p>
+
+                <br />
+
+                <p>
+                    <strong>11 {{ t('Use of subcontractors') }}</strong>
+                </p>
+
+                <p>(1) {{ t('PrevHelp is authorized to call in subcontractors in its own name without requiring the customer\'s separate consent.') }}</p>
+
+                <p>(2) {{ t('PrevHelp has concluded a confidentiality agreement with the subcontractor.') }}</p>
 
                 <br />
                 <p>
-                    <strong>12 Haftungsbeschränkung</strong>
+                    <strong>12 {{ t('Limitation of Liability') }}</strong>
                 </p>
 
                 <p>
-                    (1) Wir haften für Vorsatz und grobe Fahrlässigkeit. Ferner haften wir für die fahrlässige Verletzung von Pflichten, deren Erfüllung die ordnungsgemäße Durchführung des Vertrages überhaupt erst ermöglicht, deren Verletzung die Erreichung des Vertragszwecks gefährdet und auf deren Einhaltung Sie regelmäßig vertrauen dürfen. Im letztgenannten Fall haften wir jedoch nur für den vorhersehbaren, vertragstypischen Schaden. Wir haften nicht für die leicht fahrlässige Verletzung anderer als der in den vorstehenden Sätzen genannten Pflichten.<br />
+                    (1) {{ t('We are liable for intent and gross negligence. Furthermore, we are liable for the negligent breach of obligations, the fulfillment of which enables the proper execution of the contract in the first place, the violation of which jeopardizes the achievement of the purpose of the agreement and on whose compliance you can regularly rely. In the latter case, however, we are only liable for the foreseeable, contract-typical damage. We are not liable for the slightly negligent breach of obligations other than those mentioned in the preceding sentences.') }}<br />
                     <br/>
-                    Die vorstehenden Haftungsausschlüsse gelten nicht bei Verletzung von Leben, Körper und Gesundheit. Die Haftung nach dem Produkthaftungsgesetz bleibt unberührt.
+                    {{ t('The above exclusions of liability do not apply to injury to life, limb, or health. Liability under the Product Liability Act remains unaffected.') }}
                 </p>
 
-                <p>(2) Die Datenkommunikation über das Internet kann nach dem derzeitigen Stand der Technik nicht fehlerfrei und/oder jederzeit verfügbar gewährleistet werden. Wir haften insoweit nicht für die ständige und ununterbrochene Verfügbarkeit des Online-Angebots.</p>
+                <p>(2) {{ t('According to the current state of technology, data communication via the Internet cannot be guaranteed to be error-free and/or available at all times. In this respect, we are not liable for the constant and uninterrupted availability of the online offer.') }}</p>
 
                 <br />
                 <p>
-                    <strong>13 Schlussbestimmungen</strong>
+                    <strong>13 {{ t('Final provisions') }}</strong>
                 </p>
 
                 <p>
-                    (1) Die hier verfassten Geschäftsbedingungen sind vollständig und abschließend. Änderungen und Ergänzungen dieser Geschäftsbedingungen sollten, um Unklarheiten oder Streit zwischen den Parteien über den jeweils vereinbarten Vertragsinhalt zu vermeiden, schriftlich gefasst werden – wobei E-Mail ausreichend ist.
+                    (1) {{ t('The terms and conditions written here are complete and final. Changes and additions to these terms and conditions should be made in writing to avoid ambiguity or disputes between the parties about the contract\'s agreed content, whereby e-mail is sufficient.') }}.
                 </p>
 
                 <p>
-                    (2) Soweit Sie bei Abschluss des Vertrages Ihren Wohnsitz oder gewöhnlichen Aufenthalt in Deutschland hatten und entweder zum Zeitpunkt der Klageerhebung durch uns aus Deutschland verlegt haben oder Ihr Wohnsitz oder Ihr gewöhnlicher Aufenthaltsort zu diesem Zeitpunkt unbekannt ist, ist Gerichtsstand für alle Streitigkeiten der Sitz unseres Unternehmens in Wuppertal.
+                    (2) {{ t('If you had your domicile or habitual abode in Germany when the contract was concluded and either moved from Germany at the time we filed the action or your domicile or habitual abode is unknown at that time, the place of jurisdiction for all disputes is the headquarters of our company in Wuppertal.') }}
                 </p>
 
                 <p>
-                    (3) Wir weisen Sie darauf hin, dass Ihnen neben dem ordentlichen Rechtsweg auch die Möglichkeit einer außergerichtlichen Beilegung von Streitigkeiten gemäß Verordnung (EU) Nr. 524/2013 zur Verfügung steht. Einzelheiten dazu finden Sie in der Verordnung (EU) Nr. 524/2013 und unter der Internetadresse: <a href="http://ec.europa.eu/consumers/odr">http://ec.europa.eu/consumers/odr</a><br />
+                    (3) {{ t('We want to point out that in addition to the ordinary legal process, you also have the option of out-of-court settlement of disputes in accordance with Regulation (EU) No. 524/2013. Details can be found in Regulation (EU) No. 524/2013 and at the Internet address:') }} <a href="http://ec.europa.eu/consumers/odr">http://ec.europa.eu/consumers/odr</a><br />
                     <br />
-                    Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+                    {{ t('We are neither willing nor obliged to take part in dispute settlement proceedings before a consumer arbitration board.') }}
                 </p>
             </div>
         </div>

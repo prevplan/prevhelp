@@ -13,6 +13,8 @@ yarn-error.log
 .npmrc
 
 public/sitemap.xml
+/public/page_sitemap.xml
+/public/course_sitemap.xml
 public/mix-manifest.json
 public/css/app.css
 public/js/app.js

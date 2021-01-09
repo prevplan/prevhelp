@@ -7,19 +7,17 @@
         @if($courses)
             <div class="row">
                 <div class="col text-center">
-                    <h1 class="font-weight-normal text-7 mb-2"><strong class="font-weight-extra-bold">Erste-Hilfe-Kurse in
-                        {{ $location }} und Umgebung</strong></h1>
-                    <p class="mb-0 lead">Buchen Sie hier online Ihren Erste-Hilfe-Kurs in {{ $location }} und Umgebung</p>
-                    <p class="mb-1">Bei Fragen oder Problemen stehen wir Ihnen telefonisch unter 0202 898 37 565 zur Verf&uuml;gung.</p>
+                    <h1 class="font-weight-normal text-7 mb-2"><strong class="font-weight-extra-bold">{{ t('first aid courses in :location and surroundings', [':location' => $location]) }}</strong></h1>
+                    <p class="mb-0 lead">{{ t('Book here your first aid course in Wuppertal and the surrounding area', [':location' => $location]) }}</p>
+                    <p class="mb-1">{{ t('If you have any questions or problems, we are available by phone at 0202 898 37 565.') }}</p>
                 </div>
             </div>
         @else
             <div class="row">
                 <div class="col text-center">
-                    <h1 class="font-weight-normal text-7 mb-2"><strong class="font-weight-extra-bold">Erste-Hilfe-Kurse in
-                            {{ $location }} und Umgebung</strong></h1>
-                    <p class="mb-0 lead">Leider bieten wir in {{ $location }} und der n&auml;heren Umgebung aktuell keine Erste-Hilfe-Kurse an.</p>
-                    <p class="mb-1">Sollten Sie dringend einen Kurs ben&ouml;tigen, stehen wir Ihnen unter 0202 898 37 565 zur Verf&uuml;gung.</p>
+                    <h1 class="font-weight-normal text-7 mb-2"><strong class="font-weight-extra-bold">{{ t('first aid courses in :location and surroundings', [':location' => $location]) }}</strong></h1>
+                    <p class="mb-0 lead">{{ t('Unfortunately, we currently don\'t offer any first aid courses in :location and the surrounding area.', [':location' => $location]) }}</p>
+                    <p class="mb-1">{{ t('If you urgently need a course, we are at your disposal on 0202 898 37 565.') }}</p>
                 </div>
             </div>
         @endif
@@ -70,13 +68,13 @@
                             </div>
                             <div class="col justify-content-center">
                                 @if(($course->seats - count($course->participants)) > 0)
-                                    {{ $course->seats - count($course->participants) }} freie Pl&auml;tze
+                                    {{ t(':seats free seats', [':seats' => $course->seats - count($course->participants)]) }}
                                 @else
-                                    <strong>ausgebucht</strong>
+                                    <strong>{{ t('booked up') }}</strong>
                                 @endif
                                 @if(($course->seats - count($course->participants)) > 0)
                                     <br>
-                                    <a class="btn btn-badge btn-modern btn-primary mb-2" href="{{ route('event.book', ['course' => $course]) }}">Buchen <span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1">{{ $course->prices[0]['price'] }} {{ $course->prices[0]['currency'] }}</span></a>
+                                    <a class="btn btn-badge btn-modern btn-primary mb-2" href="{{ route('event.book', ['course' => $course]) }}">{{ t('book') }} <span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1">{{ $course->prices[0]['price'] }} {{ $course->prices[0]['currency'] }}</span></a>
                                 @endif
                             </div>
                         </div>
@@ -87,8 +85,8 @@
             @empty
                 <div class="row">
                     <div class="col text-center">
-                        <p class="mb-0 lead">Oberhalb k&ouml;nnen Sie unsere aktuellen, n&auml;chstgelegenen Kursorte zu {{ $location }} ausw&auml;hlen und anzeigen lassen.</p>
-                        <p class="mb-1">Bei Fragen oder Problemen stehen wir Ihnen telefonisch unter 0202 898 37 565 zur Verf&uuml;gung.</p>
+                        <p class="mb-0 lead">{{ t('Above, you can select and display our current, closest course locations to :location.', [':location' => $location]) }}</p>
+                        <p class="mb-1">{{ t('If you have any questions or problems, we are available by phone at 0202 898 37 565.') }}</p>
                     </div>
                 </div>
 

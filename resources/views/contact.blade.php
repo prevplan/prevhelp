@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 
-@section('meta.title', 'Kontakt')
-@section('meta.description', 'Nehmen Sie Kontakt ✉️ zu uns auf und gemeinsam finden wir Ihre passende Lösung. 🤝')
+@section('meta.title', t('Contact'))
+@section('meta.description', t('Get in contact ✉️ with us, and together we will find the right solution. 🤝'))
 
 @section('markup')
     <script type="application/ld+json">
@@ -14,7 +14,7 @@
       "sameAs": [
         "https://www.facebook.com/prevhelpde",
         "https://twitter.com/prevhelpde",
-        "https://www.instagram.com/prevhelp.de/"
+        "https://www.instagram.com/prevhelp.de"
       ]
     }
     </script>
@@ -67,8 +67,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-                    <h1>Kontakt</h1>
-                    <span class="sub-title">Sprechen Sie uns an!</span>
+                    <h1>{{ t('Contact') }}</h1>
+                    <span class="sub-title">{{ t('Contact us!') }}</span>
                 </div>
                 {{--
                 <div class="col-md-4 order-1 order-md-2 align-self-center">
@@ -91,14 +91,14 @@
 
                 @if( $ticket_id ?? '' )
                     <div class="alert alert-success">
-                        <strong>Vielen Dank.</strong> Wir bearbeiten Ihre Anfrage unter der Ticket-ID <i>#{{ $ticket_id }}</i>.
+                        {!! html_entity_decode( t('<strong>Thank you.</strong> We will process your request under the ticket ID <em>#:ticket_id</em>.', [':ticket_id' => $ticket_id]) ) !!}
                     </div>
                 @elseif( $error_msg ?? '' )
                     <div class="alert alert-danger">
-                        <strong>Fehler!</strong> Leider gab es einen Fehler beim speichern Ihrer Anfrage.
+                        {!! html_entity_decode( t('<strong>Error!</strong> Unfortunately there was an error saving your request.') ) !!}
                         <span class="font-size-xs mt-2 d-block">{{ $error_msg }}</span>
                         <br />
-                        Bitte schreiben Sie uns direkt eine E-Mail an <a href="mailto:info@prevhelp.de">info@prevhelp.de</a>
+                        {{ t('Please write us an email directly to') }} <a href="mailto:info@prevhelp.de">info@prevhelp.de</a>
                     </div>
                 @endif
 
@@ -107,24 +107,24 @@
                     <x-honeypot />
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label class="font-weight-bold text-dark text-2">Name</label>
-                            <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
+                            <label class="font-weight-bold text-dark text-2">{{ t('Name') }}</label>
+                            <input type="text" value="" data-msg-required="{{ t('Please enter your name.') }}" maxlength="100" class="form-control" name="name" id="name" required>
                         </div>
                         <div class="form-group col-md-6">
-                            <label class="font-weight-bold text-dark text-2">E-Mail Adresse</label>
-                            <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
+                            <label class="font-weight-bold text-dark text-2">{{ t('e-mail address') }}</label>
+                            <input type="email" value="" data-msg-required="{{ t('Please enter your email address.') }}" data-msg-email="{{ t('Please enter a valid email address.') }}" maxlength="100" class="form-control" name="email" id="email" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-12">
-                            <label class="font-weight-bold text-dark text-2">Betreff</label>
-                            <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="subject" id="subject" required>
+                            <label class="font-weight-bold text-dark text-2">{{ t('Subject') }}</label>
+                            <input type="text" value="" data-msg-required="{{ t('Please enter a subject.') }}" maxlength="100" class="form-control" name="subject" id="subject" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-12 mb-4">
-                            <label class="font-weight-bold text-dark text-2">Ihre Nachricht an uns</label>
-                            <textarea maxlength="5000" data-msg-required="Please enter your message." rows="6" class="form-control" name="message" id="message" required></textarea>
+                            <label class="font-weight-bold text-dark text-2">{{ t('Your message to us') }}</label>
+                            <textarea maxlength="5000" data-msg-required="{{ t('Please enter your message.') }}" rows="6" class="form-control" name="message" id="message" required></textarea>
                         </div>
                     </div>
                     <div class="form-row">
@@ -134,7 +134,7 @@
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-12 mb-5">
-                            <input type="submit" id="contactFormSubmit" value="Nachricht absenden" class="btn btn-primary btn-modern pull-right" data-loading-text="Loading...">
+                            <input type="submit" id="contactFormSubmit" value="{{ t('send Message') }}" class="btn btn-primary btn-modern pull-right" data-loading-text="{{ t('Please wait ...') }}">
                         </div>
                     </div>
                 </form>
@@ -143,27 +143,28 @@
             <div class="col-lg-5">
 
                 <div class="overflow-hidden mb-1">
-                    <h4 class="text-primary mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">Wir sind f&uuml; <strong>Sie</strong> da</h4>
+                    <h4 class="text-primary mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">{{ t('We are here for you') }}</h4>
                 </div>
                 <div class="overflow-hidden mb-3">
-                    <p class="lead text-4 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">Sie haben eine pers&ouml;nliche Frage oder ein individuelles Anliegen? Sie w&uuml;nschen eine individuelle Beratung oder ein besonderes Angebot? Wir freuen uns auf <strong>Sie!</strong></p>
+                    <p class="lead text-4 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">{{ t('Do you have a personal question or an individual concern? Would you like individual advice or a special offer? We look forward to you!') }}</p>
                 </div>
                 <div class="overflow-hidden">
-                    <p class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="600">Kontaktieren Sie uns auf Ihrem bevorzugten Weg und wir finden die passende L&ouml;sung f&uuml;r Sie.</p>
+                    <p class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="600">
+                        {{ t('Contact us on your preferred route, and we will find the right solution for you.') }}</p>
                 </div>
 
                 <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">
-                    <h4 class="text-primary pt-5">Unser <strong>Hauptsitz</strong></h4>
+                    <h4 class="text-primary pt-5">{{ t('Our headquarter') }}</h4>
                     <ul class="list list-icons list-icons-style-3 mt-2">
-                        <li><i class="fas fa-map-marker-alt top-6"></i> <strong>Anschrift:</strong> Edith-Stein-Str. 52, 42329 Wuppertal</li>
-                        <li><i class="fas fa-phone top-6"></i> <strong>Telefon:</strong> 0202 - 898 37 565</li>
-                        <li><i class="fas fa-envelope top-6"></i> <strong>E-Mail:</strong> <a href="mailto:info@prevhelp.de">info@prevhelp.de</a></li>
+                        <li><i class="fas fa-map-marker-alt top-6"></i> <strong>{{ t('address') }}:</strong> Edith-Stein-Str. 52, 42329 Wuppertal</li>
+                        <li><i class="fas fa-phone top-6"></i> <strong>{{ t('phone') }}:</strong> 0202 - 898 37 565</li>
+                        <li><i class="fas fa-envelope top-6"></i> <strong>{{ t('e-mail') }}:</strong> <a href="mailto:info@prevhelp.de">info@prevhelp.de</a></li>
                     </ul>
 
-                    <h4 class="text-primary pt-5">telefonische <strong>Erreichbarkeit</strong></h4>
+                    <h4 class="text-primary pt-5">{{ t('telephone availability') }}</h4>
                     <ul class="list list-icons list-dark mt-2">
-                        <li><i class="far fa-clock top-6"></i> Montag - Freitag 09:00 - 17:00 Uhr</li>
-                        <li><i class="far fa-clock top-6"></i> Samstag 09:00 - 15:00 Uhr</li>
+                        <li><i class="far fa-clock top-6"></i> {{ t('Monday - Friday') }} 09:00 - 17:00 {{ t('o\'clock') }}</li>
+                        <li><i class="far fa-clock top-6"></i> {{ t('Saturday') }} 09:00 - 15:00 {{ t('o\'clock') }}</li>
                     </ul>
                 </div>
 
@@ -177,6 +178,7 @@
     <div id="googlemaps" class="google-map m-0" style="height: 650px;"></div> -->
 @endsection
 
+{{--
 @section('footer')
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
     <script>
@@ -260,3 +262,4 @@
 
     </script>
 @endsection
+--}}

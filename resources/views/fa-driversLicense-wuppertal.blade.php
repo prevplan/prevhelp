@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 
-@section('meta.title', 'Erste-Hilfe-Kurs in Wuppertal 🦊 für Führerschein und Betrieb')
-@section('meta.description', 'Erste-Hilfe-Kurs in Wuppertal für den Führerschein oder Betrieb gesucht? 🤘 Wir haben freie Plätze mit best-price-garantie❗Jetzt schnell online buchen ⏰')
+@section('meta.title', t('First aid course in Wuppertal 🦊 for driving license and company'))
+@section('meta.description', t('Looking for a first aid course in Wuppertal for a driver\'s license or company? 🤘 We have free places with a best price guarantee ❗ Book online now. ⏰'))
 
 @section('canonical', route('fa.wuppertal'))
 
@@ -16,14 +16,14 @@
                 <div class="col">
                     <ul class="breadcrumb">
                         <li><a href="#">Home</a></li>
-                        <li>Erste-Hilfe-Kurse</li>
+                        <li>{{ t('first aid courses') }}</li>
                         <li class="active">Wuppertal</li>
                     </ul>
                 </div>
             </div>
             <div class="row">
                 <div class="col p-static">
-                    <h1 data-title-border>Erste-Hilfe-Kurse F&uuml;hrerschein, Betrieb und Studium in Wuppertal</h1>
+                    <h1 data-title-border>{{ t('First aid courses for driver\'s license, company, and study in Wuppertal') }}</h1>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
                 <div class="col">
                     <div class="mb-3">
                         <h2 class="font-weight-bold text-8 mb-0">
-                            Du willst keine Zeit mehr verlieren?
+                            {{ t('You don\'t want to waste any more time?') }}
                         </h2>
                     </div>
                 </div>
@@ -46,12 +46,12 @@
                 <div class="col-lg-10">
                     <div>
                         <p class="lead mb-0">
-                            Du suchst den <span class="alternative-font">garantiert</span> g&uuml;nstigsten Erste-Hilfe-Kurs in Wuppertal, f&uuml;r Deinen F&uuml;hrerschein, Betrieb, Trainerschein oder Studium? Du brauchst in den n&auml;chsten Tagen einen freien Platz? Wir haben ihn!
+                            {!! html_entity_decode( t('Are you looking for the <span class="alternative-font">guaranteed</span> cheapest first aid course in Wuppertal for your driver\'s license, company, trainer license, or studies? Do you need a free seat in the next few days? We got him!') ) !!}
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-2">
-                    <a href="{{ route('event.location', ['location' => 'Wuppertal']) }}" class="btn btn-modern btn-dark mt-1">Jetzt schnell buchen!</a>
+                    <a href="{{ route('event.location', ['location' => 'Wuppertal']) }}" class="btn btn-modern btn-dark mt-1">{{ t('book now quickly!') }}</a>
                 </div>
             </div>
 
@@ -68,7 +68,7 @@
                             <div class="box-content p-5">
                                 <div class="row">
                                     <div class="col-9">
-                                        <h2 class="font-weight-normal text-6">regelm&auml;&szlig;ige Termine</h2>
+                                        <h2 class="font-weight-normal text-6">{{ t('regular appointments') }}</h2>
                                     </div>
                                     <div class="col-3">
                                         <div class="text-right">
@@ -78,8 +78,8 @@
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <p>Egal ob F&uuml;hrerschein, Studium oder betrieblicher Ersthelfer: Mit dem Erste-Hilfe-Kurs muss es oft schnell gehen. Daher bieten wir unsere Kurse in Wuppertal jede Woche mehrfach, unter der Woche und am Wochenende, an. Unser Ziel: Immer einen freien Platz innerhalb weniger Tage für jeden unserer Teilnehmer.</p>
-                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.location', ['location' => 'Wuppertal']) }}">jetzt buchen</a>
+                                        <p>{{ t('Whether it is a driver\'s license, university studies, or company first aiders: the first aid course often has to be quick. That is why we offer our courses in Wuppertal several times a week, during the week and on the weekend. Our goal: Always a free place within a few days for each of our participants.') }}</p>
+                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.location', ['location' => 'Wuppertal']) }}">{{ t('book now') }}</a>
                                     </div>
                                 </div>
                             </div>
@@ -90,13 +90,13 @@
                             <div class="box-content p-5">
                                 <div class="row">
                                     <div class="col">
-                                        <i class="icon-featured far fa-handshake float-left mr-4 w-auto"></i> <h2 class="font-weight-normal text-6"><strong class="font-weight-extra-bold">garantiert</strong> zufrieden</h2>
+                                        <i class="icon-featured far fa-handshake float-left mr-4 w-auto"></i> <h2 class="font-weight-normal text-6">{!! html_entity_decode( t('<strong class="font-weight-extra-bold">guaranteed</strong> satisfied') ) !!}</h2>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <p>Wir möchten, dass Du mit Spaß lernst. Solltest Du bei Deinem Erste-Hilfe-Kurs weder Spaß gehabt, noch etwas gelernt haben, zahlst Du auch nichts. Denn nur wenn wir Dir Handlungskompetenz und Sicherheit vermitteln konnten, möchten wir auch bezahlt werden.</p>
-                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('warranty') }}">ansehen</a>
+                                        <p>{{ t('We want you to have fun learning. If you haven\'t had fun or learned anything on your first aid course, you won\'t pay anything. Because only if we were able to impart competence and security to you would we want to be paid.') }}</p>
+                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('warranty') }}">{{ t('view') }}</a>
                                     </div>
                                 </div>
                             </div>
@@ -110,12 +110,12 @@
                                 <div class="row">
                                     <div class="col">
                                         <i class="icon-featured far fa-award m-0"></i>
-                                        <h2 class="font-weight-normal text-6">best price in town</h2>
+                                        <h2 class="font-weight-normal text-6">{{ t('the best price in town') }}</h2>
                                         <div class="divider divider-small divider-small-center">
                                             <hr>
                                         </div>
-                                        <p>Dein Alltag ist schon teuer genug und Preise im Internet vergleichen nervt? Das kennen wir und wollen Dir helfen. Daher bieten wir Dir Deinen Erste-Hilfe-Kurs immer zum <strong>garantiert besten Preis in Wuppertal</strong> an. Mit uns schnell sparen, statt lange zu vergleichen!</p>
-                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('warranty') }}">ansehen</a>
+                                        <p>{!! html_entity_decode( t('Your everyday life is already expensive enough and comparing prices on the Internet is annoying? We know that and want to help you. We, therefore, always offer you your first aid course at the <strong>guaranteed best price in Wuppertal</strong>. Save quickly with us instead of extended comparisons!') ) !!}</p>
+                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('warranty') }}">{{ t('view') }}</a>
                                     </div>
                                 </div>
                             </div>
@@ -127,12 +127,12 @@
                                 <div class="row">
                                     <div class="col">
                                         <i class="icon-featured far fa-mug-hot m-0"></i>
-                                        <h2 class="font-weight-normal text-6">Verpflegung</h2>
-                                        <p>Kurstage können sehr lang und anstrengend sein, insbesondere wenn der Blutzuckerspiegel langsam sinkt. Damit Du Dich bei uns den gesamten Kurstag über wohlfühlst, stellen wir Dir selbstverständlich kleine Snacks und Getränke (zum Selbstkostenpreis) zur Verfügung.</p>
+                                        <h2 class="font-weight-normal text-6">{{ t('catering') }}</h2>
+                                        <p>{{ t('Course days can be very long and tiring, mostly when blood sugar levels are slowly falling. But we want you to feel comfortable with us the entire day of the course. So we provide you with small snacks and drinks (at cost price).') }}</p>
                                         <div class="divider divider-small divider-small-center">
                                             <hr>
                                         </div>
-                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.location', ['location' => 'Wuppertal']) }}">jetzt buchen</a>
+                                        <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.location', ['location' => 'Wuppertal']) }}">{{ t('book now') }}</a>
                                     </div>
                                 </div>
                             </div>
@@ -155,9 +155,9 @@
                             <img class="img-fluid scale-2 pr-5 pr-md-0 my-4" src="{{ asset('img/car-420.webp') }}" loading="lazy" alt="Frau im Auto" />
                         </div>
                         <div class="col-md-8 pl-md-5">
-                            <h2 class="font-weight-normal text-6 mb-3">Wir bieten Dir den <strong class="font-weight-extra-bold">guten Erste-Hilfe-Kurs</strong> in <strong>Wuppertal Vohwinkel</strong></h2>
-                            <p class="text-4">Ganz gleich, ob Du den Erste-Hilfe-Kurs f&uuml;r Deinen F&uuml;hrerschein, Dein Studium, Deinen Trainerschein, als Rettungsschwimmer, als betrieblicher Ersthelfer / f&uuml;r den Betrieb oder <i>einfach nur so</i> brauchst... Unsere Schulungen sind kurzweilig, lustig und von den Beh&ouml;rden gem&auml;&szlig; FEV und DGUV bundesweit anerkannt.</p>
-                            <p>Bei uns bist Du genau richtig!</p>
+                            <h2 class="font-weight-normal text-6 mb-3">{!! html_entity_decode( t('We offer you the <strong class="font-weight-extra-bold">good first aid course</strong> in <strong>Wuppertal Vohwinkel</strong>') ) !!}</h2>
+                            <p class="text-4">{!! html_entity_decode( t('Regardless of whether you need the first aid course for your driver\'s license, your studies, your trainer license, as a lifeguard, as a company first aider / for the company, or just like that. Our training courses are entertaining, funny, and recognized nationwide by the authorities, according to FEV and DGUV.') ) !!}</p>
+                            <p>{{ t('With us, you are precise, right!') }}</p>
                         </div>
                     </div>
 
@@ -165,10 +165,10 @@
 
                     <div class="row align-items-center pt-5 pb-3">
                         <div class="col-md-8 pr-md-5 mb-5 mb-md-0">
-                            <h2 class="font-weight-normal text-6 mb-3">Nutze Deine freie Zeit <strong class="font-weight-extra-bold">besser</strong></h2>
-                            <p class="text-4">Deine Zeit ist kostbar und freie Tage ohnehin viel zu selten. Daher dauert unser kurzweiliger Kurs nur 7,5 Stunden (9 UE) inkl. Pausen. Außerdem bieten wir Dir in Wuppertal Vohwinkel unsere Kurse mehrmals die Woche, unter der Woche und auch am Wochenende, an.</p>
-                            <p>Wir sind da, <strong>wann</strong> Du uns brauchst!</p>
-                            <p>Du hast noch Fragen? Dann schaue in unsere <a href="{{ route('question.index') }}">FAQ</a> oder nehme direkt Kontakt zu uns auf!</p>
+                            <h2 class="font-weight-normal text-6 mb-3">{!! html_entity_decode( t('Use your free time <strong class="font-weight-extra-bold">better</strong>') ) !!}</h2>
+                            <p class="text-4">{{ t('Your time is precious, and days off are far too rare anyway. Therefore, our entertaining course only lasts 7.5 hours (9 units), including breaks. We also offer our courses several times a week and on weekends in Wuppertal Vohwinkel.') }}</p>
+                            <p>{!! html_entity_decode( t('We are there <strong>when</strong> you need us!') ) !!}</p>
+                            <p>{!! html_entity_decode( t('Do you have any questions? Then take a look at our <a href=":faq">FAQ</a> or contact us directly!', [':faq' => route('question.index')]) ) !!}</p>
                         </div>
                         <div class="col-md-4 px-5 px-md-3">
                             <img class="img-fluid scale-2 my-4" src="{{ asset('img/cheers-420.webp') }}" loading="lazy" alt="style switcher" />
@@ -184,13 +184,13 @@
             <div class="row py-3">
                 <div class="col-md-9 col-lg-9">
                     <div class="call-to-action-content">
-                        <h2 class="font-weight-normal text-7 mb-0">Komm zu uns und habe Spa&szlig; bei Deinem Erste-Hilfe-Kurs!</h2>
-                        <p class="mb-0">Worauf wartest Du noch?</p>
+                        <h2 class="font-weight-normal text-7 mb-0">{{ t('Come to us and have fun with your first aid course!') }}</h2>
+                        <p class="mb-0">{{ t('What are you waiting for?') }}</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3">
                     <div class="call-to-action-btn">
-                        <a href="{{ route('event.location', ['location' => 'Wuppertal']) }}" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3 mt-5">Jetzt Kurs buchen</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -90px; left: 70%;"></span>
+                        <a href="{{ route('event.location', ['location' => 'Wuppertal']) }}" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3 mt-5">{{ t('book course now') }}</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -90px; left: 70%;"></span>
                     </div>
                 </div>
             </div>

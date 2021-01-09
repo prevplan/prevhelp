@@ -14,7 +14,7 @@
                                     </li>
                                     --}}
                                     <li class="nav-item nav-item-anim-icon d-none d-md-block">
-                                        <a class="nav-link" href="{{ route('contact.show') }}"><i class="fas fa-angle-right"></i> Kontakt</a>
+                                        <a class="nav-link" href="{{ route('contact.show') }}"><i class="fas fa-angle-right"></i> {{ t('Contact') }}</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -24,8 +24,8 @@
                         <div class="header-row">
                             <nav class="header-nav-top">
                                 <!-- TrustBox widget - Micro Review Count -->
-                                <div class="trustpilot-widget" data-locale="de-DE" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5fc93273eb082400017637c1" data-style-height="24px" data-style-width="350px" data-theme="light">
-                                    <a href="https://de.trustpilot.com/review/prevhelp.de" target="_blank" rel="noopener">Trustpilot Bewertungen</a>
+                                <div class="trustpilot-widget" data-locale="{{ LaravelLocalization::getCurrentLocale() }}" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5fc93273eb082400017637c1" data-style-height="24px" data-style-width="350px" data-theme="light">
+                                    <a href="https://{{ (LaravelLocalization::getCurrentLocale() == 'en' ? 'www' : LaravelLocalization::getCurrentLocale()) }}.trustpilot.com/review/prevhelp.de" target="_blank" rel="noopener">{{ t('Trustpilot reviews') }}</a>
                                 </div>
                                 <!-- End TrustBox widget -->
                             </nav>
@@ -56,7 +56,7 @@
                             <nav class="header-nav-top">
                                 <ul class="nav nav-pills text-uppercase text-2">
                                     <li class="nav-item">
-                                        <a class="nav-link pl-0 text-light opacity-7" href="{{ route('corona') }}">aktuelle Corona Informationen</a>
+                                        <a class="nav-link pl-0 text-light opacity-7" href="{{ route('corona') }}">{{ t('current corona information') }}</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -89,47 +89,75 @@
                                         </li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle
-                                            {{ request()->is('erste-hilfe-kurs-fuehrerschein') ||
-                                                request()->is('erste-hilfe-kurs-betriebe')
+                                            {{ request()->is(LaravelLocalization::getCurrentLocale() . '/' . LaravelLocalization::transRoute('routes.first-aid-course-drivers-license')) ||
+                                                request()->is(LaravelLocalization::getCurrentLocale() . '/' . LaravelLocalization::transRoute('routes.first-aid-course/wuppertal')) ||
+                                                request()->is(LaravelLocalization::getCurrentLocale() . '/' . LaravelLocalization::transRoute('routes.first-aid-course-business'))
                                                 ? 'active' : ''
                                             }}" href="#">
-                                                Erste-Hilfe-Kurse
+                                                {{ t('first aid courses') }}
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="{{ route('fa.wuppertal') }}">... f&uuml;r den F&uuml;hrerschein</a></li>
-                                                <li><a class="dropdown-item" href="{{ route('fa.business') }}">... f&uuml;r Betriebe / Unternehmen</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('fa.wuppertal') }}">... {{ t('for the driver\'s license') }}</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('fa.business') }}">... {{ t('for companies') }}</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item {{ request()->is('termine*') ? 'active' : ''}}" href="{{ route('event.overview') }}">
-                                                Termine
+                                            <a class="dropdown-item {{ request()->is(LaravelLocalization::getCurrentLocale() . '/' . LaravelLocalization::transRoute('routes.events') . '*') ? 'active' : ''}}" href="{{ route('event.overview') }}">
+                                                {{ t('Events') }}
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item {{ request()->is('faq') ? 'active' : ''}}" href="{{ route('question.index') }}">
-                                                FAQ
+                                            <a class="dropdown-item {{ request()->is(LaravelLocalization::getCurrentLocale() . '/' . LaravelLocalization::transRoute('routes.faq')) ? 'active' : ''}}" href="{{ route('question.index') }}">
+                                                {{ t('FAQ') }}
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item {{ request()->is('garantie') ? 'active' : ''}}" href="{{ route('warranty') }}">
-                                                Garantie
+                                            <a class="dropdown-item {{ request()->is(LaravelLocalization::getCurrentLocale() . '/' . LaravelLocalization::transRoute('routes.warranty')) ? 'active' : ''}}" href="{{ route('warranty') }}">
+                                                {{ t('warranty') }}
                                             </a>
                                         </li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle
-                                            {{ request()->is('impressum') ||
-                                                request()->is('datenschutz') ||
-                                                request()->is('agb') ||
-                                                request()->is('widerruf')
+                                            {{ request()->is(LaravelLocalization::getCurrentLocale() . '/' . LaravelLocalization::transRoute('routes.imprint')) ||
+                                                request()->is(LaravelLocalization::getCurrentLocale() . '/' . LaravelLocalization::transRoute('routes.privacy')) ||
+                                                request()->is(LaravelLocalization::getCurrentLocale() . '/' . LaravelLocalization::transRoute('routes.gtc')) ||
+                                                request()->is(LaravelLocalization::getCurrentLocale() . '/' . LaravelLocalization::transRoute('routes.revocation'))
                                                 ? 'active' : ''
                                             }}" href="#">
-                                                Rechtliches
+                                                {{ t('legal') }}
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="{{ route('legal.imprint') }}">Impressum</a></li>
-                                                <li><a class="dropdown-item" href="{{ url('datenschutz') }}">Datenschutz</a></li>
-                                                <li><a class="dropdown-item" href="{{ route('legal.conditions') }}">AGB</a></li>
-                                                <li><a class="dropdown-item" href="{{ route('legal.revocation') }}">Widerrufsbelehrung</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('legal.imprint') }}">{{ t('imprint') }}</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('legal.privacy') }}">{{ t('privacy') }}</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('legal.conditions') }}">{{ t('GTC') }}</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('legal.revocation') }}">{{ t('revocation') }}</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="dropdown">
+                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                                <i class="far fa-language text-5" style="top: 0;"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                                                    <li>
+                                                        <a
+                                                            rel="alternate" hreflang="{{ $localeCode }}"
+                                                            href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"
+                                                            class="dropdown-item">
+                                                            {{ $properties['native'] }}
+                                                        </a>
+                                                    </li>
+                                                    @if( $loop->last)
+                                                        <a
+                                                            style="display:none;"
+                                                            rel="alternate" hreflang="x-default"
+                                                            href="{{ preg_replace( '/\/' . LaravelLocalization::getDefaultLocale() . '/', '', LaravelLocalization::getLocalizedURL(LaravelLocalization::getDefaultLocale() , ''), 1) }}"
+                                                            class="dropdown-item">
+                                                            x-default
+                                                        </a>
+                                                    @endif
+                                                @endforeach
                                             </ul>
                                         </li>
                                     </ul>

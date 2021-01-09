@@ -5,7 +5,8 @@
                 'name' => $name,
                 'email' => $email,
                 'referenceId' => $referenceId,
-                'preferredSendTime' => $preferredSendTime
+                'preferredSendTime' => $preferredSendTime,
+                'locale' => $locale
             ])
 
             @endcomponent

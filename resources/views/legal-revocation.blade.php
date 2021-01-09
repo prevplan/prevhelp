@@ -1,29 +1,27 @@
 @extends('layouts.frontend')
 
-@section('meta.title', 'Widerrufsbelehrung | PrevHelp')
+@section('meta.title', t('Right of revocation') . ' | PrevHelp')
 
 @section('body')
     <div class="container">
 
         <div class="row">
             <div class="col">
-                <h2>Widerrufsbelehrung</h2>
+                <h2>{{ t('Right of revocation') }}</h2>
 
                 <p>
-                    <h4>WIDERRUFSRECHT für Verbraucher</h4>
+                    <h4>{{ t('Right of revocation for consumers') }}</h4>
                 </p>
 
-                <p>Als Verbraucher haben Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen den Vertrag zu widerrufen.</p>
+                <p>{{ t('As a consumer, you have the right to withdraw from the contract within fourteen days without giving any reason.') }}</p>
 
-                <p>
-                    Ihnen steht kein Widerrufsrecht zu, wenn Sie ausdrücklich bei Ihrer Buchung zugestimmt haben, dass bereits vor Ende der Widerrufsfrist mit der Ausführung der Dienstleistung begonnen werden soll. Damit haben Sie auf Ihr Widerrufsrecht wirksam verzichtet. Wir haben Sie darauf vor Kaufabschluss hingewiesen.
-                </p>
+                <p>{{ t('You have no right to cancellation if you expressly agreed when making your booking that the service\'s performance should begin before the end of the cancellation period. You have effectively waived your right of withdrawal. We pointed this out to you before the purchase was made.') }}</p>
 
-                <p>Fristbeginn bei Buchungen von Kursen oder Buchung von Beratungen</p>
+                <p><strong>{{ t('Start of the deadline for booking courses or booking consultations') }}</strong></p>
 
-                <p>Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsschlusses. Der Vertragsschluss kommt an dem Tag zustande, an dem Sie von uns nach erfolgreicher Buchung des Kurses eine Bestätigungsmail bekommen.</p>
+                <p>{{ t('The cancellation period is fourteen days from the day the contract is concluded. The contract is concluded on the day on which you receive a confirmation email from us after successfully booking the course.') }}</p>
 
-                <p>Für jede Buchung steht Ihnen ein eigenes 14-tägiges Widerrufsrecht zu. Um Ihr Widerrufsrecht auszuüben, müssen Sie uns</p>
+                <p>{{ t('You have your own 14-day right of cancellation for each booking. To exercise your right of withdrawal, you must contact us') }}</p>
 
                 <p>
                     PrevHelp<br />
@@ -31,52 +29,51 @@
                     Edith-Stein-Str. 52<br />
                     42329 Wuppertal<br />
                     Tel. 0202 261 59 232<br />
+                    Fax. 0202 898 37 567<br />
                     <a href="mailto:widerruf@prevhelp.de">widerruf@prevhelp.de</a>
                 </p>
 
-                <p>in einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief, Telefax oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür dieses Muster-Widerrufsformular, welches Sie am Ende dieses Dokumentes finden, verwenden, das jedoch nicht vorgeschrieben ist.</p>
+                <p>{{ t('in a clear statement (e.g., a letter sent by post, fax, or e-mail) of your decision to withdraw from this contract. You can use this sample cancellation form, which you will find at the end of this document, but which is not mandatory.') }}</p>
 
-                <p>Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.</p>
+                <p>{{ t('To meet the cancellation deadline, it is sufficient for you to send your notification of exercising your right of cancellation before the cancellation period has expired.') }}</p>
                 <br />
 
                 <p>
-                    <h4>FOLGEN DES WIDERRUFS</h4>
+                    <h4>{{ t('CONSEQUENCES OF REVOCATION') }}</h4>
                 </p>
 
-                <p>Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.</p>
+                <p>{{ t('If you revoke this contract, we have to repay all payments we have received from you at the latest within fourteen days from the day we received the notification of your revocation of this contract. For this repayment, we use the same payment method that you used for the original transaction unless something else was expressly agreed with you; In no case will you be charged any fees for this repayment.') }}</p>
 
-                <p>Haben Sie die Zahlung als Banküberweisung getätigt, schicken Sie bitte noch einmal Ihre Kontodaten mit, da wir auf dem Kontoauszug nur einen Teil Ihrer Kontodaten sehen.</p>
+                <p>{{ t('If you made the payment as a bank transfer, please send your account details again as we only see part of your account details on the account statement.') }}</p>
                 <br />
 
                 <p>
-                    <h4>MUSTER WIDERRUFSVORLAGE</h4>
+                    <h4>{{ t('SAMPLE REVOCATION TEMPLATE') }}</h4>
                 </p>
 
-                <p>Das Muster für das Widerrufsformular richtet sich nach Anlage 2 zu Artikel 246a § 1 Abs. 2 S. 1 Nr. 1 und § 2 Abs. 2 Nr. 2 EGBGB</p>
+                <p>{{ t('The model for the cancellation form is based on Appendix 2 to Article 246a § 1 Paragraph 2 Sentence 1 No. 1 and § 2 Paragraph 2 No. 2 EGBGB.') }}</p>
 
                 <p>
-                    <strong>(Wenn Sie den Vertrag widerrufen möchten, dann füllen Sie bitte dieses Formular aus und senden es zurück)</strong>
+                    <strong>{{ t('(If you want to revoke the contract, please fill out this form and send it back.)') }}</strong>
                 </p>
 
-                <p>
-                    Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über die Buchung des folgenden <i>Kurses XY</i> / der folgenden <i>Beratung XY</i> (Beschreibung, damit eindeutig festgestellt werden kann, auf welchen Kurs / welche Beratung sich der Widerruf bezieht)
-                </p>
+                <p>{!! html_entity_decode(t('I/we (*) hereby revoke the contract concluded by me/us (*) for the booking of the following <em>course XY</em> / the following <em>consultation XY</em> (description, so that it can be clearly determined which course / which consultation the revocation refers to).')) !!}</p>
                 <br />
 
-                <p><li>gebucht am _________</li></p>
+                <p><li>{{ t('booked on') }} _________</li></p>
 
-                <p><li>Name des/der Verbraucher(s)</li></p>
+                <p><li>{{ t('Name of the consumer(s)') }}</li></p>
 
-                <p><li>Anschrift des/der Verbraucher(s)</li></p>
+                <p><li>{{ t('Address of the consumer(s)') }}</li></p>
 
-                <p> &nbsp; ggfs. Kontodaten für die Rückerstattung</p>
+                <p> &nbsp; {{ t('if necessary, account details for the refund') }}</p>
 
-                <p><li>Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier)</li></p>
+                <p><li>{{ t('Signature of the consumer(s) (only for notifies on paper)') }}</li></p>
 
-                <p><li>Datum</li></p>
+                <p><li>{{ t('date') }}</li></p>
                 <br />
 
-                <p>(*) Unzutreffendes streichen</p>
+                <p>(*) {{ t('delete inapplicable') }}</p>
             </div>
         </div>
 

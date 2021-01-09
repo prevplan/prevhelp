@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="{{ LaravelLocalization::getCurrentLocale() }}">
     <head>
         <script data-cookieconsent="ignore">
             window.dataLayer = window.dataLayer || [];
@@ -34,21 +34,27 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <!-- Primary Meta Tags -->
-        <title>@yield('meta.title', 'Prävention ist die beste Hilfe | PrevHelp')</title>
-        <meta name="title" content="@yield('meta.title', 'Prävention ist die beste Hilfe | PrevHelp')">
+        <title>@yield('meta.title', t('Prevention is the best help | PrevHelp'))</title>
+        @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+            <link rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" />
+        @endforeach
+
+        <link rel="alternate" hreflang="x-default" href="{{ preg_replace( '/\/' . LaravelLocalization::getDefaultLocale() . '/', '', LaravelLocalization::getLocalizedURL(LaravelLocalization::getDefaultLocale(), ''), 1) }}" />
+
+        <meta name="title" content="@yield('meta.title', t('Prevention is the best help | PrevHelp'))">
         <meta name="description" content="@yield('meta.description')">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="@yield('canonical', URL::current())">
-        <meta property="og:title" content="@yield('meta.title', 'Prävention ist die beste Hilfe | PrevHelp')">
+        <meta property="og:title" content="@yield('meta.title', t('Prevention is the best help | PrevHelp'))">
         <meta property="og:description" content="@yield('meta.description')">
         <meta property="og:image" content="@yield('image', asset('img/meta-first-aid.jpg'))">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="@yield('canonical', URL::current())">
-        <meta property="twitter:title" content="@yield('meta.title', 'Prävention ist die beste Hilfe | PrevHelp')">
+        <meta property="twitter:title" content="@yield('meta.title', t('Prevention is the best help | PrevHelp'))">
         <meta property="twitter:description" content="@yield('meta.description')">
         <meta property="twitter:image" content="@yield('image', asset('img/meta-first-aid.jpg'))">
 

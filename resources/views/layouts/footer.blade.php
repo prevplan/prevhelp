@@ -2,21 +2,21 @@
     <div class="container my-4">
         <div class="row pt-5 py-lg-5">
             <div class="col-5 col-md-6 col-lg-3 mb-5 mb-lg-0">
-                <h5 class="text-6 text-transform-none font-weight-light text-color-light mb-4">Adresse</h5>
+                <h5 class="text-6 text-transform-none font-weight-light text-color-light mb-4">{{ t('address') }}</h5>
                 <p class="text-4 mb-0">PrevHelp</p>
                 <p class="text-4 mb-0">Edith-Stein-Str. 52</p>
                 <p class="text-4 mb-0">42329 Wuppertal</p>
             </div>
             <div class="col-7 col-md-6 col-lg-3 mb-5 mb-lg-0">
-                <h5 class="text-6 text-transform-none font-weight-light text-color-light mb-4">&Ouml;ffnungszeiten</h5>
-                <p class="text-4 mb-0">Mo - Fr: <span class="text-color-light">09:00 - 17:00 Uhr</span></p>
-                <p class="text-4 mb-0">pers&ouml;nliche Termine</p>
-                <p class="text-4 mb-0"><span class="text-color-light">nach Vereinbarung</span></p>
+                <h5 class="text-6 text-transform-none font-weight-light text-color-light mb-4">{{ t('opening hours') }}</h5>
+                <p class="text-4 mb-0">Mo - Fr: <span class="text-color-light">09:00 - 17:00 {{ t('o\'clock') }}</span></p>
+                <p class="text-4 mb-0">{{ t('personal appointments') }}</p>
+                <p class="text-4 mb-0"><span class="text-color-light">{{ t('by arrangement') }}</span></p>
             </div>
             <div class="col-7 col-md-6 col-lg-3 mb-5 mb-lg-0">
-                <h5 class="text-6 text-transform-none font-weight-light text-color-light mb-4">Telefon</h5>
+                <h5 class="text-6 text-transform-none font-weight-light text-color-light mb-4">{{ t('phone') }}</h5>
                 <p class="text-7 text-color-light font-weight-light mb-2"><a href="tel:0800-77384357" style="text-decoration: none; color: inherit;">0800 - PREVHELP</a></p>
-                <p class="text-4 mb-0">B&uuml;ro: <span class="text-color-light"><a href="tel:0202-89837565" style="text-decoration: none; color: inherit;">0202 - 898 37 565</a></span></p>
+                <p class="text-4 mb-0">{{ t('office') }}: <span class="text-color-light"><a href="tel:0202-89837565" style="text-decoration: none; color: inherit;">0202 - 898 37 565</a></span></p>
             </div>
             <div class="col-5 col-md-6 col-lg-3">
                 <h5 class="text-6 text-transform-none font-weight-light text-color-light mb-4">Social Media</h5>
@@ -42,10 +42,10 @@
                 <div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
                     <nav id="sub-menu">
                         <ul>
-                            <li><i class="fas fa-angle-right"></i><a href="{{ route('contact.show') }}" class="ml-1 text-decoration-none text-color-primary"> Kontakt</a></li>
-                            <li><i class="fas fa-angle-right"></i><a href="{{ route('legal.conditions') }}" class="ml-1 text-decoration-none text-color-primary"> AGB</a></li>
-                            <li><i class="fas fa-angle-right"></i><a href="{{ url('datenschutz') }}" class="ml-1 text-decoration-none text-color-primary"> Datenschutz</a></li>
-                            <li><i class="fas fa-angle-right"></i><a href="{{ route('legal.imprint') }}" class="ml-1 text-decoration-none text-color-primary"> Impressum</a></li>
+                            <li><i class="fas fa-angle-right"></i><a href="{{ route('contact.show') }}" class="ml-1 text-decoration-none text-color-primary"> {{ t('Contact') }}</a></li>
+                            <li><i class="fas fa-angle-right"></i><a href="{{ route('legal.conditions') }}" class="ml-1 text-decoration-none text-color-primary"> {{ t('GTC') }}</a></li>
+                            <li><i class="fas fa-angle-right"></i><a href="{{ route('legal.privacy') }}" class="ml-1 text-decoration-none text-color-primary"> {{ t('privacy') }}</a></li>
+                            <li><i class="fas fa-angle-right"></i><a href="{{ route('legal.imprint') }}" class="ml-1 text-decoration-none text-color-primary"> {{ t('imprint') }}</a></li>
                         </ul>
                     </nav>
                 </div>

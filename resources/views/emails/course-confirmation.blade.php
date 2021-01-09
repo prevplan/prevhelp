@@ -3,25 +3,26 @@
         'name' => $request->firstname . ' ' . $request->lastname,
         'email' => $request->email,
         'referenceId' => $participant->id,
-        'preferredSendTime' => \Carbon\Carbon::create($course->end)->addDay()->format('Y-m-d\TH:i:s')
+        'preferredSendTime' => \Carbon\Carbon::create($course->end)->addDay()->format('Y-m-d\TH:i:s'),
+        'locale' => LaravelLocalization::getCurrentLocaleRegional()
     ]
 )
-# Kursbuchung Bestätigung
+# {{ t('confirmation of the course booking') }}
 
-Hallo {{ $request->firstname }},
+{{ t('Hello :name', [':name' => $request->firstname]) }},
 
-Du hast bei PrevHelp erfolgreich einen Kurs gebucht.
+{{ t('you have successfully booked a course with PrevHelp.') }}
 
-<strong>Kursdetails</strong><br>
+<strong>{{ t('course details') }}</strong><br>
 {{ __($course->course_types[0]->name) }}<br>
-{{ \Carbon\Carbon::parse($course->start)->format('d.m.Y H:i') }} Uhr - {{ \Carbon\Carbon::parse($course->end)->format('H:i') }} Uhr<br>
+{{ \Carbon\Carbon::parse($course->start)->format('d.m.Y H:i') }} {{ t('o\'clock') }} - {{ \Carbon\Carbon::parse($course->end)->format('H:i') }} {{ t('o\'clock') }}<br>
 
-<strong>Kursort</strong><br>
+<strong>{{ t('course location') }}</strong><br>
 {{ $course->seminar_location }}<br>
 {{ $course->street }}<br>
 {{ $course->zipcode }} {{ $course->location }}
 
 <strong>{{ __('price') }}</strong> {{ $course->prices->pluck('price', 'id')[$request->price] }} {{ $course->prices->pluck('currency', 'id')[$request->price] }}
 
-Falls noch Fragen sein sollten, schreibe eine E-Mail an [info@prevhelp.de](mailto:info@prevhelp.de) oder antworte einfach auf diese E-Mail
+{{ t('If you have any questions, write an e-mail to [:mail](mailto::mail) or answer directly to this e-mail.', [':mail' => 'info@prevhelp.de']) }}
 @endcomponent

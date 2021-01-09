@@ -15,10 +15,12 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
+        "mcamara/laravel-localization": "^1.6",
         "mollie/laravel-mollie": "^2.0",
         "mtvs/eloquent-hashids": "^3.0",
         "spatie/laravel-honeypot": "^3.0",
         "spatie/laravel-sitemap": "^5.8",
+        "tio/laravel": "^1.13",
         "zammad/zammad-api-client-php": "^2.0"
     },
     "require-dev": {

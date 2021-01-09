@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('meta.title', 'Erste-Hilfe-Kurse für Betriebe / Unternehmen')
+@section('meta.title', t('First aid courses for companies'))
 
 @section('body')
     {{--
@@ -126,9 +126,9 @@
                             <img class="img-fluid scale-2 my-4" src="{{ asset('img/spiral-640.jpg') }}" alt="spiral" />
                         </div>
                         <div class="col-md-8 pl-md-5">
-                            <h2 class="font-weight-normal text-6 mb-3">Ihre betriebliche Erste Hilfe wirkt wie eine <strong class="font-weight-extra-bold">Endlosspirale</strong>?</h2>
-                            <p class="text-4">Sie sind in Ihrem Betrieb / Unternehmen f&uuml;r die Organisation der betrieblichen Erste Hilfe zust&auml;ndig? Termine und Vorschriften <i>prasseln</i> auf Sie ein? Ihre Mitarbeiter sind unmotiviert als betrieblicher Ersthelfer benannt zu werden? Sie haben Bedenken wegen den Konsequenzen von Fehlern in (der Organisation) der Ersten Hilfe? Sie haben Bef&uuml;rchtungen, was bei einer Kontrolle durch die Berufsgenossenschaft passieren k&ouml;nnte?</p>
-                            <p>Solche Bef&uuml;rchtungen und Unsicherheiten geh&ouml;ren zuk&uuml;nftig der Vergangenheit an. Denn nun haben Sie einen <strong>starken Partner</strong> an Ihrer Seite. <i>Uns!</i></p>
+                            <h2 class="font-weight-normal text-6 mb-3">{!! html_entity_decode( t('The organization of first aid in your company affects like an <strong class="font-weight-extra-bold">endless spiral</strong>?') ) !!}</h2>
+                            <p class="text-4">{!! html_entity_decode( t('Are you responsible for the organization of first aid in your company? Dates and regulations <em>rain</em> on you? Are your employees unmotivated to be named as company first aiders? Are you concerned about the consequences of mistakes in (the organization of) first aid? Are you concerned about what might happen if the trade association inspects you?') ) !!}</p>
+                            <p>{!! html_entity_decode( t('Such fears and uncertainties will be a thing of the past. Because now you have a <strong>strong partner</strong> at your side. <em>Us!</em>') ) !!}</p>
                         </div>
                     </div>
 
@@ -136,9 +136,9 @@
 
                     <div class="row align-items-center pt-5 pb-3 appear-animation" data-appear-animation="fadeInRightShorter">
                         <div class="col-md-8 pr-md-5 mb-5 mb-md-0">
-                            <h2 class="font-weight-normal text-6 mb-3">Mit uns <strong class="font-weight-extra-bold">strategisch</strong> gut aufgestellt!</h2>
-                            <p class="text-4">Vom ersten Schritt der Planung, &uuml;ber die Ausbildung Ihrer Mitarbeiter, bis hin zur regelm&auml;&szlig;igen Kontrolle und kontinuierlichen Fortbildung. Wir stehen Ihnen zur Seite.</p>
-                            <p>Bei uns erhalten Sie mehr als <i>nur</i> eine gute Erste-Hilfe-Ausbildung Ihrer Mitarbeiter. Egal ob weitergehende Fragen, besondere Gegebenheiten oder spezielle Anforderungen. Gemeinsam finden wir Ihre <strong>passende L&ouml;sung</strong>!</p>
+                            <h2 class="font-weight-normal text-6 mb-3">{!! html_entity_decode( t('With us <strong class="font-weight-extra-bold">strategically</strong> well positioned!') ) !!}</h2>
+                                <p class="text-4">{{ t('From the first planning step through the training of your employees to regular control and continuous training. We are here to help.') }}</p>
+                            <p>{!! html_entity_decode( t('With us, you get more than <em>just</em> good first aid training for your employees, regardless of whether you have further questions, particular circumstances, or special requirements. Together we will find your <strong>suitable solution</strong>!') ) !!}</p>
                         </div>
                         <div class="col-md-4 px-5 px-md-3">
                             <img class="img-fluid scale-2 my-4" src="{{ asset('img/chess-640.jpg') }}" alt="chess" />
@@ -158,7 +158,7 @@
                         <div class="box-content p-5">
                             <div class="row">
                                 <div class="col-9">
-                                    <h2 class="font-weight-normal text-6">regelm&auml;&szlig;ige Termine</h2>
+                                    <h2 class="font-weight-normal text-6">{{ t('regular appointments') }}</h2>
                                 </div>
                                 <div class="col-3">
                                     <div class="text-right">
@@ -168,8 +168,8 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <p>Sie brauchen zeitnah eine Aus- oder Fortbildung Ihrer betrieblichen Ersthelfer? Mehrere Mitarbeiter gleichzeitig auf einen Erste-Hilfe-Kurs zu schicken passt schlecht in Ihre Dienstplanung? Kein Problem! Wir bieten regelm&auml;&szlig;ig <i>offene</i> Kurse, die Sie auch f&uuml;r einzelne Mitarbeiter buchen k&ouml;nnen.</p>
-                                    <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.overview') }}">jetzt buchen</a>
+                                    <p>{!! html_entity_decode( t('Do you need basic or advanced training for your company\'s first aiders promptly? Sending several employees to a first aid course at the same time does not fit into your duty roster? No problem! We regularly offer <em>open</em> courses that you can also book for individual employees.') ) !!}</p>
+                                    <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.overview') }}">{{ t('book now') }}</a>
                                 </div>
                             </div>
                         </div>
@@ -180,13 +180,13 @@
                         <div class="box-content p-5">
                             <div class="row">
                                 <div class="col">
-                                    <i class="icon-featured far fa-piggy-bank float-left mr-4 w-auto"></i> <h2 class="font-weight-normal text-6">Aus- und Fortbildung <strong class="font-weight-extra-bold">kostenfrei</strong></h2>
+                                    <i class="icon-featured far fa-piggy-bank float-left mr-4 w-auto"></i> <h2 class="font-weight-normal text-6">{!! html_entity_decode( t('basic and advanced training <strong class="font-weight-extra-bold">free of charge</strong>') ) !!}</h2>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <p>Bei &Uuml;bernahme der Kosten durch die zust&auml;ndige BG / UK ist die Aus- und Fortbildung Ihrer betrieblichen Ersthelfer <strong>kostenfrei</strong> f&uuml;r Sie. Die Formalit&auml;ten erledigen sehr gerne wir. Sie benennen Ihre Mitarbeiter und wir sorgen f&uuml;r deren Aus- und regelm&auml;&szlig;ige Fortbildung.</p>
-                                    <button class="btn btn-modern btn-dark mr-1" type="button">ansehen</button>
+                                    <p>{!! html_entity_decode( t('If the responsible BG / UK takes over the costs, the training and further education of your company first aiders are <strong>free</strong> for you. We are happy to take care of the formalities. You name your employees, and we take care of their training and regular training.') ) !!}</p>
+                                    <button class="btn btn-modern btn-dark mr-1" type="button">{{ t('view') }}</button>
                                 </div>
                             </div>
                         </div>
@@ -200,12 +200,12 @@
                             <div class="row">
                                 <div class="col">
                                     <i class="icon-featured far fa-building m-0"></i>
-                                    <h2 class="font-weight-normal text-6">Schulung bei Ihnen vor Ort</h2>
+                                    <h2 class="font-weight-normal text-6">{{ t('Training at your site') }}</h2>
                                     <div class="divider divider-small divider-small-center">
                                         <hr>
                                     </div>
-                                    <p>Menschen lernen in einer ihnen vertrauten Umgebung am besten. Daher bieten wir alle unsere Kurse selbstverst&auml;ndlich auch als <i>in House Kurs</i> bei Ihnen vor Ort an. Unsere Expertise in Ihren R&auml;umlichkeiten, gerne bundesweit und ohne Mehrkosten.</p>
-                                    <button class="btn btn-modern btn-dark mr-1" type="button">ansehen</button>
+                                    <p>{!! html_entity_decode( t('People learn best in an environment they are familiar with. Therefore, we also offer all of our courses <em>in-house</em> at your location. Our expertise in your premises, nationwide and without additional costs.') ) !!}</p>
+                                    <button class="btn btn-modern btn-dark mr-1" type="button">{{ t('view') }}</button>
                                 </div>
                             </div>
                         </div>
@@ -217,12 +217,12 @@
                             <div class="row">
                                 <div class="col">
                                     <i class="icon-featured far fa-mug-hot m-0"></i>
-                                    <h2 class="font-weight-normal text-6">Verpflegung</h2>
-                                    <p>Kurstage können sehr lang und anstrengend sein, insbesondere wenn der Blutzuckerspiegel langsam sinkt. Damit Ihre Mitarbeiter sich bei uns den gesamten Kurstag über wohlfühlen, stellen wir selbstverst&auml;ndlich kleine Snacks und Getränke (zum Selbstkostenpreis) zur Verfügung.</p>
+                                    <h2 class="font-weight-normal text-6">{{ t('catering') }}</h2>
+                                    <p>{{ t('Course days can be very long and tiring, mostly when blood sugar levels are slowly falling. But your employees should feel comfortable with us throughout the day. So we provide them small snacks and drinks (at cost price).') }}</p>
                                     <div class="divider divider-small divider-small-center">
                                         <hr>
                                     </div>
-                                    <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.overview') }}">jetzt buchen</a>
+                                    <a class="btn btn-modern btn-dark mr-1" href="{{ route('event.overview') }}">{{ t('book now') }}</a>
                                 </div>
                             </div>
                         </div>
@@ -238,13 +238,13 @@
             <div class="row py-3">
                 <div class="col-md-9 col-lg-9">
                     <div class="call-to-action-content">
-                        <h2 class="font-weight-normal text-7 mb-0">Wir sind bei <strong>allen Fragen</strong> f&uuml;r Sie da!</h2>
-                        <p class="mb-0">Sprechen Sie uns einfach an.</p>
+                        <h2 class="font-weight-normal text-7 mb-0">{!! html_entity_decode( t('We are there for you with <strong>all your questions</strong>!') ) !!}</h2>
+                        <p class="mb-0">{{ t('Just talk to us.') }}</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3">
                     <div class="call-to-action-btn">
-                        <a href="{{ route('contact.show') }}" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3 mt-5">Nehmen Sie Kontakt auf</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -90px; left: 70%;"></span>
+                        <a href="{{ route('contact.show') }}" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3 mt-5">{{ t('get in touch') }}</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -90px; left: 70%;"></span>
                     </div>
                 </div>
             </div>

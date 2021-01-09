@@ -82,16 +82,26 @@
 
                 <form action="{{ route('event.store', ['course' => $course]) }}" id="form"
                       method="post"
-                      onsubmit="submit.disabled = true; submit.innerText='buche…'; return true;"
+                      onsubmit="submit.disabled = true; submit.innerText='{{ t('booking ...') }}'; return true;"
                       role="form">
                     @csrf
                     <x-honeypot />
                     <div class="overflow-hidden mb-1">
-                        <h2 class="font-weight-normal text-7 mb-0"><strong class="font-weight-extra-bold">Erste-Hilfe-Kurs in {{ $course->location }} buchen</strong></h2>
+                        <h2 class="font-weight-normal text-7 mb-0"><strong class="font-weight-extra-bold">{{ t('Book a first aid course in :location', [':location' => $course->location]) }}</strong></h2>
                     </div>
                     <div class="overflow-hidden mb-4 pb-3">
                         <p class="mb-0">{{ $course->street }}, {{ $course->zipcode }} {{ $course->location }} - {{ \Carbon\Carbon::parse($course->start)->format('d.m.Y H:i') }} Uhr - {{ \Carbon\Carbon::parse($course->end)->format('H:i') }} Uhr</p>
                     </div>
+
+                    @if( LaravelLocalization::getCurrentLocale() != 'de')
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div align="center">
+                                    <strong>the course language is german</strong>
+                                </div>
+                            </div>
+                        </div>
+                    @endif
 
                     @foreach($course->prices as $price)
                         <div class="form-row">
@@ -139,17 +149,17 @@
                     {{-- <h2 class="text-color-dark font-weight-bold text-5-6 mb-3">Billing Details</h2> --}}
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label>Vorname <span class="text-color-danger">*</span></label>
-                            <input type="text" class="form-control border-radius-0 h-auto py-2" name="firstname" value="{{ old('firstname') }}" placeholder="Vorname" required />
+                            <label>{{ t('first name') }} <span class="text-color-danger">*</span></label>
+                            <input type="text" class="form-control border-radius-0 h-auto py-2" name="firstname" value="{{ old('firstname') }}" placeholder="{{ t('first name') }}" required />
                         </div>
                         <div class="form-group col-md-6">
-                            <label>Nachname <span class="text-color-danger">*</span></label>
-                            <input type="text" class="form-control border-radius-0 h-auto py-2" name="lastname" value="{{ old('lastname') }}" placeholder="Nachname" required />
+                            <label>{{ t('last name') }} <span class="text-color-danger">*</span></label>
+                            <input type="text" class="form-control border-radius-0 h-auto py-2" name="lastname" value="{{ old('lastname') }}" placeholder="{{ t('last name') }}" required />
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-4">
-                            <label>Geburtsdatum <span class="text-color-danger">*</span></label>
+                            <label>{{ t('date of birth') }} <span class="text-color-danger">*</span></label>
                             <input type="date" class="form-control border-radius-0 h-auto py-2" name="date_of_birth" value="{{ old('date_of_birth') ?? '' }}" placeholder="{{ \Carbon\Carbon::today()->format('d.m.Y' )}}" max="{{ \Carbon\Carbon::yesterday()->format('Y-m-d') }}" required />
                         </div>
                     </div>
@@ -178,12 +188,12 @@
                     --}}
                     <div class="form-row">
                         <div class="form-group col-md-8">
-                            <label>Stra&szlig;e<span class="text-color-danger">*</span></label>
-                            <input type="search" class="form-control border-radius-0 h-auto py-2" id="form-address" name="street" value="{{ old('street') }}" placeholder="Straße" required />
+                            <label>{{ t('street') }}<span class="text-color-danger">*</span></label>
+                            <input type="search" class="form-control border-radius-0 h-auto py-2" id="form-address" name="street" value="{{ old('street') }}" placeholder="{{ t('street') }}" required />
                         </div>
                         <div class="form-group col-md-4">
-                            <label>Hausnummer<span class="text-color-danger">*</span></label>
-                            <input type="text" class="form-control border-radius-0 h-auto py-2" name="house_number" value="{{ old('house_number') }}" placeholder="Hausnummer" required />
+                            <label>{{ t('house number') }}<span class="text-color-danger">*</span></label>
+                            <input type="text" class="form-control border-radius-0 h-auto py-2" name="house_number" value="{{ old('house_number') }}" placeholder="{{ t('house number') }}" required />
                         </div>
                     </div>
                     {{--
@@ -195,12 +205,12 @@
                     --}}
                     <div class="form-row">
                         <div class="form-group col-md-4">
-                            <label>Postleitzahl <span class="text-color-danger">*</span></label>
-                            <input type="text" class="form-control border-radius-0 h-auto py-2" id="form-zip" name="zipcode" value="{{ old('zipcode') }}" placeholder="Postleitzahl" required />
+                            <label>{{ t('zip code') }} <span class="text-color-danger">*</span></label>
+                            <input type="text" class="form-control border-radius-0 h-auto py-2" id="form-zip" name="zipcode" value="{{ old('zipcode') }}" placeholder="{{ t('zip code') }}" required />
                         </div>
                         <div class="form-group col-md-8">
-                            <label>Wohnort <span class="text-color-danger">*</span></label>
-                            <input type="text" class="form-control border-radius-0 h-auto py-2" id="form-city" name="location" value="{{ old('location') }}" placeholder="Wohnort" required />
+                            <label>{{ t('place of residence') }} <span class="text-color-danger">*</span></label>
+                            <input type="text" class="form-control border-radius-0 h-auto py-2" id="form-city" name="location" value="{{ old('location') }}" placeholder="{{ t('place of residence') }}" required />
                         </div>
                     </div>
 
@@ -222,12 +232,12 @@
                     --}}
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label>Telefonnummer <span class="text-color-danger">*</span></label>
-                            <input type="text" class="form-control border-radius-0 h-auto py-2" name="phone" value="{{ old('phone') }}" required />
+                            <label>{{ t('phone number') }} <span class="text-color-danger">*</span></label>
+                            <input type="text" class="form-control border-radius-0 h-auto py-2" name="phone" placeholder="{{ t('phone number') }}" value="{{ old('phone') }}" required />
                         </div>
                         <div class="form-group col-md-6">
-                            <label>E-Mail Adresse <span class="text-color-danger">*</span></label>
-                            <input type="email" class="form-control border-radius-0 h-auto py-2" name="email" value="{{ old('email') }}" required />
+                            <label>{{ t('e-mail address') }} <span class="text-color-danger">*</span></label>
+                            <input type="email" class="form-control border-radius-0 h-auto py-2" name="email" placeholder="{{ t('e-mail address') }}" value="{{ old('email') }}" required />
                         </div>
                     </div>
                     {{--
@@ -247,7 +257,7 @@
                                        name="terms"
                                        required
                                        type="checkbox" {{ (old('terms') ? 'checked="checked"' : '') }}>
-                                <label for="checkboxTerms">Ich habe die <a href="{{ route('legal.conditions') }}" target="_blank">allgemeinen Geschäftsbedingungen</a> gelesen und akzeptiert.</label>
+                                <label for="checkboxTerms">{!! html_entity_decode( t('I have read and accepted the <a href=":link" target="_blank">general terms and conditions</a>.', [':link' => route('legal.conditions')]) ) !!}</label>
                             </div>
                         </div>
                     </div>
@@ -259,7 +269,7 @@
                                        required
                                        type="checkbox" {{ (old('dataProtection') ? 'checked="checked"' : '') }}
                                 >
-                                <label for="checkboxDataProtection">Ich stimme zu, dass meine Angaben aus dem Buchungsformular zur Abwicklung meiner Buchung erhoben und verarbeitet werden. Detaillierte Informationen zum Umgang mit Nutzerdaten finden Sie in der <a href="{{ route('legal.dataProtection') }}" target="_blank">Datenschutzerklärung</a>.</label>
+                                <label for="checkboxDataProtection">{!! html_entity_decode( t('I agree that my details from the booking form will be collected and processed to process my booking. You can find detailed information on handling user data in the <a href=":link" target="_blank">privacy policy</a>.', [':link' => route('legal.privacy')]) ) !!}</label>
                             </div>
                         </div>
                     </div>
@@ -272,7 +282,7 @@
                                        value="1"
                                        type="checkbox" {{ (old('rating') ? 'checked="checked"' : '') }}
                                 >
-                                <label for="checkboxRating">Ich bin damit einverstanden, dass ich von <a href="https://de.trustpilot.com/review/prevhelp.de" target="_blank">trustpilot</a> per E-Mail um eine Bewertung gebeten werde.</label>
+                                <label for="checkboxRating">{!! html_entity_decode( t('I agree that <a href=":link" target="_blank">Trustpilot</a> will ask me for a rating by email.', [':link' => 'https://' . (LaravelLocalization::getCurrentLocale() == 'en' ? 'www' : LaravelLocalization::getCurrentLocale()) . '.trustpilot.com/review/prevhelp.de']) ) !!}</label>
                             </div>
                         </div>
                     </div>
@@ -285,7 +295,7 @@
                                            required
                                            type="checkbox" {{ (old('cancellationPolicy') ? 'checked="checked"' : '') }}
                                     >
-                                    <label for="checkboxCancellationPolicy">Hiermit verzichte ich insoweit auf mein mir zustehendes <a href="{{ route('legal.revocation') }}" target="_blank">Widerrufsrecht</a>, als die Leistung bereits vor Ablauf erbracht wird.</label>
+                                    <label for="checkboxCancellationPolicy">{!! html_entity_decode( t('I request and expressly agree that you start the service I have ordered before the withdrawal period has expired. I know that my <a href=":link" target="_blank">right of revocation</a> expires once the contract has been fully fulfilled.', [':link' => route('legal.revocation')]) ) !!}</label>
                                 </div>
                             </div>
                         </div>
@@ -298,14 +308,14 @@
                                            required
                                            type="checkbox" {{ (old('cancellationPolicy') ? 'checked="checked"' : '') }}
                                     >
-                                    <label for="checkboxCancellationPolicy">Ich habe die <a href="{{ route('legal.revocation') }}" target="_blank">Widerrufsbelehrung</a> zur Kenntnis genommen.</label>
+                                    <label for="checkboxCancellationPolicy">{!! html_entity_decode( t('I have taken note of the <a href=":link" target="_blank">revocation policy</a>.', [':link' => route('legal.revocation')]) ) !!}</label>
                                 </div>
                             </div>
                         </div>
                     @endif
                     <div class="form-row">
                         <div class="form-group col-md-12 mb-5">
-                            <button class="btn btn-primary btn-modern pull-right" name="submit" type="submit">Kurs buchen</button>
+                            <button class="btn btn-primary btn-modern pull-right" name="submit" type="submit">{{ t('book course') }}</button>
                         </div>
                     </div>
                 {{--

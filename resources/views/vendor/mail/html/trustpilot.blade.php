@@ -4,6 +4,6 @@
         "recipientEmail": "{{ $email }}",
         "referenceId": "{{ $referenceId }}",
         "preferredSendTime": "{{ $preferredSendTime }}",
-        "locale": "de-DE"
+        "locale": "{{ $locale }}"
     }
 </script>

@@ -30,19 +30,19 @@
                         data-y="center" data-voffset="['-85','-85','-85','-85']"
                         data-fontsize="['48','48','48','48']"
                         data-lineheight="['55','55','55','55']"
-                        data-letterspacing="-1">Sie suchen nach</h1>
+                        data-letterspacing="-1">{{ t('Are you looking for') }}</h1>
 
                     <div class="tp-caption font-weight-extra-bold text-color-light"
                          data-frames='[{"delay":500,"speed":2500,"from":"y:50px;sX:1;sY:1;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
                          data-type="text"
-                         data-typewriter='{"lines":"einem Erste-Hilfe-Kurs?,Ausbildung im Brandschutz?","enabled":"on","speed":"60","delays":"1%7C100","looped":"on","cursorType":"one","blinking":"on","word_delay":"off","sequenced":"on","hide_cursor":"off","start_delay":"1500","newline_delay":"1000","deletion_speed":"20","deletion_delay":"1000","blinking_speed":"500","linebreak_delay":"60","cursor_type":"two","background":"off"}'
+                         data-typewriter='{"lines":"{{ t('a first aid course?') }},{{ t('training in fire protection?') }}","enabled":"on","speed":"60","delays":"1%7C100","looped":"on","cursorType":"one","blinking":"on","word_delay":"off","sequenced":"on","hide_cursor":"off","start_delay":"1500","newline_delay":"1000","deletion_speed":"20","deletion_delay":"1000","blinking_speed":"500","linebreak_delay":"60","cursor_type":"two","background":"off"}'
                          data-x="['left','left','left','center']"
                          data-y="center" data-voffset="['-33','-33','-33','-33']"
                          data-responsive_offset="on"
                          data-width="['750','750','750','750']"
                          data-fontsize="['48','48','48','48']"
                          data-lineheight="['55','55','55','55']"
-                         data-textAlign="['left','left','left','center']">kompetenter Beratung?</div>
+                         data-textAlign="['left','left','left','center']">{{ t('competent advice?') }}</div>
 
                     <div class="tp-caption font-weight-light text-color-light ws-normal"
                          data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2300,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
@@ -51,7 +51,7 @@
                          data-width="['900','900','900','900']"
                          data-fontsize="['18','18','18','22']"
                          data-lineheight="['26','26','26','26']"
-                         data-textAlign="['left','left','left','center']">Dann haben Sie mit uns den richtigen Partner gefunden!</div>
+                         data-textAlign="['left','left','left','center']">{{ t('Then you have found the right partner in us!') }}</div>
 
                     <a class="tp-caption btn btn-primary font-weight-bold rounded"
                        href="{{ route('event.overview') }}"
@@ -63,7 +63,7 @@
                        data-paddingleft="['40','40','40','45']"
                        data-paddingright="['40','40','40','45']"
                        data-fontsize="['14','14','14','18']"
-                       data-lineheight="['20','20','20','22']">DIREKT ZUR TERMINÜBERSICHT <i class="fas fa-arrow-right ml-1"></i></a>
+                       data-lineheight="['20','20','20','22']">{{ t('DIRECTLY TO THE EVENT OVERVIEW') }} <i class="fas fa-arrow-right ml-1"></i></a>
 
                 </li>
             </ul>
@@ -73,8 +73,9 @@
     <div class="container container-lg-custom py-5 my-5">
         <div class="row justify-content-center">
             <div class="col-xl-9 text-center">
-                <h2 class="font-weight-bold text-11 appear-animation" data-appear-animation="fadeInUpShorter">Die Details machen den Unterschied</h2>
-                <p class="line-height-9 text-4 opacity-9 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200"><i>Einfach gute Kurse</i> k&ouml;nnen auch andere Anbieter, doch die Details machen den Unterschied. Daher bekommen Sie bei uns immer noch ein kleines <i>bisschen</i> mehr. Denn wir sind erst zufrieden, wenn Sie gl&uuml;cklich sind.</p>
+                <h2 class="font-weight-bold text-11 appear-animation" data-appear-animation="fadeInUpShorter">{{ t('The details make the difference') }}</h2>
+                <p class="line-height-9 text-4 opacity-9 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
+                    {!! html_entity_decode(t('<em>Simply good courses</em> can also be offered by other providers, but the details make the difference. That\'s why you always get a <em>little more</em> from us because we are only satisfied when you are happy.')) !!}</p>
             </div>
         </div>
         <div class="row featured-boxes featured-boxes-style-4">
@@ -82,8 +83,8 @@
                 <div class="featured-box mb-lg-0">
                     <div class="box-content px-lg-1 px-xl-5">
                         <i class="icon-featured icons icon-calendar text-color-primary text-11"></i>
-                        <h4 class="font-weight-bold text-5 mb-3">regelm&auml&szlig;ige Termine</h4>
-                        <p>Wir bieten alle Kursformate regelm&auml;&szlig;ig an. Wir sind da, <strong>wann</strong> Sie uns brauchen.</p>
+                        <h4 class="font-weight-bold text-5 mb-3">{{ t('regular appointments') }}</h4>
+                        <p>{!! html_entity_decode(t('We offer all course formats regularly. We are there <strong>when</strong> you need us.')) !!}</p>
                     </div>
                 </div>
             </div>
@@ -91,8 +92,8 @@
                 <div class="featured-box mb-lg-0">
                     <div class="box-content px-lg-1 px-xl-5">
                         <i class="icon-featured icons icon-wallet text-color-primary text-11"></i>
-                        <h4 class="font-weight-bold text-5 mb-3">best price in town</h4>
-                        <p>Vergessen Sie Preisvergleiche. Wir bieten Ihnen <strong>garantiert</strong> den besten Preis Ihrer Stadt.</p>
+                        <h4 class="font-weight-bold text-5 mb-3">{{ t('the best price in town ')}}</h4>
+                        <p>{!! html_entity_decode(t('Forget price comparisons. We are <strong>guaranteed</strong> to offer you the best price in your city.')) !!}</p>
                     </div>
                 </div>
             </div>
@@ -100,8 +101,8 @@
                 <div class="featured-box mb-sm-0">
                     <div class="box-content px-lg-1 px-xl-5">
                         <i class="icon-featured icons icon-cup text-color-primary text-11"></i>
-                        <h4 class="font-weight-bold text-5 mb-3">gut versorgt</h4>
-                        <p>Getränke und kleine Snacks zum Selbstkostenpreis sind f&uuml;r uns selbstverständlich.</p>
+                        <h4 class="font-weight-bold text-5 mb-3">{{ t('well supplied') }}</h4>
+                        <p>{{ t('Drinks and small snacks at cost are a matter of course for us.') }}</p>
                     </div>
                 </div>
             </div>
@@ -109,8 +110,8 @@
                 <div class="featured-box mb-0">
                     <div class="box-content px-lg-1 px-xl-5">
                         <i class="icon-featured icons icon-heart text-color-primary text-11"></i>
-                        <h4 class="font-weight-bold text-5 mb-3">Lernerfolg garantiert</h4>
-                        <p>Sie erhalten von uns Handlungskompetenz oder Ihr Geld zurück.</p>
+                        <h4 class="font-weight-bold text-5 mb-3">{{ t('guaranteed learning success') }}</h4>
+                        <p>{{ t('We will give you action competence or your money back.') }}</p>
                     </div>
                 </div>
             </div>

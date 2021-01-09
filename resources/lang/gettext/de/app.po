@@ -1,0 +1,1153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Laravel\n"
+"Report-Msgid-Bugs-To: contact@translation.io\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-01-09T18:11:49+01:00\n"
+"PO-Revision-Date: 2021-01-09 18:11+0100\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: app/Mail/CourseConfirmation.php:42
+#: resources/views/emails/course-confirmation.blade.php:10
+msgid "confirmation of the course booking"
+msgstr "Bestätigung der Kursbuchung"
+
+#: resources/views/booking.blade.php:8
+#: resources/views/booking.blade.php:16
+msgid "first aid courses in :location and surroundings"
+msgstr "Erste-Hilfe-Kurse in :location und Umgebung"
+
+#: resources/views/booking.blade.php:9
+msgid "Book here your first aid course in Wuppertal and the surrounding area"
+msgstr "Buchen Sie hier Ihren Erste-Hilfe-Kurs in Wuppertal und Umgebung"
+
+#: resources/views/booking.blade.php:10
+#: resources/views/booking.blade.php:90
+msgid "If you have any questions or problems, we are available by phone at 0202 898 37 565."
+msgstr "Wenn Sie Fragen oder Probleme haben, stehen wir Ihnen telefonisch unter 0202 898 37 565 zur Verfügung."
+
+#: resources/views/booking.blade.php:17
+msgid "Unfortunately, we currently don't offer any first aid courses in :location and the surrounding area."
+msgstr "Leider bieten wir derzeit keine Erste-Hilfe-Kurse in :location und Umgebung an."
+
+#: resources/views/booking.blade.php:18
+msgid "If you urgently need a course, we are at your disposal on 0202 898 37 565."
+msgstr "Sollten Sie dringend einen Kurs benötigen, stehen wir Ihnen unter 0202 898 37 565 zur Verfügung."
+
+#: resources/views/booking.blade.php:71
+msgid ":seats free seats"
+msgstr ":seats freie Plätze"
+
+#: resources/views/booking.blade.php:74
+msgid "booked up"
+msgstr "ausgebucht"
+
+#: resources/views/booking.blade.php:78
+msgid "book"
+msgstr "buchen"
+
+#: resources/views/booking.blade.php:89
+msgid "Above, you can select and display our current, closest course locations to :location."
+msgstr "Oberhalb können Sie unsere aktuellen, nächstgelegenen Kursorte zu :location auswählen und Kurse anzeigen lassen."
+
+#: resources/views/booking/create.blade.php:84
+msgid "booking ..."
+msgstr "buche ..."
+
+#: resources/views/booking/create.blade.php:89
+msgid "Book a first aid course in :location"
+msgstr "Erste-Hilfe-Kurs in :location buchen"
+
+#: resources/views/booking/create.blade.php:114
+#: resources/views/booking/create.blade.php:115
+msgid "first name"
+msgstr "Vorname"
+
+#: resources/views/booking/create.blade.php:118
+#: resources/views/booking/create.blade.php:119
+msgid "last name"
+msgstr "Nachname"
+
+#: resources/views/booking/create.blade.php:124
+#: resources/views/legal-conditions.blade.php:135
+msgid "date of birth"
+msgstr "Geburtsdatum"
+
+#: resources/views/booking/create.blade.php:131
+#: resources/views/booking/create.blade.php:132
+msgid "street"
+msgstr "Straße"
+
+#: resources/views/booking/create.blade.php:135
+#: resources/views/booking/create.blade.php:136
+msgid "house number"
+msgstr "Hausnummer"
+
+#: resources/views/booking/create.blade.php:142
+#: resources/views/booking/create.blade.php:143
+msgid "zip code"
+msgstr "PLZ"
+
+#: resources/views/booking/create.blade.php:146
+#: resources/views/booking/create.blade.php:147
+msgid "place of residence"
+msgstr "Wohnort"
+
+#: resources/views/booking/create.blade.php:154
+#: resources/views/booking/create.blade.php:155
+msgid "phone number"
+msgstr "Telefonnummer"
+
+#: resources/views/booking/create.blade.php:158
+#: resources/views/booking/create.blade.php:159
+#: resources/views/contact.blade.php:107
+#: resources/views/legal-conditions.blade.php:131
+msgid "e-mail address"
+msgstr "E-Mail Adresse"
+
+#: resources/views/booking/create.blade.php:170
+msgid "I have read and accepted the <a href=\":link\" target=\"_blank\">general terms and conditions</a>."
+msgstr "Ich habe die <a href=\":link\" target=\"_blank\">allgemeinen Geschäftsbedingungen</a> gelesen und akzeptiert."
+
+#: resources/views/booking/create.blade.php:183
+msgid "I agree that my details from the booking form will be collected and processed to process my booking. You can find detailed information on handling user data in the <a href=\":link\" target=\"_blank\">privacy policy</a>."
+msgstr "Ich stimme zu, dass meine Angaben aus dem Buchungsformular zur Abwicklung meiner Buchung erhoben und verarbeitet werden. Detaillierte Informationen zum Umgang mit Nutzerdaten finden Sie in der <a href=\":link\" target=\"_blank\">Datenschutzerklärung</a>."
+
+#: resources/views/booking/create.blade.php:197
+msgid "I agree that <a href=\":link\" target=\"_blank\">Trustpilot</a> will ask me for a rating by email."
+msgstr "Ich bin damit einverstanden, dass <a href=\":link\" target=\"_blank\">Trustpilot</a> mich per E-Mail um eine Bewertung bittet."
+
+#: resources/views/booking/create.blade.php:211
+msgid "I request and expressly agree that you start the service I have ordered before the withdrawal period has expired. I know that my <a href=\":link\" target=\"_blank\">right of revocation</a> expires once the contract has been fully fulfilled."
+msgstr "Ich verlange und bin ausdrücklich damit einverstanden, dass Sie mit der in Auftrag gegebenen Dienstleistung vor Ablauf der Widerrufsfrist beginnen. Ich weiß, dass mein <a href=\":link\" target=\"_blank\">Widerrufsrecht</a> erlischt, sobald der Vertrag vollständig erfüllt ist."
+
+#: resources/views/booking/create.blade.php:225
+msgid "I have taken note of the <a href=\":link\" target=\"_blank\">revocation policy</a>."
+msgstr "Ich habe die <a href=\":link\" target=\"_blank\">Widerrufsbelehrung</a> zur Kenntnis genommen."
+
+#: resources/views/booking/create.blade.php:232
+msgid "book course"
+msgstr "Kurs buchen"
+
+#: resources/views/booking/finish.blade.php:8
+msgid "Thank you. The booking was successful."
+msgstr "Vielen Dank. Die Buchung war erfolgreich."
+
+#: resources/views/booking/finish.blade.php:10
+msgid "We have sent you a booking confirmation by email."
+msgstr "Wir haben Ihnen eine Buchungsbestätigung per E-Mail geschickt."
+
+#: resources/views/booking/finish.blade.php:11
+msgid "book additional participant"
+msgstr "zusätzlichen Teilnehmer buchen"
+
+#: resources/views/contact.blade.php:1
+#: resources/views/contact.blade.php:68
+#: resources/views/layouts/footer.blade.php:45
+#: resources/views/layouts/header.blade.php:12
+msgid "Contact"
+msgstr "Kontakt"
+
+#: resources/views/contact.blade.php:2
+msgid "Get in contact ✉️ with us, and together we will find the right solution. 🤝"
+msgstr "Nehmen Sie Kontakt ✉️ mit uns auf und gemeinsam finden wir Ihre passende Lösung. 🤝"
+
+#: resources/views/contact.blade.php:69
+msgid "Contact us!"
+msgstr "Sprechen Sie uns an!"
+
+#: resources/views/contact.blade.php:85
+msgid "<strong>Thank you.</strong> We will process your request under the ticket ID <em>#:ticket_id</em>."
+msgstr "<strong>Vielen Dank.</strong> Wir bearbeiten Ihre Anfrage unter der Ticket-ID <em>#:ticket_id</em>."
+
+#: resources/views/contact.blade.php:90
+msgid "<strong>Error!</strong> Unfortunately there was an error saving your request."
+msgstr "<strong>Error!</strong> Leider ist beim speichern Ihrer Anfrage ein Fehler aufgetreten."
+
+#: resources/views/contact.blade.php:94
+msgid "Please write us an email directly to"
+msgstr "Bitte schreiben Sie uns eine E-Mail direkt an"
+
+#: resources/views/contact.blade.php:103
+msgid "Name"
+msgstr "Name"
+
+#: resources/views/contact.blade.php:104
+msgid "Please enter your name."
+msgstr "Bitte geben Sie Ihren Namen ein."
+
+#: resources/views/contact.blade.php:108
+msgid "Please enter your email address."
+msgstr "Geben Sie bitte Ihre Email-Adresse ein."
+
+#: resources/views/contact.blade.php:108
+msgid "Please enter a valid email address."
+msgstr "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+
+#: resources/views/contact.blade.php:113
+msgid "Subject"
+msgstr "Betreff"
+
+#: resources/views/contact.blade.php:114
+msgid "Please enter a subject."
+msgstr "Bitte geben Sie einen Betreff ein."
+
+#: resources/views/contact.blade.php:119
+msgid "Your message to us"
+msgstr "Ihre Nachricht an uns"
+
+#: resources/views/contact.blade.php:120
+msgid "Please enter your message."
+msgstr "Bitte geben Sie Ihre Nachricht ein."
+
+#: resources/views/contact.blade.php:130
+msgid "send Message"
+msgstr "Nachricht senden"
+
+#: resources/views/contact.blade.php:130
+msgid "Please wait ..."
+msgstr "Bitte warten Sie ..."
+
+#: resources/views/contact.blade.php:139
+msgid "We are here for you"
+msgstr "Wir sind für Sie da"
+
+#: resources/views/contact.blade.php:142
+msgid "Do you have a personal question or an individual concern? Would you like individual advice or a special offer? We look forward to you!"
+msgstr "Haben Sie eine persönliche Frage oder ein individuelles Anliegen? Sie wünschen eine individuelle Beratung oder ein besonderes Angebot? Wir freuen uns auf Sie!"
+
+#: resources/views/contact.blade.php:146
+msgid "Contact us on your preferred route, and we will find the right solution for you."
+msgstr "Kontaktieren Sie uns auf Ihrem bevorzugten Weg und wir finden die passende Lösung für Sie."
+
+#: resources/views/contact.blade.php:150
+msgid "Our headquarter"
+msgstr "Unser Hauptsitz"
+
+#: resources/views/contact.blade.php:152
+#: resources/views/layouts/footer.blade.php:5
+msgid "address"
+msgstr "Anschrift"
+
+#: resources/views/contact.blade.php:153
+#: resources/views/layouts/footer.blade.php:17
+msgid "phone"
+msgstr "Telefon"
+
+#: resources/views/contact.blade.php:154
+msgid "e-mail"
+msgstr "E-Mail"
+
+#: resources/views/contact.blade.php:157
+msgid "telephone availability"
+msgstr "telefonische Erreichbarkeit"
+
+#: resources/views/contact.blade.php:159
+#: resources/views/contact.blade.php:160
+#: resources/views/emails/course-confirmation.blade.php:20
+#: resources/views/layouts/footer.blade.php:12
+msgid "o'clock"
+msgstr "Uhr"
+
+#: resources/views/contact.blade.php:159
+msgid "Monday - Friday"
+msgstr "Montag - Freitag"
+
+#: resources/views/contact.blade.php:160
+msgid "Saturday"
+msgstr "Samstag"
+
+#: resources/views/emails/course-confirmation.blade.php:13
+msgid "Hello :name"
+msgstr "Hallo :name"
+
+#: resources/views/emails/course-confirmation.blade.php:15
+msgid "you have successfully booked a course with PrevHelp."
+msgstr "Sie haben erfolgreich einen Kurs bei PrevHelp gebucht."
+
+#: resources/views/emails/course-confirmation.blade.php:18
+msgid "course details"
+msgstr "Kursdetails"
+
+#: resources/views/emails/course-confirmation.blade.php:22
+msgid "course location"
+msgstr "Kursort"
+
+#: resources/views/emails/course-confirmation.blade.php:31
+msgid "If you have any questions, write an e-mail to [:mail](mailto::mail) or answer directly to this e-mail."
+msgstr "Wenn Sie Fragen haben, schreiben Sie eine E-Mail an [:mail](mailto::mail) oder antworten Sie direkt auf diese E-Mail."
+
+#: resources/views/events.blade.php:1
+msgid "Events | PrevHelp"
+msgstr "Termine | PrevHelp"
+
+#: resources/views/events.blade.php:39
+msgid "Our course dates at a glance"
+msgstr "Unsere Kurstermine auf einen Blick"
+
+#: resources/views/events.blade.php:40
+msgid "Find your course near you here"
+msgstr "Finden Sie hier Ihren Kurs in Ihrer Nähe"
+
+#: resources/views/events.blade.php:48
+msgid "Searching ..."
+msgstr "Suche ..."
+
+#: resources/views/events.blade.php:55
+msgid "Enter your postcode or city."
+msgstr "Geben Sie Ihre Postleitzahl oder Stadt ein."
+
+#: resources/views/events.blade.php:56
+msgid "view courses"
+msgstr "Kurse anzeigen"
+
+#: resources/views/fa-business.blade.php:1
+msgid "First aid courses for companies"
+msgstr "Erste-Hilfe-Kurse für Betriebe / Unternehmen"
+
+#: resources/views/fa-business.blade.php:17
+msgid "The organization of first aid in your company affects like an <strong class=\"font-weight-extra-bold\">endless spiral</strong>?"
+msgstr "Die Organisation der Ersten Hilfe in Ihrem Unternehmen wirkt wie eine <strong class=\"font-weight-extra-bold\">Endlosspirale</strong>?"
+
+#: resources/views/fa-business.blade.php:18
+msgid "Are you responsible for the organization of first aid in your company? Dates and regulations <em>rain</em> on you? Are your employees unmotivated to be named as company first aiders? Are you concerned about the consequences of mistakes in (the organization of) first aid? Are you concerned about what might happen if the trade association inspects you?"
+msgstr "Sie sind in Ihrem Betrieb / Unternehmen für die Organisation der betrieblichen Erste Hilfe zuständig? Termine und Vorschriften <em>prasseln</em> auf Sie ein? Ihre Mitarbeiter sind unmotiviert, als betrieblicher Ersthelfer benannt zu werden? Sie haben Bedenken wegen den Konsequenzen von Fehlern in (der Organisation) der Ersten Hilfe? Sie haben Befürchtungen, was bei einer Kontrolle durch die Berufsgenossenschaft passieren könnte?"
+
+#: resources/views/fa-business.blade.php:19
+msgid "Such fears and uncertainties will be a thing of the past. Because now you have a <strong>strong partner</strong> at your side. <em>Us!</em>"
+msgstr "Solche Befürchtungen und Unsicherheiten gehören der Vergangenheit an. Denn nun haben Sie einen <strong>starken Partner</strong> an Ihrer Seite. <em>Uns!</em>"
+
+#: resources/views/fa-business.blade.php:27
+msgid "With us <strong class=\"font-weight-extra-bold\">strategically</strong> well positioned!"
+msgstr "Bei uns <strong class=\"font-weight-extra-bold\">strategisch</strong> gut aufgestellt!"
+
+#: resources/views/fa-business.blade.php:28
+msgid "From the first planning step through the training of your employees to regular control and continuous training. We are here to help."
+msgstr "Vom ersten Schritt der Planung über die Schulung Ihrer Mitarbeiter bis hin zur regelmäßigen Kontrolle und kontinuierlichen Fortbildung. Wir stehen Ihnen zur Seite."
+
+#: resources/views/fa-business.blade.php:29
+msgid "With us, you get more than <em>just</em> good first aid training for your employees, regardless of whether you have further questions, particular circumstances, or special requirements. Together we will find your <strong>suitable solution</strong>!"
+msgstr "Bei uns erhalten Sie mehr als <em>nur</em> eine gute Erste-Hilfe-Schulung Ihrer Mitarbeiter. Egal ob weitergehende Fragen, besondere Gegebenheiten oder spezielle Anforderungen. Gemeinsam finden wir Ihre <strong>passende Lösung</strong>!"
+
+#: resources/views/fa-business.blade.php:49
+#: resources/views/fa-driversLicense-wuppertal.blade.php:71
+#: resources/views/welcome.blade.php:84
+msgid "regular appointments"
+msgstr "regelmäßige Termine"
+
+#: resources/views/fa-business.blade.php:59
+msgid "Do you need basic or advanced training for your company's first aiders promptly? Sending several employees to a first aid course at the same time does not fit into your duty roster? No problem! We regularly offer <em>open</em> courses that you can also book for individual employees."
+msgstr "Sie brauchen zeitnah eine Aus- oder Fortbildung Ihrer betrieblichen Ersthelfer? Mehrere Mitarbeiter gleichzeitig auf einen Erste-Hilfe-Kurs zu schicken, passt schlecht in Ihre Dienstplanung? Kein Problem! Wir bieten regelmäßig <em>offene</em> Kurse, die Sie auch für einzelne Mitarbeiter buchen können."
+
+#: resources/views/fa-business.blade.php:60
+#: resources/views/fa-business.blade.php:113
+#: resources/views/fa-driversLicense-wuppertal.blade.php:82
+#: resources/views/fa-driversLicense-wuppertal.blade.php:135
+msgid "book now"
+msgstr "jetzt buchen"
+
+#: resources/views/fa-business.blade.php:71
+msgid "basic and advanced training <strong class=\"font-weight-extra-bold\">free of charge</strong>"
+msgstr "Aus- und Fortbildung <strong class=\"font-weight-extra-bold\">kostenfrei</strong>"
+
+#: resources/views/fa-business.blade.php:76
+msgid "If the responsible BG / UK takes over the costs, the training and further education of your company first aiders are <strong>free</strong> for you. We are happy to take care of the formalities. You name your employees, and we take care of their training and regular training."
+msgstr "Bei Übernahme der Kosten durch die zuständige BG / UK ist die Aus- und Fortbildung Ihrer betrieblichen Ersthelfer für Sie <strong>kostenfrei</strong>. Wir kümmern uns gerne um die Formalitäten. Sie benennen Ihre Mitarbeiter und wir sorgen für deren Aus- und regelmäßige Fortbildung."
+
+#: resources/views/fa-business.blade.php:77
+#: resources/views/fa-business.blade.php:96
+#: resources/views/fa-driversLicense-wuppertal.blade.php:99
+#: resources/views/fa-driversLicense-wuppertal.blade.php:118
+msgid "view"
+msgstr "ansehen"
+
+#: resources/views/fa-business.blade.php:91
+msgid "Training at your site"
+msgstr "Schulung bei Ihnen vor Ort"
+
+#: resources/views/fa-business.blade.php:95
+msgid "People learn best in an environment they are familiar with. Therefore, we also offer all of our courses <em>in-house</em> at your location. Our expertise in your premises, nationwide and without additional costs."
+msgstr "Menschen lernen am besten in einer Umgebung, mit der sie vertraut sind. Daher bieten wir alle unsere Kurse auch als <em>Inhouse-Kurs</em> bei Ihnen vor Ort an. Unsere Expertise in Ihren Räumlichkeiten, bundesweit und ohne zusätzliche Kosten."
+
+#: resources/views/fa-business.blade.php:108
+#: resources/views/fa-driversLicense-wuppertal.blade.php:130
+msgid "catering"
+msgstr "Verpflegung"
+
+#: resources/views/fa-business.blade.php:109
+msgid "Course days can be very long and tiring, mostly when blood sugar levels are slowly falling. But your employees should feel comfortable with us throughout the day. So we provide them small snacks and drinks (at cost price)."
+msgstr "Kurstage können sehr lang und anstrengend sein, vor allem wenn der Blutzuckerspiegel langsam sinkt. Ihre Mitarbeiter sollen sich jedoch den ganzen Tag über bei uns wohlfühlen. Deshalb bieten wir ihnen kleine Snacks und Getränke (zum Selbstkostenpreis)."
+
+#: resources/views/fa-business.blade.php:129
+msgid "We are there for you with <strong>all your questions</strong>!"
+msgstr "Wir sind bei <strong>allen Fragen</strong> für Sie da!"
+
+#: resources/views/fa-business.blade.php:130
+msgid "Just talk to us."
+msgstr "Sprechen Sie uns einfach an."
+
+#: resources/views/fa-business.blade.php:135
+msgid "get in touch"
+msgstr "Nehmen Sie Kontakt auf"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:1
+msgid "First aid course in Wuppertal 🦊 for driving license and company"
+msgstr "Erste-Hilfe-Kurs in Wuppertal 🦊 für Führerschein und Betrieb"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:2
+msgid "Looking for a first aid course in Wuppertal for a driver's license or company? 🤘 We have free places with a best price guarantee ❗ Book online now. ⏰"
+msgstr "Erste-Hilfe-Kurs in Wuppertal für den Führerschein oder Betrieb gesucht? 🤘 Wir haben freie Plätze mit best-price-garantie❗Jetzt schnell online buchen. ⏰"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:17
+#: resources/views/layouts/header.blade.php:91
+msgid "first aid courses"
+msgstr "Erste-Hilfe-Kurse"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:24
+msgid "First aid courses for driver's license, company, and study in Wuppertal"
+msgstr "Erste-Hilfe-Kurse für Führerschein, Betrieb und Studium in Wuppertal"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:37
+msgid "You don't want to waste any more time?"
+msgstr "Du möchtest keine Zeit mehr verlieren?"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:48
+msgid "Are you looking for the <span class=\"alternative-font\">guaranteed</span> cheapest first aid course in Wuppertal for your driver's license, company, trainer license, or studies? Do you need a free seat in the next few days? We got him!"
+msgstr "Du suchst den <span class=\"alternative-font\">garantiert</span> günstigsten Erste-Hilfe-Kurs in Wuppertal für Deinen Führerschein, Betrieb, Trainerschein oder Studium? Du brauchst in den nächsten Tagen einen freien Platz? Wir haben ihn!"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:54
+msgid "book now quickly!"
+msgstr "Jetzt schnell buchen!"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:81
+msgid "Whether it is a driver's license, university studies, or company first aiders: the first aid course often has to be quick. That is why we offer our courses in Wuppertal several times a week, during the week and on the weekend. Our goal: Always a free place within a few days for each of our participants."
+msgstr "Egal ob Führerschein, Studium oder betrieblicher Ersthelfer: Mit dem Erste-Hilfe-Kurs muss es oft schnell gehen. Daher bieten wir unsere Kurse in Wuppertal jede Woche mehrfach unter der Woche und am Wochenende an. Unser Ziel: immer einen freien Platz innerhalb weniger Tage für jeden unserer Teilnehmer."
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:93
+msgid "<strong class=\"font-weight-extra-bold\">guaranteed</strong> satisfied"
+msgstr "<strong class=\"font-weight-extra-bold\">garantiert</strong> zufrieden"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:98
+msgid "We want you to have fun learning. If you haven't had fun or learned anything on your first aid course, you won't pay anything. Because only if we were able to impart competence and security to you would we want to be paid."
+msgstr "Wir möchten, dass Du mit Spaß lernst. Solltest Du bei Deinem Erste-Hilfe-Kurs weder Spaß gehabt noch etwas gelernt haben, zahlst Du auch nichts. Denn nur wenn wir Dir Handlungskompetenz und Sicherheit vermitteln konnten, möchten wir auch bezahlt werden."
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:113
+msgid "the best price in town"
+msgstr "the best price in town"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:117
+msgid "Your everyday life is already expensive enough and comparing prices on the Internet is annoying? We know that and want to help you. We, therefore, always offer you your first aid course at the <strong>guaranteed best price in Wuppertal</strong>. Save quickly with us instead of extended comparisons!"
+msgstr "Dein Alltag ist schon teuer genug und Preise im Internet vergleichen nervt? Das kennen wir und wollen Dir helfen. Daher bieten wir Dir Deinen Erste-Hilfe-Kurs immer zum <strong>garantiert besten Preis in Wuppertal</strong> an. Mit uns schnell sparen, statt lange zu vergleichen!"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:131
+msgid "Course days can be very long and tiring, mostly when blood sugar levels are slowly falling. But we want you to feel comfortable with us the entire day of the course. So we provide you with small snacks and drinks (at cost price)."
+msgstr "Kurstage können sehr lang und anstrengend sein, insbesondere wenn der Blutzuckerspiegel langsam sinkt. Damit Du Dich bei uns den gesamten Kurstag über wohlfühlst, stellen wir Dir daher kleine Snacks und Getränke (zum Selbstkostenpreis) zur Verfügung."
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:158
+msgid "We offer you the <strong class=\"font-weight-extra-bold\">good first aid course</strong> in <strong>Wuppertal Vohwinkel</strong>"
+msgstr "Wir bieten Dir den <strong class=\"font-weight-extra-bold\">guten Erste-Hilfe-Kurs</strong> in <strong>Wuppertal Vohwinkel</strong>"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:159
+msgid "Regardless of whether you need the first aid course for your driver's license, your studies, your trainer license, as a lifeguard, as a company first aider / for the company, or just like that. Our training courses are entertaining, funny, and recognized nationwide by the authorities, according to FEV and DGUV."
+msgstr "Ganz gleich, ob Du den Erste-Hilfe-Kurs für Deinen Führerschein, Dein Studium, Deinen Trainerschein, als Rettungsschwimmer, als betrieblicher Ersthelfer / für den Betrieb oder <i>einfach nur so</i> brauchst. Unsere Schulungen sind kurzweilig, lustig und von den Behörden gemäß FEV und DGUV bundesweit anerkannt."
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:160
+msgid "With us, you are precise, right!"
+msgstr "Bei uns bist Du genau richtig!"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:168
+msgid "Use your free time <strong class=\"font-weight-extra-bold\">better</strong>"
+msgstr "Nutze deine Freizeit <strong class=\"font-weight-extra-bold\">besser</strong>"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:169
+msgid "Your time is precious, and days off are far too rare anyway. Therefore, our entertaining course only lasts 7.5 hours (9 units), including breaks. We also offer our courses several times a week and on weekends in Wuppertal Vohwinkel."
+msgstr "Deine Zeit ist kostbar und freie Tage ohnehin viel zu selten. Daher dauert unser kurzweiliger Kurs nur 7,5 Stunden (9 UE) inkl. Pausen. Außerdem bieten wir Dir in Wuppertal Vohwinkel unsere Kurse mehrmals die Woche unter der Woche und auch am Wochenende an."
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:170
+msgid "We are there <strong>when</strong> you need us!"
+msgstr "Wir sind da, <strong>wann</strong> Du uns brauchst!"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:171
+msgid "Do you have any questions? Then take a look at our <a href=\":faq\">FAQ</a> or contact us directly!"
+msgstr "Du hast noch Fragen? Dann schaue in unsere <a href=\":faq\">FAQ</a> oder nehme direkt Kontakt zu uns auf!"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:187
+msgid "Come to us and have fun with your first aid course!"
+msgstr "Komm zu uns und habe Spaß bei Deinem Erste-Hilfe-Kurs!"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:188
+msgid "What are you waiting for?"
+msgstr "Worauf wartest Du?"
+
+#: resources/views/fa-driversLicense-wuppertal.blade.php:193
+msgid "book course now"
+msgstr "Jetzt Kurs buchen"
+
+#: resources/views/layouts/footer.blade.php:11
+msgid "opening hours"
+msgstr "Öffnungszeiten"
+
+#: resources/views/layouts/footer.blade.php:13
+msgid "personal appointments"
+msgstr "persönliche Termine"
+
+#: resources/views/layouts/footer.blade.php:14
+msgid "by arrangement"
+msgstr "nach Vereinbarung"
+
+#: resources/views/layouts/footer.blade.php:19
+msgid "office"
+msgstr "Büro"
+
+#: resources/views/layouts/footer.blade.php:46
+#: resources/views/layouts/header.blade.php:130
+msgid "GTC"
+msgstr "AGB"
+
+#: resources/views/layouts/footer.blade.php:47
+#: resources/views/layouts/header.blade.php:129
+msgid "privacy"
+msgstr "Datenschutz"
+
+#: resources/views/layouts/footer.blade.php:48
+#: resources/views/layouts/header.blade.php:128
+msgid "imprint"
+msgstr "Impressum"
+
+#: resources/views/layouts/frontend.blade.php:37
+#: resources/views/layouts/frontend.blade.php:44
+#: resources/views/layouts/frontend.blade.php:50
+#: resources/views/layouts/frontend.blade.php:57
+msgid "Prevention is the best help | PrevHelp"
+msgstr "Prävention ist die beste Hilfe | PrevHelp"
+
+#: resources/views/layouts/header.blade.php:23
+msgid "Trustpilot reviews"
+msgstr "Trustpilot Bewertungen"
+
+#: resources/views/layouts/header.blade.php:54
+msgid "current corona information"
+msgstr "aktuelle Corona Informationen"
+
+#: resources/views/layouts/header.blade.php:95
+msgid "for the driver's license"
+msgstr "für den Führerschein"
+
+#: resources/views/layouts/header.blade.php:96
+msgid "for companies"
+msgstr "für Betriebe / Unternehmen"
+
+#: resources/views/layouts/header.blade.php:101
+msgid "Events"
+msgstr "Termine"
+
+#: resources/views/layouts/header.blade.php:107
+msgid "FAQ"
+msgstr "FAQ"
+
+#: resources/views/layouts/header.blade.php:113
+msgid "warranty"
+msgstr "Garantie"
+
+#: resources/views/layouts/header.blade.php:124
+msgid "legal"
+msgstr "Rechtliches"
+
+#: resources/views/layouts/header.blade.php:131
+msgid "revocation"
+msgstr "Widerrufsbelehrung"
+
+#: resources/views/legal-conditions.blade.php:1
+msgid "General terms and conditions"
+msgstr "Allgemeine Geschäftsbedingungen"
+
+#: resources/views/legal-conditions.blade.php:10
+msgid "General terms and conditions for courses and consultations"
+msgstr "Allgemeine Geschäftsbedingungen für Kurse und Beratungen"
+
+#: resources/views/legal-conditions.blade.php:14
+msgid "The exclusive language available for the conclusion of the contract shall be German. Translations of these terms and conditions to other languages are for information only. In the event of contradictions between the German text and the translations, the German text shall prevail."
+msgstr "Die für den Vertragsschluss zur Verfügung stehende Sprache ist ausschließlich deutsch. Übersetzungen dieser AGB in andere Sprachen dienen lediglich zu Ihrer Information. Bei etwaigen Unterschieden zwischen den Sprachfassungen hat der deutsche Text Vorrang."
+
+#: resources/views/legal-conditions.blade.php:18
+msgid "Scope"
+msgstr "Geltungsbereich"
+
+#: resources/views/legal-conditions.blade.php:21
+msgid "The following general terms and conditions apply to all legal transactions with consumers and companies with"
+msgstr "Die nachstehenden allgemeinen Geschäftsbedingungen gelten für alle Rechtsgeschäfte gegenüber Verbrauchern und Unternehmen mit"
+
+#: resources/views/legal-conditions.blade.php:28
+msgid "hereinafter referred to as PrevHelp or we. The legal transactions can come about by phone, email, or via the website."
+msgstr "nachstehend PrevHelp oder wir genannt. Die Rechtsgeschäfte können dabei telefonisch, per E-Mail oder über die Webseite zustande kommen. "
+
+#: resources/views/legal-conditions.blade.php:33
+msgid "The language available for the conclusion of the contract is exclusively German. Translations into other languages are for your information only. The German text has priority in the event of any differences in linguistic usage."
+msgstr "Die für den Vertragsschluss zur Verfügung stehende Sprache ist ausschließlich Deutsch. Übersetzungen in andere Sprachen dienen ausschließlich Ihrer Information. Der deutsche Text hat Vorrang bei eventuellen Unterschieden im Sprachgebrauch. "
+
+#: resources/views/legal-conditions.blade.php:38
+msgid "Applicable law and consumer protection regulations"
+msgstr "Anwendbares Recht und Verbraucherschutzbestimmungen"
+
+#: resources/views/legal-conditions.blade.php:42
+msgid "The law of the Federal Republic of Germany applies under exclusion of international private law and the to German law applicable UN sales law, if"
+msgstr "Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss internationalen Privatrechts und des ins deutsche Recht geltenden UN-Kaufrechts, wenn"
+
+#: resources/views/legal-conditions.blade.php:44
+msgid "you have your habitual residence in Germany or"
+msgstr "Sie Ihren gewöhnlichen Aufenthalt in Deutschland haben oder"
+
+#: resources/views/legal-conditions.blade.php:46
+msgid "your habitual residence is in a country that is not a member of the European Union."
+msgstr "Ihr gewöhnlicher Aufenthalt in einem Staat ist, der nicht Mitglied der Europäischen Union ist. "
+
+#: resources/views/legal-conditions.blade.php:51
+msgid "In the event that you are a consumer within the meaning of § 13 BGB and you have your habitual residence in a member state of the European Union, the applicability of German law also applies, whereby mandatory provisions of the state in which you have your habitual residence remain unaffected stay."
+msgstr "Für den Fall, dass Sie Verbraucher i. S. d. § 13 BGB sind und Sie Ihren gewöhnlichen Aufenthalt in einem Mitgliedsland der Europäischen Union haben, gilt ebenfalls die Anwendbarkeit des deutschen Rechts, wobei zwingende Bestimmungen des Staates, in dem Sie Ihren gewöhnlichen Aufenthalt haben, unberührt bleiben."
+
+#: resources/views/legal-conditions.blade.php:53
+msgid "A consumer within the meaning of the following regulations is any natural person who concludes a legal transaction for purposes that can predominantly neither be attributed to their commercial nor their independent professional activity. An entrepreneur is any natural or legal person or a legal partnership who is exercising their independent professional or commercial activity when concluding a legal transaction."
+msgstr "Verbraucher im Sinne der nachstehenden Regelungen ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden kann. Unternehmer ist jede natürliche oder juristische Person oder eine rechtsfähige Personengesellschaft, die bei Abschluss eines Rechtsgeschäfts in Ausübung ihrer selbständigen beruflichen oder gewerblichen Tätigkeit handelt. "
+
+#: resources/views/legal-conditions.blade.php:58
+msgid "The version of these GTC valid at the time of the order applies."
+msgstr "Es gilt die jeweils zum Zeitpunkt der Bestellung gültige Fassung dieser AGB."
+
+#: resources/views/legal-conditions.blade.php:63
+msgid "The prices at the time of booking a course or advice apply."
+msgstr "Es gelten die Preise zum Zeitpunkt der Buchung eines Kurses oder einer Beratung."
+
+#: resources/views/legal-conditions.blade.php:68
+msgid "If certain discounts or special offers are advertised, these are limited in time or quantity. There is no entitlement to it."
+msgstr "Sollten bestimmte Rabatt- oder Aktionsangebote beworben werden, sind diese zeitlich oder mengenmäßig begrenzt. Es besteht kein Anspruch darauf."
+
+#: resources/views/legal-conditions.blade.php:73
+msgid "Subject matter of the contract and general information"
+msgstr "Vertragsgegenstand und allgemeine Hinweise"
+
+#: resources/views/legal-conditions.blade.php:77
+msgid "The subject of the contract are the following services:"
+msgstr "Gegenstand des Vertrages sind folgende Leistungen:"
+
+#: resources/views/legal-conditions.blade.php:79
+msgid "our courses"
+msgstr "unsere Kurse"
+
+#: resources/views/legal-conditions.blade.php:81
+msgid "our advisory services"
+msgstr "unsere Beratungsangebote"
+
+#: resources/views/legal-conditions.blade.php:85
+msgid "The following courses are currently offered:"
+msgstr "Derzeitig werden die folgenden Kurse angeboten:"
+
+#: resources/views/legal-conditions.blade.php:87
+msgid "First aid training and advanced training"
+msgstr "Erste-Hilfe Aus- und Fortbildung"
+
+#: resources/views/legal-conditions.blade.php:89
+msgid "First aid on the child"
+msgstr "Erste Hilfe am Kind"
+
+#: resources/views/legal-conditions.blade.php:91
+msgid "AED & resuscitation training"
+msgstr "AED & Reanimationstraining"
+
+#: resources/views/legal-conditions.blade.php:93
+msgid "Training for Caregivers"
+msgstr "Fortbildung für Pflegekräfte"
+
+#: resources/views/legal-conditions.blade.php:95
+msgid "(this list is not exhaustive)"
+msgstr "(diese Liste ist nicht abschließend)"
+
+#: resources/views/legal-conditions.blade.php:100
+msgid "Conclusion of the contract"
+msgstr "Zustandekommen des Vertrages"
+
+#: resources/views/legal-conditions.blade.php:104
+msgid "The following applies to bookings made verbally, by telephone, in writing, by e-mail, or via the contact form:"
+msgstr "Für Buchungen, die mündlich, telefonisch, schriftlich, per E-Mail oder via Kontaktformular erfolgen, gilt Folgendes:"
+
+#: resources/views/legal-conditions.blade.php:106
+msgid "The subject of the contract is the implementation of courses or individual advice."
+msgstr "Gegenstand des Vertrages ist die Durchführung von Kursen oder individueller Beratung."
+
+#: resources/views/legal-conditions.blade.php:108
+msgid "All offers on the Internet are non-binding and do not represent a legally binding offer to conclude a contract."
+msgstr "Sämtliche Angebote im Internet sind unverbindlich und stellen kein rechtlich verbindliches Angebot zum Abschluss eines Vertrages dar."
+
+#: resources/views/legal-conditions.blade.php:110
+msgid "offer"
+msgstr "Angebot"
+
+#: resources/views/legal-conditions.blade.php:112
+msgid "With the booking, you offer PrevHelp the conclusion of a consulting contract or a binding course booking."
+msgstr "Mit der Buchung bieten Sie PrevHelp den Abschluss eines Beratungsvertrages bzw. einer Kursbuchung verbindlich an."
+
+#: resources/views/legal-conditions.blade.php:114
+msgid "You also declare that you have read and accepted these terms and conditions."
+msgstr "Zudem erklären Sie diese AGB gelesen und akzeptiert zu haben."
+
+#: resources/views/legal-conditions.blade.php:118
+msgid "Adoption:"
+msgstr "Annahme:"
+
+#: resources/views/legal-conditions.blade.php:120
+msgid "The contract between us is concluded when you receive our confirmation, either in text form by email or, if you wish, by post."
+msgstr "Der Vertrag zwischen uns kommt mit dem Zugang unserer Bestätigung bei Ihnen zustande, entweder in Textform per E-Mail oder nach Wunsch postalisch."
+
+#: resources/views/legal-conditions.blade.php:125
+msgid "Collection, storage, and processing of your personal data"
+msgstr "Erhebung, Speicherung und Verarbeitung Ihrer personenbezogenen Daten"
+
+#: resources/views/legal-conditions.blade.php:129
+msgid "To carry out and process a booking, we need the following data from you:"
+msgstr "Zur Durchführung und Abwicklung einer Buchung benötigen wir von Ihnen die folgenden Daten:"
+
+#: resources/views/legal-conditions.blade.php:133
+msgid "First and Last Name"
+msgstr "Vor- und Nachname"
+
+#: resources/views/legal-conditions.blade.php:137
+msgid "if necessary, address data"
+msgstr "ggf. Adressdaten"
+
+#: resources/views/legal-conditions.blade.php:142
+msgid "Without your separate consent, we will use the data you have provided exclusively to fulfill and process your booking, such as delivering the invoice or issuing a certificate of attendance. When paying by credit card, we also use your credit card details to process payments. Any further use of your personal data for the purposes of advertising, market research, or to tailor our offers to meet your needs requires your express consent."
+msgstr "Die von Ihnen mitgeteilten Daten verwenden wir ohne Ihre gesonderte Einwilligung ausschließlich zur Erfüllung und Abwicklung Ihrer Buchung, etwa zur Zustellung der Rechnung oder Ausstellung einer Teilnahmebescheinigung. Bei der Bezahlung per Kreditkarte verwenden wir auch Ihre Kreditkartendaten zur Zahlungsabwicklung. Eine darüber hinausgehende Nutzung Ihrer personenbezogenen Daten für Zwecke der Werbung, der Marktforschung oder zur bedarfsgerechten Gestaltung unserer Angebote bedarf Ihrer ausdrücklichen Einwilligung."
+
+#: resources/views/legal-conditions.blade.php:144
+msgid "You have the option of giving this consent before placing the order. This declaration of consent is voluntary, and you can revoke it at any time."
+msgstr "Sie haben die Möglichkeit, diese Einwilligung vor der Bestellung zu erteilen. Diese Einverständniserklärung ist freiwillig und kann jederzeit widerrufen werden."
+
+#: resources/views/legal-conditions.blade.php:149
+msgid "Without your separate consent, we will only save the data within the framework of our tax and commercial law obligations or any employer's liability insurance association regulations."
+msgstr "Ohne Ihre gesonderte Einwilligung speichern wir die Daten nur im Rahmen unserer steuer- und handelsrechtlichen Pflichten bzw. evtl. berufsgenossenschaftlicher Vorschriften."
+
+#: resources/views/legal-conditions.blade.php:154
+#: resources/views/legal-revocation.blade.php:11
+msgid "Right of revocation for consumers"
+msgstr "Widerrufsrecht für Verbraucher"
+
+#: resources/views/legal-conditions.blade.php:158
+msgid "As a consumer, you have a right of revocation by the instructions listed in the appendix."
+msgstr "Als Verbraucher steht Ihnen nach Maßgabe der im Anhang aufgeführten Belehrung ein Widerrufsrecht zu."
+
+#: resources/views/legal-conditions.blade.php:160
+msgid "A consumer is any natural person who concludes a legal transaction for predominantly neither commercial nor independent professional activity."
+msgstr "Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können."
+
+#: resources/views/legal-conditions.blade.php:165
+msgid "The withdrawal period begins with the conclusion of the contract. The contract is concluded at the moment when you receive the confirmation of the booking of the course or the advice from us."
+msgstr "Die Widerrufsfrist beginnt mit dem Vertragsabschluss. Der Vertrag ist in dem Moment abgeschlossen, indem Sie die Bestätigung der Buchung des Kurses bzw. der Beratung durch uns erhalten."
+
+#: resources/views/legal-conditions.blade.php:167
+msgid "You can cancel your booking free of charge within 14 days, whereby sending the relevant form is sufficient to meet the deadline."
+msgstr "Sie können innerhalb von 14 Tagen Ihre Buchung kostenfrei widerrufen, wobei zur Wahrung der Frist die Absendung des entsprechenden Formulars genügt. "
+
+#: resources/views/legal-conditions.blade.php:172
+msgid "You can find the separate cancellation form and instructions <a href=\":link\">here</a>."
+msgstr "Das gesonderte Widerrufsformular und die Belehrung finden Sie <a href=\":link\">hier</a>. "
+
+#: resources/views/legal-conditions.blade.php:177
+msgid "Cancellation of seminars and cancellation costs for participants"
+msgstr "Stornierung von Seminaren und Stornokosten für Teilnehmer"
+
+#: resources/views/legal-conditions.blade.php:180
+msgid "As soon as you have received the confirmation email from us, your participation is binding."
+msgstr "Sobald Sie die Bestätigungsemail von uns erhalten haben, ist Ihre Teilnahme verbindlich."
+
+#: resources/views/legal-conditions.blade.php:182
+msgid "In the event of cancellation <strong>up to 31 days</strong> before the start of the course, 25% of the fee is due."
+msgstr "Bei einer Stornierung <strong>bis 31 Tage</strong> vor Kursbeginn werden 25% des Beitrages fällig."
+
+#: resources/views/legal-conditions.blade.php:184
+msgid "If you cancel <strong>30 days or less</strong> before starting the course, we will charge 50% of the fee."
+msgstr "Bei einer Stornierung <strong>ab 30 Tage</strong> vor Kursbeginn werden 50 % des Beitrages fällig."
+
+#: resources/views/legal-conditions.blade.php:186
+msgid "In the event of cancellation <strong>14 days or less</strong> before the courses start, the full amount is due."
+msgstr "Bei einer Stornierung <strong>ab 14 Tage</strong> vor Kursbeginn wird der gesamte Betrag fällig."
+
+#: resources/views/legal-conditions.blade.php:188
+msgid "If you participate later, we can offset the cancellation costs."
+msgstr "Bei einer späteren Teilnahme können die Stornierungskosten angerechnet werden."
+
+#: resources/views/legal-conditions.blade.php:190
+msgid "Alternatively, you can transfer the place to another person up to 7 days before starting the course."
+msgstr "Alternativ können Sie den Platz bis 7 Tage vor Kursbeginn an eine andere Person übertragen."
+
+#: resources/views/legal-conditions.blade.php:192
+msgid "If you drop out of the course, the full course fee will be withheld unless there is a medical certificate."
+msgstr "Bei Kursabbruch durch Sie wird die volle Kursgebühr einbehalten, es sei denn, es liegt ein ärztliches Attest vor."
+
+#: resources/views/legal-conditions.blade.php:194
+msgid "The cancellation must be made in writing."
+msgstr "Die Stornierung muss in Textform erfolgen."
+
+#: resources/views/legal-conditions.blade.php:199
+msgid "Cancellation of seminars by PrevHelp"
+msgstr "Stornierung von Seminaren seitens PrevHelp"
+
+#: resources/views/legal-conditions.blade.php:202
+msgid "We are entitled to cancel a seminar even at short notice if not enough participants have registered."
+msgstr "Wir sind berechtigt, ein Seminar auch kurzfristig abzusagen, falls sich nicht genügend Teilnehmer angemeldet haben."
+
+#: resources/views/legal-conditions.blade.php:204
+msgid "We are also entitled to cancel a seminar if the speaker falls ill at short notice, and a replacement cannot be provided."
+msgstr "Ebenfalls sind wir berechtigt, ein Seminar abzusagen, falls der Referent kurzfristig erkrankt und kein Ersatz gestellt werden kann."
+
+#: resources/views/legal-conditions.blade.php:206
+msgid "In cases 1 and 2, we will refund your participation fee. We will not assume any further costs that you have incurred."
+msgstr "Wir erstatten Ihnen in den Fällen 1 und 2 ihre Teilnahmegebühr zurück. Weitergehende Kosten, die Ihnen angefallen sind, übernehmen wir nicht."
+
+#: resources/views/legal-conditions.blade.php:208
+msgid "If you behave contrary to the contract by violating these general terms and conditions or our house rules, we have the right to exclude you from the course."
+msgstr "Verhalten Sie sich vertragswidrig, indem Sie gegen diese allgemeinen Geschäftsbedingungen oder unsere Hausordnung verstoßen, haben wir das Recht, Sie von dem Kurs auszuschließen."
+
+#: resources/views/legal-conditions.blade.php:212
+msgid "Scope of services and unused services"
+msgstr "Leistungsumfang und nicht in Anspruch genommene Leistungen"
+
+#: resources/views/legal-conditions.blade.php:215
+msgid "The scope of services depends on the respective course booking."
+msgstr "Der Leistungsumfang richtet sich nach der jeweiligen Kursbuchung."
+
+#: resources/views/legal-conditions.blade.php:217
+msgid "If a participant does not use individual services, PrevHelp still reserves the right to invoice the entire fee still."
+msgstr "Werden einzelne Leistungen durch einen Teilnehmer nicht in Anspruch genommen, so behält sich PrevHelp vor, dennoch die gesamte Gebühr in Rechnung zu stellen."
+
+#: resources/views/legal-conditions.blade.php:219
+msgid "Should an appointment or course fail if, for example, the instructor/lecturer is absent due to illness, we will catch it up immediately. If this is not possible, we will refund the fee for the open appointments."
+msgstr "Sollte ein Termin oder Kurs z. B. durch Krankheit des Ausbilders / Dozenten ausfallen, wird dieser umgehend nachgeholt. Ist dies nicht möglich, wird die Gebühr für die offenen Termine zurückerstattet."
+
+#: resources/views/legal-conditions.blade.php:222
+msgid "Courses that comply with DGUV Principle 304-001 can be settled directly with the responsible trade association (BG) or the accident insurance (UK) if at the latest at the beginning of the course if a valid registration form or a cost assumption certificate from the relevant BG / UK  is presented. In this case, the course is for the participant free of charge."
+msgstr "Kurse, welche dem DGUV Grundsatz 304-001 entsprechen, können bei Vorlage eines gültigen Anmeldeformulars oder einer Kostenübernahmebescheinigung der zuständigen Berufsgenossenschaft (BG) oder Unfallkasse (UK) spätestens zu Kursbeginn direkt mit der entsprechenden BG / UK abgerechnet werden und sind in diesem Fall für den Teilnehmer kostenfrei."
+
+#: resources/views/legal-conditions.blade.php:224
+msgid "If the BG / UK refuses to assume the costs for reasons for which we are not responsible, or if the necessary documents are not submitted in good time, the participant or the sending agency/company will be charged a participation fee of € 60 / person in Invoices."
+msgstr "Lehnt die BG / UK die Übernahme der Kosten aus Gründen, die wir nicht zu verantworten haben, ab oder werden die notwendigen Unterlagen nicht rechtzeitig vorgelegt, wird dem Teilnehmer oder der aussendenden Stelle / Firma für den erhöhten Aufwand eine Teilnehmerpauschale von 60 € / Person in Rechnung stellt."
+
+#: resources/views/legal-conditions.blade.php:227
+msgid "If an in-house course/group event is booked, the minimum number of participants is 10. If this number is not reached, we will charge the course fee of at least 45 € / person for each missing participant."
+msgstr "Wird ein InHouse Kurs / eine Gruppenveranstaltung gebucht, gelten 10 Teilnehmer als Mindestteilnehmerzahl. Wenn diese Zahl unterschritten wird, stellen wir die Kursgebühr mind. jedoch 45 € / Person je fehlendem Teilnehmer in Rechnung."
+
+#: resources/views/legal-conditions.blade.php:230
+msgid "If at the customer's request, a room other than the one provided by us is used to hold the course, this must be made available free of charge or any costs incurred must be borne by the customer. The room has to have at least 50 m² floor space or at least two m² / participant + 10 m² for the teacher (in total at least 20 m²), be suitable in form, hygiene, and equipment, and otherwise meet the requirements of the workplace ordinance fulfill."
+msgstr "Wenn auf Wunsch des Kunden ein anderer als der durch uns gestellte Raum zur Kursdurchführung genutzt wird, muss dieser kostenfrei zur Verfügung gestellt oder ggf. anfallende Kosten durch den Auftraggeber übernommen werden. Der Raum hat mind. 50 m² Grundfläche bzw. mind. 2 m² / Teilnehmer + 10 m² für die Lehrkraft (in Summe mind. 20 m²) aufzuweisen, in Form, Hygiene und Ausstattung geeignet zu sein und im Übrigen die Voraussetzungen der Arbeitsstättenverordnung zu erfüllen."
+
+#: resources/views/legal-conditions.blade.php:237
+msgid "General conditions of participation for our courses"
+msgstr "Allgemeine Teilnahmebedingungen für unsere Kurse"
+
+#: resources/views/legal-conditions.blade.php:240
+msgid "The seminar leader/trainer/lecturer is authorized to issue instructions to the participants for the duration and within the event's framework."
+msgstr "Der Seminarleiter / Trainer / Dozent ist gegenüber den Teilnehmern für die Dauer und im Rahmen der Veranstaltung weisungsbefugt."
+
+#: resources/views/legal-conditions.blade.php:242
+msgid "By accepting these terms and conditions, each participant is informed of the following:"
+msgstr "Jeder Teilnehmer wird durch die Akzeptanz dieser AGB auf Folgendes hingewiesen:"
+
+#: resources/views/legal-conditions.blade.php:244
+msgid "Participants should be at the venue at least 15 minutes before starting the course to record and check the personal data required."
+msgstr "Zur Aufnahme und Prüfung der notwendigen persönlichen Daten finden sich die Teilnehmer mind. 15 Minuten vor Kursbeginn am Veranstaltungsort ein."
+
+#: resources/views/legal-conditions.blade.php:247
+msgid "Participation may include physical activities and requires good health. To exclude injuries to the body and health, PrevHelp insures to meet its traffic safety obligations to the best of its knowledge and belief."
+msgstr "Die Teilnahme beinhaltet ggf. körperliche Aktionen und setzt einen guten Gesundheitszustand voraus. Um Verletzungen des Körpers und der Gesundheit auszuschließen, versichert PrevHelp nach bestem Wissen und Gewissen seiner Verkehrssicherungspflicht nachzukommen."
+
+#: resources/views/legal-conditions.blade.php:250
+msgid "Before each event, our trainer/lecturer must be informed about health problems and any relevant illnesses so that the applicable participant can be protected from harm as best as possible."
+msgstr "Vor jeder Veranstaltung muss unser Trainer / Dozent über gesundheitliche Probleme und relevante Krankheiten informiert werden, damit der betreffende Teilnehmer so gut wie möglich vor Schäden geschützt werden kann."
+
+#: resources/views/legal-conditions.blade.php:251
+msgid "PrevHelp is entitled to exclude the participant concerned from the event in the event of recognizable health problems."
+msgstr "Bei erkennbaren gesundheitlichen Problemen ist PrevHelp berechtigt, den betreffenden Teilnehmer von der Veranstaltung auszuschließen."
+
+#: resources/views/legal-conditions.blade.php:255
+msgid "The participant has to wear sturdy shoes and suitable clothing."
+msgstr "Der Teilnehmer hat festes Schuhwerk und geeignete Kleidung zu tragen."
+
+#: resources/views/legal-conditions.blade.php:257
+msgid "Participation is at your own risk."
+msgstr "Die Teilnahme erfolgt auf eigene Gefahr."
+
+#: resources/views/legal-conditions.blade.php:259
+msgid "PrevHelp assumes no liability for valuables brought along."
+msgstr "PrevHelp übernimmt keine Haftung für mitgebrachte Wertgegenstände."
+
+#: resources/views/legal-conditions.blade.php:262
+msgid "You are obliged to cooperate in the event of service disruptions within the statutory provisions framework, to avoid possible damage or to keep it to a minimum. In particular, we ask you to notify the trainers/lecturers of any complaints immediately. If you fail to report a defect culpably, you forfeit your right to reduce the participation price."
+msgstr "Sie sind verpflichtet, bei auftretenden Leistungsstörungen im Rahmen der gesetzlichen Bestimmungen mitzuwirken, evtl. Schäden zu vermeiden oder gering zu halten. Insbesondere bitten wir Sie darum, etwaige Beanstandungen unverzüglich den Ausbildern / Dozenten zur Kenntnis zu geben. Unterlassen Sie es, schuldhaft einen Mangel anzuzeigen, so verwirken Sie ihren Anspruch auf Minderung des Teilnahmepreises."
+
+#: resources/views/legal-conditions.blade.php:266
+msgid "Events, especially those in the so-called outdoor area, are never without a residual risk. You are only insured against an accident and rescue within the framework of your own accident insurance."
+msgstr "Veranstaltungen, insbesondere solche im sog. Outdoor-Bereich sind nie ohne ein Restrisiko. Gegen einen Unfall und Bergung sind Sie nur im Rahmen Ihrer eigenen Unfallversicherung versichert."
+
+#: resources/views/legal-conditions.blade.php:271
+msgid "Use of subcontractors"
+msgstr "Einsatz von Subunternehmern"
+
+#: resources/views/legal-conditions.blade.php:274
+msgid "PrevHelp is authorized to call in subcontractors in its own name without requiring the customer's separate consent."
+msgstr "PrevHelp ist befugt, im eigenen Namen Subunternehmer hinzuzuziehen, ohne dass es hierzu einer gesonderten Zustimmung des Kunden bedarf."
+
+#: resources/views/legal-conditions.blade.php:276
+msgid "PrevHelp has concluded a confidentiality agreement with the subcontractor."
+msgstr "PrevHelp hat mit dem Subunternehmer eine Verschwiegenheitsvereinbarung abgeschlossen."
+
+#: resources/views/legal-conditions.blade.php:280
+msgid "Limitation of Liability"
+msgstr "Haftungsbeschränkung"
+
+#: resources/views/legal-conditions.blade.php:284
+msgid "We are liable for intent and gross negligence. Furthermore, we are liable for the negligent breach of obligations, the fulfillment of which enables the proper execution of the contract in the first place, the violation of which jeopardizes the achievement of the purpose of the agreement and on whose compliance you can regularly rely. In the latter case, however, we are only liable for the foreseeable, contract-typical damage. We are not liable for the slightly negligent breach of obligations other than those mentioned in the preceding sentences."
+msgstr "Wir haften für Vorsatz und grobe Fahrlässigkeit. Ferner haften wir für die fahrlässige Verletzung von Pflichten, deren Erfüllung die ordnungsgemäße Durchführung des Vertrages überhaupt erst ermöglicht, deren Verletzung die Erreichung des Vertragszwecks gefährdet und auf deren Einhaltung Sie regelmäßig vertrauen dürfen. Im letztgenannten Fall haften wir jedoch nur für den vorhersehbaren, vertragstypischen Schaden. Wir haften nicht für die leicht fahrlässige Verletzung anderer als der in den vorstehenden Sätzen genannten Pflichten."
+
+#: resources/views/legal-conditions.blade.php:286
+msgid "The above exclusions of liability do not apply to injury to life, limb, or health. Liability under the Product Liability Act remains unaffected."
+msgstr "Die vorstehenden Haftungsausschlüsse gelten nicht bei Verletzung von Leben, Körper und Gesundheit. Die Haftung nach dem Produkthaftungsgesetz bleibt unberührt."
+
+#: resources/views/legal-conditions.blade.php:290
+msgid "According to the current state of technology, data communication via the Internet cannot be guaranteed to be error-free and/or available at all times. In this respect, we are not liable for the constant and uninterrupted availability of the online offer."
+msgstr "Die Datenkommunikation über das Internet kann nach dem derzeitigen Stand der Technik nicht fehlerfrei und/oder jederzeit verfügbar gewährleistet werden. Wir haften insoweit nicht für die ständige und ununterbrochene Verfügbarkeit des Online-Angebots."
+
+#: resources/views/legal-conditions.blade.php:294
+msgid "Final provisions"
+msgstr "Schlussbestimmungen"
+
+#: resources/views/legal-conditions.blade.php:298
+msgid "The terms and conditions written here are complete and final. Changes and additions to these terms and conditions should be made in writing to avoid ambiguity or disputes between the parties about the contract's agreed content, whereby e-mail is sufficient."
+msgstr "Die hier verfassten Geschäftsbedingungen sind vollständig und abschließend. Änderungen und Ergänzungen dieser Geschäftsbedingungen sollten, um Unklarheiten oder Streit zwischen den Parteien über den jeweils vereinbarten Vertragsinhalt zu vermeiden, schriftlich gefasst werden, wobei E-Mail ausreichend ist."
+
+#: resources/views/legal-conditions.blade.php:302
+msgid "If you had your domicile or habitual abode in Germany when the contract was concluded and either moved from Germany at the time we filed the action or your domicile or habitual abode is unknown at that time, the place of jurisdiction for all disputes is the headquarters of our company in Wuppertal."
+msgstr "Soweit Sie bei Abschluss des Vertrages Ihren Wohnsitz oder gewöhnlichen Aufenthalt in Deutschland hatten und entweder zum Zeitpunkt der Klageerhebung durch uns aus Deutschland verlegt haben oder Ihr Wohnsitz oder Ihr gewöhnlicher Aufenthaltsort zu diesem Zeitpunkt unbekannt ist, ist Gerichtsstand für alle Streitigkeiten der Sitz unseres Unternehmens in Wuppertal."
+
+#: resources/views/legal-conditions.blade.php:307
+msgid "We want to point out that in addition to the ordinary legal process, you also have the option of out-of-court settlement of disputes in accordance with Regulation (EU) No. 524/2013. Details can be found in Regulation (EU) No. 524/2013 and at the Internet address:"
+msgstr "Wir möchten darauf hinweisen, dass Sie neben dem normalen Rechtsverfahren auch die Möglichkeit haben, Streitigkeiten gemäß der Verordnung (EU) Nr. 524/2013 außergerichtlich beizulegen. Details finden Sie in der Verordnung (EU) Nr. 524/2013 und unter der Internetadresse:"
+
+#: resources/views/legal-conditions.blade.php:309
+msgid "We are neither willing nor obliged to take part in dispute settlement proceedings before a consumer arbitration board."
+msgstr "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+
+#: resources/views/legal-revocation.blade.php:1
+#: resources/views/legal-revocation.blade.php:8
+msgid "Right of revocation"
+msgstr "Widerrufsrecht"
+
+#: resources/views/legal-revocation.blade.php:14
+msgid "As a consumer, you have the right to withdraw from the contract within fourteen days without giving any reason."
+msgstr "Als Verbraucher haben Sie das Recht, binnen vierzehn Tagen ohne Angabe von Gründen den Vertrag zu widerrufen."
+
+#: resources/views/legal-revocation.blade.php:16
+msgid "You have no right to cancellation if you expressly agreed when making your booking that the service's performance should begin before the end of the cancellation period. You have effectively waived your right of withdrawal. We pointed this out to you before the purchase was made."
+msgstr "Ihnen steht kein Widerrufsrecht zu, wenn Sie ausdrücklich bei Ihrer Buchung zugestimmt haben, dass bereits vor Ende der Widerrufsfrist mit der Ausführung der Dienstleistung begonnen werden soll. Damit haben Sie auf Ihr Widerrufsrecht wirksam verzichtet. Wir haben Sie darauf vor Kaufabschluss hingewiesen. "
+
+#: resources/views/legal-revocation.blade.php:18
+msgid "Start of the deadline for booking courses or booking consultations"
+msgstr "Fristbeginn bei Buchungen von Kursen oder Buchung von Beratungen"
+
+#: resources/views/legal-revocation.blade.php:20
+msgid "The cancellation period is fourteen days from the day the contract is concluded. The contract is concluded on the day on which you receive a confirmation email from us after successfully booking the course."
+msgstr "Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsschlusses. Der Vertragsschluss kommt an dem Tag zustande, an dem Sie von uns nach erfolgreicher Buchung des Kurses eine Bestätigungsmail bekommen."
+
+#: resources/views/legal-revocation.blade.php:22
+msgid "You have your own 14-day right of cancellation for each booking. To exercise your right of withdrawal, you must contact us"
+msgstr "Sie haben für jede Buchung Ihr eigenes 14-tägiges Widerrufsrecht. Um Ihr Widerrufsrecht auszuüben, müssen Sie uns kontaktieren"
+
+#: resources/views/legal-revocation.blade.php:34
+msgid "in a clear statement (e.g., a letter sent by post, fax, or e-mail) of your decision to withdraw from this contract. You can use this sample cancellation form, which you will find at the end of this document, but which is not mandatory."
+msgstr "in einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief, Telefax oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür dieses Muster-Widerrufsformular, welches Sie am Ende dieses Dokumentes finden, verwenden, das jedoch nicht vorgeschrieben ist."
+
+#: resources/views/legal-revocation.blade.php:36
+msgid "To meet the cancellation deadline, it is sufficient for you to send your notification of exercising your right of cancellation before the cancellation period has expired."
+msgstr "Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden."
+
+#: resources/views/legal-revocation.blade.php:40
+msgid "CONSEQUENCES OF REVOCATION"
+msgstr "FOLGEN DES WIDERRUFS"
+
+#: resources/views/legal-revocation.blade.php:43
+msgid "If you revoke this contract, we have to repay all payments we have received from you at the latest within fourteen days from the day we received the notification of your revocation of this contract. For this repayment, we use the same payment method that you used for the original transaction unless something else was expressly agreed with you; In no case will you be charged any fees for this repayment."
+msgstr "Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet."
+
+#: resources/views/legal-revocation.blade.php:45
+msgid "If you made the payment as a bank transfer, please send your account details again as we only see part of your account details on the account statement."
+msgstr "Haben Sie die Zahlung als Banküberweisung getätigt, schicken Sie bitte noch einmal Ihre Kontodaten mit, da wir auf dem Kontoauszug nur einen Teil Ihrer Kontodaten sehen."
+
+#: resources/views/legal-revocation.blade.php:49
+msgid "SAMPLE REVOCATION TEMPLATE"
+msgstr "MUSTER WIDERRUFSVORLAGE"
+
+#: resources/views/legal-revocation.blade.php:52
+msgid "The model for the cancellation form is based on Appendix 2 to Article 246a § 1 Paragraph 2 Sentence 1 No. 1 and § 2 Paragraph 2 No. 2 EGBGB."
+msgstr "Das Muster für das Widerrufsformular richtet sich nach Anlage 2 zu Artikel 246a § 1 Abs. 2 S. 1 Nr. 1 und § 2 Abs. 2 Nr. 2 EGBGB."
+
+#: resources/views/legal-revocation.blade.php:55
+msgid "(If you want to revoke the contract, please fill out this form and send it back.)"
+msgstr "(Wenn Sie den Vertrag widerrufen möchten, dann füllen Sie bitte dieses Formular aus und senden es zurück.)"
+
+#: resources/views/legal-revocation.blade.php:58
+msgid "I/we (*) hereby revoke the contract concluded by me/us (*) for the booking of the following <em>course XY</em> / the following <em>consultation XY</em> (description, so that it can be clearly determined which course / which consultation the revocation refers to)."
+msgstr "Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über die Buchung des folgenden <em>Kurses XY</em> / der folgenden <em>Beratung XY</em> (Beschreibung, damit eindeutig festgestellt werden kann, auf welchen Kurs / welche Beratung sich der Widerruf bezieht)."
+
+#: resources/views/legal-revocation.blade.php:61
+msgid "booked on"
+msgstr "gebucht am"
+
+#: resources/views/legal-revocation.blade.php:63
+msgid "Name of the consumer(s)"
+msgstr "Name des/der Verbraucher(s)"
+
+#: resources/views/legal-revocation.blade.php:65
+msgid "Address of the consumer(s)"
+msgstr "Anschrift des/der Verbraucher(s)"
+
+#: resources/views/legal-revocation.blade.php:67
+msgid "if necessary, account details for the refund"
+msgstr "ggfs. Kontodaten für die Rückerstattung"
+
+#: resources/views/legal-revocation.blade.php:69
+msgid "Signature of the consumer(s) (only for notifies on paper)"
+msgstr "Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier)"
+
+#: resources/views/legal-revocation.blade.php:71
+msgid "date"
+msgstr "Datum"
+
+#: resources/views/legal-revocation.blade.php:74
+msgid "delete inapplicable"
+msgstr "unzutreffendes streichen"
+
+#: resources/views/questions.blade.php:1
+msgid "frequently asked questions"
+msgstr "Häufig gestellte Fragen"
+
+#: resources/views/questions.blade.php:28
+msgid "frequently asked <strong class=\"font-weight-extra-bold\">questions</strong>"
+msgstr "Häufig gestellte <strong class=\"font-weight-extra-bold\">Fragen</strong>"
+
+#: resources/views/questions.blade.php:29
+msgid "On this site, we'll answer some frequently asked questions. If we don't answer your question here, please don't bother to <a href=\":link\">contact</a> us."
+msgstr "Auf dieser Seite beantworten wir einige häufig gestellte Fragen. Wenn wir Ihre Frage hier nicht beantworten sollten, nehmen Sie bitte <a href=\":link\">Kontakt</a> mit uns auf."
+
+#: resources/views/questions.blade.php:35
+msgid "How long does the course last?"
+msgstr "Wie lange dauert der Kurs?"
+
+#: resources/views/questions.blade.php:37
+msgid "The duration of the courses varies depending on the course format and topic. Our first aid courses, for example, last 7.5 hours, corresponding to the prescribed nine teaching units, including breaks. Unless otherwise stated in the booking our courses take place <strong>on one day</strong>."
+msgstr "Die Dauer der Kurse variiert je nach Kursformat und Thema. Unsere Erste-Hilfe-Kurse dauern beispielsweise 7,5 Stunden und entsprechen den vorgeschriebenen neun Unterrichtseinheiten einschließlich Pausen. Sofern in der Buchung nicht anders angegeben, finden unsere Kurse <strong>an einem Tag statt</strong>."
+
+#: resources/views/questions.blade.php:42
+msgid "Are there breaks during the courses?"
+msgstr "Gibt es Pausen während der Kurse?"
+
+#: resources/views/questions.blade.php:44
+msgid "Of course, there are several breaks during our courses. Particular care is taken to ensure that the breaks in all-day courses total at least 45 minutes, which means that our courses are also suitable for company participants. The provisions of the Working Hours Act are fully taken into account."
+msgstr "Natürlich gibt es während unserer Kurse mehrere Pausen. Es wird besonders darauf geachtet, dass die Pausen in Ganztageskursen in Summe mindestens 45 Minuten betragen, wodurch unsere Kurse auch für Arbeitnehmer geeignet sind. Den Bestimmungen des Arbeitszeitgesetzes wird vollständig Sorge getragen."
+
+#: resources/views/warranty.blade.php:1
+msgid "our guarantee"
+msgstr "unsere Garantie"
+
+#: resources/views/warranty.blade.php:2
+msgid "Successful learning at the best price in town? ✅ We guarantee you what others only promise. 🤝"
+msgstr "Lernerfolg zum besten Preis der Stadt? ✅ Wir garantieren Ihnen, was andere nur versprechen. 🤝"
+
+#: resources/views/warranty.blade.php:9
+msgid "our <strong>guarantee</strong>"
+msgstr "unsere <strong>Garantie</strong>"
+
+#: resources/views/warranty.blade.php:26
+msgid "<strong class=\"font-weight-extra-bold\">guaranteed</strong> learning success"
+msgstr "<strong class=\"font-weight-extra-bold\">garantierter</strong> Lernerfolg"
+
+#: resources/views/warranty.blade.php:27
+msgid "You can get the feeling that you won't take much with some other providers (apart from the certificate). We, therefore, give a <em>guarantee of learning success</em> in our courses. In our courses, you will receive the necessary security and practical skills to apply the content and practices taught safely. If we failed in doing this during the regular course time, our instructor would practice with you until you feel confident."
+msgstr "Bei manch anderem Anbieter kann man das Gefühl bekommen, dass man (außer der Bescheinigung) nicht viel mitnehmen wird. Daher geben wir auf unsere Kurse eine <em>Erfolgsgarantie</em>. Sie erhalten in unseren Kursen die notwendige Sicherheit und Handlungskompetenz, um die vermittelten Inhalte und Praktiken sicher anwenden zu können. Sollte uns dies während der regulären Kurszeit nicht gelungen sein, wird unser Referent mit Ihnen üben, bis Sie sich sicher fühlen."
+
+#: resources/views/warranty.blade.php:28
+msgid "If contrary to expectations and despite our instructor's efforts, you do not have a good command of the course content and practices even after further exercises, the course is <em>on us</em>, and you will get your money back! We only want to be paid if you are satisfied with us."
+msgstr "Falls Sie wider Erwarten und den Bemühungen unseres Referenten zum Trotz, die zu vermittelnden Kursinhalte und Praktiken auch nach weiteren Übungen nicht sicher beherrschen, geht der Kurs <em>auf uns</em> und Sie erhalten Ihr Geld zurück! Wir möchten nur bezahlt werden, wenn Sie mit uns zufrieden sind."
+
+#: resources/views/warranty.blade.php:36
+msgid "best-price-in-town <strong class=\"font-weight-extra-bold\">guarantee</strong>"
+msgstr "best-price-in-town <strong class=\"font-weight-extra-bold\">Garantie</strong>"
+
+#: resources/views/warranty.blade.php:37
+msgid "We are <strong>guaranteed</strong> to offer our courses at the <em>best price</em> in town. Here we work without strike prices, discount campaigns, vouchers, and the like. We are permanently cheap for everyone, <em>no ifs or buts</em>. With us, there is no <em>punishment</em> because you don't have the right <em>voucher/flyer</em>! If contrary to expectations, you find a comparable course at a lower price, we will undercut this offer by 10%. We offer you good courses without long price comparisons."
+msgstr "Wir bieten unsere Kurse <strong>garantiert</strong> zum <em>besten Preis</em> der Stadt an. Hierbei arbeiten wir ohne Streichpreise, Rabatt Aktionen, Gutscheine und Ähnlichem. Wir sind dauerhaft günstig für jeden, <em>ohne Wenn und Aber</em>. Bei uns gibt es keine <em>Bestrafung</em>, weil Ihnen gerade der passende <em>Voucher / Flyer</em> fehlt! Sollten Sie wider Erwarten einen vergleichbaren Kurs zu einem günstigeren Preis finden, unterbieten wir dieses Angebot um 10 %. Wir bieten Ihnen gute Kurse ohne langen Preisvergleich."
+
+#: resources/views/warranty.blade.php:38
+msgid "Special offers for members of individual organizations, (strongly) limited offers for purely advertising purposes, vouchers, etc., are <em>generally</em> excluded. If you send us these individual cases, we will be happy to make you an offer."
+msgstr "Sonderangebote für Mitglieder einzelner Organisationen, (stark) befristete Angebote zu reinen Werbezwecken, Gutscheine o.ä. sind <em>grundsätzlich</em> ausgenommen. Wenn Sie uns diese Einzelfälle zusenden, machen wir Ihnen jedoch auch hierzu gerne ein Angebot."
+
+#: resources/views/welcome.blade.php:31
+msgid "Are you looking for"
+msgstr "Sie suchen nach"
+
+#: resources/views/welcome.blade.php:36
+msgid "a first aid course?"
+msgstr "einem Erste-Hilfe-Kurs?"
+
+#: resources/views/welcome.blade.php:36
+msgid "training in fire protection?"
+msgstr "Ausbildung im Brandschutz?"
+
+#: resources/views/welcome.blade.php:43
+msgid "competent advice?"
+msgstr "kompetenter Beratung?"
+
+#: resources/views/welcome.blade.php:52
+msgid "Then you have found the right partner in us!"
+msgstr "Dann haben Sie mit uns den richtigen Partner gefunden!"
+
+#: resources/views/welcome.blade.php:64
+msgid "DIRECTLY TO THE EVENT OVERVIEW"
+msgstr "DIREKT ZUR TERMINÜBERSICHT"
+
+#: resources/views/welcome.blade.php:74
+msgid "The details make the difference"
+msgstr "Die Details machen den Unterschied"
+
+#: resources/views/welcome.blade.php:76
+msgid "<em>Simply good courses</em> can also be offered by other providers, but the details make the difference. That's why you always get a <em>little more</em> from us because we are only satisfied when you are happy."
+msgstr "<em>Einfach gute Kurse</em> können auch andere Anbieter, aber die Details machen den Unterschied. Deshalb erhalten Sie bei uns immer noch ein <em>bisschen mehr</em>. Denn wir sind erst zufrieden, wenn Sie glücklich sind."
+
+#: resources/views/welcome.blade.php:85
+msgid "We offer all course formats regularly. We are there <strong>when</strong> you need us."
+msgstr "Wir bieten alle Kursformate regelmäßig an. Wir sind da, <strong>wann</strong> Sie uns brauchen."
+
+#: resources/views/welcome.blade.php:93
+msgid "the best price in town "
+msgstr "the best price in town"
+
+#: resources/views/welcome.blade.php:94
+msgid "Forget price comparisons. We are <strong>guaranteed</strong> to offer you the best price in your city."
+msgstr "Vergessen Sie Preisvergleiche. Wir bieten Ihnen <strong>garantiert</strong> den besten Preis in Ihrer Stadt."
+
+#: resources/views/welcome.blade.php:102
+msgid "well supplied"
+msgstr "gut versorgt"
+
+#: resources/views/welcome.blade.php:103
+msgid "Drinks and small snacks at cost are a matter of course for us."
+msgstr "Getränke und kleine Snacks zum Selbstkostenpreis sind für uns selbstverständlich."
+
+#: resources/views/welcome.blade.php:111
+msgid "guaranteed learning success"
+msgstr "Lernerfolg garantiert"
+
+#: resources/views/welcome.blade.php:112
+msgid "We will give you action competence or your money back."
+msgstr "Sie erhalten von uns Handlungskompetenz oder Ihr Geld zurück."
