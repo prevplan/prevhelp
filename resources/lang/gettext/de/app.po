@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-01-09T18:11:49+01:00\n"
-"PO-Revision-Date: 2021-01-09 18:11+0100\n"
+"POT-Creation-Date: 2021-01-13T10:55:07+01:00\n"
+"PO-Revision-Date: 2021-01-13 10:55+0100\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
@@ -63,74 +63,74 @@ msgstr "buche ..."
 msgid "Book a first aid course in :location"
 msgstr "Erste-Hilfe-Kurs in :location buchen"
 
-#: resources/views/booking/create.blade.php:114
-#: resources/views/booking/create.blade.php:115
+#: resources/views/booking/create.blade.php:124
+#: resources/views/booking/create.blade.php:125
 msgid "first name"
 msgstr "Vorname"
 
-#: resources/views/booking/create.blade.php:118
-#: resources/views/booking/create.blade.php:119
+#: resources/views/booking/create.blade.php:128
+#: resources/views/booking/create.blade.php:129
 msgid "last name"
 msgstr "Nachname"
 
-#: resources/views/booking/create.blade.php:124
+#: resources/views/booking/create.blade.php:134
 #: resources/views/legal-conditions.blade.php:135
 msgid "date of birth"
 msgstr "Geburtsdatum"
 
-#: resources/views/booking/create.blade.php:131
-#: resources/views/booking/create.blade.php:132
+#: resources/views/booking/create.blade.php:141
+#: resources/views/booking/create.blade.php:142
 msgid "street"
 msgstr "Straße"
 
-#: resources/views/booking/create.blade.php:135
-#: resources/views/booking/create.blade.php:136
+#: resources/views/booking/create.blade.php:145
+#: resources/views/booking/create.blade.php:146
 msgid "house number"
 msgstr "Hausnummer"
 
-#: resources/views/booking/create.blade.php:142
-#: resources/views/booking/create.blade.php:143
+#: resources/views/booking/create.blade.php:152
+#: resources/views/booking/create.blade.php:153
 msgid "zip code"
 msgstr "PLZ"
 
-#: resources/views/booking/create.blade.php:146
-#: resources/views/booking/create.blade.php:147
+#: resources/views/booking/create.blade.php:156
+#: resources/views/booking/create.blade.php:157
 msgid "place of residence"
 msgstr "Wohnort"
 
-#: resources/views/booking/create.blade.php:154
-#: resources/views/booking/create.blade.php:155
+#: resources/views/booking/create.blade.php:164
+#: resources/views/booking/create.blade.php:165
 msgid "phone number"
 msgstr "Telefonnummer"
 
-#: resources/views/booking/create.blade.php:158
-#: resources/views/booking/create.blade.php:159
+#: resources/views/booking/create.blade.php:168
+#: resources/views/booking/create.blade.php:169
 #: resources/views/contact.blade.php:107
 #: resources/views/legal-conditions.blade.php:131
 msgid "e-mail address"
 msgstr "E-Mail Adresse"
 
-#: resources/views/booking/create.blade.php:170
+#: resources/views/booking/create.blade.php:180
 msgid "I have read and accepted the <a href=\":link\" target=\"_blank\">general terms and conditions</a>."
 msgstr "Ich habe die <a href=\":link\" target=\"_blank\">allgemeinen Geschäftsbedingungen</a> gelesen und akzeptiert."
 
-#: resources/views/booking/create.blade.php:183
+#: resources/views/booking/create.blade.php:193
 msgid "I agree that my details from the booking form will be collected and processed to process my booking. You can find detailed information on handling user data in the <a href=\":link\" target=\"_blank\">privacy policy</a>."
 msgstr "Ich stimme zu, dass meine Angaben aus dem Buchungsformular zur Abwicklung meiner Buchung erhoben und verarbeitet werden. Detaillierte Informationen zum Umgang mit Nutzerdaten finden Sie in der <a href=\":link\" target=\"_blank\">Datenschutzerklärung</a>."
 
-#: resources/views/booking/create.blade.php:197
+#: resources/views/booking/create.blade.php:207
 msgid "I agree that <a href=\":link\" target=\"_blank\">Trustpilot</a> will ask me for a rating by email."
 msgstr "Ich bin damit einverstanden, dass <a href=\":link\" target=\"_blank\">Trustpilot</a> mich per E-Mail um eine Bewertung bittet."
 
-#: resources/views/booking/create.blade.php:211
+#: resources/views/booking/create.blade.php:221
 msgid "I request and expressly agree that you start the service I have ordered before the withdrawal period has expired. I know that my <a href=\":link\" target=\"_blank\">right of revocation</a> expires once the contract has been fully fulfilled."
 msgstr "Ich verlange und bin ausdrücklich damit einverstanden, dass Sie mit der in Auftrag gegebenen Dienstleistung vor Ablauf der Widerrufsfrist beginnen. Ich weiß, dass mein <a href=\":link\" target=\"_blank\">Widerrufsrecht</a> erlischt, sobald der Vertrag vollständig erfüllt ist."
 
-#: resources/views/booking/create.blade.php:225
+#: resources/views/booking/create.blade.php:235
 msgid "I have taken note of the <a href=\":link\" target=\"_blank\">revocation policy</a>."
 msgstr "Ich habe die <a href=\":link\" target=\"_blank\">Widerrufsbelehrung</a> zur Kenntnis genommen."
 
-#: resources/views/booking/create.blade.php:232
+#: resources/views/booking/create.blade.php:242
 msgid "book course"
 msgstr "Kurs buchen"
 

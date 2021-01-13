@@ -16,5 +16,5 @@ return [
     'booking/course'                   => 'buchen/{course}',
     'booking/course/success'           => 'buchen/{course}/erfolg',
     'faq'                              => 'faq',
-    'gtc'                              => 'AGB',
+    'gtc'                              => 'agb',
 ];
