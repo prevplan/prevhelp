@@ -134,7 +134,7 @@
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-12 mb-5">
-                            <input type="submit" id="contactFormSubmit" value="{{ t('send Message') }}" class="btn btn-primary btn-modern pull-right" data-loading-text="{{ t('Please wait ...') }}">
+                            <input type="submit" id="contactFormSubmit" value="{{ t('send Message') }}" class="btn btn-primary btn-modern pull-right" data-loading-text="{{ t('please wait ...') }}">
                         </div>
                     </div>
                 </form>

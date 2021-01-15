@@ -80,9 +80,9 @@
 
                 @include('layouts.error')
 
-                <form action="{{ route('event.store', ['course' => $course]) }}" id="form"
+                <form action="{{ route('event.pay', ['course' => $course]) }}" id="form"
                       method="post"
-                      onsubmit="submit.disabled = true; submit.innerText='{{ t('booking ...') }}'; return true;"
+                      onsubmit="submit.disabled = true; submit.innerText='{{ t('please wait ...') }}'; return true;"
                       role="form">
                     @csrf
                     <x-honeypot />
@@ -116,35 +116,33 @@
                         </div>
                     @endforeach
 
-                    {{-- quick & dirty mollie deactivation
                     <hr class="solid">
                     <div class="form-row">
                         <div class="form-group col">
                             <div align="center">
-                                <strong>Zahlungsart ausw&auml;hlen</strong>
+                                <strong>{{ t('choose payment method') }}</strong>
                             </div>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="payment" value="local" id="payment-local" required>
-                                <label class="form-check-label" for="payment-local">
-                                    Ich m&ouml;chte <strong>am Kurstag</strong> vor Ort Bar oder mit Karte <strong>zahlen</strong>.
+                                <input class="form-check-input" type="radio" name="payment" value="paypal" id="payment-online" {{ (old('payment') == 'paypal') ? 'checked' : '' }} required>
+                                <label class="form-check-label" for="payment-online">
+                                    {!! html_entity_decode(t('Pay with <strong>PayPal</strong>')) !!}
                                 </label>
                             </div>
                         </div>
                         <div class="form-group col">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="payment" value="online" id="payment-online" required>
-                                <label class="form-check-label" for="payment-online">
-                                    Ich m&ouml;chte direkt nach meiner Buchung <strong>online zahlen</strong>.
+                                <input class="form-check-input" type="radio" name="payment" value="local" id="payment-local" {{ (old('payment') == 'local') ? 'checked' : '' }} required>
+                                <label class="form-check-label" for="payment-local">
+                                    {!! html_entity_decode(t('Pay <strong>in cash / by card</strong> on the day of the course')) !!}
                                 </label>
                             </div>
                         </div>
                     </div>
                     <hr class="solid">
-                    --}}
 
                     {{-- <h2 class="text-color-dark font-weight-bold text-5-6 mb-3">Billing Details</h2> --}}
                     <div class="form-row">
@@ -240,82 +238,9 @@
                             <input type="email" class="form-control border-radius-0 h-auto py-2" name="email" placeholder="{{ t('e-mail address') }}" value="{{ old('email') }}" required />
                         </div>
                     </div>
-                    {{--
-                        <div class="form-row">
-                            <div class="form-group col">
-                                <div class="custom-checkbox-1">
-                                    <input id="createAccount" type="checkbox" name="createAccount" value="1" />
-                                    <label for="createAccount">Create an account ?</label>
-                                </div>
-                            </div>
-                        </div>
-                    --}}
-                    <div class="form-row">
-                        <div class="form-group col">
-                            <div class="custom-checkbox-1">
-                                <input id="checkboxTerms"
-                                       name="terms"
-                                       required
-                                       type="checkbox" {{ (old('terms') ? 'checked="checked"' : '') }}>
-                                <label for="checkboxTerms">{!! html_entity_decode( t('I have read and accepted the <a href=":link" target="_blank">general terms and conditions</a>.', [':link' => route('legal.conditions')]) ) !!}</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col">
-                            <div class="custom-checkbox-1">
-                                <input id="checkboxDataProtection"
-                                       name="dataProtection"
-                                       required
-                                       type="checkbox" {{ (old('dataProtection') ? 'checked="checked"' : '') }}
-                                >
-                                <label for="checkboxDataProtection">{!! html_entity_decode( t('I agree that my details from the booking form will be collected and processed to process my booking. You can find detailed information on handling user data in the <a href=":link" target="_blank">privacy policy</a>.', [':link' => route('legal.privacy')]) ) !!}</label>
-                            </div>
-                        </div>
-                    </div>
-                    <input type="hidden" name="rating" value="0">
-                    <div class="form-row">
-                        <div class="form-group col">
-                            <div class="custom-checkbox-1">
-                                <input id="checkboxRating"
-                                       name="rating"
-                                       value="1"
-                                       type="checkbox" {{ (old('rating') ? 'checked="checked"' : '') }}
-                                >
-                                <label for="checkboxRating">{!! html_entity_decode( t('I agree that <a href=":link" target="_blank">Trustpilot</a> will ask me for a rating by email.', [':link' => 'https://' . (LaravelLocalization::getCurrentLocale() == 'en' ? 'www' : LaravelLocalization::getCurrentLocale()) . '.trustpilot.com/review/prevhelp.de']) ) !!}</label>
-                            </div>
-                        </div>
-                    </div>
-                    @if($course->start < \Carbon\Carbon::now()->addDays(14))
-                        <div class="form-row">
-                            <div class="form-group col">
-                                <div class="custom-checkbox-1">
-                                    <input id="checkboxCancellationPolicy"
-                                           name="cancellationPolicy"
-                                           required
-                                           type="checkbox" {{ (old('cancellationPolicy') ? 'checked="checked"' : '') }}
-                                    >
-                                    <label for="checkboxCancellationPolicy">{!! html_entity_decode( t('I request and expressly agree that you start the service I have ordered before the withdrawal period has expired. I know that my <a href=":link" target="_blank">right of revocation</a> expires once the contract has been fully fulfilled.', [':link' => route('legal.revocation')]) ) !!}</label>
-                                </div>
-                            </div>
-                        </div>
-                    @else
-                        <div class="form-row">
-                            <div class="form-group col">
-                                <div class="custom-checkbox-1">
-                                    <input id="checkboxCancellationPolicy"
-                                           name="cancellationPolicy"
-                                           required
-                                           type="checkbox" {{ (old('cancellationPolicy') ? 'checked="checked"' : '') }}
-                                    >
-                                    <label for="checkboxCancellationPolicy">{!! html_entity_decode( t('I have taken note of the <a href=":link" target="_blank">revocation policy</a>.', [':link' => route('legal.revocation')]) ) !!}</label>
-                                </div>
-                            </div>
-                        </div>
-                    @endif
                     <div class="form-row">
                         <div class="form-group col-md-12 mb-5">
-                            <button class="btn btn-primary btn-modern pull-right" name="submit" type="submit">{{ t('book course') }}</button>
+                            <button class="btn btn-primary btn-modern pull-right" name="submit" type="submit">{{ t('check inputs') }}</button>
                         </div>
                     </div>
                 {{--

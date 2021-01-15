@@ -17,4 +17,7 @@ return [
     'booking/course/success'           => 'buchen/{course}/erfolg',
     'faq'                              => 'faq',
     'gtc'                              => 'agb',
+    'booking/course/pay'               => 'buchen/{course}/zahlen',
+    'booking/course/checkout'          => 'buchen/{course}/kasse',
+    'booking/course/correct'           => 'buchen/{course}/korrigieren',
 ];

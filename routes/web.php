@@ -51,6 +51,9 @@ Route::group(
         Route::post(LaravelLocalization::transRoute('routes.events'), [\App\Http\Controllers\EventController::class, 'search'])->name('event.search');
         Route::get(LaravelLocalization::transRoute('routes.events'), [\App\Http\Controllers\EventController::class, 'index'])->name('event.overview');
         Route::get(LaravelLocalization::transRoute('routes.booking/course'), [\App\Http\Controllers\BookingController::class, 'create'])->name('event.book');
+        Route::get(LaravelLocalization::transRoute('routes.booking/course/correct'), [\App\Http\Controllers\BookingController::class, 'correct'])->name('event.correct');
+        Route::post(LaravelLocalization::transRoute('routes.booking/course/pay'), [\App\Http\Controllers\BookingController::class, 'pay'])->name('event.pay');
+        Route::get(LaravelLocalization::transRoute('routes.booking/course/checkout'), [\App\Http\Controllers\BookingController::class, 'checkout'])->name('event.checkout');
         Route::post(LaravelLocalization::transRoute('routes.booking/course'), [\App\Http\Controllers\BookingController::class, 'store'])->name('event.store');
         Route::get(LaravelLocalization::transRoute('routes.booking/course/success'), [\App\Http\Controllers\BookingController::class, 'success'])->name('event.success');
 
@@ -61,6 +64,10 @@ Route::group(
 
         Route::post('webhooks/mollie', [\App\Http\Controllers\MollieWebhookController::class, 'handle'])->name('webhooks.mollie');
     });
+
+Route::get('paypal/{course}/confirm', [\App\Http\Controllers\PayPalController::class, 'confirm'])->name('paypal.confirm');
+Route::get('paypal/{course}/abort', [\App\Http\Controllers\PayPalController::class, 'abort'])->name('paypal.abort');
+Route::post('paypal/ipn', [\App\Http\Controllers\PayPalController::class, 'ipn']);
 
 Route::permanentRedirect('/erste-hilfe/wuppertal', '/erste-hilfe-kurs/wuppertal');
 Route::permanentRedirect('/rechtliches/impressum', '/impressum');

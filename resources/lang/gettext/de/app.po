@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-01-13T10:55:07+01:00\n"
-"PO-Revision-Date: 2021-01-13 10:55+0100\n"
+"POT-Creation-Date: 2021-01-14T19:06:46+01:00\n"
+"PO-Revision-Date: 2021-01-14 19:06+0100\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
@@ -55,84 +55,127 @@ msgstr "buchen"
 msgid "Above, you can select and display our current, closest course locations to :location."
 msgstr "Oberhalb können Sie unsere aktuellen, nächstgelegenen Kursorte zu :location auswählen und Kurse anzeigen lassen."
 
-#: resources/views/booking/create.blade.php:84
+#: resources/views/booking/checkout.blade.php:11
 msgid "booking ..."
 msgstr "buche ..."
 
-#: resources/views/booking/create.blade.php:89
-msgid "Book a first aid course in :location"
-msgstr "Erste-Hilfe-Kurs in :location buchen"
+#: resources/views/booking/checkout.blade.php:16
+msgid "Please check your details"
+msgstr "Bitte prüfen Sie Ihre Angaben"
 
-#: resources/views/booking/create.blade.php:124
-#: resources/views/booking/create.blade.php:125
+#: resources/views/booking/checkout.blade.php:50
+msgid "payment method"
+msgstr "Zahlungsmethode"
+
+#: resources/views/booking/checkout.blade.php:50
+msgid "cash/card payment on course day"
+msgstr "Barzahlung / Kartenzahlung am Kurstag"
+
+#: resources/views/booking/checkout.blade.php:56
+#: resources/views/booking/create.blade.php:152
+#: resources/views/booking/create.blade.php:153
 msgid "first name"
 msgstr "Vorname"
 
-#: resources/views/booking/create.blade.php:128
-#: resources/views/booking/create.blade.php:129
+#: resources/views/booking/checkout.blade.php:60
+#: resources/views/booking/create.blade.php:156
+#: resources/views/booking/create.blade.php:157
 msgid "last name"
 msgstr "Nachname"
 
-#: resources/views/booking/create.blade.php:134
+#: resources/views/booking/checkout.blade.php:64
+#: resources/views/booking/create.blade.php:162
 #: resources/views/legal-conditions.blade.php:135
 msgid "date of birth"
 msgstr "Geburtsdatum"
 
-#: resources/views/booking/create.blade.php:141
-#: resources/views/booking/create.blade.php:142
-msgid "street"
-msgstr "Straße"
-
-#: resources/views/booking/create.blade.php:145
-#: resources/views/booking/create.blade.php:146
-msgid "house number"
-msgstr "Hausnummer"
-
-#: resources/views/booking/create.blade.php:152
-#: resources/views/booking/create.blade.php:153
-msgid "zip code"
-msgstr "PLZ"
-
-#: resources/views/booking/create.blade.php:156
-#: resources/views/booking/create.blade.php:157
+#: resources/views/booking/checkout.blade.php:70
+#: resources/views/booking/create.blade.php:184
+#: resources/views/booking/create.blade.php:185
 msgid "place of residence"
 msgstr "Wohnort"
 
-#: resources/views/booking/create.blade.php:164
-#: resources/views/booking/create.blade.php:165
+#: resources/views/booking/checkout.blade.php:74
+#: resources/views/booking/create.blade.php:192
+#: resources/views/booking/create.blade.php:193
 msgid "phone number"
 msgstr "Telefonnummer"
 
-#: resources/views/booking/create.blade.php:168
-#: resources/views/booking/create.blade.php:169
+#: resources/views/booking/checkout.blade.php:78
+#: resources/views/booking/create.blade.php:196
+#: resources/views/booking/create.blade.php:197
 #: resources/views/contact.blade.php:107
 #: resources/views/legal-conditions.blade.php:131
 msgid "e-mail address"
 msgstr "E-Mail Adresse"
 
-#: resources/views/booking/create.blade.php:180
+#: resources/views/booking/checkout.blade.php:85
+msgid "change information"
+msgstr "Angaben ändern"
+
+#: resources/views/booking/checkout.blade.php:99
 msgid "I have read and accepted the <a href=\":link\" target=\"_blank\">general terms and conditions</a>."
 msgstr "Ich habe die <a href=\":link\" target=\"_blank\">allgemeinen Geschäftsbedingungen</a> gelesen und akzeptiert."
 
-#: resources/views/booking/create.blade.php:193
+#: resources/views/booking/checkout.blade.php:112
 msgid "I agree that my details from the booking form will be collected and processed to process my booking. You can find detailed information on handling user data in the <a href=\":link\" target=\"_blank\">privacy policy</a>."
 msgstr "Ich stimme zu, dass meine Angaben aus dem Buchungsformular zur Abwicklung meiner Buchung erhoben und verarbeitet werden. Detaillierte Informationen zum Umgang mit Nutzerdaten finden Sie in der <a href=\":link\" target=\"_blank\">Datenschutzerklärung</a>."
 
-#: resources/views/booking/create.blade.php:207
+#: resources/views/booking/checkout.blade.php:126
 msgid "I agree that <a href=\":link\" target=\"_blank\">Trustpilot</a> will ask me for a rating by email."
 msgstr "Ich bin damit einverstanden, dass <a href=\":link\" target=\"_blank\">Trustpilot</a> mich per E-Mail um eine Bewertung bittet."
 
-#: resources/views/booking/create.blade.php:221
+#: resources/views/booking/checkout.blade.php:140
 msgid "I request and expressly agree that you start the service I have ordered before the withdrawal period has expired. I know that my <a href=\":link\" target=\"_blank\">right of revocation</a> expires once the contract has been fully fulfilled."
 msgstr "Ich verlange und bin ausdrücklich damit einverstanden, dass Sie mit der in Auftrag gegebenen Dienstleistung vor Ablauf der Widerrufsfrist beginnen. Ich weiß, dass mein <a href=\":link\" target=\"_blank\">Widerrufsrecht</a> erlischt, sobald der Vertrag vollständig erfüllt ist."
 
-#: resources/views/booking/create.blade.php:235
+#: resources/views/booking/checkout.blade.php:154
 msgid "I have taken note of the <a href=\":link\" target=\"_blank\">revocation policy</a>."
 msgstr "Ich habe die <a href=\":link\" target=\"_blank\">Widerrufsbelehrung</a> zur Kenntnis genommen."
 
-#: resources/views/booking/create.blade.php:242
-msgid "book course"
-msgstr "Kurs buchen"
+#: resources/views/booking/checkout.blade.php:161
+msgid "book with obligation to pay"
+msgstr "zahlungspflichtig buchen"
+
+#: resources/views/booking/create.blade.php:84
+#: resources/views/contact.blade.php:130
+msgid "please wait ..."
+msgstr "bitte warten ..."
+
+#: resources/views/booking/create.blade.php:89
+msgid "Book a first aid course in :location"
+msgstr "Erste-Hilfe-Kurs in :location buchen"
+
+#: resources/views/booking/create.blade.php:123
+msgid "choose payment method"
+msgstr "Zahlungsart auswählen"
+
+#: resources/views/booking/create.blade.php:132
+msgid "Pay with <strong>PayPal</strong>"
+msgstr "Mit <strong>PayPal</strong> bezahlen"
+
+#: resources/views/booking/create.blade.php:141
+msgid "Pay <strong>in cash / by card</strong> on the day of the course"
+msgstr "Am Kurstag <strong>in Bar /  mit Karte</strong> bezahlen"
+
+#: resources/views/booking/create.blade.php:169
+#: resources/views/booking/create.blade.php:170
+msgid "street"
+msgstr "Straße"
+
+#: resources/views/booking/create.blade.php:173
+#: resources/views/booking/create.blade.php:174
+msgid "house number"
+msgstr "Hausnummer"
+
+#: resources/views/booking/create.blade.php:180
+#: resources/views/booking/create.blade.php:181
+msgid "zip code"
+msgstr "PLZ"
+
+#: resources/views/booking/create.blade.php:202
+msgid "check inputs"
+msgstr "Eingaben prüfen"
 
 #: resources/views/booking/finish.blade.php:8
 msgid "Thank you. The booking was successful."
@@ -208,10 +251,6 @@ msgstr "Bitte geben Sie Ihre Nachricht ein."
 #: resources/views/contact.blade.php:130
 msgid "send Message"
 msgstr "Nachricht senden"
-
-#: resources/views/contact.blade.php:130
-msgid "Please wait ..."
-msgstr "Bitte warten Sie ..."
 
 #: resources/views/contact.blade.php:139
 msgid "We are here for you"
