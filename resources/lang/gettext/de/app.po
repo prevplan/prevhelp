@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-01-14T19:06:46+01:00\n"
-"PO-Revision-Date: 2021-01-14 19:06+0100\n"
+"POT-Creation-Date: 2021-01-16T10:37:16+01:00\n"
+"PO-Revision-Date: 2021-01-16 10:37+0100\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
@@ -60,8 +60,8 @@ msgid "booking ..."
 msgstr "buche ..."
 
 #: resources/views/booking/checkout.blade.php:16
-msgid "Please check your details"
-msgstr "Bitte prüfen Sie Ihre Angaben"
+msgid "please confirm your booking"
+msgstr "Bitte bestätigen Sie Ihre Buchung"
 
 #: resources/views/booking/checkout.blade.php:50
 msgid "payment method"

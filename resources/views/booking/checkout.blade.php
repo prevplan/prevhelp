@@ -16,7 +16,7 @@
                     @csrf
                     <x-honeypot />
                     <div class="overflow-hidden mb-1">
-                        <h4><strong class="font-weight-extra-bold">{{ t('Please check your details') }}</strong></h4>
+                        <h4><strong class="font-weight-extra-bold">{{ t('please confirm your booking') }}</strong></h4>
                     </div>
                     <div class="overflow-hidden mb-4 pb-3">
                         <p class="mb-0">{{ $course->street }}, {{ $course->zipcode }} {{ $course->location }} - {{ \Carbon\Carbon::parse($course->start)->format('d.m.Y H:i') }} Uhr - {{ \Carbon\Carbon::parse($course->end)->format('H:i') }} Uhr</p>
