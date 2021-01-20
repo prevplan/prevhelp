@@ -210,16 +210,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.2.8",
+            "version": "1.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "8a7ecad675253e4654ea05505233285377405215"
+                "reference": "78a0e288fdcebf92aa2318a8d3656168da6ac1a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/8a7ecad675253e4654ea05505233285377405215",
-                "reference": "8a7ecad675253e4654ea05505233285377405215",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/78a0e288fdcebf92aa2318a8d3656168da6ac1a5",
+                "reference": "78a0e288fdcebf92aa2318a8d3656168da6ac1a5",
                 "shasum": ""
             },
             "require": {
@@ -228,14 +228,15 @@
                 "php": "^5.3.2 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 8",
+                "phpstan/phpstan": "^0.12.55",
                 "psr/log": "^1.0",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
                 "symfony/process": "^2.5 || ^3.0 || ^4.0 || ^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-main": "1.x-dev"
                 }
             },
             "autoload": {
@@ -265,7 +266,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.2.8"
+                "source": "https://github.com/composer/ca-bundle/tree/1.2.9"
             },
             "funding": [
                 {
@@ -281,7 +282,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-08-23T12:54:47+00:00"
+            "time": "2021-01-12T12:10:35+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2032,16 +2033,16 @@
         },
         {
             "name": "mollie/laravel-mollie",
-            "version": "v2.13.0",
+            "version": "v2.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mollie/laravel-mollie.git",
-                "reference": "2387a0e9f6603a49c9de0655eab13d20c6a9d8c3"
+                "reference": "e5b2acc3672c64bb790a3e67dfe01cf3bacbfa0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mollie/laravel-mollie/zipball/2387a0e9f6603a49c9de0655eab13d20c6a9d8c3",
-                "reference": "2387a0e9f6603a49c9de0655eab13d20c6a9d8c3",
+                "url": "https://api.github.com/repos/mollie/laravel-mollie/zipball/e5b2acc3672c64bb790a3e67dfe01cf3bacbfa0b",
+                "reference": "e5b2acc3672c64bb790a3e67dfe01cf3bacbfa0b",
                 "shasum": ""
             },
             "require": {
@@ -2051,6 +2052,7 @@
                 "php": "^7.2|^8.0"
             },
             "require-dev": {
+                "friendsofphp/php-cs-fixer": "^v2.17",
                 "graham-campbell/testbench": "^5.5",
                 "laravel/socialite": "^4.0|^5.0",
                 "mockery/mockery": "^1.0",
@@ -2123,22 +2125,22 @@
             ],
             "support": {
                 "issues": "https://github.com/mollie/laravel-mollie/issues",
-                "source": "https://github.com/mollie/laravel-mollie/tree/v2.13.0"
+                "source": "https://github.com/mollie/laravel-mollie/tree/v2.14.0"
             },
-            "time": "2020-12-03T09:53:55+00:00"
+            "time": "2021-01-19T19:28:53+00:00"
         },
         {
             "name": "mollie/mollie-api-php",
-            "version": "v2.27.1",
+            "version": "v2.28.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mollie/mollie-api-php.git",
-                "reference": "84ce19b6ab73392592ac1f1e13e37caabb69482a"
+                "reference": "8ae6104a76952dc4ba8b2173afab6b6a9288f503"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mollie/mollie-api-php/zipball/84ce19b6ab73392592ac1f1e13e37caabb69482a",
-                "reference": "84ce19b6ab73392592ac1f1e13e37caabb69482a",
+                "url": "https://api.github.com/repos/mollie/mollie-api-php/zipball/8ae6104a76952dc4ba8b2173afab6b6a9288f503",
+                "reference": "8ae6104a76952dc4ba8b2173afab6b6a9288f503",
                 "shasum": ""
             },
             "require": {
@@ -2214,9 +2216,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mollie/mollie-api-php/issues",
-                "source": "https://github.com/mollie/mollie-api-php/tree/v2.27.1"
+                "source": "https://github.com/mollie/mollie-api-php/tree/v2.28.0"
             },
-            "time": "2020-12-15T09:00:48+00:00"
+            "time": "2021-01-18T13:14:33+00:00"
         },
         {
             "name": "monolog/monolog",
