@@ -2380,16 +2380,16 @@
         },
         {
             "name": "mtvs/eloquent-hashids",
-            "version": "v3.0.1",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mtvs/eloquent-hashids.git",
-                "reference": "15f5a69cf1ceaaf9e52eb8a79d9ec820aa5586a6"
+                "reference": "287d676aeb52705f087a5c711ab4790749488613"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mtvs/eloquent-hashids/zipball/15f5a69cf1ceaaf9e52eb8a79d9ec820aa5586a6",
-                "reference": "15f5a69cf1ceaaf9e52eb8a79d9ec820aa5586a6",
+                "url": "https://api.github.com/repos/mtvs/eloquent-hashids/zipball/287d676aeb52705f087a5c711ab4790749488613",
+                "reference": "287d676aeb52705f087a5c711ab4790749488613",
                 "shasum": ""
             },
             "require": {
@@ -2420,9 +2420,9 @@
             "description": "On-the-fly hashids for Laravel Eloquent models.",
             "support": {
                 "issues": "https://github.com/mtvs/eloquent-hashids/issues",
-                "source": "https://github.com/mtvs/eloquent-hashids/tree/v3.0.1"
+                "source": "https://github.com/mtvs/eloquent-hashids/tree/v3.1.0"
             },
-            "time": "2020-09-14T18:36:06+00:00"
+            "time": "2021-01-26T21:00:21+00:00"
         },
         {
             "name": "nesbot/carbon",
