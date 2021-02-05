@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-01-16T10:37:16+01:00\n"
-"PO-Revision-Date: 2021-01-16 10:37+0100\n"
+"POT-Creation-Date: 2021-02-05T19:10:24+01:00\n"
+"PO-Revision-Date: 2021-02-05 19:10+0100\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
@@ -18,40 +18,40 @@ msgid "confirmation of the course booking"
 msgstr "Bestätigung der Kursbuchung"
 
 #: resources/views/booking.blade.php:8
-#: resources/views/booking.blade.php:16
+#: resources/views/booking.blade.php:33
 msgid "first aid courses in :location and surroundings"
 msgstr "Erste-Hilfe-Kurse in :location und Umgebung"
 
 #: resources/views/booking.blade.php:9
-msgid "Book here your first aid course in Wuppertal and the surrounding area"
-msgstr "Buchen Sie hier Ihren Erste-Hilfe-Kurs in Wuppertal und Umgebung"
+msgid "Book here your first aid course in :location and the surrounding area"
+msgstr "Buchen Sie hier Ihren Erste-Hilfe-Kurs in :location und Umgebung"
 
 #: resources/views/booking.blade.php:10
-#: resources/views/booking.blade.php:90
+#: resources/views/booking.blade.php:107
 msgid "If you have any questions or problems, we are available by phone at 0202 898 37 565."
 msgstr "Wenn Sie Fragen oder Probleme haben, stehen wir Ihnen telefonisch unter 0202 898 37 565 zur Verfügung."
 
-#: resources/views/booking.blade.php:17
+#: resources/views/booking.blade.php:34
 msgid "Unfortunately, we currently don't offer any first aid courses in :location and the surrounding area."
 msgstr "Leider bieten wir derzeit keine Erste-Hilfe-Kurse in :location und Umgebung an."
 
-#: resources/views/booking.blade.php:18
+#: resources/views/booking.blade.php:35
 msgid "If you urgently need a course, we are at your disposal on 0202 898 37 565."
 msgstr "Sollten Sie dringend einen Kurs benötigen, stehen wir Ihnen unter 0202 898 37 565 zur Verfügung."
 
-#: resources/views/booking.blade.php:71
+#: resources/views/booking.blade.php:88
 msgid ":seats free seats"
 msgstr ":seats freie Plätze"
 
-#: resources/views/booking.blade.php:74
+#: resources/views/booking.blade.php:91
 msgid "booked up"
 msgstr "ausgebucht"
 
-#: resources/views/booking.blade.php:78
+#: resources/views/booking.blade.php:95
 msgid "book"
 msgstr "buchen"
 
-#: resources/views/booking.blade.php:89
+#: resources/views/booking.blade.php:106
 msgid "Above, you can select and display our current, closest course locations to :location."
 msgstr "Oberhalb können Sie unsere aktuellen, nächstgelegenen Kursorte zu :location auswählen und Kurse anzeigen lassen."
 

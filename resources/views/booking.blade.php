@@ -8,8 +8,25 @@
             <div class="row">
                 <div class="col text-center">
                     <h1 class="font-weight-normal text-7 mb-2"><strong class="font-weight-extra-bold">{{ t('first aid courses in :location and surroundings', [':location' => $location]) }}</strong></h1>
-                    <p class="mb-0 lead">{{ t('Book here your first aid course in Wuppertal and the surrounding area', [':location' => $location]) }}</p>
+                    <p class="mb-0 lead">{{ t('Book here your first aid course in :location and the surrounding area', [':location' => $location]) }}</p>
                     <p class="mb-1">{{ t('If you have any questions or problems, we are available by phone at 0202 898 37 565.') }}</p>
+                </div>
+            </div>
+            <div class="header-top header-top-default border-bottom-0 bg-color-primary rounded">
+                <div class="container">
+                    <div class="header-row py-2 text-justify">
+                        <div class="header-column justify-content-center">
+                            <div class="header-row">
+                                <nav class="header-nav-top">
+                                    <ul class="nav nav-pills text-white text-2 text-justify text-center">
+                                        <li class="nav-item">
+                                            Sobald das Ende des aktuellen Lockdowns feststeht, werden wir Zusatztermine anbieten. Alle angemeldeten Teilnehmer werden frühzeitig von uns per E-Mail informiert und bekommen dann die Möglichkeit auf einen neuen, früheren Termin umzubuchen. Buchen Sie jetzt einen freien Termin und wechseln Sie später (auf Wunsch) auf ein früheres Datum.
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         @else
