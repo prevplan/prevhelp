@@ -1,4 +1,5 @@
 <?php
+
 return [
     'accepted'             => 'Die :attribute muss akzeptiert werden.',
     'active_url'           => 'Die :attribute ist keine gültige URL.',
@@ -14,7 +15,7 @@ return [
         'numeric' => 'Die :attribute muss zwischen :min und :max liegen.',
         'file'    => 'Die :attribute muss zwischen :min und :max Kilobyte liegen.',
         'string'  => ':attribute muss zwischen :min und :max Zeichen sein.',
-        'array'   => 'Die :attribute muss zwischen :min und :max Elementen bestehen.'
+        'array'   => 'Die :attribute muss zwischen :min und :max Elementen bestehen.',
     ],
     'boolean'              => 'Das Feld :attribute muss true oder false sein.',
     'confirmed'            => 'Die Bestätigung :attribute stimmt nicht überein.',
@@ -35,13 +36,13 @@ return [
         'numeric' => ':attribute muss größer als :value sein.',
         'file'    => ':attribute muss größer als :value Kilobyte sein.',
         'string'  => ':attribute muss größer als :value Zeichen sein.',
-        'array'   => 'Die :attribute muss mehr als :value Elemente enthalten.'
+        'array'   => 'Die :attribute muss mehr als :value Elemente enthalten.',
     ],
     'gte'                  => [
         'numeric' => ':attribute muss größer oder gleich :value sein.',
         'file'    => ':attribute muss größer oder gleich :value Kilobyte sein.',
         'string'  => ':attribute muss größer oder gleich :value Zeichen sein.',
-        'array'   => 'Die :attribute muss mindestens :value -Elemente enthalten.'
+        'array'   => 'Die :attribute muss mindestens :value -Elemente enthalten.',
     ],
     'image'                => 'Die :attribute muss ein Bild sein.',
     'in'                   => 'Die ausgewählte :attribute ist ungültig.',
@@ -55,19 +56,19 @@ return [
         'numeric' => ':attribute muss kleiner sein als :value.',
         'file'    => ':attribute muss weniger als :value Kilobyte betragen.',
         'string'  => ':attribute muss aus weniger als :value Zeichen bestehen.',
-        'array'   => 'Die :attribute muss weniger als :value Elemente haben.'
+        'array'   => 'Die :attribute muss weniger als :value Elemente haben.',
     ],
     'lte'                  => [
         'numeric' => ':attribute muss kleiner oder gleich :value sein.',
         'file'    => ':attribute muss kleiner oder gleich :value Kilobyte sein.',
         'string'  => ':attribute muss kleiner oder gleich :value Zeichen sein.',
-        'array'   => 'Die :attribute darf nicht mehr als :value Elemente enthalten.'
+        'array'   => 'Die :attribute darf nicht mehr als :value Elemente enthalten.',
     ],
     'max'                  => [
         'numeric' => ':attribute darf nicht größer als :max sein.',
         'file'    => ':attribute darf nicht größer als :max Kilobyte sein.',
         'string'  => ':attribute darf nicht länger als :max Zeichen sein.',
-        'array'   => 'Die :attribute darf nicht mehr als :max Elemente enthalten.'
+        'array'   => 'Die :attribute darf nicht mehr als :max Elemente enthalten.',
     ],
     'mimes'                => 'Die :attribute muss eine Datei des Typs sein: :values.',
     'mimetypes'            => 'Die :attribute muss eine Datei des Typs sein: :values.',
@@ -75,7 +76,7 @@ return [
         'numeric' => 'Die :attribute muss mindestens :min sein.',
         'file'    => 'Die :attribute muss mindestens :min Kilobyte betragen.',
         'string'  => 'Die :attribute muss aus mindestens :min Zeichen bestehen.',
-        'array'   => 'Die :attribute muss mindestens :min Elemente enthalten.'
+        'array'   => 'Die :attribute muss mindestens :min Elemente enthalten.',
     ],
     'not_in'               => 'Die ausgewählte :attribute ist ungültig.',
     'not_regex'            => 'Das Format :attribute ist ungültig.',
@@ -95,7 +96,7 @@ return [
         'numeric' => 'Die :attribute muss :size sein.',
         'file'    => ':attribute muss :size Kilobyte sein.',
         'string'  => 'Die :attribute muss aus :size Zeichen bestehen.',
-        'array'   => 'Die :attribute muss :size Elemente enthalten.'
+        'array'   => 'Die :attribute muss :size Elemente enthalten.',
     ],
     'starts_with'          => 'Die :attribute muss mit einer der folgenden Optionen beginnen: :values.',
     'string'               => 'Die :attribute muss eine Zeichenfolge sein.',
@@ -106,7 +107,7 @@ return [
     'uuid'                 => 'Die :attribute muss eine gültige UUID sein.',
     'custom'               => [
         'attribute-name' => [
-            'rule-name' => 'benutzerdefinierte Nachricht'
-        ]
-    ]
+            'rule-name' => 'benutzerdefinierte Nachricht',
+        ],
+    ],
 ];
