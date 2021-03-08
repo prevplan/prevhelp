@@ -20,7 +20,7 @@
                                 <nav class="header-nav-top">
                                     <ul class="nav nav-pills text-white text-2 text-justify text-center">
                                         <li class="nav-item">
-                                            Sobald das Ende des aktuellen Lockdowns feststeht, werden wir Zusatztermine anbieten. Alle angemeldeten Teilnehmer werden frühzeitig von uns per E-Mail informiert und bekommen dann die Möglichkeit auf einen neuen, früheren Termin umzubuchen. Buchen Sie jetzt einen freien Termin und wechseln Sie später (auf Wunsch) auf ein früheres Datum.
+                                            Unsere Kurse finden aktuell wieder statt. Außerdem werden regelmäßig weitere Zusatztermine eingetragen, um die Wartezeiten zu verkürzen! Sollten Sie bereits einen späteren Kurs gebucht haben und auf einen früheren, freien Termin wechseln wollen, antworten Sie bitte nach Buchung des neuen Termins auf die Bestätigungs E-Mail.
                                         </li>
                                     </ul>
                                 </nav>
