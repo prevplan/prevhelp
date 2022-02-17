@@ -1,4 +1,4 @@
-baseURL = 'https://prevhelp.de'
+baseURL = 'https://prevplan.github.io/prevhelp'
 languageCode = 'de'
 title = 'PrevHelp'
 disableKinds = ["taxonomy","taxonomyTerm"]
