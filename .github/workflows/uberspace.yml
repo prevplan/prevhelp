@@ -1,14 +1,12 @@
-name: github pages
+name: uberspace transfer
 
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
-  pull_request:
-
+      - main
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
@@ -24,9 +22,12 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+      - name: Rsync Deployments Action
+        uses: Burnett01/rsync-deployments@5.2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          switches: -avzr --delete
+          path: public/*
+          remote_path: /var/www/virtual/${{ secrets.UBERSPACE_USER }}/hugo/
+          remote_host: ${{ secrets.UBERSPACE_HOST }}
+          remote_user: ${{ secrets.UBERSPACE_USER }}
+          remote_key: ${{ secrets.DEPLOY_KEY_PRIVATE }}

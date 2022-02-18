@@ -1,7 +1,23 @@
-baseURL = 'https://prevplan.github.io/prevhelp'
+baseURL = 'https://hugo.prevhelp.de'
 languageCode = 'de'
 title = 'PrevHelp'
 disableKinds = ["taxonomy","taxonomyTerm"]
+
+defaultContentLanguage = 'de'
+
+[languages]
+  [languages.de]
+    baseURL = 'https://hugo.prevhelp.de'
+    languageName = 'Deutsch'
+    title = 'PrevHelp - Prävention ist die beste Hilfe'
+    weight = 1
+    contentDir = 'content/de'
+  [languages.en]
+    baseURL = 'https://hugo.prevhelp.com'
+    languageName = 'English'
+    title = 'PrevHelp - Prevention is the best help'
+    weight = 2
+    contentDir = 'content/en'
 
 [markup]
   [markup.goldmark]
