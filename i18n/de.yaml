@@ -1,0 +1,29 @@
+404_page_not_found:
+  other: 404 Fehler - Seite nicht gefunden
+
+404_accidents_happens:
+  other: Unfälle passieren ...
+
+404_first_aid_is_on_the_way:
+  other: ... aber für die Erste-Hilfe ist schon gesorgt!
+
+gtc:
+  other: AGB
+
+gtc_url:
+  other: agb
+
+imprint:
+  other: Impressum
+
+imprint_url:
+  other: impressum
+
+privacy:
+  other: Datenschutzerklärung
+
+privacy_url:
+  other: datenschutz
+
+go_to_home:
+  other: weiter zur Startseite

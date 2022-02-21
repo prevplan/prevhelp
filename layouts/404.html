@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="{{ .Language.Lang }}" class="h-full">
+<head>
+    {{ partial "head.html" . }}
+
+    <title>{{ i18n "404_page_not_found" }}</title>
+</head>
+<body class="h-full">
+<div class="bg-white min-h-full flex flex-col lg:relative">
+    <div class="flex-grow flex flex-col">
+        <main class="flex-grow flex flex-col bg-white">
+            <div class="flex-grow mx-auto max-w-7xl w-full flex flex-col px-4 sm:px-6 lg:px-8">
+                <div class="flex-shrink-0 pt-10 sm:pt-16">
+                    <a href="/" class="inline-flex">
+                        <span class="sr-only">Workflow</span>
+                        <img class="h-12 w-auto" src="{{ `/img/logo-quer.svg` | relURL }}" alt="">
+                    </a>
+                </div>
+                <div class="flex-shrink-0 my-auto py-16 sm:py-32">
+                    <p class="text-sm font-semibold text-indigo-600 uppercase tracking-wide">{{ i18n "404_page_not_found" }}</p>
+                    <h1 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">{{ i18n "404_accidents_happens" }}</h1>
+                    <p class="mt-2 text-base text-gray-500">{{ i18n "404_first_aid_is_on_the_way" }}</p>
+                    <div class="mt-6">
+                        <a href="{{ `/` | relLangURL }}" class="text-base font-medium text-indigo-600 hover:text-indigo-500">{{ i18n "go_to_home" }}<span aria-hidden="true"> &rarr;</span></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="flex-shrink-0 bg-gray-50">
+            <div class="mx-auto max-w-7xl w-full px-4 py-16 sm:px-6 lg:px-8">
+                <nav class="flex space-x-4">
+                    <a href="{{ i18n `gtc_url` | relLangURL }}" class="text-sm font-medium text-gray-500 hover:text-gray-600">{{ i18n "gtc" }}</a>
+                    <span class="inline-block border-l border-gray-300" aria-hidden="true"></span>
+                    <a href="{{ i18n `imprint_url` | relLangURL }}" class="text-sm font-medium text-gray-500 hover:text-gray-600">{{ i18n "imprint" }}</a>
+                    <span class="inline-block border-l border-gray-300" aria-hidden="true"></span>
+                    <a href="{{ i18n `privacy_url` | relLangURL }}" class="text-sm font-medium text-gray-500 hover:text-gray-600">{{ i18n "privacy" }}</a>
+                </nav>
+            </div>
+        </footer>
+    </div>
+    <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <img class="absolute inset-0 h-full w-full object-cover" src="{{ `/img/404.webp` | relURL }}" alt="">
+    </div>
+</div>
+</body>
+</html>

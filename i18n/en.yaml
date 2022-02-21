@@ -1,0 +1,29 @@
+404_page_not_found:
+  other: 404 error - site not found
+
+404_accidents_happens:
+  other: Accidents happen ...
+
+404_first_aid_is_on_the_way:
+  other: ... but first aid is already taken care of it!
+
+gtc:
+  other: GTC
+
+gtc_url:
+  other: gtc
+
+imprint:
+  other: imprint
+
+imprint_url:
+  other: imprint
+
+privacy:
+  other: privacy
+
+privacy_url:
+  other: privacy
+
+go_to_home:
+  other: go to home page...

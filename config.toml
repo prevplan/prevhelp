@@ -3,7 +3,7 @@ languageCode = 'de'
 title = 'PrevHelp'
 disableKinds = ["taxonomy","taxonomyTerm"]
 
-defaultContentLanguage = 'de'
+defaultContentLanguage = 'en'
 
 [languages]
   [languages.de]
