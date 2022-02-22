@@ -4,6 +4,7 @@ title = 'PrevHelp'
 disableKinds = ["taxonomy","taxonomyTerm"]
 
 enableGitInfo = true
+enableRobotsTXT = true
 
 defaultContentLanguage = 'de'
 
