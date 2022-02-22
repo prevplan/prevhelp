@@ -14,19 +14,19 @@ gtc:
   other: AGB
 
 gtc_url:
-  other: agb
+  other: agb/
 
 imprint:
   other: Impressum
 
 imprint_url:
-  other: impressum
+  other: impressum/
 
 privacy:
   other: Datenschutzerklärung
 
 privacy_url:
-  other: datenschutz
+  other: datenschutz/
 
 go_to_home:
   other: weiter zur Startseite

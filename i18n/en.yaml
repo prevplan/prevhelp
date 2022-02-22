@@ -14,19 +14,19 @@ gtc:
   other: GTC
 
 gtc_url:
-  other: gtc
+  other: gtc/
 
 imprint:
   other: imprint
 
 imprint_url:
-  other: imprint
+  other: imprint/
 
 privacy:
   other: privacy
 
 privacy_url:
-  other: privacy
+  other: privacy/
 
 go_to_home:
   other: go to home page...
