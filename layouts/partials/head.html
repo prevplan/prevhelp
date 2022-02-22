@@ -11,7 +11,6 @@
 <meta name="theme-color" content="#ffffff">
 
 {{ $styles := resources.Get "/css/style.css" | postCSS }}
-
 {{ if .Site.IsServer }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
 {{ else }}
@@ -25,7 +24,6 @@
 {{ else }}
     {{ $js := $js | minify | fingerprint }}
     <script type="text/javascript" src="{{ $js.RelPermalink }}" defer></script>
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
 {{ end }}
 
 
