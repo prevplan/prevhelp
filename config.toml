@@ -8,6 +8,9 @@ enableRobotsTXT = true
 
 defaultContentLanguage = 'de'
 
+[minify.tdewolff.html]
+  keepWhitespace = false
+
 [frontmatter]
   date = ['date', 'publishDate', 'lastmod']
   expiryDate = ['expiryDate']
