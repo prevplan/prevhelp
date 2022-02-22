@@ -20,7 +20,14 @@
 {{ end }}
 
 {{ $js := resources.Get "js/main.js" | js.Build }}
-<script type="text/javascript" src="{{ $js.RelPermalink }}" defer></script>
+{{ if .Site.IsServer }}
+    <script type="text/javascript" src="{{ $js.RelPermalink }}" defer></script>
+{{ else }}
+    {{ $js := $js | minify | fingerprint }}
+    <script type="text/javascript" src="{{ $js.RelPermalink }}" defer></script>
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
+{{ end }}
+
 
 {{- if .IsTranslated -}}
     {{ range .AllTranslations }}
