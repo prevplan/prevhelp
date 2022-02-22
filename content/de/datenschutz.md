@@ -1,5 +1,6 @@
 ---
-title: "Datenschutzerklärung"
+title: "Datenschutzerklärung | PrevHelp"
+description: "Unsere Offenlegung wie sorgsam wir mit Ihren Daten bei uns umgehen."
 date: 2022-02-19T11:13:59+01:00
 draft: false
 layout: legal

@@ -1,17 +1,23 @@
 ---
-title: "GTC"
+title: "General terms and conditions | PrevHelp"
+description: "Our general terms and conditions for courses and consultations."
 date: 2022-02-21T13:13:39+01:00
 draft: false
 layout: legal
 translationKey: gtc
 slug: gtc
+aliases: [/en/en/gtc]
 ---
 
-# General terms and conditions for courses and consultations
+<div class="text-lg max-w-prose mx-auto">
+    <h1>
+        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">General terms and conditions for courses and consultations</span>
+    </h1>
+</div>
 
 The exclusive language available for the conclusion of the contract shall be German. Translations of these terms and conditions to other languages are for information only. In the event of contradictions between the German text and the translations, the German text shall prevail.
 
-## 1. Scope
+### 1. Scope
 
 1. The following general terms and conditions apply to all legal transactions with consumers and companies with
 

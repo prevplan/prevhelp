@@ -1,23 +1,21 @@
 ---
-title: "privacy"
+title: "Privacy Policy"
+description: "Our disclosure about how carefully we handle your data with us."
 date: 2022-02-19T11:13:59+01:00
 draft: false
 layout: legal
 translationKey: privacy
 slug: privacy
+aliases: [/en/en/privacy]
 ---
 
 <div class="text-lg max-w-prose mx-auto">
     <h1>
-        <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">Introducing</span>
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">JavaScript for Beginners</span>
+        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Privacy Policy</span>
     </h1>
-    <p class="mt-8 text-xl text-gray-500 leading-8">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend egestas fringilla sapien.</p>
 </div>
 
-# Privacy Policy
-
-## Preamble
+### Preamble
 
 With the following privacy policy we would like to inform you which types of your personal data (hereinafter also abbreviated as "data") we process for which purposes and in which scope. The privacy statement applies to all processing of personal data carried out by us, both in the context of providing our services and in particular on our websites, in mobile applications and within external online presences, such as our social media profiles (hereinafter collectively referred to as "online services").
 
@@ -25,7 +23,7 @@ The terms used are not gender-specific.
 
 Last Update: 19. February 2022
 
-## Table of contents
+### Table of contents
 
 *   [Preamble](#m14)
 *   [Controller](#m3)
@@ -46,7 +44,7 @@ Last Update: 19. February 2022
 *   [Rights of Data Subjects](#m10)
 *   [Terminology and Definitions](#m42)
 
-## Controller
+### Controller
 
 <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>  
 Holger Schmermbeck  
@@ -63,11 +61,11 @@ E-mail address:
 Legal Notice:  
 [https://prevhelp.com/imprint](https://prevhelp.com/imprint)
 
-## Overview of processing operations
+### Overview of processing operations
 
 The following table summarises the types of data processed, the purposes for which they are processed and the concerned data subjects.
 
-### Categories of Processed Data
+#### Categories of Processed Data
 
 *   Inventory data
 *   Payment Data
@@ -77,7 +75,7 @@ The following table summarises the types of data processed, the purposes for whi
 *   Usage data
 *   Meta/communication data
 
-### Categories of Data Subjects
+#### Categories of Data Subjects
 
 *   Customers
 *   Prospective customers
@@ -86,7 +84,7 @@ The following table summarises the types of data processed, the purposes for whi
 *   Business and contractual partners
 *   Students/ Participants
 
-### Purposes of Processing
+#### Purposes of Processing
 
 *   Provision of contractual services and customer support
 *   Contact requests and communication
@@ -99,7 +97,7 @@ The following table summarises the types of data processed, the purposes for whi
 *   Profiles with user-related information
 *   Provision of our online services and usability
 
-### Legal Bases for the Processing
+#### Legal Bases for the Processing
 
 In the following, you will find an overview of the legal basis of the GDPR on which we base the processing of personal data. Please note that in addition to the provisions of the GDPR, national data protection provisions of your or our country of residence or domicile may apply. If, in addition, more specific legal bases are applicable in individual cases, we will inform you of these in the data protection declaration.
 
@@ -110,7 +108,7 @@ In the following, you will find an overview of the legal basis of the GDPR on wh
 
 In addition to the data protection regulations of the General Data Protection Regulation, national regulations apply to data protection in Germany. This includes in particular the Law on Protection against Misuse of Personal Data in Data Processing (Federal Data Protection Act - BDSG). In particular, the BDSG contains special provisions on the right to access, the right to erase, the right to object, the processing of special categories of personal data, processing for other purposes and transmission as well as automated individual decision-making, including profiling. Furthermore, it regulates data processing for the purposes of the employment relationship (§ 26 BDSG), in particular with regard to the establishment, execution or termination of employment relationships as well as the consent of employees. Furthermore, data protection laws of the individual federal states may apply.
 
-## Security Precautions
+### Security Precautions
 
 We take appropriate technical and organisational measures in accordance with the legal requirements, taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, in order to ensure a level of security appropriate to the risk.
 
@@ -118,11 +116,11 @@ The measures include, in particular, safeguarding the confidentiality, integrity
 
 SSL encryption (https): In order to protect your data transmitted via our online services in the best possible way, we use SSL encryption. You can recognize such encrypted connections by the prefix https:// in the address bar of your browser.
 
-## Transmission of Personal Data
+### Transmission of Personal Data
 
 In the context of our processing of personal data, it may happen that the data is transferred to other places, companies or persons or that it is disclosed to them. Recipients of this data may include, for example, service providers commissioned with IT tasks or providers of services and content that are embedded in a website. In such a case, the legal requirements will be respected and in particular corresponding contracts or agreements, which serve the protection of your data, will be concluded with the recipients of your data.
 
-## Erasure of data
+### Erasure of data
 
 The data processed by us will be erased in accordance with the statutory provisions as soon as their processing is revoked or other permissions no longer apply (e.g. if the purpose of processing this data no longer applies or they are not required for the purpose).
 
@@ -130,7 +128,7 @@ If the data is not deleted because they are required for other and legally permi
 
 In the context of our information on data processing, we may provide users with further information on the deletion and retention of data that is specific to the respective processing operation.
 
-## Business services
+### Business services
 
 We process data of our contractual and business partners, e.g. customers and interested parties (collectively referred to as "contractual partners") within the context of contractual and comparable legal relationships as well as associated actions and communication with the contractual partners or pre-contractually, e.g. to answer inquiries.
 
@@ -159,7 +157,7 @@ Insofar as it is necessary for our contractual performance or required by law, o
 *   **Purposes of Processing:** Provision of contractual services and customer support; Contact requests and communication; Office and organisational procedures; Managing and responding to inquiries
 *   **Legal Basis:** Performance of a contract and prior requests (Article 6 (1) (b) GDPR); Compliance with a legal obligation (Article 6 (1) (c) GDPR); Legitimate Interests (Article 6 (1) (f) GDPR)
 
-## Payment Procedure
+### Payment Procedure
 
 Within the framework of contractual and other legal relationships, due to legal obligations or otherwise on the basis of our legitimate interests, we offer data subjects efficient and secure payment options and use other service providers for this purpose in addition to banks and credit institutions (collectively referred to as "payment service providers").
 
@@ -176,7 +174,7 @@ The terms and conditions and data protection information of the respective payme
 
 *   **PayPal:** Payment service provider (e.g. PayPal, PayPal Plus, Braintree, Braintree); **Service provider**: PayPal (Europe) S.à r.l. et Cie, S.C.A., 22-24 Boulevard Royal, L-2449 Luxembourg; **Website:** [https://www.paypal.com](https://www.paypal.com); **Privacy Policy:** [https://www.paypal.com/de/webapps/mpp/ua/privacy-full](https://www.paypal.com/de/webapps/mpp/ua/privacy-full)
 
-## Provision of online services and web hosting
+### Provision of online services and web hosting
 
 In order to provide our online services securely and efficiently, we use the services of one or more web hosting providers from whose servers (or servers they manage) the online services can be accessed. For these purposes, we may use infrastructure and platform services, computing capacity, storage space and database services, as well as security and technical maintenance services.
 
@@ -197,7 +195,7 @@ The data processed within the framework of the provision of the hosting services
 
 * **Hetzner:** Services in the field of the provision of information technology infrastructure and related services (e.g. storage space and/or computing capacities); **Service provider**: Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany; **Website:** [https://www.hetzner.com](https://www.hetzner.com); **Privacy Policy:** [https://www.hetzner.com/de/rechtliches/datenschutz](https://www.hetzner.com/de/rechtliches/datenschutz); **Data Processing Agreement:** [https://docs.hetzner.com/de/general/general-terms-and-conditions/data-privacy-faq/](https://docs.hetzner.com/de/general/general-terms-and-conditions/data-privacy-faq/)
 
-## Contact and Inquiry Management
+### Contact and Inquiry Management
 
 When contacting us (e.g. via contact form, e-mail, telephone or via social media) as well as in the context of existing user and business relationships, the information of the inquiring persons is processed to the extent necessary to respond to the contact requests and any requested measures.
 
@@ -212,7 +210,7 @@ The response to the contact inquiries as well as the management of contact and i
 
 *   **Contact form:** When users contact us via our contact form, e-mail or other communication channels, we process the data provided to us in this context to process the communicated request. For this purpose, we process personal data in the context of pre-contractual and contractual business relationships to the extent necessary for their fulfillment and otherwise on the basis of our legitimate interests as well as the interests of the communication partners in responding to the concerns and our legal archiving requirements.
 
-## Commercial communication by E-Mail, Postal Mail, Fax or Telephone
+### Commercial communication by E-Mail, Postal Mail, Fax or Telephone
 
 We process personal data for the purposes of promotional communication, which may be carried out via various channels, such as e-mail, telephone, post or fax, in accordance with the legal requirements.
 
@@ -225,7 +223,7 @@ After withdrawal or objection, we may store the data required to prove consent f
 *   **Purposes of Processing:** Direct marketing (e.g. by e-mail or postal)
 *   **Legal Basis:** Consent (Article 6 (1) (a) GDPR); Legitimate Interests (Article 6 (1) (f) GDPR)
 
-## Web Analysis, Monitoring and Optimization
+### Web Analysis, Monitoring and Optimization
 
 Web analysis is used to evaluate the visitor traffic on our website and may include the behaviour, interests or demographic information of users, such as age or gender, as pseudonymous values. With the help of web analysis we can e.g. recognize, at which time our online services or their functions or contents are most frequently used or requested for repeatedly, as well as which areas require optimization.
 
@@ -249,7 +247,7 @@ The IP addresses of the users are also stored. However, we use any existing IP m
 
 *   **plausible.io:** Web Analytics; no use of cookies or comparable persistent online identifiers, the recognition of returning visitors is done with the help of a pseudonymous identifier, which is deleted after one day; apart from that, no personal data is stored ([https://plausible.io/data-policy](https://plausible.io/data-policy)); processing takes place on our server, no data is passed on to third parties; **Service provider**: Hosting on our server; **Website:** [https://plausible.io/](https://plausible.io/); **Privacy Policy:** [https://plausible.io/privacy](https://plausible.io/privacy)
 
-## Customer Reviews and Ratings
+### Customer Reviews and Ratings
 
 We participate in review and rating procedures to evaluate, optimise and advertise our performance. If users rate us via the participating rating platforms or methods or otherwise provide feedback, the General Terms and Conditions of Business or Use and the data protection information of the providers also apply. As a rule, the rating also requires registration with the respective provider.
 
@@ -264,7 +262,7 @@ In order to ensure that the evaluators have actually made use of our services, w
 
 *   **Trustpilot:** Review and rating platform; **Service provider**: Trustpilot A/S, Pilestræde 58, 5, 1112 Kopenhagen, Denmark; **Website:** [https://www.trustedshops.de](https://www.trustedshops.de); **Privacy Policy:** [https://legal.trustpilot.com/end-user-privacy-terms](https://legal.trustpilot.com/end-user-privacy-terms)
 
-## Profiles in Social Networks (Social Media)
+### Profiles in Social Networks (Social Media)
 
 We maintain online presences within social networks and process user data in this context in order to communicate with the users active there or to offer information about us.
 
@@ -287,13 +285,13 @@ Also in the case of requests for information and the exercise of rights of data 
 *   **Facebook-Seiten:** Profiles within the social network Facebook - We are jointly responsible (so called "joint controller") with Meta Platforms Ireland Limited for the collection (but not the further processing) of data of visitors to our Facebook page. This data includes information about the types of content users view or interact with, or the actions they take (see "Things that you and others do and provide" in the Facebook Data Policy: [https://www.facebook.com/policy](https://www.facebook.com/policy)), and information about the devices used by users (e.g., IP addresses, operating system, browser type, language settings, cookie information; see "Device Information" in the Facebook Data Policy: [https://www.facebook.com/policy](https://www.facebook.com/policy)). As explained in the Facebook Data Policy under "How we use this information?" Facebook also collects and uses information to provide analytics services, known as "page insights," to site operators to help them understand how people interact with their pages and with content associated with them. We have concluded a special agreement with Facebook ("Information about Page-Insights", [https://www.facebook.com/legal/terms/page_controller_addendum](https://www.facebook.com/legal/terms/page_controller_addendum)), which regulates in particular the security measures that Facebook must observe and in which Facebook has agreed to fulfill the rights of the persons concerned (i.e. users can send information access or deletion requests directly to Facebook). The rights of users (in particular to access to information, erasure, objection and complaint to the competent supervisory authority) are not restricted by the agreements with Facebook. Further information can be found in the "Information about Page Insights" ([https://www.facebook.com/legal/terms/information_about_page_insights_data](https://www.facebook.com/legal/terms/information_about_page_insights_data)); **Service provider**: Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland; **Website:** [https://www.facebook.com](https://www.facebook.com); **Privacy Policy:** [https://www.facebook.com/about/privacy](https://www.facebook.com/about/privacy); **Standard Contractual Clauses (Safeguarding the level of data protection when processing data in third countries):** [https://www.facebook.com/legal/EU_data_transfer_addendum](https://www.facebook.com/legal/EU_data_transfer_addendum); **Further Information:** Joint Controllership Agreement: [https://www.facebook.com/legal/terms/information_about_page_insights_data](https://www.facebook.com/legal/terms/information_about_page_insights_data)
 *   **Twitter:** Social network; **Service provider**: Twitter International Company, One Cumberland Place, Fenian Street, Dublin 2 D02 AX07, Ireland, parent company: Twitter Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA; **Privacy Policy:** [https://twitter.com/privacy](https://twitter.com/privacy), (Settings: [https://twitter.com/personalization](https://twitter.com/personalization))
 
-## Changes and Updates to the Privacy Policy
+### Changes and Updates to the Privacy Policy
 
 We kindly ask you to inform yourself regularly about the contents of our data protection declaration. We will adjust the privacy policy as changes in our data processing practices make this necessary. We will inform you as soon as the changes require your cooperation (e.g. consent) or other individual notification.
 
 If we provide addresses and contact information of companies and organizations in this privacy policy, we ask you to note that addresses may change over time and to verify the information before contacting us.
 
-## Rights of Data Subjects
+### Rights of Data Subjects
 
 As data subject, you are entitled to various rights under the GDPR, which arise in particular from Articles 15 to 21 of the GDPR:
 
@@ -305,7 +303,7 @@ As data subject, you are entitled to various rights under the GDPR, which arise 
 *   **Right to data portability:** You have the right to receive data concerning you which you have provided to us in a structured, common and machine-readable format in accordance with the legal requirements, or to request its transmission to another controller.
 *   **Complaint to the supervisory authority:** In accordance with the law and without prejudice to any other administrative or judicial remedy, you also have the right to lodge a complaint with a data protection supervisory authority, in particular a supervisory authority in the Member State where you habitually reside, the supervisory authority of your place of work or the place of the alleged infringement, if you consider that the processing of personal data concerning you infringes the GDPR.
 
-## Terminology and Definitions
+### Terminology and Definitions
 
 This section provides an overview of the terms used in this privacy policy. Many of the terms are drawn from the law and defined mainly in Article 4 GDPR. The legal definitions are binding. The following explanations, on the other hand, are intended above all for the purpose of comprehension. The terms are sorted alphabetically.
 

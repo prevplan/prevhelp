@@ -1,5 +1,6 @@
 ---
-title: "AGB"
+title: "Allgemeine Geschäftsbedingungen | PrevHelp"
+description: "Unsere allgemeinen Geschäftsbedingungen für Kurse und Beratungen."
 date: 2022-02-21T13:13:11+01:00
 draft: false
 layout: legal
@@ -139,7 +140,7 @@ Sie können innerhalb von 14 Tagen Ihre Buchung kostenfrei widerrufen, wobei zur
 
 1. Der Leistungsumfang richtet sich nach der jeweiligen Kursbuchung.
 
-2. Werden einzelne Leistungen durch einen Teilnehmer nicht in Anspruch genommen, so behält sich <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>  vor, dennoch die gesamte Gebühr in Rechnung zu stellen.n
+2. Werden einzelne Leistungen durch einen Teilnehmer nicht in Anspruch genommen, so behält sich <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>  vor, dennoch die gesamte Gebühr in Rechnung zu stellen.
 
 3. Sollte ein Termin oder Kurs z. B. durch Krankheit des Ausbilders / Dozenten ausfallen, wird dieser umgehend nachgeholt. Ist dies nicht möglich, wird die Gebühr für die offenen Termine zurückerstattet.
 
