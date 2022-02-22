@@ -1,1 +1,7 @@
 ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+<FilesMatch "\.(gif|ico|jpeg|jpg|png|svg|webp|css|js)$">
+Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
+</IfModule>
