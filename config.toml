@@ -3,7 +3,15 @@ languageCode = 'de'
 title = 'PrevHelp'
 disableKinds = ["taxonomy","taxonomyTerm"]
 
-defaultContentLanguage = 'en'
+enableGitInfo = true
+
+defaultContentLanguage = 'de'
+
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']
 
 [languages]
   [languages.de]

@@ -1,0 +1,65 @@
+---
+title: "Impressum"
+date: 2022-02-19T17:41:57+01:00
+draft: false
+layout: legal
+translationKey: imprint
+slug: impressum
+aliases: [/de/impressum, /rechtliches/impressum]
+---
+
+# Impressum
+## Diensteanbieter
+
+<span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>    
+Holger Schmermbeck  
+Edith-Stein-Str. 52  
+42329 Wuppertal  
+Deutschland
+
+## Kontaktmöglichkeiten
+
+**E-Mail-Adresse:** [info@prevhelp.de](mailto:info@prevhelp.de)
+
+**Telefon:** 0202 898 37 565
+
+**Fax:** 0202 898 37 567
+
+<!-- **Kontaktformular:** [https://prevhelp.de/kontakt](https://prevhelp.de/kontakt) -->
+
+## Vertretungsberechtigte
+
+**Vertretungsberechtigt:** Holger Schmermbeck (Inhaber)
+
+## Journalistisch-redaktionelle Angebote
+
+**Inhaltlich verantwortlich:** Holger Schmermbeck (Adresse wie oben)
+
+## Angaben zum Unternehmen
+
+**Umsatzsteuer Identifikationsnummer (USt-ID):** DE318103403
+
+**AGB:** [https://prevhelp.de/agb](https://prevhelp.de/agb)
+
+## Berechtigung / Zulassung
+
+<span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span> ist ermächtigte Ausbildungsstätte der Unfallkassen und Berufsgenossenschaften (BG-QSEH Kennziffer 8.1182).
+
+## Online-Streitbeilegung (OS)
+
+Online-Streitbeilegung: Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie unter [https://ec.europa.eu/consumers/odr/](https://ec.europa.eu/consumers/odr/) finden. Verbraucher haben die Möglichkeit, diese Plattform für die Beilegung ihrer Streitigkeiten zu nutzen.
+
+## Streitbeilegung vor einer Verbraucherschlichtungsstelle
+
+Angaben zur Teilnahme an der Verbraucherstreitschlichtung: Wir sind nicht bereit und nicht verpflichtet an einem Streitbeilegungsverfahren vor einer Verbraucherstreitschlichtungsstelle teilzunehmen.
+
+
+## Social Media und andere Onlinepräsenzen
+
+**Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile:**
+
+[https://www.facebook.com/prevhelpde](https://www.facebook.com/prevhelpde)
+
+[https://www.instagram.com/prevhelp.de](hhttps://www.instagram.com/prevhelp.de)
+
+[https://twitter.com/prevhelpde](https://twitter.com/prevhelpde)
