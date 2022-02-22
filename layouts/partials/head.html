@@ -10,6 +10,33 @@
 <meta name="msapplication-TileColor" content="#00aba9">
 <meta name="theme-color" content="#ffffff">
 
+{{ $title := i18n "default_title" }}
+{{ $description := i18n "default_description" }}
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+<meta name="title" content="{{ .Title | default $title }}">
+<meta name="description" content="{{ .Description | default $description }}">
+
+<!-- Primary Meta Tags -->
+<title>{{ .Title | default $title }}</title>
+<meta name="title" content="{{ .Title | default $title }}">
+<meta name="description" content="{{ .Description | default $description }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ .Title | default $title }}">
+<meta property="og:description" content="{{ .Description | default $description }}">
+<meta property="og:image" content="{{ .Page.Params.meta_img | default `/img/logo-meta.png` | absURL }}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ .Permalink }}">
+<meta property="twitter:title" content="{{ .Title | default $title }}">
+<meta property="twitter:description" content="{{ .Description | default $description }}">
+<meta property="twitter:image" content="{{ .Page.Params.meta_img | default `/img/logo-meta.png` | absURL }}">
+
 {{ $styles := resources.Get "/css/style.css" | postCSS }}
 {{ if .Site.IsServer }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
