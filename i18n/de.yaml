@@ -7,6 +7,9 @@
 404_first_aid_is_on_the_way:
   other: ... aber für die Erste-Hilfe ist schon gesorgt!
 
+404_image_alt:
+  other: trauriges Kartonmännchen
+
 gtc:
   other: AGB
 
@@ -42,6 +45,9 @@ startpage_appointments:
 
 startpage_more_information:
   other: weitere Informationen
+
+startpage_image_alt:
+  other: Teilnehmer*innen bei einer Wiederbelebungsübung
 
 prevention_is:
   other: Prävention ist die beste Hilfe

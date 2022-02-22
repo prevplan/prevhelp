@@ -7,6 +7,9 @@
 404_first_aid_is_on_the_way:
   other: ... but first aid is already taken care of it!
 
+404_image_alt:
+  other: sad cardboard man figure
+
 gtc:
   other: GTC
 
@@ -42,6 +45,9 @@ startpage_appointments:
 
 startpage_more_information:
   other: more information
+
+startpage_image_alt:
+  other: Participants during a resuscitation exercise
 
 prevention_is:
   other: Prevention is the best help
