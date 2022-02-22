@@ -10,15 +10,11 @@ aliases: [/de/datenschutz, /rechtliches/datenschutz]
 
 <div class="text-lg max-w-prose mx-auto">
     <h1>
-        <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">Introducing</span>
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">JavaScript for Beginners</span>
+        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Datenschutzerklärung</span>
     </h1>
-    <p class="mt-8 text-xl text-gray-500 leading-8">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend egestas fringilla sapien.</p>
 </div>
 
-# Datenschutzerklärung
-
-## Einleitung {#Einleitung}
+### Einleitung {#Einleitung}
 
 Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als "Daten“ bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen der Erbringung unserer Leistungen als auch insbesondere auf unseren Webseiten, in mobilen Applikationen sowie innerhalb externer Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend zusammenfassend bezeichnet als "Onlineangebot“).
 
@@ -26,7 +22,7 @@ Die verwendeten Begriffe sind nicht geschlechtsspezifisch.
 
 Stand: {{< lastmod >}}
 
-## Inhaltsübersicht
+### Inhaltsübersicht
 
 *   [Einleitung](#Einleitung)
 *   [Verantwortlicher](#Verantwortlicher)
@@ -47,7 +43,7 @@ Stand: {{< lastmod >}}
 *   [Rechte der betroffenen Personen](#Rechte)
 *   [Begriffsdefinitionen](#Begriffsdefinitionen)
 
-## Verantwortlicher {#Verantwortlicher}
+### Verantwortlicher {#Verantwortlicher}
 
 <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>  
 Holger Schmermbeck  
@@ -64,11 +60,11 @@ E-Mail-Adresse:
 Impressum:  
 [https://prevhelp.de/impressum](https://prevhelp.de/impressum)
 
-## Übersicht der Verarbeitungen {#Verarbeitungen}
+### Übersicht der Verarbeitungen {#Verarbeitungen}
 
 Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen.
 
-### Arten der verarbeiteten Daten
+#### Arten der verarbeiteten Daten
 
 *   Bestandsdaten
 *   Zahlungsdaten
@@ -78,7 +74,7 @@ Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwec
 *   Nutzungsdaten
 *   Meta-/Kommunikationsdaten
 
-### Kategorien betroffener Personen
+#### Kategorien betroffener Personen
 
 *   Kunden
 *   Interessenten
@@ -87,7 +83,7 @@ Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwec
 *   Geschäfts- und Vertragspartner
 *   Schüler/ Studenten/ Teilnehmer
 
-### Zwecke der Verarbeitung
+#### Zwecke der Verarbeitung
 
 * Erbringung vertraglicher Leistungen und Kundenservice
 * Kontaktanfragen und Kommunikation
@@ -100,7 +96,7 @@ Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwec
 * Profile mit nutzerbezogenen Informationen
 * Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit
 
-### Maßgebliche Rechtsgrundlagen {#Rechtsgrundlagen}
+#### Maßgebliche Rechtsgrundlagen {#Rechtsgrundlagen}
 
 Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir personenbezogene Daten verarbeiten. Bitte nehmen Sie zur Kenntnis, dass neben den Regelungen der DSGVO nationale Datenschutzvorgaben in Ihrem bzw. unserem Wohn- oder Sitzland gelten können. Sollten ferner im Einzelfall speziellere Rechtsgrundlagen maßgeblich sein, teilen wir Ihnen diese in der Datenschutzerklärung mit.
 
@@ -111,7 +107,7 @@ Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf de
 
 Zusätzlich zu den Datenschutzregelungen der Datenschutz-Grundverordnung gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu gehört insbesondere das Gesetz zum Schutz vor Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz – BDSG). Das BDSG enthält insbesondere Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum Widerspruchsrecht, zur Verarbeitung besonderer Kategorien personenbezogener Daten, zur Verarbeitung für andere Zwecke und zur Übermittlung sowie automatisierten Entscheidungsfindung im Einzelfall einschließlich Profiling. Des Weiteren regelt es die Datenverarbeitung für Zwecke des Beschäftigungsverhältnisses (§ 26 BDSG), insbesondere im Hinblick auf die Begründung, Durchführung oder Beendigung von Beschäftigungsverhältnissen sowie die Einwilligung von Beschäftigten. Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung gelangen.
 
-## Sicherheitsmaßnahmen {#Sicherheitsmaßnahmen}
+### Sicherheitsmaßnahmen {#Sicherheitsmaßnahmen}
 
 Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmaßes der Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten.
 
@@ -119,11 +115,11 @@ Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integ
 
 SSL-Verschlüsselung (https): Um Ihre via unserem Online-Angebot übermittelten Daten zu schützen, nutzen wir eine SSL-Verschlüsselung. Sie erkennen derart verschlüsselte Verbindungen an dem Präfix https:// in der Adresszeile Ihres Browsers.
 
-## Übermittlung von personenbezogenen Daten {#Personenbezug}
+### Übermittlung von personenbezogenen Daten {#Personenbezug}
 
 Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor, dass die Daten an andere Stellen, Unternehmen, rechtlich selbstständige Organisationseinheiten oder Personen übermittelt oder sie ihnen gegenüber offengelegt werden. Zu den Empfängern dieser Daten können z.B. mit IT-Aufgaben beauftragte Dienstleister oder Anbieter von Diensten und Inhalten, die in eine Webseite eingebunden werden, gehören. In solchen Fall beachten wir die gesetzlichen Vorgaben und schließen insbesondere entsprechende Verträge bzw. Vereinbarungen, die dem Schutz Ihrer Daten dienen, mit den Empfängern Ihrer Daten ab.
 
-## Löschung von Daten {#Loeschung}
+### Löschung von Daten {#Loeschung}
 
 Die von uns verarbeiteten Daten werden nach Maßgabe der gesetzlichen Vorgaben gelöscht, sobald deren zur Verarbeitung erlaubten Einwilligungen widerrufen werden oder sonstige Erlaubnisse entfallen (z.B. wenn der Zweck der Verarbeitung dieser Daten entfallen ist oder sie für den Zweck nicht erforderlich sind).
 
@@ -131,7 +127,7 @@ Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich zul
 
 Im Rahmen unserer Datenschutzhinweise können wir den Nutzern weitere Informationen zu der Löschung sowie zu der Aufbewahrung von Daten mitteilen, die speziell für die jeweiligen Verarbeitungsprozesses gelten.
 
-## Geschäftliche Leistungen {#Leistungen}
+### Geschäftliche Leistungen {#Leistungen}
 
 Wir verarbeiten Daten unserer Vertrags- und Geschäftspartner, z.B. Kunden und Interessenten (zusammenfassend bezeichnet als "Vertragspartner") im Rahmen von vertraglichen und vergleichbaren Rechtsverhältnissen sowie damit verbundenen Maßnahmen und im Rahmen der Kommunikation mit den Vertragspartnern (oder vorvertraglich), z.B., um Anfragen zu beantworten.
 
@@ -162,7 +158,7 @@ Sofern es für unsere Vertragserfüllung oder gesetzlich erforderlich ist, bzw. 
 *   **Zwecke der Verarbeitung:** Erbringung vertraglicher Leistungen und Kundenservice; Kontaktanfragen und Kommunikation; Büro- und Organisationsverfahren; Verwaltung und Beantwortung von Anfragen.
 *   **Rechtsgrundlagen:** Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b. DSGVO); Rechtliche Verpflichtung (Art. 6 Abs. 1 S. 1 lit. c. DSGVO); Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).
 
-## Zahlungsverfahren {#Zahlungsverfahren}
+### Zahlungsverfahren {#Zahlungsverfahren}
 
 Im Rahmen von Vertrags- und sonstigen Rechtsbeziehungen, aufgrund gesetzlicher Pflichten oder sonst auf Grundlage unserer berechtigten Interessen bieten wir den betroffenen Personen effiziente und sichere Zahlungsmöglichkeiten an und setzen hierzu neben Banken und Kreditinstituten weitere Dienstleister ein (zusammenfassend "Zahlungsdienstleister").
 
@@ -179,7 +175,7 @@ Für die Zahlungsgeschäfte gelten die Geschäftsbedingungen und die Datenschutz
 
 *   **PayPal:** Dienstleistungen zur Zahlungsabwicklung (z.B. PayPal, PayPal Plus, Braintree); **Dienstanbieter:** PayPal (Europe) S.à r.l. et Cie, S.C.A., 22-24 Boulevard Royal, L-2449 Luxembourg; **Website:** [https://www.paypal.com/de](https://www.paypal.com/de); **Datenschutzerklärung:** [https://www.paypal.com/de/webapps/mpp/ua/privacy-full](https://www.paypal.com/de/webapps/mpp/ua/privacy-full).
 
-## Bereitstellung des Onlineangebotes und Webhosting {#Bereitstellung}
+### Bereitstellung des Onlineangebotes und Webhosting {#Bereitstellung}
 
 Um unser Onlineangebot sicher und effizient bereitstellen zu können, nehmen wir die Leistungen von einem oder mehreren Webhosting-Anbietern in Anspruch, von deren Servern (bzw. von ihnen verwalteten Servern) das Onlineangebot abgerufen werden kann. Zu diesen Zwecken können wir Infrastruktur- und Plattformdienstleistungen, Rechenkapazität, Speicherplatz und Datenbankdienste sowie Sicherheitsleistungen und technische Wartungsleistungen in Anspruch nehmen.
 
@@ -200,7 +196,7 @@ Zu den im Rahmen der Bereitstellung des Hostingangebotes verarbeiteten Daten kö
 
 * **Hetzner:** Leistungen auf dem Gebiet der Bereitstellung von informationstechnischer Infrastruktur und verbundenen Dienstleistungen (z.B. Speicherplatz und/oder Rechenkapazitäten); **Dienstanbieter:** Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Deutschland; **Website:** [https://www.hetzner.com](https://www.hetzner.com); **Datenschutzerklärung:** [https://www.hetzner.com/de/rechtliches/datenschutz](https://www.hetzner.com/de/rechtliches/datenschutz); **Auftragsverarbeitungsvertrag:** [https://docs.hetzner.com/de/general/general-terms-and-conditions/data-privacy-faq/](https://docs.hetzner.com/de/general/general-terms-and-conditions/data-privacy-faq/)
 
-## Kontakt- und Anfragenverwaltung {#Anfragenverwaltung}
+### Kontakt- und Anfragenverwaltung {#Anfragenverwaltung}
 
 Bei der Kontaktaufnahme mit uns (z.B. per Kontaktformular, E-Mail, Telefon oder via soziale Medien) sowie im Rahmen bestehender Nutzer- und Geschäftsbeziehungen werden die Angaben der anfragenden Personen verarbeitet soweit dies zur Beantwortung der Kontaktanfragen und etwaiger angefragter Maßnahmen erforderlich ist.
 
@@ -215,7 +211,7 @@ Die Beantwortung der Kontaktanfragen sowie die Verwaltung von Kontakt- und Anfra
 
 *   **Kontaktformular:** Wenn Nutzer über unser Kontaktformular, E-Mail oder andere Kommunikationswege mit uns in Kontakt treten, verarbeiten wir die uns in diesem Zusammenhang mitgeteilten Daten zur Bearbeitung des mitgeteilten Anliegens. Zu diesem Zweck verarbeiten wir personenbezogene Daten im Rahmen vorvertraglicher und vertraglicher Geschäftsbeziehungen, soweit dies zu deren Erfüllung erforderlich ist und im Übrigen auf Grundlage unserer berechtigten Interessen sowie der Interessen der Kommunikationspartner an der Beantwortung der Anliegen und unserer gesetzlichen Aufbewahrungspflichten.
 
-## Werbliche Kommunikation via E-Mail, Post, Fax oder Telefon {#Kommunikation}
+### Werbliche Kommunikation via E-Mail, Post, Fax oder Telefon {#Kommunikation}
 
 Wir verarbeiten personenbezogene Daten zu Zwecken der werblichen Kommunikation, die über diverse Kanäle, wie z.B. E-Mail, Telefon, Post oder Fax, entsprechend den gesetzlichen Vorgaben erfolgen kann.
 
@@ -228,7 +224,7 @@ Nach Widerruf bzw. Widerspruch können wir die zum Nachweis der Einwilligung erf
 *   **Zwecke der Verarbeitung:** Direktmarketing (z.B. per E-Mail oder postalisch)
 *   **Rechtsgrundlagen:** Einwilligung (Art. 6 Abs. 1 S. 1 lit. a. DSGVO); Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO)
 
-## Webanalyse, Monitoring und Optimierung {#Webanalyse}
+### Webanalyse, Monitoring und Optimierung {#Webanalyse}
 
 Die Webanalyse (auch als "Reichweitenmessung" bezeichnet) dient der Auswertung der Besucherströme unseres Onlineangebotes und kann Verhalten, Interessen oder demographische Informationen zu den Besuchern, wie z.B. das Alter oder das Geschlecht, als pseudonyme Werte umfassen. Mit Hilfe der Reichweitenanalyse können wir z.B. erkennen, zu welcher Zeit unser Onlineangebot oder dessen Funktionen oder Inhalte am häufigsten genutzt werden oder zur Wiederverwendung einladen. Ebenso können wir nachvollziehen, welche Bereiche der Optimierung bedürfen.
 
@@ -250,7 +246,7 @@ Es werden ebenfalls die IP-Adressen der Nutzer gespeichert. Jedoch nutzen wir ei
 
 *   **plausible.io:** Reichweitenmessung und Webanalytics; kein Einsatz von Cookies oder vergleichbaren persistenten Onlinekennzeichen, die Erkennung wiederkehrender Besucher erfolgt mit Hilfe eines pseudonymen Identifikators, der nach einem Tag gelöscht wird; im Übrigen werden keine personenbezogenen Daten gespeichert ([https://plausible.io/data-policy](https://plausible.io/data-policy)); die Verarbeitung erfolgt auf unserem Server, es werden keine Daten an Dritte weitergegeben; **Dienstanbieter:** Hosting auf unserem Server; **Website:** [https://plausible.io/](https://plausible.io/); **Datenschutzerklärung:** [https://plausible.io/privacy](https://plausible.io/privacy)
 
-## Kundenrezensionen und Bewertungsverfahren {#Rezensionen}
+### Kundenrezensionen und Bewertungsverfahren {#Rezensionen}
 
 Wir nehmen an Rezensions- und Bewertungsverfahren teil, um unsere Leistungen zu evaluieren, zu optimieren und zu bewerben. Wenn Nutzer uns über die beteiligten Bewertungsplattformen oder -verfahren bewerten oder anderweitig Feedback geben, gelten zusätzlich die Allgemeinen Geschäfts- oder Nutzungsbedingungen und die Datenschutzhinweise der Anbieter. Im Regelfall setzt die Bewertung zudem eine Registrierung bei den jeweiligen Anbietern voraus.
 
@@ -265,7 +261,7 @@ Um sicherzustellen, dass die bewertenden Personen tatsächlich unsere Leistungen
 
 *   **Trustpilot:** Bewertungsplattform; **Dienstanbieter:** Trustpilot A/S, Pilestræde 58, 5, 1112 Kopenhagen, Dänemark; **Website:** [https://de.trustpilot.com](https://de.trustpilot.com); **Datenschutzerklärung:** [https://de.legal.trustpilot.com/end-user-privacy-terms](https://de.legal.trustpilot.com/end-user-privacy-terms)
 
-## Präsenzen in sozialen Netzwerken (Social Media) {#Praesenzen}
+### Präsenzen in sozialen Netzwerken (Social Media) {#Praesenzen}
 
 Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und verarbeiten in diesem Rahmen Daten der Nutzer, um mit den dort aktiven Nutzern zu kommunizieren oder um Informationen über uns anzubieten.
 
@@ -288,13 +284,13 @@ Auch im Fall von Auskunftsanfragen und der Geltendmachung von Betroffenenrechten
 *   **Facebook-Seiten:** Profile innerhalb des sozialen Netzwerks Facebook - Wir sind gemeinsam mit Meta Platforms Ireland Limited für die Erhebung (jedoch nicht die weitere Verarbeitung) von Daten der Besucher unserer Facebook-Seite (sog. "Fanpage") verantwortlich. Zu diesen Daten gehören Informationen zu den Arten von Inhalten, die Nutzer sich ansehen oder mit denen sie interagieren, oder die von ihnen vorgenommenen Handlungen (siehe unter „Von dir und anderen getätigte und bereitgestellte Dinge“ in der Facebook-Datenrichtlinie: [https://www.facebook.com/policy](https://www.facebook.com/policy)), sowie Informationen über die von den Nutzern genutzten Geräte (z. B. IP-Adressen, Betriebssystem, Browsertyp, Spracheinstellungen, Cookie-Daten; siehe unter „Geräteinformationen“ in der Facebook-Datenrichtlinie: [https://www.facebook.com/policy](https://www.facebook.com/policy)). Wie in der Facebook-Datenrichtlinie unter „Wie verwenden wir diese Informationen?“ erläutert, erhebt und verwendet Facebook Informationen auch, um Analysedienste, so genannte "Seiten-Insights", für Seitenbetreiber bereitzustellen, damit diese Erkenntnisse darüber erhalten, wie Personen mit ihren Seiten und mit den mit ihnen verbundenen Inhalten interagieren. Wir haben mit Facebook eine spezielle Vereinbarung abgeschlossen ("Informationen zu Seiten-Insights", [https://www.facebook.com/legal/terms/page_controller_addendum](https://www.facebook.com/legal/terms/page_controller_addendum)), in der insbesondere geregelt wird, welche Sicherheitsmaßnahmen Facebook beachten muss und in der Facebook sich bereit erklärt hat die Betroffenenrechte zu erfüllen (d. h. Nutzer können z. B. Auskünfte oder Löschungsanfragen direkt an Facebook richten). Die Rechte der Nutzer (insbesondere auf Auskunft, Löschung, Widerspruch und Beschwerde bei zuständiger Aufsichtsbehörde), werden durch die Vereinbarungen mit Facebook nicht eingeschränkt. Weitere Hinweise finden sich in den "Informationen zu Seiten-Insights" ([https://www.facebook.com/legal/terms/information_about_page_insights_data](https://www.facebook.com/legal/terms/information_about_page_insights_data)); **Dienstanbieter:** Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland; **Website:** [https://www.facebook.com](https://www.facebook.com); **Datenschutzerklärung:** [https://www.facebook.com/about/privacy](https://www.facebook.com/about/privacy); **Standardvertragsklauseln (Gewährleistung Datenschutzniveau bei Verarbeitung in Drittländern):** [https://www.facebook.com/legal/EU_data_transfer_addendum](https://www.facebook.com/legal/EU_data_transfer_addendum); **Weitere Informationen:** Vereinbarung gemeinsamer Verantwortlichkeit: [https://www.facebook.com/legal/terms/information_about_page_insights_data](https://www.facebook.com/legal/terms/information_about_page_insights_data).
 *   **Twitter:** Soziales Netzwerk; **Dienstanbieter:** Twitter International Company, One Cumberland Place, Fenian Street, Dublin 2 D02 AX07, Irland, Mutterunternehmen: Twitter Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA; **Datenschutzerklärung:** [https://twitter.com/privacy](https://twitter.com/privacy), (Settings: [https://twitter.com/personalization](https://twitter.com/personalization))
 
-## Änderung und Aktualisierung der Datenschutzerklärung {#Aktualisierung}
+### Änderung und Aktualisierung der Datenschutzerklärung {#Aktualisierung}
 
 Wir bitten Sie, sich regelmäßig über den Inhalt unserer Datenschutzerklärung zu informieren. Wir passen die Datenschutzerklärung an, sobald die Änderungen der von uns durchgeführten Datenverarbeitungen dies erforderlich machen. Wir informieren Sie, sobald durch die Änderungen eine Mitwirkungshandlung Ihrerseits (z.B. Einwilligung) oder eine sonstige individuelle Benachrichtigung erforderlich wird.
 
 Sofern wir in dieser Datenschutzerklärung Adressen und Kontaktinformationen von Unternehmen und Organisationen angeben, bitten wir zu beachten, dass die Adressen sich über die Zeit ändern können und bitten die Angaben vor Kontaktaufnahme zu prüfen.
 
-## Rechte der betroffenen Personen {#Rechte}
+### Rechte der betroffenen Personen {#Rechte}
 
 Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus Art. 15 bis 21 DSGVO ergeben:
 
@@ -306,7 +302,7 @@ Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die sich insb
 *   **Recht auf Datenübertragbarkeit:** Sie haben das Recht, Sie betreffende Daten, die Sie uns bereitgestellt haben, nach Maßgabe der gesetzlichen Vorgaben in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten oder deren Übermittlung an einen anderen Verantwortlichen zu fordern.
 *   **Beschwerde bei Aufsichtsbehörde:** Entsprechend den gesetzlichen Vorgaben und unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs, haben Sie ferner das Recht, bei einer Datenschutzaufsichtsbehörde, insbesondere einer Aufsichtsbehörde im Mitgliedstaat, in dem Sie sich gewöhnlich aufhalten, der Aufsichtsbehörde Ihres Arbeitsplatzes oder des Ortes des mutmaßlichen Verstoßes, eine Beschwerde einzulegen, wenn Sie der Ansicht sei sollten, dass die Verarbeitung der Ihre Person betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
 
-## Begriffsdefinitionen {#Begriffsdefinitionen}
+### Begriffsdefinitionen {#Begriffsdefinitionen}
 
 In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser Datenschutzerklärung verwendeten Begrifflichkeiten. Viele der Begriffe sind dem Gesetz entnommen und vor allem im Art. 4 DSGVO definiert. Die gesetzlichen Definitionen sind verbindlich. Die nachfolgenden Erläuterungen sollen dagegen vor allem dem Verständnis dienen. Die Begriffe sind alphabetisch sortiert.
 
