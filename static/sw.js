@@ -1,23 +1,23 @@
 const CACHE_VERSION = 1;
 
 const BASE_CACHE_FILES = [
-    '/css/style.min.css',
-    '/main.min.js',
+  //  '/css/style.min.css',
+ //   '/main.min.js',
    // '/search.json',
     '/manifest.webmanifest',
     '/favicon.ico',
 ];
 
 const OFFLINE_CACHE_FILES = [
-    '/css/style.min.css',
-    '/main.min.js',
+ //   '/css/style.min.css',
+ //   '/main.min.js',
     '/offline/index.html',
     '/img/offline.webp',
 ];
 
 const NOT_FOUND_CACHE_FILES = [
-    '/css/style.min.css',
-    '/main.min.js',
+   // '/css/style.min.css',
+  //  '/main.min.js',
     '/404.html',
     '/img/logo-quer.svg',
     '/img/404.webp',
