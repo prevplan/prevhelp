@@ -7,6 +7,7 @@ enableGitInfo = true
 enableRobotsTXT = true
 
 defaultContentLanguage = 'de'
+staticDir = ['static']
 
 [minify.tdewolff.html]
   keepWhitespace = false
@@ -21,12 +22,14 @@ defaultContentLanguage = 'de'
   [languages.de]
     baseURL = 'https://hugo.prevhelp.de'
     languageName = 'Deutsch'
+    staticDir2 = 'static_de'
     title = 'PrevHelp - Prävention ist die beste Hilfe'
     weight = 1
     contentDir = 'content/de'
   [languages.en]
     baseURL = 'https://hugo.prevhelp.com'
     languageName = 'English'
+    staticDir2 = 'static_en'
     title = 'PrevHelp - Prevention is the best help'
     weight = 2
     contentDir = 'content/en'
