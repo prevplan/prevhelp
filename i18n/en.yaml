@@ -10,6 +10,12 @@
 404_image_alt:
   other: sad cardboard man figure
 
+offline_header:
+  other: Oops, you are offline.
+
+offline_text:
+  other: Please build a new connection, so that it can go on...
+
 gtc:
   other: GTC
 

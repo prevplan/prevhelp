@@ -10,6 +10,12 @@
 404_image_alt:
   other: trauriges Kartonmännchen
 
+offline_header:
+  other: Oops, scheinbar bist Du offline!
+
+offline_text:
+  other: Baue doch bitte eine neue Verbindung, damit es weiter gehen kann...
+
 gtc:
   other: AGB
 
