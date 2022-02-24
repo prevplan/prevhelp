@@ -15,7 +15,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "./?utm_source=web_app_manifest",
+    "start_url": "https://hugo.prevhelp.com/?utm_source=web_app_manifest",
     "display": "standalone",
     "theme_color": "#ffffff",
     "background_color": "#ffffff"
