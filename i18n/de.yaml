@@ -14,7 +14,7 @@ offline_header:
   other: Oops, scheinbar bist Du offline!
 
 offline_text:
-  other: Baue doch bitte eine neue Verbindung, damit es weiter gehen kann...
+  other: Baue doch bitte eine neue Verbindung auf, damit es weiter gehen kann...
 
 gtc:
   other: AGB
@@ -33,6 +33,18 @@ privacy:
 
 privacy_url:
   other: datenschutz/
+  
+first_aid_courses:
+  other: Erste-Hilfe-Kurse
+  
+first_aid_courses_url:
+  other: erste-hilfe/
+
+contact:
+  other: Kontakt
+
+contact_url:
+  other: kontakt/
 
 go_to_home:
   other: weiter zur Startseite

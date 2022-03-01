@@ -34,6 +34,18 @@ privacy:
 privacy_url:
   other: privacy/
 
+first_aid_courses:
+  other: First aid courses
+  
+first_aid_courses_url:
+  other: first-aid/
+
+contact:
+  other: Contact
+
+contact_url:
+  other: contact/
+
 go_to_home:
   other: go to home page...
 

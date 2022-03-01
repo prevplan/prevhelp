@@ -31,7 +31,7 @@ Germany
 
 **Fax:** +49 202 898 37 567
 
-<!-- **Contact form:** [https://prevhelp.de/kontakt](https://prevhelp.de/kontakt) -->
+**Contact form:** [{{< ref "contact.md" >}}]({{< relref "contact.md" >}})
 
 ### Authorized representative
 
@@ -45,7 +45,7 @@ Germany
 
 **VAT identification number (USt-ID):** DE318103403
 
-**GTC:** [https://prevhelp.com/gtc](https://prevhelp.com/agb)
+**GTC:** [{{< ref "gtc.md" >}}]({{< relref "gtc.md" >}})
 
 ### Authorization / Approval
 

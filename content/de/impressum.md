@@ -31,7 +31,7 @@ Deutschland
 
 **Fax:** 0202 898 37 567
 
-<!-- **Kontaktformular:** [https://prevhelp.de/kontakt](https://prevhelp.de/kontakt) -->
+**Kontaktformular:** [{{< ref "kontakt.md" >}}]({{< relref "kontakt.md" >}})
 
 ### Vertretungsberechtigte
 
@@ -45,7 +45,7 @@ Deutschland
 
 **Umsatzsteuer Identifikationsnummer (USt-ID):** DE318103403
 
-**AGB:** [https://prevhelp.de/agb](https://prevhelp.de/agb)
+**AGB:** [{{< ref "agb.md" >}}]({{< relref "agb.md" >}})
 
 ### Berechtigung / Zulassung
 
