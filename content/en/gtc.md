@@ -23,8 +23,8 @@ The exclusive language available for the conclusion of the contract shall be Ger
 
 <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>  
 Holger Schmermbeck  
-Edith-Stein-Str. 52  
-42329 Wuppertal  
+Arrenberger Str. 49a  
+42117 Wuppertal  
 Germany
 
 hereinafter referred to as <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span> or we. The legal transactions can come about by phone, email, or via the website.

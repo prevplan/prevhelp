@@ -23,8 +23,8 @@ _Die für den Vertragsschluss zur Verfügung stehende Sprache ist ausschließlic
 
 <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>  
 Holger Schmermbeck  
-Edith-Stein-Str. 52  
-42329 Wuppertal  
+Arrenberger Str. 49a  
+42117 Wuppertal  
 Deutschland
 
 nachstehend <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span> oder wir genannt. Die Rechtsgeschäfte können dabei telefonisch, per E-Mail oder über die Webseite zustande kommen.

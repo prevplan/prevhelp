@@ -48,8 +48,8 @@ Last Update: 19. February 2022
 
 <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>  
 Holger Schmermbeck  
-Edith-Stein-Str. 52  
-42329 Wuppertal  
+Arrenberger Str. 49a  
+42117 Wuppertal  
 Germandy
 
 Authorised Representatives:  
@@ -59,7 +59,7 @@ E-mail address:
 [privacy@prevhelp.de](mailto:privacy@prevhelp.de)
 
 Legal Notice:  
-[https://prevhelp.com/imprint](https://prevhelp.com/imprint)
+[{{< ref "imprint.md" >}}]({{< relref "imprint.md" >}})
 
 ### Overview of processing operations
 
@@ -190,10 +190,10 @@ The data processed within the framework of the provision of the hosting services
 * **E-mail Sending and Hosting:** The web hosting services we use also include sending, receiving and storing e-mails. For these purposes, the addresses of the recipients and senders, as well as other information relating to the sending of e-mails (e.g. the providers involved) and the contents of the respective e-mails are processed. The above data may also be processed for SPAM detection purposes. Please note that e-mails on the Internet are generally not sent in encrypted form. As a rule, e-mails are encrypted during transport, but not on the servers from which they are sent and received (unless a so-called end-to-end encryption method is used). We can therefore accept no responsibility for the transmission path of e-mails between the sender and reception on our server.
 
 
-* **uberspace:** Services in the field of the provision of information technology infrastructure and related services (e.g. storage space and/or computing capacities); **Service provider**: uberspace, Jonas Pasche, Kaiserstr. 15, 55116 Mainz, Germany; **Website:** [https://uberspace.de](https://uberspace.de); **Privacy Policy:** [https://uberspace.de/de/about/privacy](https://uberspace.de/en/about/privacy)
+* **uberspace:** Services in the field of the provision of information technology infrastructure and related services (e.g. storage space and/or computing capacities); **Service provider**: uberspace, Jonas Pasche, Kaiserstr. 15, 55116 Mainz, Germany; **Website:** [https://uberspace.de](https://uberspace.de); **Privacy Policy:** [https://uberspace.de/en/about/privacy](https://uberspace.de/en/about/privacy)
 
 
-* **Hetzner:** Services in the field of the provision of information technology infrastructure and related services (e.g. storage space and/or computing capacities); **Service provider**: Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany; **Website:** [https://www.hetzner.com](https://www.hetzner.com); **Privacy Policy:** [https://www.hetzner.com/de/rechtliches/datenschutz](https://www.hetzner.com/de/rechtliches/datenschutz); **Data Processing Agreement:** [https://docs.hetzner.com/de/general/general-terms-and-conditions/data-privacy-faq/](https://docs.hetzner.com/de/general/general-terms-and-conditions/data-privacy-faq/)
+* **Hetzner:** Services in the field of the provision of information technology infrastructure and related services (e.g. storage space and/or computing capacities); **Service provider**: Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany; **Website:** [https://www.hetzner.com](https://www.hetzner.com); **Privacy Policy:** [https://www.hetzner.com/legal/privacy-policy](https://www.hetzner.com/legal/privacy-policy); **Data Processing Agreement:** [https://docs.hetzner.com/general/general-terms-and-conditions/data-privacy-faq/](https://docs.hetzner.com/general/general-terms-and-conditions/data-privacy-faq/)
 
 ### Contact and Inquiry Management
 

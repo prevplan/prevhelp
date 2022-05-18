@@ -19,8 +19,8 @@ aliases: [/en/en/imprint]
 
 <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>    
 Holger Schmermbeck  
-Edith-Stein-Str. 52  
-42329 Wuppertal  
+Arrenberger Str. 49a  
+42117 Wuppertal  
 Germany
 
 ### Contact options
