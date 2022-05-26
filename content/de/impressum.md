@@ -6,7 +6,7 @@ draft: false
 layout: legal
 translationKey: imprint
 slug: impressum
-aliases: [/de/impressum, /rechtliches/impressum]
+aliases: [/de/de/impressum, /rechtliches/impressum]
 ---
 
 <div class="text-lg max-w-prose mx-auto">

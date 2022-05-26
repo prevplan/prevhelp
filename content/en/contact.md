@@ -6,6 +6,8 @@ draft: false
 layout: contact
 translationKey: contact
 slug: contact
+aliases: [/en/en/contact]
+
 
 header: We are here for you
 text: Do you have a personal question or an individual request? Would you like individual advice or a special offer? We look forward to hearing from you!

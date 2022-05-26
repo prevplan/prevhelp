@@ -1,0 +1,11 @@
+{{define "main"}}
+
+<!--<iframe src="http://localhost/de/course/erste-hilfe-kurs/51.23/7.07" id="responsive-iframe"></iframe>-->
+
+
+<iframe class="w-full h-screen" allow="geolocation" src="{{ .Page.Params.appointments_url }}" loading="lazy"></iframe>
+
+<!--<iframe src="http://localhost/de/course/erste-hilfe-kurs/51.23/7.07" id="responsive-iframe" scrolling="no" frameborder="0"></iframe>-->
+
+<!--    {{ .Content }}-->
+{{end}}

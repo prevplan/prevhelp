@@ -24,8 +24,9 @@ care_facilities_title: First aid training for care facilities and rescue
 care_facilities_text: Are you starting training in the emergency services? Do you work in a nursing service or a care facility for elderly people? Of course, we also offer courses according to MDK specifications.
 cta_1: Ready to let us convince you?
 cta_2: Book your appointment now!
-warranty_prolog: There are many claims on the Internet
-warranty_title: We give you guarantees!
-warranty_text: We know that on the Internet many competitors claim things that aren't (or can't) be kept. And because we mean what we say, we guarantee your learning success.
-to_our_warranties: to our warranties
+guarantee_prolog: There are many claims on the Internet
+guarantee_title: We give you guarantees!
+guarantee_text: We know that on the Internet many competitors claim things that aren't (or can't) be kept. And because we mean what we say, we guarantee your learning success.
+to_our_guarantees: to our guarantees
+appointments_url: /first-aid/appointments/
 ---

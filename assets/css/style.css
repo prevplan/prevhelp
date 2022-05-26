@@ -1,6 +1,6 @@
 /* assets */
 
-/* ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com */
+/* ! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -488,7 +488,8 @@ select {
   background-size: 1.5em 1.5em;
   padding-right: 2.5rem;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+     color-adjust: exact;
+          print-color-adjust: exact;
 }
 
 [multiple] {
@@ -498,7 +499,8 @@ select {
   background-size: initial;
   padding-right: 0.75rem;
   -webkit-print-color-adjust: unset;
-          color-adjust: unset;
+     color-adjust: unset;
+          print-color-adjust: unset;
 }
 
 [type='checkbox'],[type='radio'] {
@@ -507,7 +509,8 @@ select {
           appearance: none;
   padding: 0;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+     color-adjust: exact;
+          print-color-adjust: exact;
   display: inline-block;
   vertical-align: middle;
   background-origin: border-box;
@@ -591,6 +594,7 @@ select {
 }
 
 [type='file']:focus {
+  outline: 1px solid ButtonText;
   outline: 1px auto -webkit-focus-ring-color;
 }
 
@@ -1307,14 +1311,6 @@ select {
   top: 0px;
 }
 
-.left-0 {
-  left: 0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
 .top-12 {
   top: 3rem;
 }
@@ -1333,6 +1329,14 @@ select {
 
 .bottom-12 {
   bottom: 3rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .left-1\/2 {
@@ -1395,6 +1399,10 @@ select {
   margin-top: 1.25rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
@@ -1429,10 +1437,6 @@ select {
 
 .ml-4 {
   margin-left: 1rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
 }
 
 .ml-8 {
@@ -1503,6 +1507,10 @@ select {
   height: 1.25rem;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .h-10 {
   height: 2.5rem;
 }
@@ -1555,6 +1563,14 @@ select {
   max-width: 80rem;
 }
 
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.max-w-prose {
+  max-width: 65ch;
+}
+
 .max-w-lg {
   max-width: 32rem;
 }
@@ -1569,10 +1585,6 @@ select {
 
 .max-w-4xl {
   max-width: 56rem;
-}
-
-.max-w-prose {
-  max-width: 65ch;
 }
 
 .max-w-md {
@@ -1718,6 +1730,12 @@ select {
   margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1728,6 +1746,12 @@ select {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -1748,10 +1772,21 @@ select {
   margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.divide-y > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+}
+
 .divide-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
   border-bottom-width: calc(2px * var(--tw-divide-y-reverse));
+}
+
+.divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-divide-opacity));
 }
 
 .divide-gray-50 > :not([hidden]) ~ :not([hidden]) {
@@ -1892,6 +1927,10 @@ select {
   background-origin: border-box;
 }
 
+.fill-gray-100 {
+  fill: #f3f4f6;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1949,14 +1988,14 @@ select {
   padding-right: 2rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .py-5 {
@@ -2034,9 +2073,9 @@ select {
   line-height: 1.5rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-lg {
@@ -2044,9 +2083,9 @@ select {
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -2069,6 +2108,10 @@ select {
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .uppercase {
@@ -2134,6 +2177,16 @@ select {
   color: rgb(29 78 216 / var(--tw-text-opacity));
 }
 
+.text-indigo-600 {
+  --tw-text-opacity: 1;
+  color: rgb(79 70 229 / var(--tw-text-opacity));
+}
+
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
 .text-blue-200 {
   --tw-text-opacity: 1;
   color: rgb(191 219 254 / var(--tw-text-opacity));
@@ -2156,11 +2209,6 @@ select {
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
-}
-
-.text-gray-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .text-gray-600 {
@@ -2355,6 +2403,11 @@ select {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+.hover\:text-blue-900:hover {
+  --tw-text-opacity: 1;
+  color: rgb(30 58 138 / var(--tw-text-opacity));
+}
+
 .hover\:underline:hover {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -2514,6 +2567,11 @@ select {
     padding-bottom: 8rem;
   }
 
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .sm\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -2566,6 +2624,10 @@ select {
     line-height: 2.5rem;
   }
 
+  .sm\:tracking-tight {
+    letter-spacing: -0.025em;
+  }
+
   .sm\:hover\:bg-opacity-50:hover {
     --tw-bg-opacity: 0.5;
   }
@@ -2580,6 +2642,14 @@ select {
     left: 0px;
   }
 
+  .md\:col-span-5 {
+    grid-column: span 5 / span 5;
+  }
+
+  .md\:col-span-7 {
+    grid-column: span 7 / span 7;
+  }
+
   .md\:ml-10 {
     margin-left: 2.5rem;
   }
@@ -2592,12 +2662,12 @@ select {
     margin-top: 1.25rem;
   }
 
-  .md\:ml-auto {
-    margin-left: auto;
-  }
-
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:ml-auto {
+    margin-left: auto;
   }
 
   .md\:block {
@@ -2634,6 +2704,10 @@ select {
 
   .md\:flex-1 {
     flex: 1 1 0%;
+  }
+
+  .md\:grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
   .md\:grid-cols-2 {
@@ -2757,6 +2831,10 @@ select {
     margin-top: 5rem;
   }
 
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
   .lg\:ml-0 {
     margin-left: 0px;
   }
@@ -2818,6 +2896,10 @@ select {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2834,6 +2916,10 @@ select {
     justify-content: space-between;
   }
 
+  .lg\:gap-8 {
+    gap: 2rem;
+  }
+
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -2844,14 +2930,19 @@ select {
     padding-bottom: 6rem;
   }
 
+  .lg\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .lg\:py-32 {
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
 
-  .lg\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .lg\:py-48 {

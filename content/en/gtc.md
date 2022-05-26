@@ -31,7 +31,7 @@ hereinafter referred to as <span style="color: #3059a3; font-weight: bold;">Prev
 
 2. The language available for the conclusion of the contract is exclusively German. Translations into other languages are for your information only. The German text has priority in the event of any differences in linguistic usage.
 
-## 2. Applicable law and consumer protection regulations
+### 2. Applicable law and consumer protection regulations
 
 1. The law of the Federal Republic of Germany applies under exclusion of international private law and the to German law applicable UN sales law, if
 
@@ -49,7 +49,7 @@ _A consumer within the meaning of the following regulations is any natural perso
 
 5. If certain discounts or special offers are advertised, these are limited in time or quantity. There is no entitlement to it.
 
-## 3. Subject matter of the contract and general information
+### 3. Subject matter of the contract and general information
 
 1. The subject of the contract are the following services:
 
@@ -65,9 +65,9 @@ _A consumer within the meaning of the following regulations is any natural perso
 
 (this list is not exhaustive)
 
-## 4. Conclusion of the contract
+### 4. Conclusion of the contract
 
-4.1 The following applies to bookings made verbally, by telephone, in writing, by e-mail, or via the contact form:
+#### 4.1 The following applies to bookings made verbally, by telephone, in writing, by e-mail, or via the contact form:
 
 1. The subject of the contract is the implementation of courses or individual advice.
 
@@ -80,7 +80,45 @@ You also declare that you have read and accepted these terms and conditions.
 4. Adoption:  
 The contract between us is concluded when you receive our confirmation, either in text form by email or, if you wish, by post.
 
-## 5. Collection, storage, and processing of your personal data
+#### 4.2 For bookings made through our website, the following applies:
+
+You book the training by going through the following steps:
+
+1. On our website you can find the training courses we offer and their target groups under the Training section.
+
+2. If you scroll further down you will see a button: _to the appointments_, on the start page you will also see a button _direct to the appointments_ further up.
+
+3. In the next step, you must enter your location / zip code, or have your location determined automatically, in order to have our course offerings displayed in your area.  
+   If you have already been to a course page for a specific location in advance, this additional query is omitted and the location specified on the previous page is preselected as the location.
+
+4. You will be shown the course locations and events available around your specified location. In the upper part you can select or deselect other course locations in the vicinity. The indicated distances are approximate and as the crow flies.
+
+5. All available courses of the desired training are displayed, in chronological order, in the previously selected locations. The address of the training location, the time schedule and the availability of places are also displayed.
+
+6. After selecting the desired appointment by clicking on it / its line, the view of available booking / price options for this appointment will open. The appropriate option must be selected by clicking on the _select_ button.
+
+7. In the following form, you enter the data for the contact person, who is also the invoice recipient except in the case of invoicing via the responsible employers' liability insurance association / accident insurance fund. This person can also be a participant, but does not have to be.
+
+8. If the contact person and the participant are two different people, information about the participant must be entered further down in the form.
+
+9. Via the button "add more participants" it is possible to add more persons to the booking if there are still enough places available.
+
+10. Payment options include cash, card payment, payment via PayPal or by accounting form. Depending on the course type and selected price option, sometimes only certain payment methods are available.
+
+    a) Cash payment: You pay in cash on the day of the course, on-site.
+
+    b) Card payment: You pay on the day of the course with EC / Maestro card, on-site. Your card details will be transferred via a secure connection to SumUp Limited, Ireland and the payment will be processed by them.
+
+    c) PayPal: By selecting the payment method "PayPal" and confirming "Book with the obligation to pay" you will be redirected to the log-in page of PayPal. After successful login your address and account information stored at PayPal will be displayed. The payment will be processed by PayPal under their terms and conditions.
+
+    d) Accounting form: In the case of basic and advanced training for company first-aiders, accounting is usually possible via the responsible employers' liability insurance association / accident insurance fund. For this purpose, the completely filled out, signed and stamped accounting form or the valid voucher / cost absorption confirmation of the responsible BG / UK must be available at the latest at the beginning of the course. In this case, the rest of the billing will be done directly by us with the responsible office. In this case, you will not incur any additional costs for the participants.
+
+11. Before completing the order, you give your consent to the storage and processing of your data and, if applicable, that of other specified participants (only for booking processing and course implementation, see 5) and your consent to these terms and conditions, if you are a consumer, the right of revocation and the privacy policy. You will find all texts linked there.  
+    In addition, you must agree to waive your right of withdrawal if the training begins before the expiration of the 14-day withdrawal period.
+
+12. By clicking on the button "Book with obligation to pay" you submit your contract offer. With the display of the booking confirmation in your browser, your offer is considered accepted and the contract is concluded.
+
+### 5. Collection, storage, and processing of your personal data
 
 1. To carry out and process a booking, we need the following data from you:
 
@@ -93,9 +131,9 @@ The contract between us is concluded when you receive our confirmation, either i
 
 You have the option of giving this consent before placing the order. This declaration of consent is voluntary, and you can revoke it at any time.
 
-3. Without your separate consent, we will only save the data within the framework of our tax and commercial law obligations or any employer's liability insurance association regulations.
+3. Without your separate consent, we will store the data only within the scope of our obligations under tax and commercial law or possibly under employer’s liability insurance association or other official regulations.
 
-## 6. Right of revocation for consumers
+### 6. Right of revocation for consumers
 
 1. As a consumer, you have a right of revocation by the instructions listed in the appendix.
 
@@ -105,11 +143,11 @@ A consumer is any natural person who concludes a legal transaction for predomina
 
 You can cancel your booking free of charge within 14 days, whereby sending the relevant form is sufficient to meet the deadline.
 
-3. You can find the separate cancellation form and instructions here.
+3. You can find the separate cancellation form and instructions [here]({{< relref "revocation.md" >}}).
 
-## 7. Cancellation of seminars and cancellation costs for participants
+### 7. Cancellation of seminars and cancellation costs for participants
 
-1. As soon as you have received the confirmation email from us, your participation is binding.
+1. Once you have received the booking confirmation from us, your participation is binding.
 
 2. In the event of cancellation up to 31 days before the start of the course, 25% of the fee is due.
 
@@ -127,7 +165,7 @@ Alternatively, you can transfer the place to another person up to 7 days before 
 
 9. The cancellation must be made in writing.
 
-## 8. Cancellation of seminars by <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>
+### 8. Cancellation of seminars by <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>
 
 1. We are entitled to cancel a seminar even at short notice if not enough participants have registered. }}
 
@@ -137,7 +175,7 @@ Alternatively, you can transfer the place to another person up to 7 days before 
 
 4. If you behave contrary to the contract by violating these general terms and conditions or our house rules, we have the right to exclude you from the course.
 
-## 9. Scope of services and unused services
+### 9. Scope of services and unused services
 
 1. The scope of services depends on the respective course booking.
 
@@ -153,7 +191,7 @@ _If the BG / UK refuses to assume the costs for reasons for which we are not res
 
 6. If at the customer's request, a room other than the one provided by us is used to hold the course, this must be made available free of charge or any costs incurred must be borne by the customer. The room has to have at least 50 m² floor space or at least two m² / participant + 10 m² for the teacher (in total at least 20 m²), be suitable in form, hygiene, and equipment, and otherwise meet the requirements of the workplace ordinance fulfill.
 
-## 10. General conditions of participation for our courses
+### 10. General conditions of participation for our courses
 
 1. The seminar leader/trainer/lecturer is authorized to issue instructions to the participants for the duration and within the event's framework.
 
@@ -176,13 +214,13 @@ _If the BG / UK refuses to assume the costs for reasons for which we are not res
 
 10. Events, especially those in the so-called outdoor area, are never without a residual risk. You are only insured against an accident and rescue within the framework of your own accident insurance.
 
-## 11. Use of subcontractors
+### 11. Use of subcontractors
 
 1. <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span> is authorized to call in subcontractors in its own name without requiring the customer's separate consent.
 
 2. <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span> has concluded a confidentiality agreement with the subcontractor.
 
-## 12. Limitation of Liability
+### 12. Limitation of Liability
 
 1. We are liable for intent and gross negligence. Furthermore, we are liable for the negligent breach of obligations, the fulfillment of which enables the proper execution of the contract in the first place, the violation of which jeopardizes the achievement of the purpose of the agreement and on whose compliance you can regularly rely. In the latter case, however, we are only liable for the foreseeable, contract-typical damage. We are not liable for the slightly negligent breach of obligations other than those mentioned in the preceding sentences.
 
@@ -190,7 +228,7 @@ The above exclusions of liability do not apply to injury to life, limb, or healt
 
 2. According to the current state of technology, data communication via the Internet cannot be guaranteed to be error-free and/or available at all times. In this respect, we are not liable for the constant and uninterrupted availability of the online offer.
 
-## 13. Final provisions
+### 13. Final provisions
 
 1. The terms and conditions written here are complete and final. Changes and additions to these terms and conditions should be made in writing to avoid ambiguity or disputes between the parties about the contract's agreed content, whereby e-mail is sufficient..
 

@@ -6,6 +6,8 @@ draft: false
 layout: contact
 translationKey: contact
 slug: kontakt
+aliases: [/de/de/kontakt]
+
 
 header: Wir sind für Sie da
 text: Haben Sie eine persönliche Frage oder ein individuelles Anliegen? Sie wünschen eine individuelle Beratung oder ein besonderes Angebot? Wir freuen uns auf Sie!

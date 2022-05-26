@@ -16,6 +16,21 @@ offline_header:
 offline_text:
   other: Baue doch bitte eine neue Verbindung auf, damit es weiter gehen kann...
 
+Trainings:
+  other: Schulungen
+
+appointments:
+  other: Termine
+
+appointments_description:
+  other: Direkt zur Übersicht unserer öffentlichen Kurse
+
+legal:
+  other: Rechtliches
+
+company:
+  other: Unternehmen
+
 gtc:
   other: AGB
 
@@ -33,6 +48,12 @@ privacy:
 
 privacy_url:
   other: datenschutz/
+
+revocation:
+  other: Widerrufsbelehrung
+
+revocation_url:
+  other: widerruf/
   
 first_aid_courses:
   other: Erste-Hilfe-Kurse
@@ -40,11 +61,29 @@ first_aid_courses:
 first_aid_courses_url:
   other: erste-hilfe/
 
+first_aid_courses_description:
+  other: Informationen zu unseren Erste-Hilfe-Kursen
+
+first_aid_course_appointments_url:
+  other: erste-hilfe/termine/
+
+about:
+  other: Über uns
+
+about_url:
+  other: ueber-uns/
+
 contact:
   other: Kontakt
 
 contact_url:
   other: kontakt/
+
+guarantee:
+  other: Garantien
+
+guarantee_url:
+  other: garantie/
 
 go_to_home:
   other: weiter zur Startseite

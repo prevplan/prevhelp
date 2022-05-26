@@ -16,6 +16,21 @@ offline_header:
 offline_text:
   other: Please build a new connection, so that it can go on...
 
+Trainings:
+  other: Trainings
+
+appointments:
+  other: Appointments
+
+appointments_description:
+  other: Directly to the overview of our public courses
+
+legal:
+  other: legal
+
+company:
+  other: Company
+
 gtc:
   other: GTC
 
@@ -34,17 +49,41 @@ privacy:
 privacy_url:
   other: privacy/
 
+revocation:
+  other: Right of revocation
+
+revocation_url:
+  other: revocation/
+
 first_aid_courses:
   other: First aid courses
   
 first_aid_courses_url:
   other: first-aid/
 
+first_aid_courses_description:
+  other: Information about our first aid courses
+
+first_aid_course_appointments_url:
+  other: first-aid/appointments/
+
+about:
+  other: About
+
+about_url:
+  other: about/
+
 contact:
   other: Contact
 
 contact_url:
   other: contact/
+
+guarantee:
+  other: Guarantee
+
+guarantee_url:
+  other: guarantee/
 
 go_to_home:
   other: go to home page...

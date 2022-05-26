@@ -67,17 +67,56 @@ _(diese Liste ist nicht abschließend)_
 
 ### 4. Zustandekommen des Vertrages
 
-4.1. Für Buchungen, die mündlich, telefonisch, schriftlich, per E-Mail oder via Kontaktformular erfolgen, gilt Folgendes:
+#### 4.1. Für Buchungen, die mündlich, telefonisch, schriftlich, per E-Mail oder via Kontaktformular erfolgen, gilt Folgendes:
 
-   1. Gegenstand des Vertrages ist die Durchführung von Kursen oder individueller Beratung.
-   2. Sämtliche Angebote im Internet sind unverbindlich und stellen kein rechtlich verbindliches Angebot zum Abschluss eines Vertrages dar.
+1. Gegenstand des Vertrages ist die Durchführung von Kursen oder individueller Beratung.
+
+2. Sämtliche Angebote im Internet sind unverbindlich und stellen kein rechtlich verbindliches Angebot zum Abschluss eines Vertrages dar.
    
-   3. Angebot:  
-   Mit der Buchung bieten Sie <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>  den Abschluss eines Beratungsvertrages bzw. einer Kursbuchung verbindlich an.    
-   Zudem erklären Sie diese AGB gelesen und akzeptiert zu haben.
+3. Angebot:  
+Mit der Buchung bieten Sie <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>  den Abschluss eines Beratungsvertrages bzw. einer Kursbuchung verbindlich an.    
+Zudem erklären Sie diese AGB gelesen und akzeptiert zu haben.
 
-   4. Annahme:   
-   Der Vertrag zwischen uns kommt mit dem Zugang unserer Bestätigung bei Ihnen zustande, entweder in Textform per E-Mail oder nach Wunsch postalisch.
+4. Annahme:  
+Der Vertrag zwischen uns kommt mit dem Zugang unserer Bestätigung bei Ihnen zustande, entweder in Textform per E-Mail oder nach Wunsch postalisch.
+
+#### 4.2 Bei Buchungen über unsere Webseite gilt Folgendes:
+
+Sie buchen die Schulung, indem Sie die folgenden Schritte durchlaufen:
+
+1. Auf unsere Webseite finden Sie unter dem Punkt Schulungen die von uns angebotenen Schulungen und deren Zielgruppen.
+
+2. Wenn Sie weiter nach unten scrollen sehen Sie einen Button: _zu den Terminen_, auf der Startseite sehen Sie weiter oben ebenfalls einen Button _direkt zu den Terminen_.
+
+3. Im nächsten Schritt müssen Sie Ihren Standort / Ihre Postleitzahl eingeben, oder Ihren Standort automatisiert bestimmen lassen, um unsere Kursangebote in Ihrem Umkreis angezeigt zu bekommen.   
+   Sollten Sie bereits im Vorfeld auf einer Kursseite für einen bestimmten Standort gewesen sein, entfällt diese zusätzliche Abfrage und der auf der vorherigen Seite angegebene Ort wird als Standort vorausgewählt.
+
+4. Sie bekommen die um Ihren angegebenen Standort verfügbaren Kursorte und Termine angezeigt. Im oberen Teil können Sie ggf. weitere Kursorte in der Nähe an- oder abwählen. Die angegebenen Entfernungen sind grobe Richtwerte und Luftlinie.
+
+5. Es erfolgt die Anzeige aller verfügbaren Kurse der gewünschten Schulung, in chronologischer Reihenfolge, in den zuvor ausgewählten Standorten. Hierbei wird auch die Adresse des Schulungsortes, der zeitliche Ablauf und die Verfügbarkeit von Plätzen angezeigt.
+
+6. Nach Auswahl des gewünschten Termins durch Klicken auf diesen / dessen Zeile öffnet sich die Ansicht der verfügbaren Buchungs- / Preisoptionen zu diesem Termin. Die passende Option muss durch einen Klick auf den Button _auswählen_ ausgewählt werden.
+
+7. Im folgenden Formular geben Sie die Daten zur Ansprechpartner:in, welche:r außer bei Abrechnung über die zuständige Berufsgenossenschaft / Unfallkasse auch Rechnungsempfänger:in ist, an. Diese Person kann gleichzeitig auch Teilnehmer:in sein, muss dies aber nicht sein.
+
+8. Sind Ansprechpartner:in und Teilnehmer:in zwei unterschiedliche Personen, müssen weiter unten im Formular Angaben zur Teilnehmer:in gemacht werden.
+
+9. Über die Schaltfläche "weitere Teilnehmer:innen hinzufügen" ist es möglich weitere Personen zur Buchung hinzuzufügen, wenn noch ausreichend Plätze frei sind.
+
+10. Als Zahlungsarten stehen Ihnen Barzahlung, Kartenzahlung, Zahlung via PayPal oder per Abrechnungsformular (BG / UK) zu Auswahl, wobei je nach Kursart und gewählter Preisoption teilweise nur bestimmte Zahlungsarten zur Verfügung stehen.
+
+    a) Barzahlung: Sie zahlen am Kurstag in bar, vor Ort.
+
+    b) Kartenzahlung: Sie zahlen am Kurstag mit EC / Maestro Karte, vor Ort. Hierbei werden Ihre Kartendaten über eine sichere Verbindung an die SumUp Limited, Ireland übertragen und die Zahlung durch diese abgewickelt.
+
+    c) PayPal: Durch Auswählen der Zahlungsart „PayPal“ und der Bestätigung „Zahlungspflichtig bestellen“ werden Sie auf die Log-In Seite von PayPal weitergeleitet. Nach erfolgreicher Anmeldung Ihre bei PayPal hinterlegten Adress- und Kontodaten angezeigt. Die Zahlungsabwicklung erfolgt über PayPal zu deren Bedingungen.
+
+    d) Abrechnungsformular (BG / UK): Bei der Aus- und Fortbildung von betrieblich Ersthelfenden ist für gewöhnlich die Abrechnung über die zuständige Berufsgenossenschaft / Unfallkasse möglich. Hierzu muss spätestens zu Kursbeginn das vollständig ausgefüllt, unterschrieben und gestempelte Abrechnungsformular bzw. der gültige Gutschein / Kostenübernahmebestätigung der zuständigen BG / UK vorliegen. In diesem Fall erfolgt die restliche Abrechnung direkt durch uns mit der zuständigen Stelle. In diesem Fall entstehen Ihnen für die übernommenen Teilnehmer:innen keine zusätzlichen Kosten.
+
+11. Vor Abschluss der Bestellung geben Sie mit dem Klick in die jeweiligen Kästchen Ihre Einwilligung zur Speicherung und Verarbeitung Ihrer Daten und ggf. der weiterer, angegebener Teilnehmer:innen (nur zur Buchungsabwicklung und Kursdurchführung, siehe 5) und Ihr Einverständnis zu diesen AGB, insofern Sie Verbraucher sind, dem Widerrufsrecht und der Datenschutzerklärung. Sämtliche Texte finden Sie dort verlinkt vor.  
+    Außerdem müssen Sie sich damit einverstanden erklären, dass Sie auf Ihr Widerrufsrecht verzichten, sollte die Schulung vor Ablauf der 14-tägigen Widerrufsfrist beginnen.
+
+12. Mit dem Klick auf den Button „Zahlungspflichtig bestellen“ geben Sie Ihr Vertragsangebot ab. Mit Anzeige der Buchungsbestätigung in Ihrem Browser gilt Ihr Angebot als angenommen und der Vertrag ist geschlossen.
 
 ### 5. Erhebung, Speicherung und Verarbeitung Ihrer personenbezogenen Daten
 
@@ -92,7 +131,7 @@ _(diese Liste ist nicht abschließend)_
 
 Sie haben die Möglichkeit, diese Einwilligung vor der Bestellung zu erteilen. Diese Einverständniserklärung ist freiwillig und kann jederzeit widerrufen werden.
 
-3. Ohne Ihre gesonderte Einwilligung speichern wir die Daten nur im Rahmen unserer steuer- und handelsrechtlichen Pflichten bzw. evtl. berufsgenossenschaftlicher Vorschriften.
+3. Ohne Ihre gesonderte Einwilligung speichern wir die Daten nur im Rahmen unserer steuer- und handelsrechtlichen Pflichten bzw. evtl. berufsgenossenschaftlicher oder anderer behördlicher Vorschriften.
 
 ### 6. Widerrufsrecht für Verbraucher
 
@@ -104,11 +143,11 @@ Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken absc
 
 Sie können innerhalb von 14 Tagen Ihre Buchung kostenfrei widerrufen, wobei zur Wahrung der Frist die Absendung des entsprechenden Formulars genügt.
 
-3. Das gesonderte Widerrufsformular und die Belehrung finden Sie hier.
+3. Das gesonderte Widerrufsformular und die Belehrung finden Sie [hier]({{< relref "widerruf.md" >}}).
 
 ### 7. Stornierung von Seminaren und Stornokosten für Teilnehmer
 
-1. Sobald Sie die Bestätigungsemail von uns erhalten haben, ist Ihre Teilnahme verbindlich.
+1. Sobald Sie die Buchungsbestätigung von uns erhalten haben, ist Ihre Teilnahme verbindlich.
 
 2. Bei einer Stornierung **bis 31 Tage** vor Kursbeginn werden 25% des Beitrages fällig.
 

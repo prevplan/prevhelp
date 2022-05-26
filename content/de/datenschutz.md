@@ -6,7 +6,7 @@ draft: false
 layout: legal
 translationKey: privacy
 slug: datenschutz
-aliases: [/de/datenschutz, /rechtliches/datenschutz]
+aliases: [/de/de/datenschutz, /rechtliches/datenschutz]
 ---
 
 <div class="text-lg max-w-prose mx-auto">
