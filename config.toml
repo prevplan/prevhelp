@@ -26,6 +26,7 @@ staticDir = ['static']
     title = 'PrevHelp - Prävention ist die beste Hilfe'
     weight = 1
     contentDir = 'content/de'
+    umami_id = '5b4992c5-81c9-4d89-8c31-7164c53b9244'
   [languages.en]
     baseURL = 'https://prevhelp.com'
     languageName = 'English'
@@ -33,6 +34,7 @@ staticDir = ['static']
     title = 'PrevHelp - Prevention is the best help'
     weight = 2
     contentDir = 'content/en'
+    umami_id = '820110f2-4948-452e-a9c3-15eb45ae9644'
 
 [markup]
   [markup.goldmark]
