@@ -72,6 +72,7 @@
                         <input id="email" name="email" type="email" autocomplete="email"
                                class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
                                placeholder="{{ .Page.Params.form_email }}" required>
+                        <input id="email_repeat" name="email_repeat" type="email" class="hidden">
                     </div>
                     <div>
                         <label for="subject" class="sr-only">{{ .Page.Params.form_subject }}</label>
