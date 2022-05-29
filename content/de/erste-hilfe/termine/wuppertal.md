@@ -6,6 +6,6 @@ draft: false
 layout: iframe
 aliases: [/erste-hilfe/termine/Wuppertal/, /termine/Wuppertal/, /termine/wuppertal/, /de/de/termine/Wuppertal/, /de/de/termine/wuppertal/]
 
-appointments_url: http://localhost/de/course/erste-hilfe-kurs/Wuppertal
+appointments_url: https://termine.prevhelp.de/de/course/erste-hilfe-kurs/Wuppertal
 
 ---
