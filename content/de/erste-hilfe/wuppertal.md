@@ -5,7 +5,7 @@ date: 2022-02-25T12:52:21+01:00
 draft: false
 layout: first-aid-section
 translationKey: first-aid-wuppertal
-aliases: [/erste-hilfe/Wuppertal/, /erste-hilfe-kurs/wuppertal. /de/erste-hilfe-kurs/wuppertal]
+aliases: [/erste-hilfe/Wuppertal/, /erste-hilfe-kurs/wuppertal, /de/de/erste-hilfe-kurs/wuppertal]
 
 header_1: Erste-Hilfe-Kurse
 header_2: wie sie sein sollten
