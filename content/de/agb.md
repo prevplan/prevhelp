@@ -17,7 +17,7 @@ aliases: [/de/de/agb, /rechtliches/agb]
 
 _Die für den Vertragsschluss zur Verfügung stehende Sprache ist ausschließlich Deutsch. Übersetzungen dieser AGB in andere Sprachen dienen lediglich zu Ihrer Information. Bei etwaigen Unterschieden zwischen den Sprachfassungen hat der deutsche Text Vorrang._
 
-### 1. Geltungsbereich
+### 1. Geltungsbereich {#Geltungsbereich}
 
 1. Die nachstehenden allgemeinen Geschäftsbedingungen gelten für alle Rechtsgeschäfte gegenüber Verbrauchern und Unternehmen mit
 
@@ -31,7 +31,7 @@ nachstehend <span style="color: #3059a3; font-weight: bold;">Prev</span><span st
 
 2. Die für den Vertragsschluss zur Verfügung stehende Sprache ist ausschließlich Deutsch. Übersetzungen in andere Sprachen dienen ausschließlich Ihrer Information. Der deutsche Text hat Vorrang bei eventuellen Unterschieden im Sprachgebrauch.
 
-### 2. Anwendbares Recht und Verbraucherschutzbestimmungen
+### 2. Anwendbares Recht und Verbraucherschutzbestimmungen {#anwendbaresRecht}
 
 1. Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss internationalen Privatrechts und des ins deutsche Recht geltenden UN-Kaufrechts, wenn  
 
@@ -49,7 +49,7 @@ nachstehend <span style="color: #3059a3; font-weight: bold;">Prev</span><span st
 
 5. Sollten bestimmte Rabatt- oder Aktionsangebote beworben werden, sind diese zeitlich oder mengenmäßig begrenzt. Es besteht kein Anspruch darauf.
 
-### 3. Vertragsgegenstand und allgemeine Hinweise
+### 3. Vertragsgegenstand und allgemeine Hinweise {#Vertragsgegenstand}
 
 1. Gegenstand des Vertrages sind folgende Leistungen:
 
@@ -65,9 +65,9 @@ nachstehend <span style="color: #3059a3; font-weight: bold;">Prev</span><span st
 
 _(diese Liste ist nicht abschließend)_
 
-### 4. Zustandekommen des Vertrages
+### 4. Zustandekommen des Vertrages {#Zustandekommen}
 
-#### 4.1. Für Buchungen, die mündlich, telefonisch, schriftlich, per E-Mail oder via Kontaktformular erfolgen, gilt Folgendes:
+#### 4.1. Für Buchungen, die mündlich, telefonisch, schriftlich, per E-Mail oder via Kontaktformular erfolgen, gilt Folgendes: {#4.1}
 
 1. Gegenstand des Vertrages ist die Durchführung von Kursen oder individueller Beratung.
 
@@ -80,7 +80,7 @@ Zudem erklären Sie diese AGB gelesen und akzeptiert zu haben.
 4. Annahme:  
 Der Vertrag zwischen uns kommt mit dem Zugang unserer Bestätigung bei Ihnen zustande, entweder in Textform per E-Mail oder nach Wunsch postalisch.
 
-#### 4.2 Bei Buchungen über unsere Webseite gilt Folgendes:
+#### 4.2 Bei Buchungen über unsere Webseite gilt Folgendes: {#4.2}
 
 Sie buchen die Schulung, indem Sie die folgenden Schritte durchlaufen:
 
@@ -118,7 +118,7 @@ Sie buchen die Schulung, indem Sie die folgenden Schritte durchlaufen:
 
 12. Mit dem Klick auf den Button „Zahlungspflichtig bestellen“ geben Sie Ihr Vertragsangebot ab. Mit Anzeige der Buchungsbestätigung in Ihrem Browser gilt Ihr Angebot als angenommen und der Vertrag ist geschlossen.
 
-### 5. Erhebung, Speicherung und Verarbeitung Ihrer personenbezogenen Daten
+### 5. Erhebung, Speicherung und Verarbeitung Ihrer personenbezogenen Daten {#personenbezogeneDaten}
 
 1. Zur Durchführung und Abwicklung einer Buchung benötigen wir von Ihnen die folgenden Daten:
 
@@ -133,7 +133,7 @@ Sie haben die Möglichkeit, diese Einwilligung vor der Bestellung zu erteilen. D
 
 3. Ohne Ihre gesonderte Einwilligung speichern wir die Daten nur im Rahmen unserer steuer- und handelsrechtlichen Pflichten bzw. evtl. berufsgenossenschaftlicher oder anderer behördlicher Vorschriften.
 
-### 6. Widerrufsrecht für Verbraucher
+### 6. Widerrufsrecht für Verbraucher {#Widerrufsrecht}
 
 1. Als Verbraucher steht Ihnen nach Maßgabe der im Anhang aufgeführten Belehrung ein Widerrufsrecht zu.
 
@@ -145,7 +145,7 @@ Sie können innerhalb von 14 Tagen Ihre Buchung kostenfrei widerrufen, wobei zur
 
 3. Das gesonderte Widerrufsformular und die Belehrung finden Sie [hier]({{< relref "widerruf.md" >}}).
 
-### 7. Stornierung von Seminaren und Stornokosten für Teilnehmer
+### 7. Stornierung von Seminaren und Stornokosten für Teilnehmer {#Stornierung}
 
 1. Sobald Sie die Buchungsbestätigung von uns erhalten haben, ist Ihre Teilnahme verbindlich.
 
@@ -165,7 +165,7 @@ Sie können innerhalb von 14 Tagen Ihre Buchung kostenfrei widerrufen, wobei zur
 
 9. Die Stornierung muss in Textform erfolgen.
 
-### 8. Stornierung von Seminaren seitens <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span> 
+### 8. Stornierung von Seminaren seitens <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span> {#StornierungPrevHelp}
 
 1. Wir sind berechtigt, ein Seminar auch kurzfristig abzusagen, falls sich nicht genügend Teilnehmer angemeldet haben.
 
@@ -175,7 +175,7 @@ Sie können innerhalb von 14 Tagen Ihre Buchung kostenfrei widerrufen, wobei zur
 
 4. Verhalten Sie sich vertragswidrig, indem Sie gegen diese allgemeinen Geschäftsbedingungen oder unsere Hausordnung verstoßen, haben wir das Recht, Sie von dem Kurs auszuschließen.
 
-### 9. Leistungsumfang und nicht in Anspruch genommene Leistungen
+### 9. Leistungsumfang und nicht in Anspruch genommene Leistungen {#Leistungsumfang}
 
 1. Der Leistungsumfang richtet sich nach der jeweiligen Kursbuchung.
 
@@ -191,7 +191,7 @@ Sie können innerhalb von 14 Tagen Ihre Buchung kostenfrei widerrufen, wobei zur
 
 6. Wenn auf Wunsch des Kunden ein anderer als der durch uns gestellte Raum zur Kursdurchführung genutzt wird, muss dieser kostenfrei zur Verfügung gestellt oder ggf. anfallende Kosten durch den Auftraggeber übernommen werden. Der Raum hat mind. 50 m² Grundfläche bzw. mind. 2 m² / Teilnehmer + 10 m² für die Lehrkraft (in Summe mind. 20 m²) aufzuweisen, in Form, Hygiene und Ausstattung geeignet zu sein und im Übrigen die Voraussetzungen der Arbeitsstättenverordnung zu erfüllen.
 
-### 10. Allgemeine Teilnahmebedingungen für unsere Kurse
+### 10. Allgemeine Teilnahmebedingungen für unsere Kurse {#Teilnahmebedingungen}
 
 1. Der Seminarleiter / Trainer / Dozent ist gegenüber den Teilnehmern für die Dauer und im Rahmen der Veranstaltung weisungsbefugt.
 
@@ -214,13 +214,13 @@ Bei erkennbaren gesundheitlichen Problemen ist <span style="color: #3059a3; font
 
 9. Veranstaltungen, insbesondere solche im sog. Outdoor-Bereich sind nie ohne ein Restrisiko. Gegen einen Unfall und Bergung sind Sie nur im Rahmen Ihrer eigenen Unfallversicherung versichert.
 
-### 11. Einsatz von Subunternehmern
+### 11. Einsatz von Subunternehmern {#Subunternehmer}
 
 1. <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>  ist befugt, im eigenen Namen Subunternehmer hinzuzuziehen, ohne dass es hierzu einer gesonderten Zustimmung des Kunden bedarf.
 
 2. <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>  hat mit dem Subunternehmer eine Verschwiegenheitsvereinbarung abgeschlossen.
 
-### 12. Haftungsbeschränkung
+### 12. Haftungsbeschränkung {#Haftungsbeschränkung}
 
 1. Wir haften für Vorsatz und grobe Fahrlässigkeit. Ferner haften wir für die fahrlässige Verletzung von Pflichten, deren Erfüllung die ordnungsgemäße Durchführung des Vertrages überhaupt erst ermöglicht, deren Verletzung die Erreichung des Vertragszwecks gefährdet und auf deren Einhaltung Sie regelmäßig vertrauen dürfen. Im letztgenannten Fall haften wir jedoch nur für den vorhersehbaren, vertragstypischen Schaden. Wir haften nicht für die leicht fahrlässige Verletzung anderer als der in den vorstehenden Sätzen genannten Pflichten.
 
@@ -228,7 +228,7 @@ Die vorstehenden Haftungsausschlüsse gelten nicht bei Verletzung von Leben, Kö
 
 2. Die Datenkommunikation über das Internet kann nach dem derzeitigen Stand der Technik nicht fehlerfrei und/oder jederzeit verfügbar gewährleistet werden. Wir haften insoweit nicht für die ständige und ununterbrochene Verfügbarkeit des Online-Angebots.
 
-### 13. Schlussbestimmungen
+### 13. Schlussbestimmungen {#Schlussbestimmungen}
 
 1. Die hier verfassten Geschäftsbedingungen sind vollständig und abschließend. Änderungen und Ergänzungen dieser Geschäftsbedingungen sollten, um Unklarheiten oder Streit zwischen den Parteien über den jeweils vereinbarten Vertragsinhalt zu vermeiden, schriftlich gefasst werden, wobei E-Mail ausreichend ist.
 

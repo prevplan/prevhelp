@@ -17,7 +17,7 @@ aliases: [/en/en/gtc]
 
 The exclusive language available for the conclusion of the contract shall be German. Translations of these terms and conditions to other languages are for information only. In the event of contradictions between the German text and the translations, the German text shall prevail.
 
-### 1. Scope
+### 1. Scope {#Scope}
 
 1. The following general terms and conditions apply to all legal transactions with consumers and companies with
 
@@ -31,7 +31,7 @@ hereinafter referred to as <span style="color: #3059a3; font-weight: bold;">Prev
 
 2. The language available for the conclusion of the contract is exclusively German. Translations into other languages are for your information only. The German text has priority in the event of any differences in linguistic usage.
 
-### 2. Applicable law and consumer protection regulations
+### 2. Applicable law and consumer protection regulations {#applicableLaw}
 
 1. The law of the Federal Republic of Germany applies under exclusion of international private law and the to German law applicable UN sales law, if
 
@@ -49,7 +49,7 @@ _A consumer within the meaning of the following regulations is any natural perso
 
 5. If certain discounts or special offers are advertised, these are limited in time or quantity. There is no entitlement to it.
 
-### 3. Subject matter of the contract and general information
+### 3. Subject matter of the contract and general information {#subjectMatter}
 
 1. The subject of the contract are the following services:
 
@@ -65,9 +65,9 @@ _A consumer within the meaning of the following regulations is any natural perso
 
 (this list is not exhaustive)
 
-### 4. Conclusion of the contract
+### 4. Conclusion of the contract {#Conclusion}
 
-#### 4.1 The following applies to bookings made verbally, by telephone, in writing, by e-mail, or via the contact form:
+#### 4.1 The following applies to bookings made verbally, by telephone, in writing, by e-mail, or via the contact form: {#4.1}
 
 1. The subject of the contract is the implementation of courses or individual advice.
 
@@ -80,7 +80,7 @@ You also declare that you have read and accepted these terms and conditions.
 4. Adoption:  
 The contract between us is concluded when you receive our confirmation, either in text form by email or, if you wish, by post.
 
-#### 4.2 For bookings made through our website, the following applies:
+#### 4.2 For bookings made through our website, the following applies: {#4.2}
 
 You book the training by going through the following steps:
 
@@ -118,7 +118,7 @@ You book the training by going through the following steps:
 
 12. By clicking on the button "Book with obligation to pay" you submit your contract offer. With the display of the booking confirmation in your browser, your offer is considered accepted and the contract is concluded.
 
-### 5. Collection, storage, and processing of your personal data
+### 5. Collection, storage, and processing of your personal data {#personalData}
 
 1. To carry out and process a booking, we need the following data from you:
 
@@ -133,7 +133,7 @@ You have the option of giving this consent before placing the order. This declar
 
 3. Without your separate consent, we will store the data only within the scope of our obligations under tax and commercial law or possibly under employer’s liability insurance association or other official regulations.
 
-### 6. Right of revocation for consumers
+### 6. Right of revocation for consumers {#revocation}
 
 1. As a consumer, you have a right of revocation by the instructions listed in the appendix.
 
@@ -145,7 +145,7 @@ You can cancel your booking free of charge within 14 days, whereby sending the r
 
 3. You can find the separate cancellation form and instructions [here]({{< relref "revocation.md" >}}).
 
-### 7. Cancellation of seminars and cancellation costs for participants
+### 7. Cancellation of seminars and cancellation costs for participants {#Cancellation}
 
 1. Once you have received the booking confirmation from us, your participation is binding.
 
@@ -165,7 +165,7 @@ Alternatively, you can transfer the place to another person up to 7 days before 
 
 9. The cancellation must be made in writing.
 
-### 8. Cancellation of seminars by <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span>
+### 8. Cancellation of seminars by <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span> {#CancellationPrevHelp}
 
 1. We are entitled to cancel a seminar even at short notice if not enough participants have registered. }}
 
@@ -175,7 +175,7 @@ Alternatively, you can transfer the place to another person up to 7 days before 
 
 4. If you behave contrary to the contract by violating these general terms and conditions or our house rules, we have the right to exclude you from the course.
 
-### 9. Scope of services and unused services
+### 9. Scope of services and unused services {#services}
 
 1. The scope of services depends on the respective course booking.
 
@@ -191,7 +191,7 @@ _If the BG / UK refuses to assume the costs for reasons for which we are not res
 
 6. If at the customer's request, a room other than the one provided by us is used to hold the course, this must be made available free of charge or any costs incurred must be borne by the customer. The room has to have at least 50 m² floor space or at least two m² / participant + 10 m² for the teacher (in total at least 20 m²), be suitable in form, hygiene, and equipment, and otherwise meet the requirements of the workplace ordinance fulfill.
 
-### 10. General conditions of participation for our courses
+### 10. General conditions of participation for our courses {#conditions}
 
 1. The seminar leader/trainer/lecturer is authorized to issue instructions to the participants for the duration and within the event's framework.
 
@@ -214,13 +214,13 @@ _If the BG / UK refuses to assume the costs for reasons for which we are not res
 
 10. Events, especially those in the so-called outdoor area, are never without a residual risk. You are only insured against an accident and rescue within the framework of your own accident insurance.
 
-### 11. Use of subcontractors
+### 11. Use of subcontractors {#subcontractors}
 
 1. <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span> is authorized to call in subcontractors in its own name without requiring the customer's separate consent.
 
 2. <span style="color: #3059a3; font-weight: bold;">Prev</span><span style="color: #e62a2d; font-weight: bold;">Help</span> has concluded a confidentiality agreement with the subcontractor.
 
-### 12. Limitation of Liability
+### 12. Limitation of Liability {#Limitation}
 
 1. We are liable for intent and gross negligence. Furthermore, we are liable for the negligent breach of obligations, the fulfillment of which enables the proper execution of the contract in the first place, the violation of which jeopardizes the achievement of the purpose of the agreement and on whose compliance you can regularly rely. In the latter case, however, we are only liable for the foreseeable, contract-typical damage. We are not liable for the slightly negligent breach of obligations other than those mentioned in the preceding sentences.
 
@@ -228,7 +228,7 @@ The above exclusions of liability do not apply to injury to life, limb, or healt
 
 2. According to the current state of technology, data communication via the Internet cannot be guaranteed to be error-free and/or available at all times. In this respect, we are not liable for the constant and uninterrupted availability of the online offer.
 
-### 13. Final provisions
+### 13. Final provisions {#finaleProvisions}
 
 1. The terms and conditions written here are complete and final. Changes and additions to these terms and conditions should be made in writing to avoid ambiguity or disputes between the parties about the contract's agreed content, whereby e-mail is sufficient..
 
