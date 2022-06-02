@@ -1,5 +1,5 @@
 ---
-title: "Erste-Hilfe-Kurse in Wuppertal, perfekt für Ihren Bedarf | PrevHelp"
+title: "Erste-Hilfe-Kurse in Wuppertal, perfekt für Ihren Bedarf"
 description: "Erste-Hilfe-Kurse in Wuppertal wie sie sein sollten! Wir bieten Ihnen Erste-Hilfe-Kurse für den Führerschein, Betrieb und individuellen Bedarf."
 date: 2022-02-25T12:52:21+01:00
 draft: false
