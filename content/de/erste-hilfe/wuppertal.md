@@ -12,6 +12,7 @@ header_2: wie sie sein sollten
 header_subtitle: Egal ob Sie in Wuppertal selbst schlechte Erste-Hilfe-Kurse erlebt oder <i>nur</i> hiervon gehört haben. Wir werden Ihre Erfahrungen verbessern!
 appointments: zu den Terminen
 contact_us: Kontakt aufnehmen
+talk_to_us: Sprechen Sie uns an
 headline_prolog: Egal wofür Sie ihn benötigen
 headline: In Wuppertal haben wir den passenden Erste-Hilfe-Kurs für Sie!
 headline_text: Wir bieten Ihnen in Wuppertal für jede Gelegenheit und jeden Bedarf den richtigen Erste-Hilfe-Kurs. Jedes Kursformat bieten wir Ihnen in unseren Wuppertaler Räumlichkeiten oder auf Wunsch auch gerne bei Ihnen vor Ort an.
@@ -23,11 +24,13 @@ study_title: Erste-Hilfe-Kurs für Studium und Ausbildung
 study_text: Für ein Studium, eine Ausbildung oder eine andere Art von Prüfung benötigen Sie einen Erste-Hilfe-Kurs? Sie sind Taucher oder machen Ihre JuLeiCa? Dann sind Sie bei uns richtig!
 care_facilities_title: Erste-Hilfe-Schulungen für Pflegeeinrichtungen und Rettung
 care_facilities_text: Sie beginnen eine Ausbildung im Rettungsdienst? Sie arbeiten in einem Pflegedienst oder einer Pflegeeinrichtung für alte Menschen? Auch Kurse nach Vorgaben des MDK bieten wir selbstverständlich an.
+inhouse_title: Sie suchen einen Erste-Hilfe-Kurs für Ihr gesamtes Team?
+inhouse_text: Sie wünschen einen eigenen Erste-Hilfe-Kurs für Ihre Gruppe, ohne fremde Teilnehmer:innen? Gerne kommen wir zu Ihnen oder bieten Ihnen in unseren Räumlichkeiten Ihren individuell für Sie gestalteten Kurs.
 cta_1: Bereit, sich von uns überzeugen zu lassen?
 cta_2: Buchen Sie jetzt Ihren Termin in Wuppertal!
 guarantee_prolog: Im Internet wird viel behauptet
 guarantee_title: Wir geben Ihnen Garantien!
-guarantee_text: Wir wissen, dass im Internet viele Mitbewerber Dinge behaupten, die dann doch nicht eingehalten werden (können). Und weil wir meinen was wir sagen, garantieren wir Ihnen Ihren Lernerfolg.
+guarantee_text: Wir wissen, dass im Internet viele Mitbewerber Dinge behaupten, die dann doch nicht eingehalten werden (können). Und weil wir meinen, was wir sagen, garantieren wir Ihnen Ihren Lernerfolg.
 to_our_guarantees: zu unseren Garantien
 appointments_url: /erste-hilfe/termine/wuppertal/
 ---

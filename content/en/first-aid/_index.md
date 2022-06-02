@@ -11,6 +11,7 @@ header_2: as they should be
 header_subtitle: Whether you've experienced bad first aid courses yourself in recent years or have <i>only</i> heard about them, we will improve your experience!
 appointments: to the appointments
 contact_us: Contact us
+talk_to_us: Talk to us
 headline_prolog: No matter what you need it for
 headline: We have the right first aid course for you!
 headline_text: We offer the right first aid course for every occasion and every need. We offer each course format on our premises or, if desired, at your location.
@@ -22,6 +23,8 @@ study_title: First aid course for study and training
 study_text: Do you need a first aid course for study, training, or another kind of exam? You are a diver or doing your JuLeiCa? Then you are right with us!
 care_facilities_title: First aid training for care facilities and rescue
 care_facilities_text: Are you starting training in the emergency services? Do you work in a nursing service or a care facility for elderly people? Of course, we also offer courses according to MDK specifications.
+inhouse_title: Looking for a first aid course for your entire team?
+inhouse_text: You would like to have your own first aid course for your group, without external participants? We would be happy to come to you or offer you your individually designed course on our premises.
 cta_1: Ready to let us convince you?
 cta_2: Book your appointment now!
 guarantee_prolog: There are many claims on the Internet
