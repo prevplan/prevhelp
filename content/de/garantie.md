@@ -1,6 +1,6 @@
 ---
-title: "Widerrufsbelehrung | PrevHelp"
-description: "Unsere Widerrufsbelehrung zum Widerrufsrecht für Verbraucher"
+title: "Unsere Garantien | PrevHelp"
+description: "Unsere Garantien - Wir garantieren Ihnen, was andere Anbieter Ihnen nur versprechen."
 date: 2022-02-21T13:13:11+01:00
 draft: false
 layout: guarantee
