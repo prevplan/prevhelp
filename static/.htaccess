@@ -5,3 +5,11 @@ ErrorDocument 404 /404.html
 Header set Cache-Control "max-age=2592000, public"
 </FilesMatch>
 </IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+ # Images
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+</IfModule>
