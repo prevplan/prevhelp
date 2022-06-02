@@ -5,3 +5,8 @@ ErrorDocument 404 /404.html
 Header set Cache-Control "max-age=2592000, public"
 </FilesMatch>
 </IfModule>
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
