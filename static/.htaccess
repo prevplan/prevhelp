@@ -10,6 +10,6 @@ Header set Cache-Control "max-age=2592000, public"
   ExpiresActive On
 
  # Images
-  ExpiresByType image/webp "access plus 1 month"
-  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
 </IfModule>
