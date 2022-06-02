@@ -1,5 +1,5 @@
 ---
-title: "Erste-Hilfe-Kurse für Ihren Bedarf | PrevHelp"
+title: "Erste-Hilfe-Kurse in Wuppertal, perfekt für Ihren Bedarf | PrevHelp"
 description: "Erste-Hilfe-Kurse in Wuppertal wie sie sein sollten! Wir bieten Ihnen Erste-Hilfe-Kurse für den Führerschein, Betrieb und individuellen Bedarf."
 date: 2022-02-25T12:52:21+01:00
 draft: false
@@ -7,14 +7,14 @@ layout: first-aid-section
 translationKey: first-aid-wuppertal
 aliases: [/erste-hilfe/Wuppertal/, /erste-hilfe-kurs/wuppertal, /de/de/erste-hilfe-kurs/wuppertal]
 
-header_1: Erste-Hilfe-Kurse
+header_1: Wuppertaler Erste-Hilfe-Kurse
 header_2: wie sie sein sollten
 header_subtitle: Egal ob Sie in Wuppertal selbst schlechte Erste-Hilfe-Kurse erlebt oder <i>nur</i> hiervon gehört haben. Wir werden Ihre Erfahrungen verbessern!
 appointments: zu den Terminen
 contact_us: Kontakt aufnehmen
 headline_prolog: Egal wofür Sie ihn benötigen
 headline: In Wuppertal haben wir den passenden Erste-Hilfe-Kurs für Sie!
-headline_text: Wir bieten Ihnen für jede Gelegenheit und jeden Bedarf den richtigen Erste-Hilfe-Kurs. Jedes Kursformat bieten wir Ihnen in unseren Wuppertaler Räumlichkeiten oder auf Wunsch auch gerne bei Ihnen vor Ort an.
+headline_text: Wir bieten Ihnen in Wuppertal für jede Gelegenheit und jeden Bedarf den richtigen Erste-Hilfe-Kurs. Jedes Kursformat bieten wir Ihnen in unseren Wuppertaler Räumlichkeiten oder auf Wunsch auch gerne bei Ihnen vor Ort an.
 driver_license_title: Erste-Hilfe-Kurs für den Führerschein in Wuppertal
 driver_license_text: Sie wollen in Wuppertal Ihren Führerschein machen, um eine neue Klasse erweitern oder zurückerhalten? Wir haben den Erste-Hilfe-Kurs, den Sie brauchen! In nur einem Tag und wenigen Stunden, dafür aber viel Spaß.
 company_title: Aus- und Fortbildung für betrieblich Ersthelfende
