@@ -1,4 +1,4 @@
-const CACHE_VERSION = 1;
+const CACHE_VERSION = 20220702;
 
 const BASE_CACHE_FILES = [
     '/css/style.min.css',
