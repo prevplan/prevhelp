@@ -1,6 +1,6 @@
 ---
-title: "Erste-Hilfe-Kurse im Überblick | PrevHelp"
-description: "Our first aid courses at a glance."
+title: "Erste-Hilfe-Kurse in Wuppertal und Umgebung im Überblick | PrevHelp"
+description: "Erste-Hilfe-Kurse in Wuppertal und Umgebung im Überblick."
 date: 2022-02-21T13:13:11+01:00
 draft: false
 layout: iframe
