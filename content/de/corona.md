@@ -23,6 +23,6 @@ Sollten Sie vor Kursbeginn Corona (ähnliche) Symptome haben, bitten wir Sie den
 
 #### Ein Mund-Nasen-Schutz ist weiterhin obligatorisch
 
-Weil wir uns unserer Verantwortung gegenüber unseren Dozent:innen und Teilnehmer:innen, somit auch Ihnen, bewusst sind, haben wir entschieden während unserer Schulungen weiterhin verpflichtend einen Mund-Nasen-Schutz zu tragen.
+Weil wir uns unserer Verantwortung gegenüber unseren Dozent\*innen und Teilnehmer\*innen, somit auch Ihnen, bewusst sind, haben wir entschieden während unserer Schulungen weiterhin verpflichtend einen Mund-Nasen-Schutz zu tragen.
 
 Selbstverständlich gibt es während unserer Schulungen ausreichend Pausen, um auch _ohne Maske_ durchzuatmen.

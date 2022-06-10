@@ -18,10 +18,10 @@ course_duration_question: Wie lange dauern die Kurse?
 course_duration_answer: Die Dauer unserer Kurse variiert je nach Kursformat und Thema. Unsere Erste-Hilfe-Kurse dauern beispielsweise 7,5 Stunden und entsprechen somit den vorgeschriebenen neun Unterrichtseinheiten, einschließlich Pausen. Sofern in der Buchungsübersicht nicht anders angegeben, finden unsere Kurse <span class="text-blue-600 font-semibold">an einem Tag</span> statt.
 
 breaks_question: Gibt es während der Kurse Pausen?
-breaks_answer: Selbstverständlich gibt es während unserer Kurse (mehrere) Pausen. Es wird besonders darauf geachtet, dass die Pausen in Ganztageskursen in Summe <span class="text-blue-600 font-semibold">mindestens 45 Minuten</span> betragen, wodurch unsere Kurse auch für Arbeitnehmer:innen geeignet sind und den Bestimmungen des Arbeitszeitgesetzes vollständig Sorge getragen wird.
+breaks_answer: Selbstverständlich gibt es während unserer Kurse (mehrere) Pausen. Es wird besonders darauf geachtet, dass die Pausen in Ganztageskursen in Summe <span class="text-blue-600 font-semibold">mindestens 45 Minuten</span> betragen, wodurch unsere Kurse auch für Arbeitnehmer*innen geeignet sind und den Bestimmungen des Arbeitszeitgesetzes vollständig Sorge getragen wird.
 
 certificate_question: Wann erhalte ich meine Bescheinigung?
-certificate_answer_1: Die Bescheinigung wird grundsätzlich <span class="text-blue-600 font-semibold">zum Kursende</span> an die Teilnehmer:innen ausgehändigt.
+certificate_answer_1: Die Bescheinigung wird grundsätzlich <span class="text-blue-600 font-semibold">zum Kursende</span> an die Teilnehmer*innen ausgehändigt.
 certificate_answer_2: Bei inHouse Schulungen in Unternehmen sind uns die Daten der Teilnehmenden teilweise nicht vor Kursbeginn bekannt. In diesen Fällen senden wir die Bescheinigungen umgehend nach Kursende an die aussendende Stelle.
 
 ---

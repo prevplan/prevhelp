@@ -97,11 +97,11 @@ Sie buchen die Schulung, indem Sie die folgenden Schritte durchlaufen:
 
 6. Nach Auswahl des gewünschten Termins durch Klicken auf diesen / dessen Zeile öffnet sich die Ansicht der verfügbaren Buchungs- / Preisoptionen zu diesem Termin. Die passende Option muss durch einen Klick auf den Button _auswählen_ ausgewählt werden.
 
-7. Im folgenden Formular geben Sie die Daten zur Ansprechpartner:in, welche:r außer bei Abrechnung über die zuständige Berufsgenossenschaft / Unfallkasse auch Rechnungsempfänger:in ist, an. Diese Person kann gleichzeitig auch Teilnehmer:in sein, muss dies aber nicht sein.
+7. Im folgenden Formular geben Sie die Daten zur Ansprechpartner\*in, welche\*r außer bei Abrechnung über die zuständige Berufsgenossenschaft / Unfallkasse auch Rechnungsempfänger\*in ist, an. Diese Person kann gleichzeitig auch Teilnehmer\*in sein, muss dies aber nicht sein.
 
-8. Sind Ansprechpartner:in und Teilnehmer:in zwei unterschiedliche Personen, müssen weiter unten im Formular Angaben zur Teilnehmer:in gemacht werden.
+8. Sind Ansprechpartner\*in und Teilnehmer\*in zwei unterschiedliche Personen, müssen weiter unten im Formular Angaben zur Teilnehmer\*in gemacht werden.
 
-9. Über die Schaltfläche "weitere Teilnehmer:innen hinzufügen" ist es möglich weitere Personen zur Buchung hinzuzufügen, wenn noch ausreichend Plätze frei sind.
+9. Über die Schaltfläche "weitere Teilnehmer\*innen hinzufügen" ist es möglich weitere Personen zur Buchung hinzuzufügen, wenn noch ausreichend Plätze frei sind.
 
 10. Als Zahlungsarten stehen Ihnen Barzahlung, Kartenzahlung, Zahlung via PayPal oder per Abrechnungsformular (BG / UK) zu Auswahl, wobei je nach Kursart und gewählter Preisoption teilweise nur bestimmte Zahlungsarten zur Verfügung stehen.
 
@@ -111,9 +111,9 @@ Sie buchen die Schulung, indem Sie die folgenden Schritte durchlaufen:
 
     c) PayPal: Durch Auswählen der Zahlungsart „PayPal“ und der Bestätigung „Zahlungspflichtig bestellen“ werden Sie auf die Log-In Seite von PayPal weitergeleitet. Nach erfolgreicher Anmeldung Ihre bei PayPal hinterlegten Adress- und Kontodaten angezeigt. Die Zahlungsabwicklung erfolgt über PayPal zu deren Bedingungen.
 
-    d) Abrechnungsformular (BG / UK): Bei der Aus- und Fortbildung von betrieblich Ersthelfenden ist für gewöhnlich die Abrechnung über die zuständige Berufsgenossenschaft / Unfallkasse möglich. Hierzu muss spätestens zu Kursbeginn das vollständig ausgefüllt, unterschrieben und gestempelte Abrechnungsformular bzw. der gültige Gutschein / Kostenübernahmebestätigung der zuständigen BG / UK vorliegen. In diesem Fall erfolgt die restliche Abrechnung direkt durch uns mit der zuständigen Stelle. In diesem Fall entstehen Ihnen für die übernommenen Teilnehmer:innen keine zusätzlichen Kosten.
+    d) Abrechnungsformular (BG / UK): Bei der Aus- und Fortbildung von betrieblich Ersthelfenden ist für gewöhnlich die Abrechnung über die zuständige Berufsgenossenschaft / Unfallkasse möglich. Hierzu muss spätestens zu Kursbeginn das vollständig ausgefüllt, unterschrieben und gestempelte Abrechnungsformular bzw. der gültige Gutschein / Kostenübernahmebestätigung der zuständigen BG / UK vorliegen. In diesem Fall erfolgt die restliche Abrechnung direkt durch uns mit der zuständigen Stelle. In diesem Fall entstehen Ihnen für die übernommenen Teilnehmer\*innen keine zusätzlichen Kosten.
 
-11. Vor Abschluss der Bestellung geben Sie mit dem Klick in die jeweiligen Kästchen Ihre Einwilligung zur Speicherung und Verarbeitung Ihrer Daten und ggf. der weiterer, angegebener Teilnehmer:innen (nur zur Buchungsabwicklung und Kursdurchführung, siehe 5) und Ihr Einverständnis zu diesen AGB, insofern Sie Verbraucher sind, dem Widerrufsrecht und der Datenschutzerklärung. Sämtliche Texte finden Sie dort verlinkt vor.  
+11. Vor Abschluss der Bestellung geben Sie mit dem Klick in die jeweiligen Kästchen Ihre Einwilligung zur Speicherung und Verarbeitung Ihrer Daten und ggf. der weiterer, angegebener Teilnehmer\*innen (nur zur Buchungsabwicklung und Kursdurchführung, siehe 5) und Ihr Einverständnis zu diesen AGB, insofern Sie Verbraucher sind, dem Widerrufsrecht und der Datenschutzerklärung. Sämtliche Texte finden Sie dort verlinkt vor.  
     Außerdem müssen Sie sich damit einverstanden erklären, dass Sie auf Ihr Widerrufsrecht verzichten, sollte die Schulung vor Ablauf der 14-tägigen Widerrufsfrist beginnen.
 
 12. Mit dem Klick auf den Button „Zahlungspflichtig bestellen“ geben Sie Ihr Vertragsangebot ab. Mit Anzeige der Buchungsbestätigung in Ihrem Browser gilt Ihr Angebot als angenommen und der Vertrag ist geschlossen.

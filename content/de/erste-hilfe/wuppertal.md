@@ -19,13 +19,13 @@ headline_text: Wir bieten Ihnen in Wuppertal für jede Gelegenheit und jeden Bed
 driver_license_title: Erste-Hilfe-Kurs für den Führerschein in Wuppertal
 driver_license_text: Sie wollen Ihren Führerschein machen, um eine neue Klasse erweitern oder zurückerhalten? Wir haben den Erste-Hilfe-Kurs, den Sie brauchen! In nur einem Tag und wenigen Stunden, dafür mit viel Spaß.
 company_title: Aus- und Fortbildung für betrieblich Ersthelfende
-company_text: Egal ob Sie für Ihr Unternehmen eine einzelne betriebliche Ersthelfer:in aus- bzw. fortbilden wollen oder eine ganze Gruppe Ihrer Mitarbeitenden geschult werden soll. Wir sind von den BGs und UKs anerkannt und rechnen, für Sie komplett kostenfrei, direkt mit diesen ab.
+company_text: Egal ob Sie für Ihr Unternehmen eine einzelne betriebliche Ersthelfer*in aus- bzw. fortbilden wollen oder eine ganze Gruppe Ihrer Mitarbeitenden geschult werden soll. Wir sind von den BGs und UKs anerkannt und rechnen, für Sie komplett kostenfrei, direkt mit diesen ab.
 study_title: Erste-Hilfe-Kurs für Studium und Ausbildung
 study_text: Für ein Studium, eine Ausbildung oder eine andere Art von Prüfung benötigen Sie einen Erste-Hilfe-Kurs? Sie sind Taucher oder machen Ihre JuLeiCa? Dann sind Sie bei uns richtig!
 care_facilities_title: Erste-Hilfe-Schulungen für Pflegeeinrichtungen und Rettung
 care_facilities_text: Sie beginnen eine Ausbildung im Rettungsdienst? Sie arbeiten in einem Pflegedienst oder einer Pflegeeinrichtung für alte Menschen? Auch Kurse nach Vorgaben des MDK bieten wir selbstverständlich an.
 inhouse_title: Sie suchen einen Erste-Hilfe-Kurs für Ihr gesamtes Team?
-inhouse_text: Sie wünschen einen eigenen Erste-Hilfe-Kurs für Ihre Gruppe, ohne fremde Teilnehmer:innen? Gerne kommen wir zu Ihnen oder bieten Ihnen in unseren Räumlichkeiten Ihren individuell für Sie gestalteten Kurs.
+inhouse_text: Sie wünschen einen eigenen Erste-Hilfe-Kurs für Ihre Gruppe, ohne fremde Teilnehmer*innen? Gerne kommen wir zu Ihnen oder bieten Ihnen in unseren Räumlichkeiten Ihren individuell für Sie gestalteten Kurs.
 cta_1: Bereit, sich von uns überzeugen zu lassen?
 cta_2: Buchen Sie jetzt Ihren Termin in Wuppertal!
 guarantee_prolog: Im Internet wird viel behauptet
