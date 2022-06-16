@@ -1388,6 +1388,10 @@ select {
   border-width: 0;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .absolute {
   position: absolute;
 }
@@ -2178,6 +2182,11 @@ select {
   padding-bottom: 0px;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -2672,6 +2681,10 @@ select {
     display: inline-grid;
   }
 
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:h-10 {
     height: 2.5rem;
   }
@@ -3002,6 +3015,10 @@ select {
     right: 0;
     bottom: 0;
     left: 0;
+  }
+
+  .lg\:visible {
+    visibility: visible;
   }
 
   .lg\:absolute {
