@@ -312,17 +312,19 @@ Unless otherwise stated below, profiles, that is data summarized for a usage pro
 
 The IP addresses of the users are also stored. However, we use any existing IP masking procedure (i.e. pseudonymisation by shortening the IP address) to protect the user. In general, within the framework of web analysis, A/B testing and optimisation, no user data (such as e-mail addresses or names) is stored, but pseudonyms. This means that we, as well as the providers of the software used, do not know the actual identity of the users, but only the information stored in their profiles for the purposes of the respective processes.
 
-**Information on legal basis:** If we ask the users for their consent to the use of third party providers, the legal basis of the processing is consent. Furthermore, the processing can be a component of our (pre)contractual services, provided that the use of the third party was agreed within this context. Otherwise, user data will be processed on the basis of our legitimate interests (i.e. interest in efficient, economic and recipient friendly services). In this context, we would also like to refer you to the information on the use of cookies in this privacy policy.
+**Settings / Opt-Out:**
+
+<iframe class="w-full h-80 lg:h-48" src="https://stat.prevhelp.de/index.php?module=CoreAdminHome&action=optOut&language=en&fontColor=6b7280&fontSize=1.25rem" loading="lazy"></iframe>
 
 * **Processed data types:** Usage data (e.g. websites visited, interest in content, access times); Meta/communication data (e.g. device information, IP addresses)
 * **Data subjects:** Users (e.g. website visitors, users of online services)
 * **Purposes of Processing:** Web Analytics (e.g. access statistics, recognition of returning visitors); Profiles with user-related information (Creating user profiles)
 * **Security measures:** IP Masking (Pseudonymization of the IP address)
-* **Legal Basis:** Consent (Article 6 (1) (a) GDPR); Legitimate Interests (Article 6 (1) (f) GDPR)
+* **Legal Basis:** Legitimate Interests (Article 6 (1) (f) GDPR)
 
 **Further information on processing methods, procedures and services used:**
 
-* **umami.is:** Web Analytics; no use of cookies or comparable persistent online identifiers; no personal data is stored; processing takes place on our server, no data is passed on to third parties; **Service provider**: Hosting on our server; **Website:** [https://umami.is/](https://umami.is/)
+* **Matomo (without cookies):** Matomo is a data protection friendly web analysis software, which is used without cookies and in which the recognition of returning users is carried out with the help of a so-called "digital fingerprint", which is stored anonymously and changed every 24 hours; in the case of the "digital fingerprint", user movements within our online services are recorded with the help of pseudonymised IP addresses in combination with user-side browser settings in such a way that conclusions about the identity of individual users are not possible. User data collected through the use of Matomo is processed only by us and is not shared with third parties; **Legal Basis:** Legitimate Interests (Article 6 (1) (f) GDPR); **Website**: [https://matomo.org/](https://matomo.org/)
 
 ### Customer Reviews and Ratings {#Reviews}
 
