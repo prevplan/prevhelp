@@ -26,15 +26,12 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: workaround
-        run: |
-          git config advice.addIgnoredFile false
-
       - name: Generate Tailwind CSS
         uses: ZoeyVid/tailwindcss-update@v1.2.0
         with:
           input: assets/css/main.css
           output: assets/css/style.css
+        run: /github/workspace/node_modules/.bin/tailwindcss -i assets/css/main.css -o assets/css/style.css -f
 
       - name: Build
         run: hugo --minify
