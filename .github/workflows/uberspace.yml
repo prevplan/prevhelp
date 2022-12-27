@@ -28,9 +28,13 @@ jobs:
 
       - name: Generate Tailwind CSS
         uses: ZoeyVid/tailwindcss-update@v1.2.0
+        with:
+          input: assets/css/main.css
+          output: assets/css/style.css
+          plugins: "@tailwindcss/forms", "@tailwindcss/typography", "@tailwindcss/aspect-ratio"
 
       - name: Build
-        run: tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css && hugo --minify
+        run: hugo --minify
 
       - name: Rsync Deployments Action
         uses: Burnett01/rsync-deployments@5.2
