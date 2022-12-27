@@ -32,6 +32,7 @@ jobs:
           input: assets/css/main.css
           output: assets/css/style.css
           plugins: "@tailwindcss/forms"
+          option: -f
 
       - name: Build
         run: hugo --minify
