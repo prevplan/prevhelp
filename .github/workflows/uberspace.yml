@@ -29,9 +29,9 @@ jobs:
       - name: Generate Tailwind CSS
         uses: ZoeyVid/tailwindcss-update@v1.2.0
         with:
-          input: assets/css/main.css
+          input: assets/css/main.css -f
           output: assets/css/style.css
-          args: -f
+          args: --force
 
       - name: Build
         run: hugo --minify
