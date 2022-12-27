@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css && hugo --minify
 
       - name: Rsync Deployments Action
         uses: Burnett01/rsync-deployments@5.2
