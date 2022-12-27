@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: Generate Tailwind CSS
-        uses: pyyjac/tailwindcss-update@v0.0.1
+        uses: pyyjac/tailwindcss-update@v0.0.2
         with:
           input: assets/css/main.css
           output: assets/css/style.css
