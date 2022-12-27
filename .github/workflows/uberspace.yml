@@ -31,7 +31,7 @@ jobs:
         with:
           input: assets/css/main.css
           output: assets/css/style.css
-          plugins: "@tailwindcss/forms", "@tailwindcss/typography", "@tailwindcss/aspect-ratio"
+          plugins: "@tailwindcss/forms"
 
       - name: Build
         run: hugo --minify
