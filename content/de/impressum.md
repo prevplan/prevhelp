@@ -1,6 +1,6 @@
 ---
 title: "Impressum | PrevHelp"
-description: "Das Impressum mit allen Angaben zum Beitreiber unserer Internetpräsenz."
+description: "Das Impressum mit allen Angaben zum Betreiber unserer Internetpräsenz."
 date: 2022-02-19T17:41:57+01:00
 draft: false
 layout: legal
