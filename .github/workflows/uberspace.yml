@@ -27,10 +27,11 @@ jobs:
           extended: true
 
       - name: Generate Tailwind CSS
-        uses: pyyjac/tailwindcss-update@v0.0.2
+        uses: ZoeyVid/tailwindcss-update@v1.3.0
         with:
           input: assets/css/main.css
           output: assets/css/style.css
+          params: "--minify -f"
 
       - name: Build
         run: hugo --minify
