@@ -1,5 +1,4 @@
 <div>
-
     <div class="relative bg-white" x-data="{ open: false }" @keydown.escape="open = false">
         <div class="relative z-20">
             <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
@@ -10,354 +9,411 @@
                     </a>
                 </div>
                 <div class="-mr-2 -my-2 md:hidden">
-                    <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" @click="open = !open" @mousedown="if (open) $event.preventDefault()" aria-expanded="true" :aria-expanded="open.toString()">
+                    <button type="button"
+                            class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                            @click="open = !open" @mousedown="if (open) $event.preventDefault()" aria-expanded="true"
+                            :aria-expanded="open.toString()">
                         <span class="sr-only">Open menu</span>
-                        <svg class="h-6 w-6" x-description="Heroicon name: outline/menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        <svg class="h-6 w-6" x-description="Heroicon name: outline/menu"
+                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                             aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </button>
                 </div>
                 <nav class="hidden md:flex space-x-10">
                     <div class="relative" x-data="{ open: false }" @keydown.escape="open = false">
-                        <button type="button" x-state:on="Item active" x-state:off="Item inactive" class="group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 text-gray-500" :class="{ 'text-gray-900': open, 'text-gray-500': !(open) }" @click="open = !open" @mousedown="if (open) $event.preventDefault()" aria-expanded="false" :aria-expanded="open.toString()">
+                        <button type="button" x-state:on="Item active" x-state:off="Item inactive"
+                                class="group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 text-gray-500"
+                                :class="{ 'text-gray-900': open, 'text-gray-500': !(open) }" @click="open = !open"
+                                @mousedown="if (open) $event.preventDefault()" aria-expanded="false"
+                                :aria-expanded="open.toString()">
                             <span>{{ i18n "Trainings" }}</span>
-                            <svg x-state:on="Item active" x-state:off="Item inactive" class="ml-2 h-5 w-5 group-hover:text-gray-500 text-gray-400" :class="{ 'text-gray-600': open, 'text-gray-400': !(open) }" x-description="Heroicon name: solid/chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                            <svg x-state:on="Item active" x-state:off="Item inactive"
+                                 class="ml-2 h-5 w-5 group-hover:text-gray-500 text-gray-400"
+                                 :class="{ 'text-gray-600': open, 'text-gray-400': !(open) }"
+                                 x-description="Heroicon name: solid/chevron-down" xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                      clip-rule="evenodd"></path>
                             </svg>
                         </button>
 
 
-                    <div x-show="open" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" x-description="'Trainings' flyout menu, show/hide based on flyout menu state." class="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2" x-ref="panel" @click.away="open = false" style="display: none;">
-                        <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                            <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
+                        <div x-show="open" x-transition:enter="transition ease-out duration-200"
+                             x-transition:enter-start="opacity-0 translate-y-1"
+                             x-transition:enter-end="opacity-100 translate-y-0"
+                             x-transition:leave="transition ease-in duration-150"
+                             x-transition:leave-start="opacity-100 translate-y-0"
+                             x-transition:leave-end="opacity-0 translate-y-1"
+                             x-description="'Trainings' flyout menu, show/hide based on flyout menu state."
+                             class="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
+                             x-ref="panel" @click.away="open = false" style="display: none;">
+                            <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                                <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
 
-                                <a href="{{ i18n `first_aid_courses_url` | relLangURL }}" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">
-                                        <svg class="h-6 w-6 fill-gray-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 32H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h448c35.35 0 64-28.65 64-64V96C576 60.65 547.3 32 512 32zM96 432H64c-8.801 0-16-7.201-16-16V96c0-8.801 7.199-16 16-16h32V432zM432 432h-288v-352h288V432zM528 416c0 8.799-7.199 16-16 16h-32v-352h32c8.801 0 16 7.199 16 16V416zM208 288H256v48C256 344.8 263.2 352 272 352h32c8.836 0 16-7.164 16-16V288h48C376.8 288 384 280.8 384 272v-32C384 231.2 376.8 224 368 224H320V176C320 167.2 312.8 160 304 160h-32C263.2 160 256 167.2 256 176V224H208C199.2 224 192 231.2 192 240v32C192 280.8 199.2 288 208 288z"/></svg>
-                                    </div>
-                                    <div class="ml-4">
-                                        <p class="text-base font-medium text-gray-900">
-                                            {{ i18n "first_aid_courses" }}
-                                        </p>
-                                        <p class="mt-1 text-sm text-gray-500">
-                                            {{ i18n "first_aid_courses_description" }}
-                                        </p>
-                                    </div>
-                                </a>
+                                    <a href="{{ i18n `first_aid_courses_url` | relLangURL }}"
+                                       class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                                        <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">
+                                            <svg class="h-6 w-6 fill-gray-100" xmlns="http://www.w3.org/2000/svg"
+                                                 viewBox="0 0 576 512">
+                                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M512 32H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h448c35.35 0 64-28.65 64-64V96C576 60.65 547.3 32 512 32zM96 432H64c-8.801 0-16-7.201-16-16V96c0-8.801 7.199-16 16-16h32V432zM432 432h-288v-352h288V432zM528 416c0 8.799-7.199 16-16 16h-32v-352h32c8.801 0 16 7.199 16 16V416zM208 288H256v48C256 344.8 263.2 352 272 352h32c8.836 0 16-7.164 16-16V288h48C376.8 288 384 280.8 384 272v-32C384 231.2 376.8 224 368 224H320V176C320 167.2 312.8 160 304 160h-32C263.2 160 256 167.2 256 176V224H208C199.2 224 192 231.2 192 240v32C192 280.8 199.2 288 208 288z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="ml-4">
+                                            <p class="text-base font-medium text-gray-900">
+                                                {{ i18n "first_aid_courses" }}
+                                            </p>
+                                            <p class="mt-1 text-sm text-gray-500">
+                                                {{ i18n "first_aid_courses_description" }}
+                                            </p>
+                                        </div>
+                                    </a>
 
-                                <a href="{{ i18n `first_aid_course_appointments_url` | relLangURL }}" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">
-                                        <svg class="h-6 w-6 fill-gray-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M96 288C96 270.3 110.3 256 128 256C145.7 256 160 270.3 160 288C160 305.7 145.7 320 128 320C110.3 320 96 305.7 96 288zM320 352C337.7 352 352 366.3 352 384C352 401.7 337.7 416 320 416C302.3 416 288 401.7 288 384C288 366.3 302.3 352 320 352zM192 288C192 274.7 202.7 264 216 264H328C341.3 264 352 274.7 352 288C352 301.3 341.3 312 328 312H216C202.7 312 192 301.3 192 288zM232 360C245.3 360 256 370.7 256 384C256 397.3 245.3 408 232 408H120C106.7 408 96 397.3 96 384C96 370.7 106.7 360 120 360H232zM152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z"/></svg>
-                                    </div>
-                                    <div class="ml-4">
-                                        <p class="text-base font-medium text-gray-900">
-                                            {{ i18n "appointments" }}
-                                        </p>
-                                        <p class="mt-1 text-sm text-gray-500">
-                                            {{ i18n "appointments_description" }}
-                                        </p>
-                                    </div>
-                                </a>
+                                    <a href="{{ i18n `first_aid_course_appointments_url` | relLangURL }}"
+                                       class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                                        <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">
+                                            <svg class="h-6 w-6 fill-gray-100" xmlns="http://www.w3.org/2000/svg"
+                                                 viewBox="0 0 448 512">
+                                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M96 288C96 270.3 110.3 256 128 256C145.7 256 160 270.3 160 288C160 305.7 145.7 320 128 320C110.3 320 96 305.7 96 288zM320 352C337.7 352 352 366.3 352 384C352 401.7 337.7 416 320 416C302.3 416 288 401.7 288 384C288 366.3 302.3 352 320 352zM192 288C192 274.7 202.7 264 216 264H328C341.3 264 352 274.7 352 288C352 301.3 341.3 312 328 312H216C202.7 312 192 301.3 192 288zM232 360C245.3 360 256 370.7 256 384C256 397.3 245.3 408 232 408H120C106.7 408 96 397.3 96 384C96 370.7 106.7 360 120 360H232zM152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="ml-4">
+                                            <p class="text-base font-medium text-gray-900">
+                                                {{ i18n "appointments" }}
+                                            </p>
+                                            <p class="mt-1 text-sm text-gray-500">
+                                                {{ i18n "appointments_description" }}
+                                            </p>
+                                        </div>
+                                    </a>
 
-<!--                                <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">-->
-<!--                                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">-->
-<!--                                        <svg class="h-6 w-6" x-description="Heroicon name: outline/shield-check" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
-<!--                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>-->
-<!--                                        </svg>-->
-<!--                                    </div>-->
-<!--                                    <div class="ml-4">-->
-<!--                                        <p class="text-base font-medium text-gray-900">-->
-<!--                                            Security-->
-<!--                                        </p>-->
-<!--                                        <p class="mt-1 text-sm text-gray-500">-->
-<!--                                            Your customers' data will be safe and secure.-->
-<!--                                        </p>-->
-<!--                                    </div>-->
-<!--                                </a>-->
+                                    <!--                                <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">-->
+                                    <!--                                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">-->
+                                    <!--                                        <svg class="h-6 w-6" x-description="Heroicon name: outline/shield-check" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
+                                    <!--                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>-->
+                                    <!--                                        </svg>-->
+                                    <!--                                    </div>-->
+                                    <!--                                    <div class="ml-4">-->
+                                    <!--                                        <p class="text-base font-medium text-gray-900">-->
+                                    <!--                                            Security-->
+                                    <!--                                        </p>-->
+                                    <!--                                        <p class="mt-1 text-sm text-gray-500">-->
+                                    <!--                                            Your customers' data will be safe and secure.-->
+                                    <!--                                        </p>-->
+                                    <!--                                    </div>-->
+                                    <!--                                </a>-->
 
-<!--                                <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">-->
-<!--                                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">-->
-<!--                                        <svg class="h-6 w-6" x-description="Heroicon name: outline/view-grid" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
-<!--                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>-->
-<!--                                        </svg>-->
-<!--                                    </div>-->
-<!--                                    <div class="ml-4">-->
-<!--                                        <p class="text-base font-medium text-gray-900">-->
-<!--                                            Integrations-->
-<!--                                        </p>-->
-<!--                                        <p class="mt-1 text-sm text-gray-500">-->
-<!--                                            Connect with third-party tools that you're already using.-->
-<!--                                        </p>-->
-<!--                                    </div>-->
-<!--                                </a>-->
+                                    <!--                                <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">-->
+                                    <!--                                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">-->
+                                    <!--                                        <svg class="h-6 w-6" x-description="Heroicon name: outline/view-grid" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
+                                    <!--                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>-->
+                                    <!--                                        </svg>-->
+                                    <!--                                    </div>-->
+                                    <!--                                    <div class="ml-4">-->
+                                    <!--                                        <p class="text-base font-medium text-gray-900">-->
+                                    <!--                                            Integrations-->
+                                    <!--                                        </p>-->
+                                    <!--                                        <p class="mt-1 text-sm text-gray-500">-->
+                                    <!--                                            Connect with third-party tools that you're already using.-->
+                                    <!--                                        </p>-->
+                                    <!--                                    </div>-->
+                                    <!--                                </a>-->
 
-<!--                                <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">-->
-<!--                                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">-->
-<!--                                        <svg class="h-6 w-6" x-description="Heroicon name: outline/refresh" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
-<!--                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>-->
-<!--                                        </svg>-->
-<!--                                    </div>-->
-<!--                                    <div class="ml-4">-->
-<!--                                        <p class="text-base font-medium text-gray-900">-->
-<!--                                            Automations-->
-<!--                                        </p>-->
-<!--                                        <p class="mt-1 text-sm text-gray-500">-->
-<!--                                            Build strategic funnels that will drive your customers to convert-->
-<!--                                        </p>-->
-<!--                                    </div>-->
-<!--                                </a>-->
+                                    <!--                                <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">-->
+                                    <!--                                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">-->
+                                    <!--                                        <svg class="h-6 w-6" x-description="Heroicon name: outline/refresh" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
+                                    <!--                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>-->
+                                    <!--                                        </svg>-->
+                                    <!--                                    </div>-->
+                                    <!--                                    <div class="ml-4">-->
+                                    <!--                                        <p class="text-base font-medium text-gray-900">-->
+                                    <!--                                            Automations-->
+                                    <!--                                        </p>-->
+                                    <!--                                        <p class="mt-1 text-sm text-gray-500">-->
+                                    <!--                                            Build strategic funnels that will drive your customers to convert-->
+                                    <!--                                        </p>-->
+                                    <!--                                    </div>-->
+                                    <!--                                </a>-->
 
-<!--                                <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">-->
-<!--                                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">-->
-<!--                                        <svg class="h-6 w-6" x-description="Heroicon name: outline/document-report" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
-<!--                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>-->
-<!--                                        </svg>-->
-<!--                                    </div>-->
-<!--                                    <div class="ml-4">-->
-<!--                                        <p class="text-base font-medium text-gray-900">-->
-<!--                                            Reports-->
-<!--                                        </p>-->
-<!--                                        <p class="mt-1 text-sm text-gray-500">-->
-<!--                                            Get detailed reports that will help you make more informed decisions-->
-<!--                                        </p>-->
-<!--                                    </div>-->
-<!--                                </a>-->
+                                    <!--                                <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">-->
+                                    <!--                                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">-->
+                                    <!--                                        <svg class="h-6 w-6" x-description="Heroicon name: outline/document-report" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
+                                    <!--                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>-->
+                                    <!--                                        </svg>-->
+                                    <!--                                    </div>-->
+                                    <!--                                    <div class="ml-4">-->
+                                    <!--                                        <p class="text-base font-medium text-gray-900">-->
+                                    <!--                                            Reports-->
+                                    <!--                                        </p>-->
+                                    <!--                                        <p class="mt-1 text-sm text-gray-500">-->
+                                    <!--                                            Get detailed reports that will help you make more informed decisions-->
+                                    <!--                                        </p>-->
+                                    <!--                                    </div>-->
+                                    <!--                                </a>-->
 
+                                </div>
+                                <!--                            <div class="p-5 bg-gray-50 sm:p-8">-->
+                                <!--                                <a href="#" class="-m-3 p-3 flow-root rounded-md hover:bg-gray-100">-->
+                                <!--                                    <div class="flex items-center">-->
+                                <!--                                        <div class="text-base font-medium text-gray-900">-->
+                                <!--                                            Enterprise-->
+                                <!--                                        </div>-->
+                                <!--                                        <span class="ml-3 inline-flex items-center px-3 py-0.5 rounded-full text-xs font-medium leading-5 bg-blue-100 text-blue-800">-->
+                                <!--                                            New-->
+                                <!--                                        </span>-->
+                                <!--                                    </div>-->
+                                <!--                                    <p class="mt-1 text-sm text-gray-500">-->
+                                <!--                                        Empower your entire team with even more advanced tools.-->
+                                <!--                                    </p>-->
+                                <!--                                </a>-->
+                                <!--                            </div>-->
                             </div>
-<!--                            <div class="p-5 bg-gray-50 sm:p-8">-->
-<!--                                <a href="#" class="-m-3 p-3 flow-root rounded-md hover:bg-gray-100">-->
-<!--                                    <div class="flex items-center">-->
-<!--                                        <div class="text-base font-medium text-gray-900">-->
-<!--                                            Enterprise-->
-<!--                                        </div>-->
-<!--                                        <span class="ml-3 inline-flex items-center px-3 py-0.5 rounded-full text-xs font-medium leading-5 bg-blue-100 text-blue-800">-->
-<!--                                            New-->
-<!--                                        </span>-->
-<!--                                    </div>-->
-<!--                                    <p class="mt-1 text-sm text-gray-500">-->
-<!--                                        Empower your entire team with even more advanced tools.-->
-<!--                                    </p>-->
-<!--                                </a>-->
-<!--                            </div>-->
                         </div>
+
                     </div>
 
-                </div>
+                    <a href="/corona/" class="text-base font-medium text-gray-500 hover:text-gray-900">
+                        Corona
+                    </a>
+                    <a href="{{ i18n `guarantee_url` | relLangURL }}"
+                       class="text-base font-medium text-gray-500 hover:text-gray-900">
+                        {{ i18n "guarantee" }}
+                    </a>
+                    <a href="{{ i18n `contact_url` | relLangURL }}"
+                       class="text-base font-medium text-blue-600 hover:text-blue-500">
+                        {{ i18n "contact" }}
+                    </a>
 
-                <a href="/corona/" class="text-base font-medium text-gray-500 hover:text-gray-900">
-                    Corona
-                </a>
-                <a href="{{ i18n `guarantee_url` | relLangURL }}" class="text-base font-medium text-gray-500 hover:text-gray-900">
-                    {{ i18n "guarantee" }}
-                </a>
-                <a href="{{ i18n `contact_url` | relLangURL }}" class="text-base font-medium text-blue-600 hover:text-blue-500">
-                    {{ i18n "contact" }}
-                </a>
-
-                <!-- the more section-->
-<!--                <div class="relative" x-data="{ open: false }" @keydown.escape="open = false">-->
-<!--                    <button type="button" x-state:on="Item active" x-state:off="Item inactive" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" :class="{ 'text-gray-900': open, 'text-gray-500': !(open) }" @click="open = !open" @mousedown="if (open) $event.preventDefault()" aria-expanded="false" :aria-expanded="open.toString()">-->
-<!--                        <span>More</span>-->
-<!--                        <svg x-state:on="Item active" x-state:off="Item inactive" class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" :class="{ 'text-gray-600': open, 'text-gray-400': !(open) }" x-description="Heroicon name: solid/chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">-->
-<!--                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>-->
-<!--                        </svg>-->
-<!--                    </button>-->
-
-
-<!--                    <div x-show="open" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" x-description="'More' flyout menu, show/hide based on flyout menu state." class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0" x-ref="panel" @click.away="open = false" style="display: none;">-->
-<!--                        <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">-->
-<!--                            <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">-->
-
-<!--                                <a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-50">-->
-<!--                                    <p class="text-base font-medium text-gray-900">-->
-<!--                                        Help Center-->
-<!--                                    </p>-->
-<!--                                    <p class="mt-1 text-sm text-gray-500">-->
-<!--                                        Get all of your questions answered in our forums or contact support.-->
-<!--                                    </p>-->
-<!--                                </a>-->
-
-<!--                                <a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-50">-->
-<!--                                    <p class="text-base font-medium text-gray-900">-->
-<!--                                        Guides-->
-<!--                                    </p>-->
-<!--                                    <p class="mt-1 text-sm text-gray-500">-->
-<!--                                        Learn how to maximize our platform to get the most out of it.-->
-<!--                                    </p>-->
-<!--                                </a>-->
-
-<!--                                <a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-50">-->
-<!--                                    <p class="text-base font-medium text-gray-900">-->
-<!--                                        Events-->
-<!--                                    </p>-->
-<!--                                    <p class="mt-1 text-sm text-gray-500">-->
-<!--                                        See what meet-ups and other events we might be planning near you.-->
-<!--                                    </p>-->
-<!--                                </a>-->
-
-<!--                                <a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-50">-->
-<!--                                    <p class="text-base font-medium text-gray-900">-->
-<!--                                        Security-->
-<!--                                    </p>-->
-<!--                                    <p class="mt-1 text-sm text-gray-500">-->
-<!--                                        Understand how we take your privacy seriously.-->
-<!--                                    </p>-->
-<!--                                </a>-->
-
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                </div>-->
-            </nav>
-            <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <!-- (maybe) for later use
-                <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
-                    Sign in
-                </a>
-                <a href="#" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
-                    Sign up
-                </a>
-            -->
-            </div>
-        </div>
+                    <!-- the more section-->
+                    <!--                <div class="relative" x-data="{ open: false }" @keydown.escape="open = false">-->
+                    <!--                    <button type="button" x-state:on="Item active" x-state:off="Item inactive" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" :class="{ 'text-gray-900': open, 'text-gray-500': !(open) }" @click="open = !open" @mousedown="if (open) $event.preventDefault()" aria-expanded="false" :aria-expanded="open.toString()">-->
+                    <!--                        <span>More</span>-->
+                    <!--                        <svg x-state:on="Item active" x-state:off="Item inactive" class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" :class="{ 'text-gray-600': open, 'text-gray-400': !(open) }" x-description="Heroicon name: solid/chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">-->
+                    <!--                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>-->
+                    <!--                        </svg>-->
+                    <!--                    </button>-->
 
 
-        <div x-show="open" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" x-description="Mobile menu, show/hide based on mobile menu state." class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden" x-ref="panel" @click.away="open = false" style="display: none;">
-            <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
-                <div class="pt-5 pb-6 px-5">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <img class="h-8 w-auto" src="{{ `/img/logo-quer.svg` | relURL }}" alt="PrevHelp Logo">
-                        </div>
-                        <div class="-mr-2">
-                            <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" @click="open = !open">
-                                <span class="sr-only">Close menu</span>
-                                <svg class="h-6 w-6" x-description="Heroicon name: outline/x" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="mt-6">
-                        <nav class="grid grid-cols-1 gap-7">
+                    <!--                    <div x-show="open" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" x-description="'More' flyout menu, show/hide based on flyout menu state." class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0" x-ref="panel" @click.away="open = false" style="display: none;">-->
+                    <!--                        <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">-->
+                    <!--                            <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">-->
 
-                            <a href="{{ i18n `first_aid_courses_url` | relLangURL }}" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
-                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white">
-                                    <svg class="h-6 w-6 fill-gray-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 32H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h448c35.35 0 64-28.65 64-64V96C576 60.65 547.3 32 512 32zM96 432H64c-8.801 0-16-7.201-16-16V96c0-8.801 7.199-16 16-16h32V432zM432 432h-288v-352h288V432zM528 416c0 8.799-7.199 16-16 16h-32v-352h32c8.801 0 16 7.199 16 16V416zM208 288H256v48C256 344.8 263.2 352 272 352h32c8.836 0 16-7.164 16-16V288h48C376.8 288 384 280.8 384 272v-32C384 231.2 376.8 224 368 224H320V176C320 167.2 312.8 160 304 160h-32C263.2 160 256 167.2 256 176V224H208C199.2 224 192 231.2 192 240v32C192 280.8 199.2 288 208 288z"/></svg>
-                                </div>
-                                <div class="ml-4 text-base font-medium text-gray-900">
-                                    {{ i18n "first_aid_courses" }}
-                                </div>
-                            </a>
+                    <!--                                <a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-50">-->
+                    <!--                                    <p class="text-base font-medium text-gray-900">-->
+                    <!--                                        Help Center-->
+                    <!--                                    </p>-->
+                    <!--                                    <p class="mt-1 text-sm text-gray-500">-->
+                    <!--                                        Get all of your questions answered in our forums or contact support.-->
+                    <!--                                    </p>-->
+                    <!--                                </a>-->
 
-                            <a href="{{ i18n `first_aid_course_appointments_url` | relLangURL }}" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
-                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white">
-                                    <svg class="h-6 w-6 fill-gray-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M96 288C96 270.3 110.3 256 128 256C145.7 256 160 270.3 160 288C160 305.7 145.7 320 128 320C110.3 320 96 305.7 96 288zM320 352C337.7 352 352 366.3 352 384C352 401.7 337.7 416 320 416C302.3 416 288 401.7 288 384C288 366.3 302.3 352 320 352zM192 288C192 274.7 202.7 264 216 264H328C341.3 264 352 274.7 352 288C352 301.3 341.3 312 328 312H216C202.7 312 192 301.3 192 288zM232 360C245.3 360 256 370.7 256 384C256 397.3 245.3 408 232 408H120C106.7 408 96 397.3 96 384C96 370.7 106.7 360 120 360H232zM152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z"/></svg>
-                                </div>
-                                <div class="ml-4 text-base font-medium text-gray-900">
-                                    {{ i18n "appointments" }}
-                                </div>
-                            </a>
+                    <!--                                <a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-50">-->
+                    <!--                                    <p class="text-base font-medium text-gray-900">-->
+                    <!--                                        Guides-->
+                    <!--                                    </p>-->
+                    <!--                                    <p class="mt-1 text-sm text-gray-500">-->
+                    <!--                                        Learn how to maximize our platform to get the most out of it.-->
+                    <!--                                    </p>-->
+                    <!--                                </a>-->
 
-<!--                            <a href="{{ i18n `contact_url` | relLangURL }}" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">-->
-<!--                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white">-->
-<!--                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">-->
-<!--                                        <path stroke-linecap="round" stroke-linejoin="round" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />-->
-<!--                                    </svg>-->
-<!--                                </div>-->
-<!--                                <div class="ml-4 text-base font-medium text-gray-900">-->
-<!--                                    {{ i18n "contact" }}-->
-<!--                                </div>-->
-<!--                            </a>-->
+                    <!--                                <a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-50">-->
+                    <!--                                    <p class="text-base font-medium text-gray-900">-->
+                    <!--                                        Events-->
+                    <!--                                    </p>-->
+                    <!--                                    <p class="mt-1 text-sm text-gray-500">-->
+                    <!--                                        See what meet-ups and other events we might be planning near you.-->
+                    <!--                                    </p>-->
+                    <!--                                </a>-->
 
-<!--                            <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">-->
-<!--                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white">-->
-<!--                                    <svg class="h-6 w-6" x-description="Heroicon name: outline/view-grid" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
-<!--                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>-->
-<!--                                    </svg>-->
-<!--                                </div>-->
-<!--                                <div class="ml-4 text-base font-medium text-gray-900">-->
-<!--                                    Integrations-->
-<!--                                </div>-->
-<!--                            </a>-->
+                    <!--                                <a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-50">-->
+                    <!--                                    <p class="text-base font-medium text-gray-900">-->
+                    <!--                                        Security-->
+                    <!--                                    </p>-->
+                    <!--                                    <p class="mt-1 text-sm text-gray-500">-->
+                    <!--                                        Understand how we take your privacy seriously.-->
+                    <!--                                    </p>-->
+                    <!--                                </a>-->
 
-<!--                            <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">-->
-<!--                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white">-->
-<!--                                    <svg class="h-6 w-6" x-description="Heroicon name: outline/refresh" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
-<!--                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>-->
-<!--                                    </svg>-->
-<!--                                </div>-->
-<!--                                <div class="ml-4 text-base font-medium text-gray-900">-->
-<!--                                    Automations-->
-<!--                                </div>-->
-<!--                            </a>-->
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
 
-<!--                            <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">-->
-<!--                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white">-->
-<!--                                    <svg class="h-6 w-6" x-description="Heroicon name: outline/document-report" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
-<!--                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>-->
-<!--                                    </svg>-->
-<!--                                </div>-->
-<!--                                <div class="ml-4 text-base font-medium text-gray-900">-->
-<!--                                    Reports-->
-<!--                                </div>-->
-<!--                            </a>-->
-
-                        </nav>
-                    </div>
-                </div>
-                <div class="py-6 px-5">
-                    <div class="grid grid-cols-2 gap-4">
-                        <a href="/corona/" class="text-base font-medium text-gray-900 hover:text-gray-700">
-                            Corona
+                    <!--                </div>-->
+                </nav>
+                <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+                    <!-- (maybe) for later use
+                        <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
+                            Sign in
                         </a>
-
-                        <a href="{{ i18n `guarantee_url` | relLangURL }}" class="text-base font-medium text-gray-900 hover:text-gray-700">
-                            {{ i18n "guarantee" }}
+                        <a href="#" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
+                            Sign up
                         </a>
-
-<!--                        <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">-->
-<!--                            Enterprise-->
-<!--                        </a>-->
-
-<!--                        <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">-->
-<!--                            Help Center-->
-<!--                        </a>-->
-
-<!--                        <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">-->
-<!--                            Guides-->
-<!--                        </a>-->
-
-<!--                        <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">-->
-<!--                            Events-->
-<!--                        </a>-->
-
-<!--                        <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">-->
-<!--                            Security-->
-<!--                        </a>-->
-
-                    </div>
-                    <div class="mt-6">
-
-                        <a href="{{ i18n `contact_url` | relLangURL }}" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
-                            {{ i18n "contact" }}
-                        </a>
-                        <!-- (maybe) for later use
-                        <p class="mt-6 text-center text-base font-medium text-gray-500">
-                            Existing customer?
-                            <-- space -->
-                        <!--
-                            <a href="#" class="text-blue-600 hover:text-blue-500">
-                                Sign in
-                            </a>
-                        </p>
                     -->
+                </div>
+            </div>
+
+
+            <div x-show="open" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95"
+                 x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in"
+                 x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95"
+                 x-description="Mobile menu, show/hide based on mobile menu state."
+                 class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden" x-ref="panel"
+                 @click.away="open = false" style="display: none;">
+                <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+                    <div class="pt-5 pb-6 px-5">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <img class="h-8 w-auto" src="{{ `/img/logo-quer.svg` | relURL }}" alt="PrevHelp Logo">
+                            </div>
+                            <div class="-mr-2">
+                                <button type="button"
+                                        class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                                        @click="open = !open">
+                                    <span class="sr-only">Close menu</span>
+                                    <svg class="h-6 w-6" x-description="Heroicon name: outline/x"
+                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                         stroke="currentColor" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M6 18L18 6M6 6l12 12"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mt-6">
+                            <nav class="grid grid-cols-1 gap-7">
+
+                                <a href="{{ i18n `first_aid_courses_url` | relLangURL }}"
+                                   class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+                                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white">
+                                        <svg class="h-6 w-6 fill-gray-100" xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 576 512">
+                                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                            <path d="M512 32H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h448c35.35 0 64-28.65 64-64V96C576 60.65 547.3 32 512 32zM96 432H64c-8.801 0-16-7.201-16-16V96c0-8.801 7.199-16 16-16h32V432zM432 432h-288v-352h288V432zM528 416c0 8.799-7.199 16-16 16h-32v-352h32c8.801 0 16 7.199 16 16V416zM208 288H256v48C256 344.8 263.2 352 272 352h32c8.836 0 16-7.164 16-16V288h48C376.8 288 384 280.8 384 272v-32C384 231.2 376.8 224 368 224H320V176C320 167.2 312.8 160 304 160h-32C263.2 160 256 167.2 256 176V224H208C199.2 224 192 231.2 192 240v32C192 280.8 199.2 288 208 288z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="ml-4 text-base font-medium text-gray-900">
+                                        {{ i18n "first_aid_courses" }}
+                                    </div>
+                                </a>
+
+                                <a href="{{ i18n `first_aid_course_appointments_url` | relLangURL }}"
+                                   class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+                                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white">
+                                        <svg class="h-6 w-6 fill-gray-100" xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 448 512">
+                                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                            <path d="M96 288C96 270.3 110.3 256 128 256C145.7 256 160 270.3 160 288C160 305.7 145.7 320 128 320C110.3 320 96 305.7 96 288zM320 352C337.7 352 352 366.3 352 384C352 401.7 337.7 416 320 416C302.3 416 288 401.7 288 384C288 366.3 302.3 352 320 352zM192 288C192 274.7 202.7 264 216 264H328C341.3 264 352 274.7 352 288C352 301.3 341.3 312 328 312H216C202.7 312 192 301.3 192 288zM232 360C245.3 360 256 370.7 256 384C256 397.3 245.3 408 232 408H120C106.7 408 96 397.3 96 384C96 370.7 106.7 360 120 360H232zM152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="ml-4 text-base font-medium text-gray-900">
+                                        {{ i18n "appointments" }}
+                                    </div>
+                                </a>
+
+                                <!--                            <a href="{{ i18n `contact_url` | relLangURL }}" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">-->
+                                <!--                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white">-->
+                                <!--                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">-->
+                                <!--                                        <path stroke-linecap="round" stroke-linejoin="round" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />-->
+                                <!--                                    </svg>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="ml-4 text-base font-medium text-gray-900">-->
+                                <!--                                    {{ i18n "contact" }}-->
+                                <!--                                </div>-->
+                                <!--                            </a>-->
+
+                                <!--                            <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">-->
+                                <!--                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white">-->
+                                <!--                                    <svg class="h-6 w-6" x-description="Heroicon name: outline/view-grid" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
+                                <!--                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>-->
+                                <!--                                    </svg>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="ml-4 text-base font-medium text-gray-900">-->
+                                <!--                                    Integrations-->
+                                <!--                                </div>-->
+                                <!--                            </a>-->
+
+                                <!--                            <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">-->
+                                <!--                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white">-->
+                                <!--                                    <svg class="h-6 w-6" x-description="Heroicon name: outline/refresh" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
+                                <!--                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>-->
+                                <!--                                    </svg>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="ml-4 text-base font-medium text-gray-900">-->
+                                <!--                                    Automations-->
+                                <!--                                </div>-->
+                                <!--                            </a>-->
+
+                                <!--                            <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">-->
+                                <!--                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white">-->
+                                <!--                                    <svg class="h-6 w-6" x-description="Heroicon name: outline/document-report" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
+                                <!--                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>-->
+                                <!--                                    </svg>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="ml-4 text-base font-medium text-gray-900">-->
+                                <!--                                    Reports-->
+                                <!--                                </div>-->
+                                <!--                            </a>-->
+
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="py-6 px-5">
+                        <div class="grid grid-cols-2 gap-4">
+                            <a href="/corona/" class="text-base font-medium text-gray-900 hover:text-gray-700">
+                                Corona
+                            </a>
+
+                            <a href="{{ i18n `guarantee_url` | relLangURL }}"
+                               class="text-base font-medium text-gray-900 hover:text-gray-700">
+                                {{ i18n "guarantee" }}
+                            </a>
+
+                            <!--                        <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">-->
+                            <!--                            Enterprise-->
+                            <!--                        </a>-->
+
+                            <!--                        <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">-->
+                            <!--                            Help Center-->
+                            <!--                        </a>-->
+
+                            <!--                        <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">-->
+                            <!--                            Guides-->
+                            <!--                        </a>-->
+
+                            <!--                        <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">-->
+                            <!--                            Events-->
+                            <!--                        </a>-->
+
+                            <!--                        <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">-->
+                            <!--                            Security-->
+                            <!--                        </a>-->
+
+                        </div>
+                        <div class="mt-6">
+
+                            <a href="{{ i18n `contact_url` | relLangURL }}"
+                               class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
+                                {{ i18n "contact" }}
+                            </a>
+                            <!-- (maybe) for later use
+                            <p class="mt-6 text-center text-base font-medium text-gray-500">
+                                Existing customer?
+                                <-- space -->
+                            <!--
+                                <a href="#" class="text-blue-600 hover:text-blue-500">
+                                    Sign in
+                                </a>
+                            </p>
+                        -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
-
 </div>
