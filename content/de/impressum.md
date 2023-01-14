@@ -9,9 +9,9 @@ slug: impressum
 aliases: [/de/de/impressum, /rechtliches/impressum]
 ---
 
-<div class="text-lg max-w-prose mx-auto">
+<div class="mx-auto max-w-prose text-lg">
     <h1>
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Impressum</span>
+        <span class="mt-2 block text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">Impressum</span>
     </h1>
 </div>
 

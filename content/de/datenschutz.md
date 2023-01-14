@@ -9,9 +9,9 @@ slug: datenschutz
 aliases: [/de/de/datenschutz, /rechtliches/datenschutz]
 ---
 
-<div class="text-lg max-w-prose mx-auto">
+<div class="mx-auto max-w-prose text-lg">
     <h1>
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Datenschutzerklärung</span>
+        <span class="mt-2 block text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">Datenschutzerklärung</span>
     </h1>
 </div>
 
@@ -316,7 +316,7 @@ Es werden ebenfalls die IP-Adressen der Nutzer gespeichert. Jedoch nutzen wir ei
 
 Einstellungen/ Widerspruchsmöglichkeit:
 
-<iframe class="w-full h-96 lg:h-64" src="https://stat.prevhelp.de/index.php?module=CoreAdminHome&action=optOut&language=de&fontColor=6b7280&fontSize=1.25rem" loading="lazy"></iframe>
+<iframe class="h-96 w-full lg:h-64" src="https://stat.prevhelp.de/index.php?module=CoreAdminHome&action=optOut&language=de&fontColor=6b7280&fontSize=1.25rem" loading="lazy"></iframe>
 
 * **Verarbeitete Datenarten:** Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten); Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen)
 * **Betroffene Personen:** Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten)

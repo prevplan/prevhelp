@@ -9,9 +9,9 @@ slug: privacy
 aliases: [/en/en/privacy]
 ---
 
-<div class="text-lg max-w-prose mx-auto">
+<div class="mx-auto max-w-prose text-lg">
     <h1>
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Privacy Policy</span>
+        <span class="mt-2 block text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">Privacy Policy</span>
     </h1>
 </div>
 
@@ -314,7 +314,7 @@ The IP addresses of the users are also stored. However, we use any existing IP m
 
 **Settings / Opt-Out:**
 
-<iframe class="w-full h-80 lg:h-48" src="https://stat.prevhelp.de/index.php?module=CoreAdminHome&action=optOut&language=en&fontColor=6b7280&fontSize=1.25rem" loading="lazy"></iframe>
+<iframe class="h-80 w-full lg:h-48" src="https://stat.prevhelp.de/index.php?module=CoreAdminHome&action=optOut&language=en&fontColor=6b7280&fontSize=1.25rem" loading="lazy"></iframe>
 
 * **Processed data types:** Usage data (e.g. websites visited, interest in content, access times); Meta/communication data (e.g. device information, IP addresses)
 * **Data subjects:** Users (e.g. website visitors, users of online services)

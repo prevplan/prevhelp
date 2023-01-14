@@ -1,13 +1,13 @@
 {{ define "main" }}
 
 <div class="bg-white">
-    <div class="max-w-7xl mx-auto py-12 px-4 divide-y divide-gray-200 sm:px-6 lg:py-16 lg:px-8">
+    <div class="mx-auto max-w-7xl divide-y divide-gray-200 py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <h2 class="text-3xl font-extrabold text-gray-900">{{ .Page.Params.header }}</h2>
         <div class="mt-8">
             <dl class="divide-y divide-gray-200">
                 <div class="pt-6 pb-8 md:grid md:grid-cols-12 md:gap-8">
                     <dt class="text-base font-medium text-gray-900 md:col-span-5">{{ .Page.Params.replacement_certificate_question }}</dt>
-                    <dd class="mt-2 md:mt-0 md:col-span-7 space-y-2">
+                    <dd class="mt-2 space-y-2 md:col-span-7 md:mt-0">
                         <p class="text-base text-gray-500">{{ .Page.Params.replacement_certificate_answer_1 }}</p>
                         <p class="text-base text-gray-500">{{ .Page.Params.replacement_certificate_answer_2 }}</p>
                         <p class="text-base text-gray-500">{{ .Page.Params.replacement_certificate_answer_3 | safeHTML }}</p>
@@ -16,21 +16,21 @@
 
                 <div class="pt-6 pb-8 md:grid md:grid-cols-12 md:gap-8">
                     <dt class="text-base font-medium text-gray-900 md:col-span-5">{{ .Page.Params.course_duration_question }}</dt>
-                    <dd class="mt-2 md:mt-0 md:col-span-7">
+                    <dd class="mt-2 md:col-span-7 md:mt-0">
                         <p class="text-base text-gray-500">{{ .Page.Params.course_duration_answer | safeHTML }}</p>
                     </dd>
                 </div>
 
                 <div class="pt-6 pb-8 md:grid md:grid-cols-12 md:gap-8">
                     <dt class="text-base font-medium text-gray-900 md:col-span-5">{{ .Page.Params.breaks_question }}</dt>
-                    <dd class="mt-2 md:mt-0 md:col-span-7">
+                    <dd class="mt-2 md:col-span-7 md:mt-0">
                         <p class="text-base text-gray-500">{{ .Page.Params.breaks_answer | safeHTML }}</p>
                     </dd>
                 </div>
 
                 <div class="pt-6 pb-8 md:grid md:grid-cols-12 md:gap-8">
                     <dt class="text-base font-medium text-gray-900 md:col-span-5">{{ .Page.Params.certificate_question }}</dt>
-                    <dd class="mt-2 md:mt-0 md:col-span-7 space-y-2">
+                    <dd class="mt-2 space-y-2 md:col-span-7 md:mt-0">
                         <p class="text-base text-gray-500">{{ .Page.Params.certificate_answer_1 | safeHTML }}</p>
                         <p class="text-base text-gray-500">{{ .Page.Params.certificate_answer_2 | safeHTML }}</p>
                     </dd>

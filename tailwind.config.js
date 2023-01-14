@@ -5,16 +5,16 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            "code::before": {content: ''},
-            "code::after": {content: ''}
-          }
-        }
-      }
-    }
+            'code::before': {
+              content: '',
+            },
+            'code::after': {
+              content: '',
+            },
+          },
+        },
+      },
+    },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/aspect-ratio'),
-  ],
+  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms'), require('@tailwindcss/aspect-ratio')],
 }
