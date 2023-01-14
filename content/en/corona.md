@@ -15,9 +15,9 @@ subtitle: Even in difficult times we are there for you ...
 
 ### all trainings possible again without 3G regulation
 
-Due to the current situation and the withdrawal of most regulations by the authorities, we are currently able to conduct our training courses again completely <span class="text-blue-600 font-bold">without 3G regulation</span>.
+Due to the current situation and the withdrawal of most regulations by the authorities, we are currently able to conduct our training courses again completely <span class="font-bold text-blue-600">without 3G regulation</span>.
 
-There is currently <span class="text-blue-600 font-bold">no need to present proof of vaccination or rapid test</span> prior to the start of the course.
+There is currently <span class="font-bold text-blue-600">no need to present proof of vaccination or rapid test</span> prior to the start of the course.
 
 If you have Corona (similar) symptoms before the start of the course, we still ask you, if only for your own sake, to voluntarily take a daily rapid test.
 

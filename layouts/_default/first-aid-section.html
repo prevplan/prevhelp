@@ -5,8 +5,8 @@
         <!-- Hero section -->
         <div class="relative">
             <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
-            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
+            <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+                <div class="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
                     <div class="absolute inset-0">
                         <img class="h-full w-full object-cover" src="/img/cpr.webp" alt="Participants during CPR exercises">
                         <div class="absolute inset-0 bg-gradient-to-r from-blue-800 to-blue-400 mix-blend-multiply"></div>
@@ -16,12 +16,12 @@
                             <span class="block text-white">{{ .Page.Params.header_1 }}</span>
                             <span class="block text-blue-200">{{ .Page.Params.header_2 }}</span>
                         </h1>
-                        <p class="mt-6 max-w-lg mx-auto text-center text-xl text-blue-100 sm:max-w-3xl">{{ .Page.Params.header_subtitle | safeHTML }}</p>
-                        <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-                            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                                <a href="{{ .Page.Params.appointments_url }}" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-700 bg-white hover:bg-blue-50 sm:px-8">
+                        <p class="mx-auto mt-6 max-w-lg text-center text-xl text-blue-100 sm:max-w-3xl">{{ .Page.Params.header_subtitle | safeHTML }}</p>
+                        <div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
+                            <div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
+                                <a href="{{ .Page.Params.appointments_url }}" class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-blue-700 shadow-sm hover:bg-blue-50 sm:px-8">
                                     {{ .Page.Params.appointments }} </a>
-                                <a href="{{ i18n `contact_url` | relLangURL }}" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"> {{ .Page.Params.contact_us }} </a>
+                                <a href="{{ i18n `contact_url` | relLangURL }}" class="flex items-center justify-center rounded-md border border-transparent bg-blue-500 bg-opacity-60 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8"> {{ .Page.Params.contact_us }} </a>
                             </div>
                         </div>
                     </div>
@@ -29,11 +29,11 @@
             </div>
         </div>
 
-        <div class="py-12 bg-gray-100">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-gray-100 py-12">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="lg:text-center">
-                    <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">{{ .Page.Params.headline_prolog }}</h2>
-                    <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    <h2 class="text-base font-semibold uppercase tracking-wide text-blue-600">{{ .Page.Params.headline_prolog }}</h2>
+                    <p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
                         {{ .Page.Params.headline }}
                     </p>
                     <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
@@ -42,14 +42,14 @@
                 </div>
 
                 <div class="mt-10">
-                    <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                    <dl class="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0">
 
                         <div class="relative">
                             <dt>
-                                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <div class="absolute flex h-12 w-12 items-center justify-center rounded-md bg-blue-500 text-white">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M368 344h96c13.25 0 24-10.75 24-24s-10.75-24-24-24h-96c-13.25 0-24 10.75-24 24S354.8 344 368 344zM208 320c35.35 0 64-28.65 64-64c0-35.35-28.65-64-64-64s-64 28.65-64 64C144 291.3 172.7 320 208 320zM512 32H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h448c35.35 0 64-28.65 64-64V96C576 60.65 547.3 32 512 32zM528 416c0 8.822-7.178 16-16 16h-192c0-44.18-35.82-80-80-80h-64C131.8 352 96 387.8 96 432H64c-8.822 0-16-7.178-16-16V160h480V416zM368 264h96c13.25 0 24-10.75 24-24s-10.75-24-24-24h-96c-13.25 0-24 10.75-24 24S354.8 264 368 264z"/></svg>
                                 </div>
-                                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ .Page.Params.driver_license_title }}</p>
+                                <p class="ml-16 text-lg font-medium leading-6 text-gray-900">{{ .Page.Params.driver_license_title }}</p>
                             </dt>
                             <dd class="mt-2 ml-16 text-base text-gray-500">
                                 {{ .Page.Params.driver_license_text }}
@@ -58,10 +58,10 @@
 
                         <div class="relative">
                             <dt>
-                                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <div class="absolute flex h-12 w-12 items-center justify-center rounded-md bg-blue-500 text-white">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 512 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M475.115 163.781L336 252.309v-68.28c0-18.916-20.931-30.399-36.885-20.248L160 252.309V56c0-13.255-10.745-24-24-24H24C10.745 32 0 42.745 0 56v400c0 13.255 10.745 24 24 24h464c13.255 0 24-10.745 24-24V184.029c0-18.917-20.931-30.399-36.885-20.248z"/></svg>
                                 </div>
-                                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ .Page.Params.company_title }}</p>
+                                <p class="ml-16 text-lg font-medium leading-6 text-gray-900">{{ .Page.Params.company_title }}</p>
                             </dt>
                             <dd class="mt-2 ml-16 text-base text-gray-500">
                                 {{ .Page.Params.company_text }}
@@ -70,10 +70,10 @@
 
                         <div class="relative">
                             <dt>
-                                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <div class="absolute flex h-12 w-12 items-center justify-center rounded-md bg-blue-500 text-white">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 640 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M256 336h-.02c0-16.18 1.34-8.73-85.05-181.51-17.65-35.29-68.19-35.36-85.87 0C-2.06 328.75.02 320.33.02 336H0c0 44.18 57.31 80 128 80s128-35.82 128-80zM128 176l72 144H56l72-144zm511.98 160c0-16.18 1.34-8.73-85.05-181.51-17.65-35.29-68.19-35.36-85.87 0-87.12 174.26-85.04 165.84-85.04 181.51H384c0 44.18 57.31 80 128 80s128-35.82 128-80h-.02zM440 320l72-144 72 144H440zm88 128H352V153.25c23.51-10.29 41.16-31.48 46.39-57.25H528c8.84 0 16-7.16 16-16V48c0-8.84-7.16-16-16-16H383.64C369.04 12.68 346.09 0 320 0s-49.04 12.68-63.64 32H112c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h129.61c5.23 25.76 22.87 46.96 46.39 57.25V448H112c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h416c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16z"/></svg>
                                 </div>
-                                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ .Page.Params.study_title }}</p>
+                                <p class="ml-16 text-lg font-medium leading-6 text-gray-900">{{ .Page.Params.study_title }}</p>
                             </dt>
                             <dd class="mt-2 ml-16 text-base text-gray-500">
                                 {{ .Page.Params.study_text}}
@@ -82,10 +82,10 @@
 
                         <div class="relative">
                             <dt>
-                                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <div class="absolute flex h-12 w-12 items-center justify-center rounded-md bg-blue-500 text-white">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M568.2 336.3c-13.12-17.81-38.14-21.66-55.93-8.469l-119.7 88.17h-120.6c-8.748 0-15.1-7.25-15.1-15.99c0-8.75 7.25-16 15.1-16h78.25c15.1 0 30.75-10.88 33.37-26.62c3.25-20-12.12-37.38-31.62-37.38H191.1c-26.1 0-53.12 9.25-74.12 26.25l-46.5 37.74L15.1 383.1C7.251 383.1 0 391.3 0 400v95.98C0 504.8 7.251 512 15.1 512h346.1c22.03 0 43.92-7.188 61.7-20.27l135.1-99.52C577.5 379.1 581.3 354.1 568.2 336.3zM160 176h64v64C224 248.8 231.2 256 240 256h64C312.8 256 320 248.8 320 240v-64h64c8.836 0 16-7.164 16-16V96c0-8.838-7.164-16-16-16h-64v-64C320 7.162 312.8 0 304 0h-64C231.2 0 224 7.162 224 16v64H160C151.2 80 144 87.16 144 96v64C144 168.8 151.2 176 160 176z"/></svg>
                                 </div>
-                                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ .Page.Params.care_facilities_title }}</p>
+                                <p class="ml-16 text-lg font-medium leading-6 text-gray-900">{{ .Page.Params.care_facilities_title }}</p>
                             </dt>
                             <dd class="mt-2 ml-16 text-base text-gray-500">
                                 {{ .Page.Params.care_facilities_text }}
@@ -98,21 +98,21 @@
         </div>
 
         <div class="relative bg-white">
-            <div class="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-100 lg:block" aria-hidden="true"></div>
-            <div class="max-w-7xl mx-auto bg-blue-700 lg:bg-transparent lg:px-8">
+            <div class="absolute inset-x-0 top-0 hidden h-1/2 bg-gray-100 lg:block" aria-hidden="true"></div>
+            <div class="mx-auto max-w-7xl bg-blue-700 lg:bg-transparent lg:px-8">
                 <div class="lg:grid lg:grid-cols-12">
-                    <div class="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
+                    <div class="relative z-10 lg:col-span-4 lg:col-start-1 lg:row-start-1 lg:bg-transparent lg:py-16">
                         <div class="absolute inset-x-0 h-1/2 bg-gray-100 lg:hidden" aria-hidden="true"></div>
-                        <div class="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
+                        <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
                             <div class="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
-                                <img class="object-cover object-center rounded-3xl shadow-2xl" src="/img/team-searching.webp" loading="lazy" alt="">
+                                <img class="rounded-3xl object-cover object-center shadow-2xl" src="/img/team-searching.webp" loading="lazy" alt="">
                             </div>
                         </div>
                     </div>
 
-                    <div class="relative bg-blue-700 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
-                        <div class="hidden absolute inset-0 overflow-hidden rounded-3xl lg:block" aria-hidden="true">
-                            <svg class="absolute bottom-full left-full transform translate-y-1/3 -translate-x-2/3 xl:bottom-auto xl:top-0 xl:translate-y-0" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
+                    <div class="relative bg-blue-700 lg:col-span-10 lg:col-start-3 lg:row-start-1 lg:grid lg:grid-cols-10 lg:items-center lg:rounded-3xl">
+                        <div class="absolute inset-0 hidden overflow-hidden rounded-3xl lg:block" aria-hidden="true">
+                            <svg class="absolute bottom-full left-full translate-y-1/3 -translate-x-2/3 transform xl:bottom-auto xl:top-0 xl:translate-y-0" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
                                 <defs>
                                     <pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
                                         <rect x="0" y="0" width="4" height="4" class="text-blue-500" fill="currentColor" />
@@ -120,7 +120,7 @@
                                 </defs>
                                 <rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
                             </svg>
-                            <svg class="absolute top-full transform -translate-y-1/3 -translate-x-1/3 xl:-translate-y-1/2" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
+                            <svg class="absolute top-full -translate-y-1/3 -translate-x-1/3 transform xl:-translate-y-1/2" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
                                 <defs>
                                     <pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
                                         <rect x="0" y="0" width="4" height="4" class="text-blue-500" fill="currentColor" />
@@ -129,10 +129,10 @@
                                 <rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
                             </svg>
                         </div>
-                        <div class="relative max-w-md mx-auto py-12 px-4 space-y-6 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
+                        <div class="relative mx-auto max-w-md space-y-6 py-12 px-4 sm:max-w-3xl sm:py-16 sm:px-6 lg:col-span-6 lg:col-start-4 lg:max-w-none lg:p-0">
                             <h2 class="text-3xl font-extrabold text-white" id="inhouse-heading">{{ .Page.Params.inhouse_title }}</h2>
                             <p class="text-lg text-white">{{ .Page.Params.inhouse_text }}</p>
-                            <a class="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-blue-700 hover:bg-gray-50 sm:inline-block sm:w-auto" href="{{ i18n `contact_url` | relLangURL }}">{{ .Page.Params.talk_to_us }}</a>
+                            <a class="block w-full rounded-md border border-transparent bg-white py-3 px-5 text-center text-base font-medium text-blue-700 shadow-md hover:bg-gray-50 sm:inline-block sm:w-auto" href="{{ i18n `contact_url` | relLangURL }}">{{ .Page.Params.talk_to_us }}</a>
                         </div>
                     </div>
                 </div>
@@ -141,28 +141,28 @@
 
         <!-- CTA Section -->
         <div class="bg-white">
-            <div class="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
+            <div class="mx-auto max-w-4xl py-16 px-4 sm:px-6 sm:py-24 lg:flex lg:max-w-7xl lg:items-center lg:justify-between lg:px-8">
                 <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                     <span class="block">{{ .Page.Params.cta_1 }}</span>
                     <span class="block bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">{{ .Page.Params.cta_2 }}</span>
                 </h2>
-                <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
-                    <a href="{{ .Page.Params.appointments_url }}" class="flex items-center justify-center bg-gradient-to-r from-blue-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-blue-700 hover:to-indigo-700"> {{ .Page.Params.appointments }} </a>
-                    <a href="{{ i18n `contact_url` | relLangURL }}" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100"> {{ .Page.Params.contact_us }} </a>
+                <div class="mt-6 space-y-4 sm:flex sm:space-y-0 sm:space-x-5">
+                    <a href="{{ .Page.Params.appointments_url }}" class="flex items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-blue-600 to-indigo-600 bg-origin-border px-4 py-3 text-base font-medium text-white shadow-sm hover:from-blue-700 hover:to-indigo-700"> {{ .Page.Params.appointments }} </a>
+                    <a href="{{ i18n `contact_url` | relLangURL }}" class="flex items-center justify-center rounded-md border border-transparent bg-indigo-50 px-4 py-3 text-base font-medium text-indigo-800 shadow-sm hover:bg-indigo-100"> {{ .Page.Params.contact_us }} </a>
                 </div>
             </div>
         </div>
 
         <div class="relative bg-gray-800">
             <div class="h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-                <img class="w-full h-full object-cover" src="/img/laptop.webp" loading="lazy" alt="">
+                <img class="h-full w-full object-cover" src="/img/laptop.webp" loading="lazy" alt="">
             </div>
-            <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+            <div class="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
                 <div class="md:ml-auto md:w-1/2 md:pl-10">
                     <h2 class="text-base font-semibold uppercase tracking-wider text-gray-300">
                         {{ .Page.Params.guarantee_prolog }}
                     </h2>
-                    <p class="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">
+                    <p class="mt-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
                         {{ .Page.Params.guarantee_title }}
                     </p>
                     <p class="mt-3 text-lg text-gray-300">
@@ -170,7 +170,7 @@
                     </p>
                     <div class="mt-8">
                         <div class="inline-flex rounded-md shadow">
-                            <a href="{{ i18n `guarantee_url` | relLangURL }}" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50">
+                            <a href="{{ i18n `guarantee_url` | relLangURL }}" class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50">
                                 {{ .Page.Params.to_our_guarantees }}
                                 <svg class="-mr-1 ml-3 h-5 w-5 text-gray-400" x-description="Heroicon name: solid/external-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>

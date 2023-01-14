@@ -9,9 +9,9 @@ slug: widerruf
 aliases: [/de/de/widerruf]
 ---
 
-<div class="text-lg max-w-prose mx-auto">
+<div class="mx-auto max-w-prose text-lg">
     <h1>
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Widerrufsbelehrung</span>
+        <span class="mt-2 block text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">Widerrufsbelehrung</span>
     </h1>
 </div>
 

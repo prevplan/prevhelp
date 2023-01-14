@@ -15,9 +15,9 @@ subtitle: Auch in schwierigen Zeiten sind wir für Sie da ...
 
 ### alle Schulungen wieder ohne 3G-Regelung möglich
 
-Aufgrund der aktuellen Situation und Rücknahme der meisten Vorschriften durch die Behörden können wir unsere Schulungen aktuell wieder komplett <span class="text-blue-600 font-bold">ohne 3G-Regelung</span> durchführen.
+Aufgrund der aktuellen Situation und Rücknahme der meisten Vorschriften durch die Behörden können wir unsere Schulungen aktuell wieder komplett <span class="font-bold text-blue-600">ohne 3G-Regelung</span> durchführen.
 
-Es muss vor Kursbeginn aktuell <span class="text-blue-600 font-bold">kein Impfnachweis oder Schnelltest</span> mehr vorgelegt werden.
+Es muss vor Kursbeginn aktuell <span class="font-bold text-blue-600">kein Impfnachweis oder Schnelltest</span> mehr vorgelegt werden.
 
 Sollten Sie vor Kursbeginn Corona (ähnliche) Symptome haben, bitten wir Sie dennoch, schon in Ihrem Interesse, freiwillig einen tagesaktuellen Schnelltest durchzuführen.
 
