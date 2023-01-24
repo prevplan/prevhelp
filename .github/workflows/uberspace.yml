@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: Generate Tailwind CSS
-        uses: ZoeyVid/tailwindcss-update@v1.3.2
+        uses: ZoeyVid/tailwindcss-update@v1.4.0
         with:
           input: assets/css/main.css
           output: assets/css/style.css
