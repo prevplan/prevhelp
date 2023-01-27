@@ -22,16 +22,19 @@
         {
             "matchDepTypes": ["devDependencies"],
             "matchPackagePatterns": ["lint", "prettier"],
-            "automerge": true
+            "automerge": true,
+            "ignoreTests": true
         },
         {
             "description": "Auto merge small changes as per https://docs.renovatebot.com/configuration-options/#automerge",
             "matchUpdateTypes": ["patch", "pin", "digest", "lockFileMaintenance"],
-            "automerge": true
+            "automerge": true,
+            "ignoreTests": true
         }
     ],
     "lockFileMaintenance": {
         "enabled": true,
-        "automerge": true
+        "automerge": true,
+        "ignoreTests": true
     }
 }
